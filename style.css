@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #cabecalho {
   position: fixed;
@@ -12,6 +13,18 @@ body {
 #titulo {
   color: white;
   text-align: center;
+}
+
+article p {
+    line-height: 30px;  
+    color: blue;
+    font-size: 20px;
+   
+}
+
+aside p{
+
+    line-height: 30px;  
 }
 
 #minha_foto {

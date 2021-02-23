@@ -2,7 +2,7 @@ body{
     background-color:rgb(253, 251, 251);
     margin: 0%;    
 }
-#titulo{
+#title{
     position: fixed;
     background-color: rgb(55, 140, 236);
     top:0px;
@@ -11,11 +11,15 @@ body{
     color: white;
     text-align: center;
 }
+.link a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 150px;
+    color: teal;
+ }
 #minha_foto{
     width: 150px;
-    margin-top: 170px;
+    margin-top: 10px;
     border-radius: 20px;
-    margin-left: 300px;
-    
-    
+    margin-left: 400px;   
 }

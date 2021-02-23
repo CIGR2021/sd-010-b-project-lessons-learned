@@ -18,6 +18,11 @@ footer {
   text-align: center;
 }
 
+h2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -38,5 +43,10 @@ footer {
 #licoes_aprendidas {
   list-style-type: decimal;
   list-style-position: inside;
+}
+
+#aprendizado {
+  text-align: center;
+  padding: 15px 150px;
 }
 

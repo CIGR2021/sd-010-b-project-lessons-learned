@@ -67,6 +67,17 @@ a:hover {
 
 .meu-aprendizado h3 {
     text-align: center;
+    background-color: lightgray;
+}
+
+.paragraf1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    width: max-content;
+
 }
 
 .paragraf1 p {

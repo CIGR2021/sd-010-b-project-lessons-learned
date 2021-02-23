@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  border: solid 1px black;
 }
 
 #cabecalho{
@@ -11,10 +12,14 @@ body {
   width: 190px;
 }
 
-#licoes_aprendidas{
+.lado-esquerdo{
   display: inline-block;
 }
 
-#licoes_a_aprender{
+.lado-direito{
   display: inline-block;
+}
+
+#rodape p{
+margin-bottom: 0px;
 }

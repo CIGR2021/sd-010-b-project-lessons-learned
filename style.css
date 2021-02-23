@@ -35,12 +35,19 @@ body {
 }
 
 #licoes {
-    display: inline-block;
-    margin-top: 130px;
-    top: 200px;
+    position: relative;
+    margin-top: 10px;
+    top: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #licoes_aprendidas {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
 }
+
+#licoes_a_aprender {
+    float: right;
+    margin-right: 180px;    
+}
+
 

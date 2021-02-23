@@ -1,8 +1,9 @@
-body{
-    background-color: rgb(253, 251, 251);
-    padding: 0px;
-    margin: 0px;
+body {
+  background-color: rgb(253, 251, 251);
+  padding: 0px;
+  margin: 0px;
 }
-#cabecalho{
-    padding-top: 0px;
+
+#cabecalho {
+  padding-top: 0px;
 }

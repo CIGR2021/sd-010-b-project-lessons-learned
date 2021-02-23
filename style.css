@@ -45,8 +45,8 @@ section {
   bottom: 200px;
 }
 
-ul, 
-ol {
+ul 
+, ol {
   display: inline-block;   
 }
 

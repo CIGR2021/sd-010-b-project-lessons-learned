@@ -1,8 +1,28 @@
 *{
     background-color: rgb(253, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
 }
 
 #cabecalho {
     margin-top: 0px;
     position: fixed;
+}
+
+table, td, tr {
+    border: solid black 1px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.lado-direito {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
 }

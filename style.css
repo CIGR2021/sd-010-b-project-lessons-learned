@@ -1,15 +1,45 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     height: 75px;
     top: 0px;
     background-color: green;
     width: 100%;
-    padding: 0;
+    padding: 0px;
     border: 1px solid;
     box-sizing: border-box;
     text-align: center;
 }
+
+#minha_foto {
+    border-radius: 20%;
+}
+
+#foto {
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+    left: 0px;
+    display: block;
+    top: 100px;
+    position: relative;
+}
+
+#nome {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+  
+  
+  .student-container p {
+    margin: 10px 0;
+  }
+
+  .trybe-green {
+    color: #11a36a;
+  }

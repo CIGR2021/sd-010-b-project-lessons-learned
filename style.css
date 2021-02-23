@@ -22,3 +22,18 @@ body{
 #ListaNord{
     margin-top: 50px;
 }
+
+a{
+    text-decoration: none;
+}
+
+article p{
+    max-width: 300px;
+    margin-left: 300px;
+    
+}
+
+#titleart{
+    margin-left: 350px;
+    
+}

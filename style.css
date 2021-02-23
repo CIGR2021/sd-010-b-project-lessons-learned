@@ -55,7 +55,7 @@ body {
 
 }
 
-.artigo {
+.lado-esquerdo {
 
     display: inline-block;
     max-width: 70%;
@@ -63,14 +63,14 @@ body {
 
 }
 
-.artigo h2 {
+article h2 {
 
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.artigo p {
+article p {
 
     margin-left: 8%;
     margin-right: 8%;
@@ -83,7 +83,7 @@ body {
 
 }
 
-.barra-lateral {
+.lado-direito {
 
     display: inline-block;
     float: right;
@@ -94,9 +94,9 @@ body {
 
 }
 
-.barra-lateral p {
+aside p {
 
-    text-align: left;
+    text-align: center;
 }
 
 #minha_foto {

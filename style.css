@@ -35,20 +35,81 @@ hr {
 
 main {
   margin-top: var(--header-vs-main-height);
+}
+
+main div {
+  height: 550px;
+}
+
+main figure {
   background-color: var(--main-bg-color);
+  margin: 0px;
+  padding: 30px;
   text-align: center;
+}
+
+main figure img {
+  padding: 10px;
+  border: thin solid;
+}
+
+.content {
+  background-color: var(--main-bg-color);
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  margin-left: 50px;
 }
 
 #minha_foto {
   width: 250px;
-  border-radius: 40px 20px 40px 20px;
+  border-radius: 40px 20px;
 }
 
 .list {
   display: inline-block;
-  width: 25%;
+  width: 40%;
   text-align: start;
   vertical-align: top;
+
+}
+
+aside {
+  display: inline-flex;
+  width: 25%;
+  background-color: var(--main-bg-color);
+  text-align: center;
+  height: 100%;
+  margin-left: 90px;
+  vertical-align: top;
+
+}
+
+aside p {
+  padding: 0px 40px;
+  text-align: start;
+}
+
+aside h3 {
+  padding: 0px 40px;
+}
+
+aside div {
+  height: auto;
+  margin-top: auto;
+}
+
+article {
+  margin: 0px auto;
+  width: 80%;
+  padding: 20px;
+  text-align: start;
+
+}
+
+article p {
+  margin: 0px;
 
 }
 
@@ -81,9 +142,10 @@ hr {
 
 
 .img-foot-section {
-  position: absolute;
-  top: calc(100% - 45px);
+  position: relative;
   margin: 0px 20px;
+  bottom: 75px;
+  left: 40%;
 }
 
 .img-foot-section img {

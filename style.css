@@ -61,6 +61,7 @@ a:hover {
 	float: right;
 	margin-right: 200px;    
 	border: 3px solid;	
+	font-style: italic;    
 }
 
 #tabela th {
@@ -97,36 +98,32 @@ a:hover {
 
 #texto {
 	display: inline-block;
-	position: relative;  
+	margin-top: 80px;
 }
 
 #artigo {
-  top: 80px;
   text-align: justify;
-  position: relative;
-  margin: 0 10px 0 10px;
-  width: 856px;
   float: left;
-	display: inline;
+	display: inline-block;
+	width: 49%;
+	border-right: 2px solid green;
+	padding-right: 15px;
 }
 
 #passagem {
-  width: 34%;
-  padding-left: .15rem;
-  margin-left: .15rem;
+  width: 49%;
+	text-align: justify;
   float: right;
-	margin-top: 110px;
-  box-shadow: inset 5px 0 5px -5px green;
-  font-style: italic;    
-	display: inline;
+	display: inline-block;
 }
 
-aside > p {
-  margin: .5rem;
+#texto h3, p {
+	margin-left: 10px;
 }
 
 #rodape {
-  margin-top: 50px;
+  margin-top: 20px;
+	font-size: small;
   text-align: right;
   bottom: 0px;
   width: 100%;

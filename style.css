@@ -58,18 +58,6 @@ footer {
   display: inline-block;
 }
 
-#listas {
-  display: inline-block;
-  width: 50%;
-  margin-left: 100px;
-  line-height: 25px;
-}
-
-#listas ol, ul{
-  display: inline-block;
-  margin-left: 10px;
-}
-
 .lado-esquerdo {
   text-align: justify;
   display: inline-block;
@@ -86,4 +74,21 @@ footer {
   line-height: 25px;
   margin-left: 90px;
   font-size: 18px;
+}
+
+#listas {
+  display: inline-block;
+  width: 50%;
+  margin-left: 250px;
+  line-height: 25px;
+}
+
+#listas ol, ul{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+table {
+  display: inline-block;
+  width: 30%;
 }

@@ -4,8 +4,11 @@ html, body {
 
 body {
     background-color: rgb(253, 251, 251);
-    padding: 0;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 #cabecalho {
@@ -24,17 +27,17 @@ body {
     text-align: center;    
 }
 
-#links ul li{
+#links ul li {
     display: inline-block;
     margin-left: 70px;    
 }
 
-a{
+a {
     text-decoration: none;
     color: navy;        
 }
 
-a:hover{
+a:hover {
     font-weight: bold;
 }
 
@@ -52,6 +55,11 @@ a:hover{
     position: relative;
 }
 
+#main {
+    position: relative;
+    z-index: 1;
+}
+
 #nome {
     line-height: 20px;
     font-weight: 600;
@@ -61,8 +69,7 @@ a:hover{
 #licoes {
     position: relative;
     margin-top: 10px;
-    top: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 100px;    
 }
 
 #licoes_aprendidas {
@@ -74,9 +81,16 @@ a:hover{
     margin-right: 300px;    
 }
 
+#artigo {
+    top: 100px;
+    text-align: justify;
+    position: relative;
+    display: inline-flex;
+}
+
 #rodape {
+    margin-top: 100px;
     text-align: right;
-    position:absolute;
-    bottom:0;
-    width:100%;
+    bottom: 0px;
+    width: 100%;
 }

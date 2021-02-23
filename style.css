@@ -1,15 +1,19 @@
-body{
+body {
     background-color: rgb( 253, 251, 251);
     }
 
-header{
-    margin-top: 0px;
+header {
+    margin:0;
+    position: fixed;
+    background-color: seagreen;
+    width: 100%;
     }  
 
-nav{
+nav {
     position: fixed;
+    margin-top: 60px;
     }
 
-img{
-    margin-top: 20px;
+img {
+    margin-top: 100px;
     }

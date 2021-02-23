@@ -20,22 +20,23 @@ body {
   display: inline-block;
 }
 
-h2 {
+nav {
   display: inline-block;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(17, 17, 17);
   background-color: rgb(95, 95, 95);
   padding: 10px;
   border-radius: 10px;
-  transition: 1s;
+  font-size: 24px;
 }
 
 a:hover {
   background-color: rgb(41, 41, 41);
   color: rgb(253, 251, 251);
+  transition: 1s;
 }
 
 .imagem {
@@ -71,7 +72,7 @@ a:hover {
   padding: 10px 0px 10px 30px;
 }
 
-#artigo1 {
+.artigo1 {
   position: relative;
   top: 150px;
   left: 30px;

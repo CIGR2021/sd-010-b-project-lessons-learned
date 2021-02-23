@@ -17,7 +17,20 @@ body {
 #titulo {
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     color: rgb(228, 227, 227);
 }
+
+.container_img {
+    text-align: center;
+}
+
+#minha_foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 25% 0 25% 0;
+}
+
+
+
 

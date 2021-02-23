@@ -25,12 +25,12 @@ header{
     padding-left: 30px;
     padding-bottom: 20px;
 }
-
 #minha_foto{
     padding-left: 20px;
     padding-top: 20px;
     width: auto;
     height: 150px;
+    display: block;
 }
 #licoes_aprendidas{
     padding-top: 20px;
@@ -53,4 +53,8 @@ header{
 .list-title{
     padding-top: 50px;
     padding-left: 30px;
+}
+a{
+   padding-left: 20px;
+   font-size: 15px;
 }

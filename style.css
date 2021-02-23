@@ -1,10 +1,9 @@
-
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   width: 100%;
 }
 #titulo {
@@ -43,7 +42,7 @@ body {
   text-align: center;
   font-size: 20px;
   margin-bottom: 5px;
-    margin-top: 8px;
+  margin-top: 8px;
 }
 #item-2 {
   display: inline-block;
@@ -63,4 +62,19 @@ body {
 }
 #licoes_aprendidas li {
   margin: 10px;
+}
+#rodape {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+#sobreAprendizado p {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
 }

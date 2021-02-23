@@ -9,5 +9,6 @@ body {
     text-align: center;
     padding: 5px 900px;
     top: 0px;
+    position: fixed;
     
 }

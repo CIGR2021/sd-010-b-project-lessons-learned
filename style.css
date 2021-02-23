@@ -38,21 +38,29 @@ table {
     text-align: center;
 }
 #tela_esquerda {
-    background-color: thistle;
-    width:40%;
+    background-color: rgb(65, 141, 202);
+    border-radius: 10px;
+    width:30%;
     margin-top:120px;
-
+    padding: 10px;
+    display: inline-block;
 }
 
 #minha_foto {
     width: 200px;
     border-radius: 10px;
     display: block;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.lado_esquerdo {
+    display: inline-block;
 
 }
-
-.lado_esquerdo {
-
+#lado_direito {
+    display: inline-block;
+    
 }
 
 #historia {
@@ -60,6 +68,7 @@ table {
 }
 
 .aprendizado {
+    display: inline-block;
 
 }
 

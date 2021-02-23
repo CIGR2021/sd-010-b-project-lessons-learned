@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253,251,251);
+    font-family: 'Montserrat';
 }
 
 header {
@@ -11,7 +12,9 @@ header {
     border: 5px;
     border-color: green;
     border-style: solid;
-    background-color: greenyellow;
+    background-color: black;
+    font-size: 15px;
+    color: green;
     
 }
 
@@ -21,4 +24,8 @@ header {
 
 nav {
     padding-top: 100px;
+}
+
+li {
+    line-height: 25px;
 }

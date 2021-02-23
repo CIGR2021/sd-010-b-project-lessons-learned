@@ -7,7 +7,7 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 1366px;
     background-color: #307957;
     z-index: 100;
 }
@@ -30,13 +30,51 @@ nav a {
 #minha_foto {
     width: 250px;
     position: relative;
-    top: 95px;
-    left: 20px;
+    top: 113.19px;
+    left: 558px;
+}
+
+#link_perigoso {
+    display: inline-block;
+    position: relative;
+    top: 128px;
+    width: 100%;
+    text-align: center;
+}
+
+#licoes {
+    text-align: center;
+    position: relative;
+    top: 155px;
 }
 
 ol, ul {
     display: inline-block;
     line-height: 1.2em;
+}
+
+section {
+    display: block;
+    position: relative;
+    top: 200px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+#lado-esquerdo {
+    display: inline-block;
+    position: absolute;
+    left: 14.67%;
+    width: 28%;
+}
+
+#lado-direito {
+    display: inline-block;
+    position: absolute;
+    left: 57.33%;
+    width: 28%;
 }
 
 #rodape {

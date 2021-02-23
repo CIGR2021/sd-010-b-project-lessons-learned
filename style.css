@@ -22,3 +22,17 @@ body {
 #rodape p{
 margin-bottom: 0px;
 }
+
+.text-content{
+  border: 1px solid black;
+  width: 510px;
+  display: inline-block;
+}
+
+.aside-bar{
+  border: 1px solid red;
+  width: 600px;
+  height: 140px;
+  float: right;
+  margin-right: 100px;
+}

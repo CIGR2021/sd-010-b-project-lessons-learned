@@ -1,53 +1,53 @@
 body {
-        background-color: rgb(253, 251, 251);
-        font-family: Cairo, sans-serif;
-        color: rgb(27, 23, 23);
-        line-height: 25px;
-        font-size: 20px;
+    background-color: rgb(253, 251, 251);
+    font-family: Cairo, sans-serif;
+    color: rgb(27, 23, 23);
+    line-height: 25px;
+    font-size: 20px;
 
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
-        background-color: gray;
-        width: 100%;
-        left: 0;
-        height: fit-content;
+    position: fixed;
+    top: 0;
+    background-color: gray;
+    width: 100%;
+    left: 0;
+    height: fit-content;
 }
 
 #minha_foto {
-        max-width: 150px;
-        border-radius: 50%;
+    max-width: 150px;
+    border-radius: 50%;
 }
 
-section, article, aside {
-        margin: 15px;
-        padding: 15px;
+section , article , aside {
+    margin: 15px;
+    padding: 15px;
 }
 
 .navigation li {
-        display: inline-block;
-        padding: 30px;
-        padding-top: 300px;
-        padding-left: 15%;
+    display: inline-block;
+    padding: 30px;
+    padding-top: 300px;
+    padding-left: 15%;
 }
 
 .navigation a {
-        text-decoration: none;
+    text-decoration: none;
 }
 
-table, th, td {
-        border: 1px solid gray;
-        padding: 5px;
+table , th , td {
+    border: 1px solid gray;
+    padding: 5px;
 }
 
 .lado-direito {
-        display: inline;
-        float: right;
-        width: 50%;
+    display: inline;
+    float: right;
+    width: 50%;
 }
 
 .lado-esquerdo {
-        width: 50%;
+    width: 50%;
 }

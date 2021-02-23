@@ -26,6 +26,12 @@ body {
   color: var(--header-title-color);
 }
 
+
+hr {
+  margin: 0;
+}
+
+
 main {
   margin-top: var(--header-vs-main-height);
   background-color: var(--main-bg-color);
@@ -51,6 +57,8 @@ main {
   height: 100px;
 }
 
+
+
 #rodape p {
   display: inline-block;
   margin: 0px;
@@ -64,6 +72,11 @@ main {
   vertical-align: middle;
 }
 
-hr {
-  margin: 0;
+.img-foot-section {
+  position: absolute;
+}
+
+#rodape img {
+  width: 50px;
+  height: 50px;
 }

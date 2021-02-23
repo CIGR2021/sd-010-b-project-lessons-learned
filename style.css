@@ -1,7 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
 #cabecalho {
     top: 0px;
 }
@@ -13,11 +12,9 @@ img {
 ul li {
     list-style-type: square;
 }
-
 footer {
     margin: 10px;
 }
-
 h1 {
     padding: 5px;
     border: red solid 2px;
@@ -26,7 +23,6 @@ h1 {
     color: green;
     font-family: monospace;   
 }
-
 p {
     line-height: 2;
 }

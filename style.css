@@ -1,5 +1,6 @@
 *{
     margin:0;
+    font-family: 'Roboto';
 }
 
 body{
@@ -46,11 +47,17 @@ h1 h2{
 }
 .bio{
     display: inline-block;
-    padding: 5%;
-    max-width: 800px;
+    width: 500px;
+    margin: 10px;
+
+
 }
 .exp{
     display: inline-block;
-    max-width: 366px;
-    padding: 5%;
+    width: 500px;
+    margin: 10px;
+
+}
+#rodape{
+    display: block;
 }

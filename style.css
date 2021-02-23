@@ -1,0 +1,11 @@
+body{
+    max-width: 1366px;
+    max-height: 768px;
+}
+main{
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+    background-color: blueviolet;
+    top: 0;
+}

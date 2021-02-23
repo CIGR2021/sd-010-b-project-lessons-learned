@@ -14,8 +14,17 @@ top: 0;
 }
 
 #titulo {
-  font-size: 10px;
-
+  text-align: center;
 }
 
+#minha_foto{
+  width: 206px;
+  height: 246px;
+  margin-top: 91px;
+}
+
+
+.main {
+
+}
 

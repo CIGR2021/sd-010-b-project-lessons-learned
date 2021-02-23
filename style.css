@@ -34,10 +34,10 @@ p {
   color: rgb(23, 66, 50);
 }
 
-article {
+.lado-direito{
   display: inline-block;
 }
 
-aside {
+.lado-esquerdo {
   display: inline-block;
 }

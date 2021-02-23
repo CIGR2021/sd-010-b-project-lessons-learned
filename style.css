@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
+    font-family: monospace;
 }
 
 #cabecalho {
@@ -13,7 +14,6 @@ body {
 
 #titulo {
     text-align: center;
-    font-family: monospace;
     color: #ffffff;
 }
 
@@ -29,11 +29,13 @@ body {
     bottom: 0;
     background-color: #52b788;
     width: 100%;
-    opacity: 0.88;
+    opacity: 0.92;
+    border-top: 1px dashed black;
 }
 
 footer p {
     margin: 0;
-    font-family: monospace;
     text-align: end;
+    font-style: italic;
+    font-size: 0.8em;
 }

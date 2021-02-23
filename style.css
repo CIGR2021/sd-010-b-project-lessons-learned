@@ -48,4 +48,13 @@ body {
     padding: 40px;
 }
 
+.section-artigo {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
 
+.text-artigo {
+    border: grey solid;
+    padding: 40px;
+}

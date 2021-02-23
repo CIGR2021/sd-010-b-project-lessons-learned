@@ -7,6 +7,6 @@ body{
     top: 0px;
 }
 
-#minha_foto{
-    top: auto;
+.baixar{
+    padding-top: 50px;
 }

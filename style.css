@@ -1,6 +1,6 @@
 * {
   background-color: rgb(253, 251, 251);
-  top: 0px;
+  top: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -9,7 +9,7 @@
   text-align: center;
   padding: 25px 200px;
   position: fixed;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 img {

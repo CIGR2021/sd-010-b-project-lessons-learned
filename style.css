@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+* {
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
 #cabecalho {
   margin: 0;
   position: fixed;
@@ -72,11 +77,6 @@ a:hover {
   padding: 10px 0px 10px 30px;
 }
 
-p {
-  letter-spacing: 2px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
 aside {
   position: relative;
   top: 150px;
@@ -96,7 +96,7 @@ aside {
 #footer-correction {
   position: relative;
   top: 150px;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 

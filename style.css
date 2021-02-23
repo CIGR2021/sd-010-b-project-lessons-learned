@@ -41,5 +41,6 @@ main {
   display: inline-block;
   width: 25%;
   text-align: start;
+  vertical-align: top;
 
 }

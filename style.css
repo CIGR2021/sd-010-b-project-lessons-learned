@@ -32,17 +32,19 @@ a {
   text-decoration: none;
   color: blue;
 }
-a :hover {
+a
+:hover {
   color: black;
   opacity: 0.4;
 }
 
 section {
-  margin: 20px
+  margin: 20px;
 }
 
 .lado-esquerdo {
   display: inline-block;
+  margin-right: 50px;
 }
 
 .lado-direito {

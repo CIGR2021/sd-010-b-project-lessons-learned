@@ -5,11 +5,16 @@ body {
 #cabecalho {
 		position: fixed;
 		top: 0;
+		font-family: "Sulphur Point", sans-serif;
+		background-color: #30C5FF;
+		width: 100%;
 }
 
-.licoes-aprendidas li {
-		list-style-type: none;
+#cabecalho nav ul li {
+	list-style-type: none;
+	display: inline;
 }
+
 
 table , th , td {
 		border: 1px solid black;

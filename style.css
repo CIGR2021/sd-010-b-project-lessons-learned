@@ -2,11 +2,20 @@ body{
     background-color:rgb(253, 251, 251);
     margin: 0%;    
 }
-.titulo{
+#titulo{
     position: fixed;
-    background-color: rgb(62, 62, 110);
-    top: 0px;
+    background-color: rgb(55, 140, 236);
+    top:0px;
+    padding: 30px 500px;
+    margin: 10px;
+    color: white;
+    text-align: center;
 }
 #minha_foto{
     width: 150px;
+    margin-top: 170px;
+    border-radius: 20px;
+    margin-left: 300px;
+    
+    
 }

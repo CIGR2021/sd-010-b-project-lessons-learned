@@ -18,9 +18,11 @@ body {
 
 
 #titulo {
+    font-size: 25px;
+    line-height: normal;
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     color: rgb(228, 227, 227);
 }
 
@@ -34,7 +36,7 @@ body {
     margin-bottom: 20px;
     width: 200px;
     height: 200px;
-    border-radius: 25% 0 25% 0;
+    border-radius: 25% 0;
 }
 
 
@@ -79,4 +81,15 @@ body {
     padding: 40px;
     max-width: 200px;
     max-height: 400px;
+}
+table{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.redes-sociais {
+    text-decoration: none;
+    margin-right: 10px;
 }

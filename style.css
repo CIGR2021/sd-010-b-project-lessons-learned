@@ -5,12 +5,27 @@ body {
   color: black;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.links {
+    display: inline;
+}
 #cabecalho {
   top: 0;
   width: 100%;
+  height: 0px;
+  background-color: azure;
 }
 #titulo {
+  background-color: black;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  color: white;
 }
 #dadosUsuario {
   border: 1px;
@@ -62,6 +77,16 @@ body {
 #licoes_aprendidas li {
   margin: 10px;
   line-height: 1;
+}
+#licoes_a_aprender {
+  display: inline;
+    padding: 15px;
+}
+#aAprender {
+  margin-top: 20px;
+}
+#licoes_a_aprender li{
+  display: inline;
 }
 #rodape {
   display: inline-block;

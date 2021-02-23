@@ -2,18 +2,21 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #32a791;
+  background-color: rgb(50, 167, 145);
   width: 100%;
 }
+
 #titulo {
-  color: #fff;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
+
 #minha_foto {
   width: 300px;
   margin: 10%;

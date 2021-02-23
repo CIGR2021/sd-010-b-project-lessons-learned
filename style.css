@@ -3,16 +3,22 @@ body {
 }
 
 #cabecalho {
+    margin: auto;
     position: fixed;
     top: 0px;
 }
 
 #titulo {
-
+    border: 1px solid black;
+    padding: 10px 30px;
 }
 
 #minha_foto {
-
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 #licoes_aprendidas {
@@ -24,5 +30,5 @@ body {
 }
 
 #rodape {
-    
+    text-align: center;
 }

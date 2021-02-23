@@ -9,7 +9,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 2;
-  box-shadow: 0 25px 50px rgb(231, 236, 239);;
+  box-shadow: 0 25px 50px rgb(231, 236, 239);
   width: 100%;
   text-align: center;
   background-image: linear-gradient(rgb(139, 140, 137) 90%, rgb(231, 236, 239));

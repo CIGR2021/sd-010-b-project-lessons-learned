@@ -2,37 +2,138 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #03392b;
+}
+
+nav ul li {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+nav ul li:first-child {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+nav ul li:last-child {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:hover {
+  color: #03392b;
+  transition: color 300ms;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(4, 128, 98, 0.8);
 }
 
 #cabecalho h1 {
   font-size: 30px;
-  color: rgb(41, 41, 41);
+  color: whitesmoke;
   line-height: 40px;
   font-family: sans-serif;
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 section img {
-  margin: 60px 0;
+  margin: 100px 40px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 table {
-  border: 2px solid green;
+  width: 600px;
+  height: 300px;
 }
 
 table tr th {
   padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #03392b;
+}
+
+table li {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(36, 36, 36);
+  margin-left: 70px;
+}
+
+.infosAboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -70px;
 }
 
 .lado-esquerdo {
   width: 30%;
+  margin-right: 80px;
   display: inline-block;
 }
 
+.lado-esquerdo p {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
 .lado-direito {
-  margin-left: 20px;
   width: 40%;
   display: inline-block;
+}
+
+.lado-direito p {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+
+  background-color: rgba(4, 128, 98, 0.8);
+  color: whitesmoke;
+
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#rodape p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#rodape p:hover {
+  color: #03392b;
+  transition: color 300ms;
 }

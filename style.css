@@ -5,7 +5,7 @@ body {
 
 header {
     top: 0px;
-    color: #cccccc;
+    color: rgb(253, 251, 251);
     background-color: darkgreen;
     position: fixed;
     letter-spacing: 5px;
@@ -16,4 +16,9 @@ header {
     display: inline;
     padding: 10px;
     margin: 10px;
+}
+
+img {
+    margin-top: 170px;
+    width: 100px;
 }

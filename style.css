@@ -47,6 +47,6 @@ font-weight: bold;
 
 li {
   color: rgb(223, 71, 71);
-  margin-bottom: 5px;
   font-size: 14px;
+  line-height: 20px;
 }

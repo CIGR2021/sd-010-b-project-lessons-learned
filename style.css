@@ -1,0 +1,11 @@
+html{
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+    margin-top: 0px;
+    background-color:#29838b;    
+}
+#minha_foto{
+    width: 200px;
+    height: 200px;
+}

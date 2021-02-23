@@ -1,3 +1,28 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho{
+  background-color: blue;
+  z-index: 2 ;
+  width:100% ;
+  position: fixed;
+  top: 0;
+}
+
+#titulo {
+  text-align: center;
+}
+main{
+  margin-top:90px
+}
+
+
+
+#licoes_aprendida , #licoes_a_aprender{
+  display:inline-block;
+}
+
+
+
+

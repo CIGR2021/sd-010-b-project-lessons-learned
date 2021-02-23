@@ -3,13 +3,13 @@ body {
 }
 
 #titulo { 
-  color: aliceblue;  
+  color: aliceblue;
   font-size: 180px;
   text-align: center;
   background-color: green;
   position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 500px;
 }

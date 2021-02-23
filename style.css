@@ -1,6 +1,7 @@
 * {
   background-color: rgb(253, 251, 251);
   top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #titulo {
@@ -17,10 +18,12 @@ img {
 
 ul {
   display: inline-block;
+  color: rgb(23, 66, 50);
 }
 
 ol {
   display: inline-block;
+  color: rgb(23, 66, 50);
 }
 
 p {
@@ -28,6 +31,7 @@ p {
   border: solid 1px;
   text-align: justify;
   padding: 10px;
+  color: rgb(23, 66, 50);
 }
 
 article {
@@ -35,5 +39,5 @@ article {
 }
 
 aside {
-  display: inline-block ;
+  display: inline-block;
 }

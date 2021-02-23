@@ -2,20 +2,20 @@
   margin: 0; padding: 0;
 }
 
-#cabecalho {
-top: 0px;
-position: fixed;
-
-
-
-}
-
-#titulo {
-  
-
-}
-
-
 body {
   background-color:  rgb(253, 251, 251);
 }
+
+#cabecalho {
+background-color: seagreen;
+width: 100%;
+position: fixed;
+top: 0;
+}
+
+#titulo {
+  font-size: 10px;
+
+}
+
+

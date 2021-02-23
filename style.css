@@ -21,6 +21,16 @@ img {
         padding-top: 5%;
 }
 
+article, section {
+        width: 40%;
+        text-align: justify;
+        display: inline-block;
+}
+
+article {
+        margin-right: 3%;
+}
+
 table {
         margin-top: 40px;
         border: solid black 1px;

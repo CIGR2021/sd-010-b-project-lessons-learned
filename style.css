@@ -5,10 +5,21 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-}
+    background-color: #2F4F4F;
+    color:rgb(253, 251, 251);
+    width: 100%;
+    text-align: center;
+
+    }
 
 #titulo {
     
+}
+
+#navegation {
+    margin-top: 100px;
+    position: fixed;
+    background-color: ;
 }
 
 #minha_foto {
@@ -25,10 +36,11 @@ body {
 }
 
 #article {
-    
+
 }
 
 #rodape {
 
 
 }
+

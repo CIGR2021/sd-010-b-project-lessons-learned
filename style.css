@@ -1,22 +1,27 @@
-*{
+* {
   background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+
+#cabecalho {
   top: 0.1px;
 }
-#titulo{
+
+#titulo {
   background-color: seagreen;
   text-align: center;
   padding: 25px 23%;
   position: fixed;
   margin-top: 0.1px;
 }
-img{
+
+img {
   margin-top: 100px;
 }
-ul{
+
+ul {
   display: inline-block;
 }
-ol{
+
+ol {
   display: inline-block;
 }

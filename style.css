@@ -11,12 +11,27 @@ body{
   background-color: green ;
   width: 100%;
   height: 100px;
+  text-align: center;
 }
 #titulo{
-  font: 40px;
+  font-size: 40px;
  
 }
 
+#minha_foto{
+  display: inline-block;
+  margin-top: 100px;
+  border-radius: 100%;
+
+}
+
+table{
+  margin: auto;
+  font-size: 20px;
+}
+table td{
+  padding: 50px;
+}
 .lista-menu{
   position: absolute;
   right: 20px;
@@ -26,6 +41,9 @@ body{
   text-decoration: none;
   display: inline-block;
   padding: 15px;
+}
+.lista-menu li:hover{
+  text-decoration: underline;
 
 }
 footer{

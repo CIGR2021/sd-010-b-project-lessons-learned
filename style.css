@@ -1,6 +1,11 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+img {
+  width: 300px;
+  border-radius: 8px;
+  margin: 10px;
+}
 
 #cabecalho{
   background-color: blue;
@@ -9,6 +14,19 @@ body{
   position: fixed;
   top: 0;
 }
+
+h1{
+padding:5px;
+border:green solid 2px;
+font: size 3em;
+color:blue
+font-family:monospace;
+}
+
+p{
+  line-height: 3;
+}
+
 
 #titulo {
   text-align: center;

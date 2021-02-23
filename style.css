@@ -54,24 +54,24 @@ ol, ul {
     line-height: 1.2em;
 }
 
-aside {
+section {
     display: block;
     position: relative;
     top: 200px;
 }
 
-aside h2 {
+section h2 {
     text-align: center;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
     display: inline-block;
     position: absolute;
     left: 14.67%;
     width: 28%;
 }
 
-#lado-direito {
+.lado-direito {
     display: inline-block;
     position: absolute;
     left: 57.33%;

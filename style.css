@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+header#cabecalho {
     position: absolute;
     background-color: green;
     width: 100%;
@@ -25,11 +25,15 @@ body {
  p {
      padding-left: 20px;
      margin-top: 0px;
- }
+}
  #licoes {
      padding-left: 20px;
- }
+}
 
-#licoes_aprendidas{
+#licoes_aprendidas {
      padding-left: 60px;
- }
+}
+
+#licoes_a_aprender {
+    padding-left: 60px;
+}

@@ -60,7 +60,7 @@ a:hover {
 	position: relative;
 	float: right;
 	margin-right: 200px;    
-	border: 3px solid;
+	border: 3px solid;	
 }
 
 #tabela th {
@@ -73,22 +73,17 @@ a:hover {
 	border: 1px solid;
 }
 
-#main {
-  position: relative;
-  z-index: 1;
-  margin-top: 10px;
-}
-
 #nome {
   line-height: 20px;
   font-weight: 600;
   font-size: 12px;
 }
 
-#licoes {
-  position: relative;
+#lista {
+	display: inline-block;
+	position: relative;
   margin-top: 10px;
-  top: 100px;    
+  top: 50px; 
 }
 
 #licoes_aprendidas {
@@ -97,29 +92,33 @@ a:hover {
 
 #licoes_a_aprender {
   float: right;
-  margin-right: 300px;    
+	margin-left: 350px;
+}
+
+#texto {
+	display: inline-block;
+	position: relative;  
 }
 
 #artigo {
-  top: 100px;
+  top: 80px;
   text-align: justify;
   position: relative;
   margin: 0 10px 0 10px;
   width: 856px;
   float: left;
+	display: inline;
 }
 
-p {
-  display: inline-flex;
-}
-
-aside {
-  width: 35%;
+#passagem {
+  width: 34%;
   padding-left: .15rem;
-  margin-left: .10rem;
+  margin-left: .15rem;
   float: right;
+	margin-top: 110px;
   box-shadow: inset 5px 0 5px -5px green;
   font-style: italic;    
+	display: inline;
 }
 
 aside > p {
@@ -127,7 +126,7 @@ aside > p {
 }
 
 #rodape {
-  margin-top: 650px;
+  margin-top: 50px;
   text-align: right;
   bottom: 0px;
   width: 100%;

@@ -32,7 +32,7 @@ body {
     border-radius: 5%;
 }
 
-#licoes_a_aprender {
+#licoes_aprendidas {
     list-style:decimal;
     display: block;
     position: block;

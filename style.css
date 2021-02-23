@@ -23,10 +23,7 @@ color: brown;
 
 #minha_foto {
     display: block;
-    margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
+    margin: 100px auto 20px auto;
     border-radius: 50%;
 
 }
@@ -53,13 +50,23 @@ color: brown;
 }
 
 #secao_artigos {
-    margin: auto;
     text-align: justify;
 }
 
-#sobre_mim {
+#a_trybe_e_eu {
+    display: inline-block;
+    width: 65%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.titulo_artigo {
     color: brown;
-    text-align: center;
+}
+
+#html_css {
+    display: inline-block;
+    width: 30%
 }
 
 #rodape {

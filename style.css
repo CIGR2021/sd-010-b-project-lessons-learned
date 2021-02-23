@@ -5,3 +5,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.cabecalho{
+  position: fixed;
+  top: 0px;
+}

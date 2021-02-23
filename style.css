@@ -27,3 +27,10 @@ article {
 .lado-esquerdo, .lado-direito {
     display: inline-block;
 }
+
+.lado-esquerdo {
+    width: 59%;
+}
+.lado-direito {
+    width: 40%;
+}

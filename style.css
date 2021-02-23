@@ -63,3 +63,10 @@ a {
     position: absolute;
     top: 150px;
 }
+
+aside {
+    position: absolute;
+    left: 498px;
+    top: 200px;
+    width: 150px;
+}

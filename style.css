@@ -14,7 +14,7 @@ body {
     border: 0px;
     background-color:rgb(6, 151, 54);
     top: 0px;
-    position: absolute;
+    position: fixed;
 } 
 
 #titulo {

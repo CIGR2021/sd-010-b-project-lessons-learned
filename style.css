@@ -5,7 +5,11 @@ body {
 
 header {
     top: 0px;
+    color: #cccccc;
+    background-color: darkgreen;
     position: fixed;
+    letter-spacing: 5px;
+    margin-right: 35%;
 }
 
 #licoes_aprendidas #licoes_a_aprender {

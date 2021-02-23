@@ -9,4 +9,13 @@ position: fixed;
 
 #licoes_aprendidas {
     margin-top: 75px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
+#licoes_a_aprender {
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
 }

@@ -63,6 +63,7 @@ aside {
   display: inline-block;
   width: 49%;
   height: auto;
+  vertical-align: top;
 }
 
 table {

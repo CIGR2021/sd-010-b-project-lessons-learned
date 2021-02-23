@@ -1,9 +1,20 @@
 body {
-  background-color: rgb(253, 251,251);
+  background-color: rgb(253, 251, 251);
   margin: 0;
 }
-
-header {
+#cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
+  background-color: #32a791;
+  width: 100%;
+}
+#titulo {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#minha_foto {
+  width: 300px;
+  margin: 10%;
 }

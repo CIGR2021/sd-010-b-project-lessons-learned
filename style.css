@@ -37,3 +37,8 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+aside {
+    text-align: right;
+    max-width: 50%;
+}

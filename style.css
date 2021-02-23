@@ -1,21 +1,31 @@
 body{
     background-color: rgb(253,251,251);
+    margin-left: 55px;
 }
 
 nav{
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 64px;
+    /* background-color: #a98acc; */
+    box-shadow: inset 5px 5px 2px 0px #a98acc;
+
+}
+
+a{
+    display: inline-block;
+   margin-left: 10px;
+   padding-top: 5px;
 }
 
 aside {
-        margin-top: 10%;
+        margin-top: 31px;
         width: 20%;
         padding-left: .5rem;
         margin-left: .5rem;
         float: right;
-        box-shadow: inset 5px 0 5px -5px #29627e;
+        box-shadow: inset 5px 5px 2px 0px #a98acc;
         font-style: italic;
-        color: #29627e;
+        /** Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside */
     }
     
 
@@ -28,7 +38,8 @@ aside > p {
 #cabecalho{
     position: fixed;
     top: 0px;
-    background-color:rgb(200,251,251);
+    left: 0px;
+    background-color:#a98acc;
 }
 
 #minha_foto{

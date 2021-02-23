@@ -9,13 +9,12 @@ body {
   top: 0;
   background-color: seagreen;
   text-align: center;
-  margin-left: 300px;
+  width: 100%;
 }
 
 #minha_foto {
   width: 300px;
-  top: 0;
-  display: flex;
+  top: 100px;
 }
 
 footer {
@@ -44,4 +43,14 @@ footer {
 #titulo {
   font-family: Arial, Helvetica, sans-serif;
   color: darkorange;
+}
+
+.navegacao li {
+  display: inline;
+  margin: 10px;
+
+}
+
+main {
+  margin-top: 90px;
 }

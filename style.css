@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace;
 }
 
 h1{
@@ -18,10 +19,12 @@ h1{
     width: 100%;
     border: 2px solid orangered;
     text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
 }
 
 #topo{
-    margin: 85px 0 0 0;
+    margin: 90px 0 0 0;
     background-color: orangered;
     display: flex;
     padding: 10px;
@@ -61,4 +64,8 @@ h1{
     padding: 30px;
     color: white;
     font-weight: bold;
+}
+
+.lado-esquerdo, .lado-direito {
+    color:black
 }

@@ -9,7 +9,9 @@ body {
 
 #minha_foto{
   width: 190px;
-  margin-top: 90px;
+  margin: 90px 0 0 0;
+  padding: 5x 0 0 0;
+  border: 5px;
 }
 
 .lado-esquerdo{

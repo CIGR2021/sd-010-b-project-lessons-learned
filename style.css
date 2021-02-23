@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
@@ -21,17 +22,22 @@ body {
   position: relative;
   top: 120px;
   left: 30px;
-  display: inline-block;
 }
 
-img {
+#minha_foto {
   border-radius: 8%;
-  width: 250px;
+  width: 150px;
 }
 
 .lista {
   display: inline-block;
   position: relative;
-  left: 100px;
-  top: 100px;
+  left: 30px;
+  top: 120px;
+  right: 100px;
+  border: 1px solid;
+}
+
+#licoes_aprendidas #licoes_a_aprender {
+  font-size: 18px;
 }

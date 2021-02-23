@@ -24,6 +24,6 @@ article {
     line-height: 2pt;
 }
 
-#lado-esquerdo, #lado-direito {
+.lado-esquerdo, .lado-direito {
     display: inline-block;
 }

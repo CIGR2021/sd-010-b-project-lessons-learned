@@ -1,59 +1,60 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Helvetica, sans-serif;
-    line-height: 20px;
+  background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
+  line-height: 20px;
 }
 
 h3 {
-    position: relative;
-    top: 130px;
-    width: 50%;
-    text-align: center;
-    color: black;
-    font-size: 20px;
+  position: relative;
+  top: 130px;
+  width: 50%;
+  text-align: center;
+  color: black;
+  font-size: 20px;
 }
 
 #cabecalho {
-    top: 0px;
-    position: fixed;
-    background-color: seagreen;
-    padding: 15px 45%;
-    border: 2px solid seagreen;
-    white-space: nowrap;
+  top: 0;
+  position: fixed;
+  background-color: seagreen;
+  padding: 15px 45%;
+  border: 2px solid seagreen;
+  white-space: nowrap;
 }
 
 #minha_foto {
-    width: 300px;
-    position: relative;
-    display: inline-block;
-    left: 500px;
-    border-radius: 50%;
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  left: 500px;
+  border-radius: 50%;
 }
 
 article {
-    position: relative;
-    width: 50%;
-    top: 80px;
-    margin: 80px 10px;
-    text-align: center;
+  position: relative;
+  width: 50%;
+  top: 80px;
+  margin: 80px 10px;
+  text-align: center;
 }
 
 section {
-    text-align: center;
-    width: 30%;
-    position: relative;
-    bottom: 200px;
+  text-align: center;
+  width: 30%;
+  position: relative;
+  bottom: 200px;
 }
 
-ul, ol {
-    display: inline-block;   
+ul, 
+ol {
+  display: inline-block;   
 }
 
 footer {
-    padding: 4px;
-    background-color: rgb(245, 231, 231);
+  padding: 4px;
+  background-color: rgb(245, 231, 231);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }

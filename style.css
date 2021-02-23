@@ -18,3 +18,8 @@ img {
     border-style: solid;
     top: 90px;
 }
+
+#licoes_aprendidas {
+    position: fixed;
+    top: 300px;
+}

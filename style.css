@@ -13,7 +13,8 @@
 }
 
 #cabecalho {
-  margin-top: 0;
+  top: 0;
+  line-height: 40px;
 }
 
 img {
@@ -30,7 +31,7 @@ ol {
   color: rgb(23, 66, 50);
 }
 
-table, ul, ol {
+table,ul,ol,li {
   border: 1px solid black;
 }
 

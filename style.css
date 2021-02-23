@@ -8,7 +8,7 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: #52b788;
+    background-color: #307957;
     z-index: 100;
 }
 
@@ -17,11 +17,25 @@ body {
     color: #ffffff;
 }
 
+nav {
+    text-align: center;
+    background-color: #52b788;
+}
+
+nav a {
+    display: inline-block;
+    width: 10%;
+}
+
 #minha_foto {
     width: 250px;
     position: relative;
     top: 95px;
     left: 20px;
+}
+
+ol, ul {
+    display: inline-block;
 }
 
 #rodape {

@@ -1,5 +1,4 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -36,7 +35,7 @@ body {
   color: black;
 }
 
-#menu ul li a:hover{
+#menu ul li a:hover {
   border-bottom: 1px solid azure;
   padding: 5px;
 }

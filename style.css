@@ -18,3 +18,8 @@ table , th , td {
 table {
 	border-collapse: collapse;
 }
+
+.lado-esquerdo , .lado-direito{
+	width: 40%;
+	display: inline-block;
+}

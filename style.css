@@ -1,6 +1,9 @@
 body{
-    color: rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
 }
 nav{
-    top: 0px;
+  margin-top: 0px;
+}
+#minha_foto{
+  width: 200px;
 }

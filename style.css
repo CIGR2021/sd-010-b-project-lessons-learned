@@ -48,3 +48,12 @@ ul, ol {
     display: inline-block;   
 }
 
+footer {
+    padding: 4px;
+    background-color: rgb(245, 231, 231);
+}
+
+a {
+    text-decoration: none;
+    
+}

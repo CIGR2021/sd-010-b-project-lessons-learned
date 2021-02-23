@@ -1,13 +1,13 @@
-body{
+body {
     max-width: 1366px;
     max-height: 768px;
     background-color: rgb(253, 251, 251);
 }
-main{
+main {
     max-width: 1366px;
     max-height: 768px;
 }
-#cabecalho{
+#cabecalho {
     background-color: blueviolet;
     top: 0;
 }

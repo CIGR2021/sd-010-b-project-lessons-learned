@@ -79,6 +79,11 @@ a:hover {
   width: 95%;
 }
 
+p {
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 aside {
   position: relative;
   top: 150px;

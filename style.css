@@ -1,105 +1,105 @@
 body {
-		margin: 0;
-		background-color: rgb(253, 251, 251);
+	margin: 0;
+	background-color: rgb(253, 251, 251);
 }
 
 .header {
-		display: block;
-		position: fixed;
-		background-color: rgb(214, 214, 214);
-		width: 100%;
-		max-height: 40%;
-		top: 0;
+	display: block;
+	position: fixed;
+	background-color: rgb(214, 214, 214);
+	width: 100%;
+	max-height: 40%;
+	top: 0;
 }
 
 .header h1 {
-		color: rgb(0, 10, 56);
-		font-weight: 100;
-		text-transform: uppercase;
-		text-align: center;
-		padding-top: 4%;
-		padding-bottom: 6%;
+	color: rgb(0, 10, 56);
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 6%;
 }
 
 .meus-links {
-		display: block;
-		text-align: center;
-		font-size: 17px;
-		padding-top: 1%;
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	padding-top: 1%;
 }
 
 .meus-links a {
-		text-decoration: none;
-		text-transform: uppercase;
-		margin: 40px;
-		padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 40px;
+	padding: 10px;
 }
 
 .meus-links a:hover {
-		border: 1px solid black;
+	border: 1px solid black;
 }
 
 .body-style {
-		display: block;
-		margin-left: 6%;
-		margin-right: 6%;
-		margin-top: 30%;
+	display: block;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 30%;
 }
 
 .lado-esquerdo {
-		display: inline-block;
-		max-width: 70%;
-		margin-left: 10px;
+	display: inline-block;
+	max-width: 70%;
+	margin-left: 10px;
 }
 
 article h2 {
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: 500;
-		margin-top: 40px;
-		margin-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 article p {
-		margin-left: 8%;
-		margin-right: 8%;
-		margin-bottom: 5%;
-		font-family: 'Times New Roman', Times, serif;
-		text-align: center;
-		font-size: 18px;
-		line-height: 1.5;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 5%;
+	font-family: Times, serif;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 .image-container {
-		display: inline-block;
+	display: inline-block;
 }
 
 .lado-direito {
-		display: inline-block;
-		float: right;
-		max-width: 23%;
-		border: 2px solid black;
-		text-align: center;
-		padding: 4px;
+	display: inline-block;
+	float: right;
+	max-width: 23%;
+	border: 2px solid black;
+	text-align: center;
+	padding: 4px;
 }
 
 aside p {
-		text-align: center;
+	text-align: center;
 }
 
 #minha_foto {
-		width: 90%;
-		padding: 5px;
+	width: 90%;
+	padding: 5px;
 }
 
 main {
-		max-height: 80%;
-		border: 2px solid black;
+	max-height: 80%;
+	border: 2px solid black;
 }
 
 footer {
-		height: 50px;
-		background-color: rgb(214, 214, 214);
-		text-align: center;
-		padding-top: 40px;
+	height: 50px;
+	background-color: rgb(214, 214, 214);
+	text-align: center;
+	padding-top: 40px;
 }

@@ -1,0 +1,21 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(253, 251, 251);
+  border: 1px solid rgb(7, 105, 20);
+  height: 768px;
+  max-width: 1366px;
+  max-height: 768px;
+  color: rgb(18, 77, 10);
+}
+#cabecalho{
+  position: fixed;
+  top: 0px;
+  left: 2%;
+  right: 2%;
+  width: 95%;
+  border: 1px solid red;
+  text-align: center;
+}

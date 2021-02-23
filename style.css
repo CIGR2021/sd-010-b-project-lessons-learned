@@ -23,3 +23,15 @@ img {
     position: fixed;
     top: 300px;
 }
+
+#licoes_a_aprender {
+    position: fixed;
+    top: 300px;
+    left: 320px;
+}
+
+
+#rodape {
+    position: fixed;
+    bottom: 0px;
+}

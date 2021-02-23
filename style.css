@@ -1,3 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho #titulo {
+    text-align: center;
+    background-color: rgb(95, 158, 160);
+}

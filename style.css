@@ -44,3 +44,26 @@ main {
   vertical-align: top;
 
 }
+
+#rodape {
+  background-color: var(--header-box-color);
+  text-align: center;
+  height: 100px;
+}
+
+#rodape p {
+  display: inline-block;
+  margin: 0px;
+  font-size: 1.3em;
+  vertical-align: middle;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+hr {
+  margin: 0;
+}

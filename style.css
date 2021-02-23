@@ -1,15 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
-#cabecalho, .navbar {
+#cabecalho , .navbar {
   position: fixed;
   margin-top: 0;
 }
+
 a {
   text-decoration: none;
-  color:red;
+  color: red;
 }
 
 #minha_foto {

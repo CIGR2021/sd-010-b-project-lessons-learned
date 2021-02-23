@@ -1,6 +1,7 @@
 .body-style {
 
     background-color: rgb(253, 251, 251);
+    display: block;
 
 }
 
@@ -8,6 +9,10 @@
 
     display: inline-block;
     position: fixed;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     top: 0px;
 
 }

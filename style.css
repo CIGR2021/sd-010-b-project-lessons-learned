@@ -40,6 +40,7 @@ a
 
 section {
   margin: 20px;
+  height: auto;
 }
 
 .lado-esquerdo {
@@ -53,10 +54,15 @@ section {
 
 article {
   line-height: 23px;
+  display: inline-block;
+  width: 50%;
 }
 
 aside {
   line-height: 23px;
+  display: inline-block;
+  width: 49%;
+  height: auto;
 }
 
 h3 {

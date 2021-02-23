@@ -4,7 +4,7 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   position: fixed;
   background-color: seagreen;
   width: 100%;
@@ -32,3 +32,5 @@ body {
 #licoes_a_aprender {
   display: inline-block;
 }
+
+\n

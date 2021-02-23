@@ -19,13 +19,35 @@ img {
   margin-top: 100px;
 }
 
-section ol, ul{
+section ol, ul {
   display: inline-block;
   text-align: justify;
-  margin: auto;
-  padding: 5px 50px;
+  margin-top: auto;
+  padding: 5px 50px 30px;
 }
 
-section h3{
+section h3 {
   margin-left: 40px;
+}
+
+main {
+  display: inline-flex;
+}
+
+.lado-esquerdo, .lado-direito {
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.lado-esquerdo {
+  padding: 20px;
+  text-align: justify;
+  max-width: 50%;
+}
+
+.lado-direito {
+  padding: 40px;
+  text-align: justify;
+  max-width: 30%;
 }

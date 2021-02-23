@@ -18,12 +18,13 @@ body {
 
 #navegation {
     margin-top: 100px;
+    display: inline-block;    
     position: fixed;
-    background-color: ;
 }
 
 #minha_foto {
-
+margin-top: 150px;
+width: 250px;
 }
 
 #licoes_aprendidas {
@@ -37,6 +38,15 @@ body {
 
 #article {
 
+}
+
+#aside {
+
+
+}
+
+#batman {
+    width: 150px;
 }
 
 #rodape {

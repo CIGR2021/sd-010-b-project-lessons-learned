@@ -11,10 +11,10 @@ body {
 }
 
 h2 {
-  font-family: Courier, monospace;
   font-size  : 20px;
   color      : tomato;
   line-height: 30px;
+  font-family: 'Franklin Gothic Medium';
 }
 
 img {
@@ -41,4 +41,13 @@ table {
 
 td {
   border: solid black 1px;
+}
+
+aside {
+  width: 10%;
+  text-align: justify;
+  margin-right: 2%;
+  position: relative;
+  right: 0;
+  display: inline-block;
 }

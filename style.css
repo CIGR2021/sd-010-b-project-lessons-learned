@@ -11,6 +11,7 @@
   position: fixed;
   margin-top: 0;
 }
+
 #cabecalho {
   margin-top: 0;
 }
@@ -29,6 +30,10 @@ ol {
   color: rgb(23, 66, 50);
 }
 
+table, ul, ol {
+  border: 1px solid black;
+}
+
 p {
   width: 350px;
   border: solid 1px;
@@ -37,7 +42,7 @@ p {
   color: rgb(23, 66, 50);
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
 }
 

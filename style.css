@@ -31,10 +31,12 @@ body {
 
 #minha_foto {
     margin-top: 40px;
+    margin-bottom: 20px;
     width: 200px;
     height: 200px;
     border-radius: 25% 0 25% 0;
 }
+
 
 .section-learn {
     margin-top: 40px;
@@ -53,23 +55,25 @@ body {
     padding: 40px;
 }
 
-.section-artigo {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
-    background-color: rgb(165, 204, 248);
-    border-bottom: 10px solid #000;
-}
-
-.artigo {
+.lado-esquerdo {
     background-color: white;
     max-width: 400px;
     border: grey solid;
     padding: 40px;
 }
 
-.texto-do-lado {
+.section-artigo {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 100px;
+    background-color: rgb(165, 204, 248);
+    border-bottom: 10px solid #000;
+}
+
+.lado-direito {
+    display: inline-block;
     background-color: white;
     border: grey solid;
     padding: 40px;

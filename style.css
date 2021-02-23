@@ -12,7 +12,9 @@ header {
     height: 150px;
     color: rgb(105, 105, 105);
 }
-
+nav { 
+    position: absolute;
+}
 img {
     width: 200px;
     position: fixed;
@@ -23,6 +25,9 @@ div {
  margin-top: 400px;
 
 }
-
+aside {
+    display: block;
+    float: right;
+}
 
 

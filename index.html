@@ -10,18 +10,18 @@
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Lições aprendidas - Trybe</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="#minha_foto">Home</a></li>
+        <li><a href="#licoes_aprendidas">Lições</a></li>
+        <li><a href="#rodape">artigos</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#cabecalho">Home</a></li>
-      <li><a href="#licoes_aprendidas">Lições</a></li>
-      <li><a href="#rodape">artigos</a></li>
-    </ul>
-  </nav>
 
   <img id="minha_foto" src="imgs/foto.jpg" alt="">
 
-  <a href="https://www.linkedin.com/in/ismaeltorresf/" target="_blank" rel="noopener noreferrer">Ismael Torres - Linkedin</a>
+  <a class="link" href="https://www.linkedin.com/in/ismaeltorresf/" target="_blank" rel="noopener noreferrer">Ismael Torres - Linkedin</a>
 
   <table id="table">
     <thead>
@@ -32,37 +32,38 @@
       <td>cel2</td>
     </tbody>
   </table>
+  <div class="licoes">
+    <ol id="licoes_aprendidas">
+      <li>Zoom</li>
+      <li>Slack</li>
+      <li>Unix</li>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>Empatia</li>
+      <li>Trabalho de equipe</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>HTML semantico</li>
+    </ol>
+    <ul id="licoes_a_aprender">
+      <li>Liderança</li>
+      <li>Auto confiança</li>
+      <li>JavaScript</li>
+      <li>DOM</li>
+      <li>Forms</li>
+      <li>Comunicação</li>
+      <li>ES6</li>
+      <li>Unit Tests</li>
+      <li>React</li>
+      <li>Node</li>
+    </ul>
+  </div>
 
-  <ol id="licoes_aprendidas">
-    <li>Zoom</li>
-    <li>Slack</li>
-    <li>Unix</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Empatia</li>
-    <li>Trabalho de equipe</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>HTML semantico</li>
-  </ol>
-  <ul id="licoes_a_aprender">
-    <li>Liderança</li>
-    <li>Auto confiança</li>
-    <li>JavaScript</li>
-    <li>DOM</li>
-    <li>Forms</li>
-    <li>Comunicação</li>
-    <li>ES6</li>
-    <li>Unit Tests</li>
-    <li>React</li>
-    <li>Node</li>
-  </ul>
-
-  <article>
+  <article class="lado-esquerdo">
     <p>Minha jornada na Tyrbe tem sido essencial para o meu crescimento tanto profissional quanto pessoal. Desde o inicio de fevereiro venho acumulando conhecimentos de hard skills que já havia visto há algum tempo, mas descobrir o mundo e a necessidade das soft skills tem sido um grande divisor de águas no meu aprendizado. Espero que, daqui pra frente, essa lista de skills só aumente!</p>
   </article>
 
-  <section>
+  <section class="lado-direito">
     <aside>
       <p>
         Por enquanto minha maior dificuldade tem sido com o git, acredito que seja mais uma questão de costume do que uma dificuldade de aprender como ele funciona, afinal com o pessoal da trybe, as duvidas simplesmente desaparecem haha.

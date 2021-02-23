@@ -15,3 +15,10 @@ body {
     font-family: monospace;
     color: #ffffff;
 }
+
+#minha_foto {
+    width: 250px;
+    position: relative;
+    top: 95px;
+    left: 558px;
+}

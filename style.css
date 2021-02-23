@@ -7,7 +7,7 @@ body {
   top: 0px;
   left: 0px;
   background-color: rgb(2, 16, 77);
-  padding: 100px 800px;
+  padding: 100px 800px 200px;
   text-align: center;
   font-size: 20px;
   color: white;
@@ -25,4 +25,14 @@ nav {
 
 li {
   margin-left: 30px;
+}
+
+img {
+  width: 200px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  border-style: double;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
 }

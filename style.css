@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
@@ -12,28 +13,40 @@ body {
   background-color: rgb(165, 131, 197);
 }
 
-#minha_foto{
-    width: 200px;
-   
+#minha_foto {
+  width: 200px;
+
 }
 
-#perfil{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom:100px ;
+#perfil {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-main{
-    width: 1000px;
-    margin: auto;
-    background-color: brown;
+main {
+  width: 1000px;
+  margin: auto;
 }
 
-#licoes{
-    margin-left: 100px;
+#licoes {
+  margin-left: 100px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
-    display: inline-block;
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
 }
 
+#rodape{
+    display: block;
+    height: 40px;
+    background: linear-gradient(white,rgb(165, 131, 197) );
+    box-shadow: 5px 5px 10px #888;
+    color:rgb(61, 58, 58);
+}
+
+#rodape h4{
+    line-height: 40px;
+    padding-left: 20px;
+}

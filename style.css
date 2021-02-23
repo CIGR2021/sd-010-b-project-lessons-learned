@@ -62,5 +62,23 @@ table, th, td{
 
     margin-bottom: 15px;
 }
+.lado-esquerdo{
+border: 1px solid black;
+width: 40%;
+display: inline-block;
 
 
+}
+.lado-direito{
+display: inline-block;
+border: 1px solid black;
+width: 40%;
+height: 446px;
+margin-left: 5px;
+vertical-align: top;
+}
+
+.lado-direito p{
+    text-align: center;
+    margin-top: 25%;
+    }

@@ -2,29 +2,63 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+h1{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
 #cabecalho {
     position: fixed;
     top: 0px;
     background-color: black;
+    color: white;
+    padding: 5px;
     margin: auto;
+    width: 100%;
+    border: 2px solid orangered;
+    text-align: center;
+}
+
+#topo{
+    margin: 85px 0 0 0;
+    background-color: orangered;
+    display: flex;
+    padding: 10px;
 }
 
 #minha_foto{
     width: 200px;
+    border-radius: 32% 0 20% 0;
+    border: solid 5px black;
 }
 
-#licoes_aprendidas{
-
+#artigo{
+    padding: 30px;
+    color: white;
+    font-weight: bold;
 }
 
-#licoes_a_aprender{
-
+#corpo{
+    display: flex;
+    
 }
+
+#tabela{
+    color: orangered;
+    font-weight: bold;
+    margin: 30px;
+}
+
 
 #rodape{
+    padding: 30px;
+    margin: auto;
 
 }
 
 #aconteceu{
-
+    padding: 30px;
+    color: white;
+    font-weight: bold;
 }

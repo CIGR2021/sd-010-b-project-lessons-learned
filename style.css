@@ -4,8 +4,9 @@ body {
 #cabecalho{
     position: fixed;
     top: 0pt;
+    width: 100%;
     background-color: rgb(69, 170, 2);
-    padding: 40px;
+    padding: 0px;
 }
 #titulo {
     color: rgb(255, 255, 255);
@@ -14,4 +15,11 @@ body {
 #lista li a{
     color: rgb(253, 251, 251);
     text-decoration: none;
+}
+#minha_foto {
+    width: 17%;
+    height: 300px;
+}
+#licoes_aprendidas, #licoes_a_aprender{
+    display: inline-block;
 }

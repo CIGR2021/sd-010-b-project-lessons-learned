@@ -72,13 +72,6 @@ a:hover {
   padding: 10px 0px 10px 30px;
 }
 
-.artigo1 {
-  position: relative;
-  top: 150px;
-  left: 30px;
-  width: 95%;
-}
-
 p {
   letter-spacing: 2px;
   font-family: 'Times New Roman', Times, serif;
@@ -105,4 +98,17 @@ aside {
   top: 150px;
   height: 80px;
   width: 100%;
+}
+
+.lado-esquerdo {
+  position: relative;
+  top: 150px;
+  left: 30px;
+  width: 55%;
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 30%;
 }

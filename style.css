@@ -4,9 +4,11 @@ body{
 
 #cabecalho{
     position: fixed;
-    top: 0px;
+    top: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .baixar{
-    padding-top: 50px;
+    padding-top: 80px;
 }

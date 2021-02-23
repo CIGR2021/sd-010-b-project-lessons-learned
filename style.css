@@ -46,3 +46,19 @@ color: brown;
     vertical-align: top;
     width: 200px;
 }
+
+#rodape {
+    background-color: brown;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rodape a{
+    color: white;
+}
+
+main {
+    min-height: 100%;
+    border: solid 1px black;
+}

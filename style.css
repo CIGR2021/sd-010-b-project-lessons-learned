@@ -1,14 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
-  padding-left: 100px;
-  padding-right: 100px;  
+  padding: 100px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(108, 202, 108);
-  width:80%;
+  width: 80%;
   text-align: center;
 }
 
@@ -17,12 +16,11 @@ h1 {
   line-height: 5px;
 }
 
-#minha_foto {
-  width: 200px;
-  margin-top: 200px;
-  padding-left: 40%;
+p {
+  text-align: justify;
 }
 
-p{
-    text-align: justify;
+.minha_foto {
+  width: 200px;
+  margin-left: 40%;
 }

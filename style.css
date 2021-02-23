@@ -10,6 +10,13 @@ body {
         text-align: center;
 }
 
+h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        color:tomato;
+        line-height: 30px;
+}
+
 img {
         padding-top: 5%;
 }

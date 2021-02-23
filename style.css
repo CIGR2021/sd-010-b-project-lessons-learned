@@ -1,5 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 1.2em;
+}
+
+table{
+  margin: auto;
 }
 
 #cabecalho {
@@ -55,14 +60,26 @@ body {
 
 .section_list {
   background-color: rgba(208, 247, 208, 0.973);
-  width: 40%;
+  width: 70%;
   text-align: center;
-  margin-left: 100px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.article_list{
   display: inline-block;
+  margin: 15px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
   text-align: left;
+}
+
+.background_row{
+  background: rgb(185, 183, 183);
+}
+.background_row, th, td{
+  padding: 2px;
 }
 
 .section_aside {
@@ -70,6 +87,18 @@ body {
   width: 40%;
   text-align: center;
   display: inline-block;
+}
+
+.section_article{
+  background-color: rgba(208, 247, 208, 0.973);
+  width: 70%;
+  text-align: center;
+}
+
+#rodape{
+  background-color: rgba(208, 247, 208, 0.973);
+  padding: 20px;
+  text-align: right;
 }
 
 .clear_both {

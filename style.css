@@ -1,0 +1,23 @@
+* {
+    font-family: monospace, sans-serif;
+}
+
+body {
+    background-color:  rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    display: block;
+    top: 0px;
+    background-color: rgb(82, 82, 236);
+}
+
+#titulo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(228, 227, 227);
+}
+

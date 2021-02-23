@@ -47,10 +47,17 @@ a {
   margin: 100px 0px 0px 120px;
   border: 20px solid #CB997E;
   border-radius: 40%;
-  display: inline-block;
+  display: block;
 }
 
-#listas ol, ul {
+#listas {
+  display: inline-block;
+  width: 50%;
+  margin-left: 100px;
+  line-height: 25px;
+}
+
+#listas ol, ul{
   display: inline-block;
   margin-left: 10px;
 }

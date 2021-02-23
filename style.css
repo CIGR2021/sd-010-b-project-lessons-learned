@@ -1,116 +1,134 @@
 html, body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    padding: 0px;
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100%;
-    width: 100%;
+  background-color: rgb(253, 251, 251);
+  padding: 0px;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100%;
+  width: 100%;
 }
 
 #cabecalho {
-    position: fixed;
-    height: auto;
-    top: 0px;
-    background-color: green;
-    width: 100%;
-    padding: 0px;
-    border: 1px solid;
-    box-sizing: border-box;
-    text-align: center;
+  position: fixed;
+  height: auto;
+  top: 0px;
+  background-color: green;
+  width: 100%;
+  padding: 0px;
+  border: 1px solid;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 #links {
-    text-align: center;    
+  text-align: center;    
 }
 
 #links ul li {
-    display: inline-block;
-    margin-left: 70px;    
+  display: inline-block;
+  margin-left: 70px;    
 }
 
 a {
-    text-decoration: none;
-    color: navy;        
+  text-decoration: none;
+  color: navy;        
 }
 
 a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #minha_foto {
-    border-radius: 20%;
+  border-radius: 20%;
 }
 
 #foto {
-    width: 30%;
-    text-align: center;
-    margin: 20px;
-    left: 0px;
-    display: block;
-    top: 120px;
-    position: relative;
+  width: 30%;
+  text-align: center;
+  margin: 20px;
+  left: 0px;
+  display: inline-block;
+  top: 120px;
+  position: relative;
+}
+
+#tabela {
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-right: 200px;    
+	border: 3px solid;
+}
+
+#tabela th {
+	width: 80px;
+	border: 1px solid;
+}
+
+#tabela td {
+	text-align: center;
+	border: 1px solid;
 }
 
 #main {
-    position: relative;
-    z-index: 1;
-    margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
 }
 
 #nome {
-    line-height: 20px;
-    font-weight: 600;
-    font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 #licoes {
-    position: relative;
-    margin-top: 10px;
-    top: 100px;    
+  position: relative;
+  margin-top: 10px;
+  top: 100px;    
 }
 
 #licoes_aprendidas {
-    float: left;
+  float: left;
 }
 
 #licoes_a_aprender {
-    float: right;
-    margin-right: 300px;    
+  float: right;
+  margin-right: 300px;    
 }
 
 #artigo {
-    top: 100px;
-    text-align: justify;
-    position: relative;
-    margin: 0 10px 0 10px;
-    width: 856px;
-    float: left;
+  top: 100px;
+  text-align: justify;
+  position: relative;
+  margin: 0 10px 0 10px;
+  width: 856px;
+  float: left;
 }
 
 p {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 aside {
-    width: 30%;
-    padding-left: .5rem;
-    margin-left: .10rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px green;
-    font-style: italic;    
+  width: 35%;
+  padding-left: .15rem;
+  margin-left: .10rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px green;
+  font-style: italic;    
 }
 
 aside > p {
-    margin: .5rem;
+  margin: .5rem;
 }
 
 #rodape {
-    margin-top: 650px;
-    text-align: right;
-    bottom: 0px;
-    width: 100%;
+  margin-top: 650px;
+  text-align: right;
+  bottom: 0px;
+  width: 100%;
 }

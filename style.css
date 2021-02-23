@@ -5,15 +5,22 @@ body{
 #cabecalho {
     top: 0px;
     position: fixed;
+    background-color: seagreen;
+    width: 100%;
 
 }
+
+
 
 #minha_foto{
     width: 250px;
 }
 
-.lista-aprendidos-e-aprender{
+#licoes_a_aprender {
     display: inline-block;
-    right:20px
-    ;
+
+}
+
+#licoes_aprendidas{
+    display: inline-block;
 }

@@ -90,4 +90,9 @@ th {
 
 #rodape {
   display: block;
+  font-size: small ;
+  text-align: center;
+  padding: 10px;
+  background-color: burlywood;
+  line-height: 10px;
 }

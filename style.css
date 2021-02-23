@@ -25,6 +25,15 @@ body {
   border-radius: 40%;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover{
+  color:black;
+  opacity: 0.4;
+}
+
 section {
   margin: 20px
 }

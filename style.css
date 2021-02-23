@@ -1,9 +1,34 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho {
-    top: 0px;
+header {
+    margin-top: 0px;
+    padding: 15px;
+    border: 2px solid rgb(189, 19, 19);
 }
-#licoes_aprendidas {
-    font-family: arial;
+img #minha_foto {
+    border: 1px solid black;
+}
+ol #licoes_aprendidas {
+    font-family: monospace;
+    color: rgb(126, 81, 81);
+}
+ul #licoes_a_aprender {
+    font-family: monospace;
+    color: rgb(150, 94, 94);
+}
+article {
+    font-family: fantasy;
+    color: brown;
+}
+aside {
+    font-family: fantasy;
+    color: brown;
+}
+footer {
+    font-family: cursive;
+    color: black;
+}
+a:hover {
+    background-color: brown;
 }

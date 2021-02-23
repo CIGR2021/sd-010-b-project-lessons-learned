@@ -11,17 +11,38 @@ body {
 }
 
 #titulo {
-    margin-left: 20px;
+text-align: center;
+color: brown;
 }
 
 #minha_foto {
     display:block;
     margin-top: 100px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
 
 }
 
-#titulo_licoes_aprendidas {
+.titulo_licoes {
     font-weight: bold;
+    margin-left: -25px;
+    color: brown;
+}
+
+#section_licoes {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+#section_licoes li {
+    text-align: left;
+}
+
+.artigo_licoes {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
 }

@@ -24,16 +24,14 @@ img {
 article , section {
   width     : 40%;
   text-align: justify;
+  display   : inline-block;
+  margin    : 1%;
 }
 
-article {
-  position: relative;
-  left    : 0;
-}
-
-section {
-  position: relative;
-  right   : 0;
+div {
+  height    : 200px;
+  display   : inline-block;
+  text-align: center;
 }
 
 table {

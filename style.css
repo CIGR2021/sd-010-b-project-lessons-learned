@@ -6,3 +6,7 @@ body{
     background-color: green;
     color: white;
 }
+#minha_foto{
+    border-radius: 20px;
+    width: 200px;
+}

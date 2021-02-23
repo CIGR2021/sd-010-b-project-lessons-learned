@@ -4,10 +4,10 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
     background-color: royalblue;
     width: 100%;
-    left: 0px;
+    left: 0;
 }
 
 #titulo {
@@ -18,4 +18,10 @@ body {
     width: 300px;
 }
 
-
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: lightgray;
+  }

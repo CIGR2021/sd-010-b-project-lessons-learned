@@ -19,6 +19,12 @@ img {
     top: 160px;
     border-radius: 100%;
 }
-ol { 
-    margin-top: 400px;
+div {
+ margin-top: 400px;
+
 }
+ol{
+    display: block;
+}
+
+

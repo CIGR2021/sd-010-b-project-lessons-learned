@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 
-.cabecalho {
+#cabecalho {
   margin-top: 0px;
   position: fixed;
 }

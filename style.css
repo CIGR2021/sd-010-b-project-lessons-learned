@@ -5,6 +5,15 @@
   background-color: rgb(253, 251, 251);
 }
 
+header {
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -12,10 +21,17 @@
 
 #titulo {
   text-align: center;
-  padding: 10px 0 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #minha_foto {
   width: 300px;
-  margin: 60px 0 20px 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#licoes_aprendidas {
+  list-style-type: decimal;
+  list-style-position: inside;
 }

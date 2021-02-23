@@ -20,6 +20,7 @@ body {
   text-align: center;
   top: 0px;
   height: var(--header-vs-main-height);
+  z-index: 2;
 }
 
 #titulo {
@@ -57,13 +58,15 @@ main {
   height: 100px;
 }
 
-
-
 #rodape p {
   display: inline-block;
   margin: 0px;
   font-size: 1.3em;
   vertical-align: middle;
+}
+
+.footer-info {
+  height: 100%;
 }
 
 .helper {
@@ -72,11 +75,18 @@ main {
   vertical-align: middle;
 }
 
-.img-foot-section {
-  position: absolute;
+hr {
+  margin: 0;
 }
 
-#rodape img {
+
+.img-foot-section {
+  position: absolute;
+  top: calc(100% - 45px);
+  margin: 0px 20px;
+}
+
+.img-foot-section img {
   width: 50px;
   height: 50px;
 }

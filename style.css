@@ -2,10 +2,13 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho , #titulo {
-  color: aliceblue;
-  font-size: 180px;
-  text-align: center;
+#titulo {
+    color: aliceblue;
+    font-size: 180px;
+    text-align: center;  
+}
+
+#cabecalho {
   background-color: green;
   position: fixed;
   top: 0;

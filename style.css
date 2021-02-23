@@ -2,12 +2,13 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+
 #cabecalho {
     top: 0px;
     position: fixed;
     background-color: seagreen;
     padding: 10px 45%;
-
+    border: 2px solid seagreen;
 }
 
 #minha_foto {
@@ -21,7 +22,7 @@ body {
 article {
     position: relative;
     width: 50%;
-    top: 60px;
+    top: 80px;
     margin: 80px 10px;
     text-align: center;
 }

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    }
+
+#cabecalho {
+    width: 1366px;
+    height:100px;
+    border: 0px;
+    background-color:rgb(6, 151, 54);
+    top: 0px;
+    position: absolute;
+} 
+
+#titulo {
+    color:rgb(253, 251, 251);
+    text-align: center;
+    margin-top: 30px;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}

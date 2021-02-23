@@ -10,7 +10,7 @@ body {
     padding: 5px 900px;
     top: 0px;
     position: fixed;
-    border: 
+    border: dotted;
 }
 
 #minha_foto{
@@ -22,12 +22,14 @@ body {
     margin-left: 60px;
     float: left;
     max-width: 35%;
+    
 }
 
 learning-right {
     margin-right: 60px;
     float: right;
     max-width: 35%;
+    
 }
 
 

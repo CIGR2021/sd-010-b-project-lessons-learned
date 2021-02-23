@@ -41,14 +41,12 @@ nav ul li:hover{
 }
 .lado-esquerdo{
   margin-top: 13%;
-  display: inline-block;
   float: left;
   width: 45%;
 }
 .lado-direito{
   margin-top: 13%;
   margin-left: 5%;
-  display: inline-block;
   float: right;
   width: auto;
 }

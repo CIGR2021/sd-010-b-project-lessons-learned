@@ -9,7 +9,14 @@ header {
 
 header a {
   text-decoration: none;
-  color: #03392b;
+  color: rgb(3, 57, 43);
+}
+
+table li {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(36, 36, 36);
+  margin-left: 70px;
 }
 
 nav ul li {
@@ -32,7 +39,7 @@ nav ul li:last-child {
 }
 
 nav ul li:hover {
-  color: #03392b;
+  color: rgb(3, 57, 43);
   transition: color 300ms;
 }
 
@@ -60,13 +67,14 @@ nav ul li:hover {
 
 section img {
   margin: 100px 40px;
-  width: 300px;
+  width: 200px;
   border-radius: 10px;
 }
 
 table {
   width: 600px;
   height: 300px;
+  margin-top: 100px;
 }
 
 table tr th {
@@ -74,19 +82,11 @@ table tr th {
   font-family: sans-serif;
   font-size: 20px;
   letter-spacing: 0.4px;
-  color: #03392b;
-}
-
-table li {
-  font-size: 18px;
-  font-style: italic;
-  color: rgb(36, 36, 36);
-  margin-left: 70px;
+  color: rgb(3, 57, 43);
 }
 
 .infosAboutMe {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: -70px;
 }
@@ -95,6 +95,7 @@ table li {
   width: 30%;
   margin-right: 80px;
   display: inline-block;
+  margin-top: -10px;
 }
 
 .lado-esquerdo p {
@@ -106,6 +107,7 @@ table li {
 .lado-direito {
   width: 40%;
   display: inline-block;
+  margin-top: 100px;
 }
 
 .lado-direito p {
@@ -120,10 +122,8 @@ table li {
   left: 0;
   width: 100%;
   height: 40px;
-
   background-color: rgba(4, 128, 98, 0.8);
   color: whitesmoke;
-
   font-family: sans-serif;
   font-size: 20px;
 }
@@ -134,6 +134,6 @@ table li {
 }
 
 #rodape p:hover {
-  color: #03392b;
+  color: rgb(3, 57, 43);
   transition: color 300ms;
 }

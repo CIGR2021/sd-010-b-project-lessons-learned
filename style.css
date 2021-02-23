@@ -1,15 +1,18 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+        background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-    position: fixed;
-    top: 0px;
-    left:40%
+
+#cabecalho {
+        position: fixed;
+        top: 0px;
+        left:40%;
 }
-h1{
-    text-align: center;
-    line-height: 5px;
+
+h1 {
+      text-align: center;
+       line-height: 5px;
 }
-#minha_foto{
-    width: 200px;
+
+#minha_foto {
+        width: 200px;
 }

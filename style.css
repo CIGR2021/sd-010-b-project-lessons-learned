@@ -14,3 +14,34 @@ img {
 #perfil {
     padding-top: 120px;
 }
+
+#artigos {
+    display: inline-block;
+}
+
+
+.lado-esquerdo {
+    width: 35%;
+    display: inline-block;
+    float: left;
+    margin: 40px;
+    padding: 50px;
+    border: solid black;
+
+}
+
+.lado-direito {
+    width: 35%;
+    display: inline-block;
+    float: right;
+    margin: 40px;
+    padding: 50px;
+    border: solid black;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    padding: 30px;
+    margin: 20px 20px;
+}

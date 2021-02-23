@@ -5,6 +5,7 @@ img {
   width: 300px;
   border-radius: 8px;
   margin: 10px;
+  display: block;
 }
 
 #cabecalho{
@@ -37,8 +38,9 @@ main{
 
 
 
-#licoes_aprendida , #licoes_a_aprender{
+#licoes_aprendidas , #licoes_a_aprender{
   display:inline-block;
+  
 }
 
 

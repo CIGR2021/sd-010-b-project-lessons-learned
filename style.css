@@ -1,21 +1,23 @@
 * {
   background-color: rgb(253, 251, 251);
+  top: 0px;
 }
 
+
 #cabecalho {
-  top: 0.1px;
+  
 }
 
 #titulo {
   background-color: seagreen;
   text-align: center;
-  padding: 25px 23%;
+  padding: 25px 200px;
   position: fixed;
-  margin-top: 0.1px;
+  margin-top: 0px;
 }
 
 img {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 ul {
@@ -24,4 +26,20 @@ ul {
 
 ol {
   display: inline-block;
+}
+
+p {
+  width: 350px;
+  border: solid 1px;
+  text-align: justify;
+  padding: 10px;
+    
+}
+article {
+  display: inline-block;
+  
+}
+aside {
+  display: inline-block ;
+  
 }

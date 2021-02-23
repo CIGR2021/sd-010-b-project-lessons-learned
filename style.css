@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -25,8 +27,4 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 10px;
-}
-
-#licoes_a_aprender {
-  display: block;
 }

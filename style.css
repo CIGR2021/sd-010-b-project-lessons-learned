@@ -21,3 +21,7 @@ body {
   margin-top: 140px;
 }
 
+#rodape a {
+  text-decoration: none;
+}
+

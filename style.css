@@ -40,6 +40,10 @@ ol, ul{
   float: left;
   position: relative;
 }
+article, aside{
+  clear: both;
+  margin: 1.5%;
+}
 #rodape{
   clear: both;
   position: relative;

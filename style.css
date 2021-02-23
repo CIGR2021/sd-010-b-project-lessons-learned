@@ -28,6 +28,20 @@ nav ul li {
     display: inline;
     margin-left: 15px;
 }
+.foto-perfil {
+    margin-top: 160px;
+    background-image: url(img/foto-perfil-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #408080;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#minha_foto {
+    display: none;
+    width: 100%;
+}
 table {
     margin: 10px 0;
     border: 1px solid #408080;

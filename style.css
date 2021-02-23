@@ -45,9 +45,9 @@ section {
   bottom: 200px;
 }
 
-ul 
-, ol {
-  display: inline-block;   
+ul , 
+ol {
+  display: inline-block   
 }
 
 footer {

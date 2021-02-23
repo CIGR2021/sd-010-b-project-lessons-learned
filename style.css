@@ -1,9 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-hr {
+nav {
     position: fixed;
-    margin-top: 0px;
+    top: 0px;
 }
 #minha_foto {
     border: 2px solid rgb(224, 28, 28);

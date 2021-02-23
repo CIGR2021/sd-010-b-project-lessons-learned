@@ -5,11 +5,17 @@ body {
 #cabecalho {
     top: 0px;
     position: fixed;
+    background-color: seagreen;
+    padding: 10px 45%;
+
 }
 
 #minha_foto {
     width: 300px;
-    float: right;
+    position: relative;
+    display: inline-block;
+    left: 500px;
+    border-radius: 50%;
 }
 
 article {
@@ -20,4 +26,14 @@ article {
     text-align: center;
 }
 
+section {
+    text-align: center;
+    width: 30%;
+    position: relative;
+    bottom: 200px;
+}
+
+ul, ol {
+    display: inline-block;   
+}
 

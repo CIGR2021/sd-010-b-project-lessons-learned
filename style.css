@@ -14,14 +14,17 @@ body {
 }
 #licoes_aprendidas {
     font-family: monospace;
+    font-size: 16px;
     color: rgb(126, 81, 81);
 }
 #licoes_a_aprender {
     font-family: monospace;
+    font-size: 16px;
     color: rgb(150, 94, 94);
 }
 article {
     font-family: fantasy;
+    font-size: 18px;
     color: brown;
     text-align: justify;
     width: 700px;
@@ -30,8 +33,9 @@ article {
 }
 section {
     font-family: fantasy;
+    font-size: 18px;
     color: brown;
-    width: 500px;
+    width: 540px;
     text-align: justify;
     float: right;
     margin-bottom: 10px;

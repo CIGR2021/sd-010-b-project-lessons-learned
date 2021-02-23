@@ -4,8 +4,16 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    left: 0px;
 }
 #minha_foto {
     max-width: 150px;
     border-radius: 50%;
+}
+#lessons_learned {
+    position: relative;
+    top: 250px;
 }

@@ -5,3 +5,10 @@ body{
 #cabecalho{
     top: 0px;
 }
+img{
+    width: 300px;
+    border-radius: 8px;
+}
+ul li{
+    list-style-type: square;
+}

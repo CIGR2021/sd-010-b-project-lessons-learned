@@ -29,9 +29,7 @@ main {
   margin: auto;
 }
 
-#licoes {
-  margin-left: 100px;
-}
+
 
 #licoes_aprendidas,
 #licoes_a_aprender {
@@ -49,4 +47,10 @@ main {
 #rodape h4{
     line-height: 40px;
     padding-left: 20px;
+}
+
+#tragetoria{
+    width: 1000px;
+    margin: auto;
+    line-height: 20px;
 }

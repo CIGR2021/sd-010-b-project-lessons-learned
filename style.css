@@ -1,7 +1,13 @@
 * {
     margin: 0;
+    max-width: 1366px;
+    max-height: 768px;
     }
 
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0px;
+}
 #cabecalho {
     width: 1366px;
     height:100px;
@@ -9,17 +15,12 @@
     background-color:rgb(6, 151, 54);
     top: 0px;
     position: absolute;
-    
 } 
 
 #titulo {
     color:rgb(253, 251, 251);
     text-align: center;
     margin-top: 30px;
-}
-
-body {
-    background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
@@ -43,11 +44,20 @@ body {
     border: 0px;
     top: 600px;
     background-color:rgb(6, 151, 54);
-    position: fixed;
-    
+    position: absolute;
 }
 
 #nav {
     position: absolute;
-    top: 500px
+    top: 450px
+}
+
+#artigo1 {
+    position:absolute;
+    top: 500px;
+}
+
+#secao1 {
+    position: absolute;
+    top: 560px;
 }

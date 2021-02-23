@@ -1,12 +1,13 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
+  
 }
-#cabecalho{
-    top: 0px;
-    background-color: green;
-    color: white;
+#cabecalho {
+  top: 0px;
+  background-color: green;
+  color: white;
 }
-#minha_foto{
-    border-radius: 20px;
-    width: 200px;
+#minha_foto {
+  border-radius: 20px;
+  width: 200px;
 }

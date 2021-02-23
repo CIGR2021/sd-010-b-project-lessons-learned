@@ -6,9 +6,10 @@ body {
     top: 0px;
     padding: 15px;
     border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
 }
 #minha_foto {
-    border: 2px solid rgb(224, 28, 28);
+    border: 2px solid rgb(70, 62, 62);
     margin-top: 100px;
 }
 #licoes_aprendidas {
@@ -25,13 +26,15 @@ article {
     text-align: justify;
     width: 700px;
     display: inline-block;
+    margin-bottom: 10px;
 }
-aside {
+section {
     font-family: fantasy;
     color: brown;
     width: 500px;
     text-align: justify;
     float: right;
+    margin-bottom: 10px;
 }
 footer {
     font-family: cursive;

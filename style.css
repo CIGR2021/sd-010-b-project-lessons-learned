@@ -5,9 +5,18 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-}
+};
 
 #titulo {
     text-align: center;
+};
 
+.about-learning-left {
+    text-align: justify;
+    margin-left: 200px;
+};
+
+.about-me-right {
+    text-align: justify;
+    float: right;
 };

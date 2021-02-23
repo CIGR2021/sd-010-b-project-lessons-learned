@@ -12,15 +12,21 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    padding: 10px 0;
+    padding: 0 50px;
     background-color: #44B7CB;
-    margin: auto;
     width: 100%;
 }
 #titulo {
     font-size: 48px;
     color: #fff;
     text-align: center;
+}
+nav ul {
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    margin-left: 15px;
 }
 table {
     margin: 10px 0;

@@ -1,5 +1,5 @@
 *{
-    margin-top: 0px;
+    margin: 0px;
     padding: 0px;
 }
 body{
@@ -7,11 +7,10 @@ body{
 }
 #cabecalho{
     background-color: aquamarine;
-    display: inline-block;
     position: fixed;
     top: 0px;
     text-align: center;
-
+    width: 100%;
  
 }
 #minha_foto{
@@ -22,4 +21,7 @@ body{
 }
 h1{
     margin-left: auto;
+}
+.topo{
+    margin-top: 60px;
 }

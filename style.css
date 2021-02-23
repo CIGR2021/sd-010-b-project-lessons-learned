@@ -43,6 +43,27 @@ body {
 #minha_foto {
   width: 200px;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 150px;
   border-radius: 50%;
+}
+
+#section_img {
+  width: 15%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.section_list {
+  background-color: rgba(243, 241, 241, 0.973);
+}
+
+.article_list {
+  
+  width: 40%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.clear_both {
+  clear: both;
 }

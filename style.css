@@ -1,15 +1,15 @@
 body {
-max-width: 1366px;
-max-height: 768px;
-background-color: rgb(253, 251, 251);
+  max-width: 1366px;
+  max-height: 768px;
+  background-color: rgb(253, 251, 251);
 }
 
 main {
-max-width: 1366px;
-max-height: 768px;
+  max-width: 1366px;
+  max-height: 768px;
 }
 
 #cabecalho {
-background-color: blueviolet;
-top: 0;
+  background-color: blueviolet;
+  top: 0;
 }

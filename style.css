@@ -80,3 +80,23 @@ table, th, td {
       padding-right: 5px;
       padding-left: 5px;
   }
+
+  #google-fonts {
+      display: block;
+  }
+
+  .lado-esquerdo {
+      display: inline-block;
+      max-width: 49%;
+      margin-right: auto;
+      margin-left: auto;
+      vertical-align: top;
+  }
+
+  .lado-direito {
+      display: inline-block;
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: top;
+  }

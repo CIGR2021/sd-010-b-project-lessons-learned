@@ -5,3 +5,7 @@
 header {
     top: 0px;
 }
+
+.menu {
+    display: inline;
+}

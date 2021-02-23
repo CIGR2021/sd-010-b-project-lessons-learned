@@ -8,8 +8,7 @@ body {
     height: 90px;
     top: 0px;
     position: fixed;
-    width: 100%; 
-    
+    width: 100%;  
 }
 
 #titulo {
@@ -17,4 +16,9 @@ body {
     margin-top: 10px; 
     padding-top: 0px;
     color: #fff;
+}
+
+#minha_foto {
+    width: 160px;
+    padding-top: 30px;
 }

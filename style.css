@@ -85,3 +85,19 @@ aside {
   left: 30px;
   width: 95%;
 }
+
+#tabela {
+  position: relative;
+  top: 150px;
+  left: 30px;
+  border: 2px solid;
+  border-collapse: collapse;
+  width: 100px;
+}
+
+#footer-correction {
+  position: relative;
+  top: 150px;
+  height: 80px;
+  width: 100%;
+}

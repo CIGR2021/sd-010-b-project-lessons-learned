@@ -1,10 +1,9 @@
-body {
+  body {
     background-color: rgb(253, 251, 251);
     font-family: Helvetica, sans-serif;
     line-height: 20px;
 }
-
-h3 {
+  h3 {
     position: relative;
     top: 130px;
     width: 50%;
@@ -12,7 +11,7 @@ h3 {
     color: black;
     font-size: 20px;
 }
-#cabecalho {
+  #cabecalho {
     top: 0px;
     position: fixed;
     background-color: seagreen;
@@ -20,40 +19,34 @@ h3 {
     border: 2px solid seagreen;
     white-space: nowrap;
 }
-
-#minha_foto {
+  #minha_foto {
     width: 300px;
     position: relative;
     display: inline-block;
     left: 500px;
     border-radius: 50%;
 }
-
-article {
+  article {
     position: relative;
     width: 50%;
     top: 80px;
     margin: 80px 10px;
     text-align: center;
 }
-
-section {
+  section {
     text-align: center;
     width: 30%;
     position: relative;
     bottom: 200px;
 }
-
-ul, ol {
+  ul, ol {
     display: inline-block;   
 }
-
-footer {
+  footer {
     padding: 4px;
     background-color: rgb(245, 231, 231);
 }
-
-a {
+  a {
     text-decoration: none;
-    
+
 }

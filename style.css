@@ -11,7 +11,7 @@ body {
   font-size: 30px;
   color: rgb(41, 41, 41);
   line-height: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: sans-serif;
 }
 
 section img {
@@ -24,4 +24,15 @@ table {
 
 table tr th {
   padding: 10px;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  display: inline-block;
+}
+
+.lado-direito {
+  margin-left: 20px;
+  width: 40%;
+  display: inline-block;
 }

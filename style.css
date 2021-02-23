@@ -6,7 +6,7 @@ body {
     background-color: rgb(253, 251, 251);
     padding: 0px;
     margin: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100%;
     width: 100%;
 }
@@ -58,6 +58,7 @@ a:hover {
 #main {
     position: relative;
     z-index: 1;
+    margin-top: 10px;
 }
 
 #nome {
@@ -85,11 +86,30 @@ a:hover {
     top: 100px;
     text-align: justify;
     position: relative;
+    margin: 0 10px 0 10px;
+    width: 856px;
+    float: left;
+}
+
+p {
     display: inline-flex;
 }
 
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .10rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px green;
+    font-style: italic;    
+}
+
+aside > p {
+    margin: .5rem;
+}
+
 #rodape {
-    margin-top: 100px;
+    margin-top: 650px;
     text-align: right;
     bottom: 0px;
     width: 100%;

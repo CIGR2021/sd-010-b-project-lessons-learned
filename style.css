@@ -1,15 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   position: fixed;
   top: 0px;
-  background-color: #3c6e71;
+  background-color:rgb(40, 91, 95);
   width: 80%;
 }
+
 #titulo {
   text-align: center;
 }
+
 #minha_foto {
   width: 150px;
   margin-top: 80px;

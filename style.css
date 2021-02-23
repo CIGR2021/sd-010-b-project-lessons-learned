@@ -76,7 +76,6 @@ main figure img {
   width: 40%;
   text-align: start;
   vertical-align: top;
-
 }
 
 aside {
@@ -87,7 +86,6 @@ aside {
   height: 100%;
   margin-left: 90px;
   vertical-align: top;
-
 }
 
 aside p {
@@ -109,12 +107,10 @@ article {
   width: 80%;
   padding: 20px;
   text-align: start;
-
 }
 
 article p {
   margin: 0px;
-
 }
 
 #rodape {
@@ -143,7 +139,6 @@ article p {
 hr {
   margin: 0;
 }
-
 
 .img-foot-section {
   position: relative;

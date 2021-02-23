@@ -11,8 +11,13 @@ body {
   text-align: center;
 }
 
+#cabecalho ul li {
+  list-style-type: none;
+  margin-right: 600px;
+}
+
 #minha_foto {
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 140px;
 }
 

@@ -54,14 +54,22 @@ body {
 }
 
 .section_list {
-  background-color: rgba(243, 241, 241, 0.973);
+  background-color: rgba(208, 247, 208, 0.973);
+  width: 40%;
+  text-align: center;
+  margin-left: 100px;
+  display: inline-block;
 }
 
-.article_list {
-  
+#licoes_aprendidas, #licoes_a_aprender {
+  text-align: left;
+}
+
+.section_aside {
+  background-color: rgba(208, 247, 208, 0.973);
   width: 40%;
-  float: left;
-  margin-bottom: 15px;
+  text-align: center;
+  display: inline-block;
 }
 
 .clear_both {

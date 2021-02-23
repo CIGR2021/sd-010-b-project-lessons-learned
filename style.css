@@ -1,22 +1,35 @@
 body {
-    background-color: rgb(253, 251, 251);
-}    
+  background-color: rgb(253, 251, 251);
+}
+
 header {
-    position: fixed;
-    top: 0px;    
+  background-color: tomato;
+  width: 100%;
+  position: fixed;
+  top: 0px;  
 }
-header h1{
-    background-color: salmon;
-    margin: auto;
-    padding-left: 15px;
-    
+
+header h1 {  
+  margin: auto;
+  padding-left: 15px;
 }
+
 aside {
-    width: 30%;
-    float: right;
-    padding-top: 40px;
+  width: 30%;
+  float: right;
+  padding-top: 40px;
 }
+nav {
+  padding-top: 30px;
+}
+nav li{
+  display: inline;
+  font-size: 30px;
+  background-color: slategrey;
+  padding: 0 40px;
+  margin: 0 10px;
+}
+
 #minha_foto {
-    width: 300px;
-    padding-top: 40px;
+  width: 300px;
 }

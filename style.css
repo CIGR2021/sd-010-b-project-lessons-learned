@@ -16,19 +16,16 @@ body {
 }
 
 article p {
-    line-height: 30px;  
-    color: blue;
-    font-size: 20px;
-   
+  line-height: 30px;
+  color: blue;
+  font-size: 20px;
 }
 
-aside p{
-
-    line-height: 30px;  
+aside p {
+  line-height: 30px;
 }
 
 #minha_foto {
-   
   width: 300px;
   margin-top: 160px;
   border: 1px solid black;
@@ -36,49 +33,41 @@ aside p{
   padding: 5px;
 }
 #licoes_aprendidas {
-
-
 }
-#licoes_a_aprender{
-
+#licoes_a_aprender {
 }
-#rodape{
-
-
+#rodape {
 }
 
-nav ul li{
-    list-style-type: none;
-
+nav ul li {
+  list-style-type: none;
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-.tabela{
-
-    margin-bottom: 15px;
+.tabela {
+  margin-bottom: 15px;
 }
-.lado-esquerdo{
-border: 1px solid black;
-width: 40%;
-display: inline-block;
-
-
+.lado-esquerdo {
+  border: 1px solid black;
+  width: 40%;
+  display: inline-block;
 }
-.lado-direito{
-display: inline-block;
-border: 1px solid black;
-width: 40%;
-height: 446px;
-margin-left: 5px;
-vertical-align: top;
+.lado-direito {
+  display: inline-block;
+  border: 1px solid black;
+  width: 40%;
+  height: 446px;
+  margin-left: 5px;
+  vertical-align: top;
 }
 
-.lado-direito p{
-    text-align: center;
-    margin-top: 25%;
-    }
+.lado-direito p {
+  text-align: center;
+  margin-top: 25%;
+}

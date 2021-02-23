@@ -14,8 +14,13 @@ body {
   text-align: center;
 }
 
+nav li {
+    display: inline;
+    margin-left: 30px;
+}
+
 .main {
-  margin-top: 90px;
+  margin-top: 120px;
 }
 
 .about-learning-left {

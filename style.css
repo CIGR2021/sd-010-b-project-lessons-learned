@@ -4,7 +4,7 @@ body {
     background-color: rgb(253, 251, 251)
 }
 
-.fixmenu {
+#cabecalho {
     position: fixed;
     top: 0;
     background-color: rgb(235, 212, 212);

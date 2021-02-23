@@ -1,9 +1,9 @@
 * {
-  margin:0;
-  font-family: 'Roboto';
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-body{ 
+body { 
   background-color: rgb(253, 251, 251);
 }
 
@@ -14,8 +14,8 @@ h1 h2 {
 #cabecalho {
   width: 100vw;
   position: fixed;
-  background-color:chocolate;
-  top: 0px;
+  background-color: chocolate;
+  top: 0;
   padding: 15px;
 }
 
@@ -31,7 +31,7 @@ h1 h2 {
 }
 
 #titulo {
-  color:blanchedalmond;
+  color: blanchedalmond; 
 }
 
 .presentation {

@@ -1,16 +1,24 @@
-body {
-  background-color: rgb(253, 251, 251);
+ body {
+  background-color: rgb(253, 251, 251); 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+ }
+ #cabecalho {
+ top: 0px;
+ background-color: green;
+ color: white;
 
-}
-#cabecalho {
-  top: 0px;
-  background-color: green;
-  color: white;
-}
-#minha_foto {
-  border-radius: 20px;
-  width: 200px;
-}
-#table {
-
+ }
+ #minha_foto {
+ border-radius: 20px;
+ width: 200px;
+ }
+.lado-esquerdo, .lado-direito  {
+margin:5px;
+margin-right: 200px;
+padding:5px ;
+border:5px dashed;
+width: 400px;
+display: inline-block;
 }

@@ -1,9 +1,11 @@
-body{
-  color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
-nav{
+
+nav {
   margin-top: 0px;
 }
-#minha_foto{
+
+#minha_foto {
   width: 200px;
 }

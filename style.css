@@ -7,7 +7,6 @@
 #cabecalho {
 
     display: block;
-    position: fixed;
     top: 0px;
 
 }
@@ -21,10 +20,5 @@
 #minha_foto {
 
     width: 300px;
-
-}
-
-#licoes-aprendidas {
-
 
 }

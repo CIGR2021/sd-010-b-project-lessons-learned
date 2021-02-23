@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+header{
+    background-color: rgb(111, 202, 111);
+    padding-top: 2px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 30px;
+}

@@ -14,23 +14,27 @@
 
 #titulo {
   text-align: center;
-  margin: 0px auto 0px auto;
-  padding: 0px auto 0px auto;
+  margin: 0.1px auto;
+  padding: 0.1px auto;
 }
 
 #minha_foto {
   width: 200px;
   height: 200px;
   border: 1px solid black;
-  margin: 0px auto 0px auto;
-  padding: 0px auto 0px auto;
+  margin: 0.1px auto;
+  padding: 0.1px auto;
 }
 
-a,li,th,td {
+a,
+li,
+th,
+td {
   font-size: 14px;
 }
 
-table, th {
+table,
+th {
   border: 1px solid black;
 }
 

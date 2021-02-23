@@ -24,3 +24,11 @@ body {
   height: 300px;
   border-radius: 40%;
 }
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}

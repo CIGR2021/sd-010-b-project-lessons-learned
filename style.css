@@ -60,3 +60,7 @@ a:hover {
 #rodape p{
     padding-top: 15px;
 }
+
+.listas div {
+    display: inline-block;
+}

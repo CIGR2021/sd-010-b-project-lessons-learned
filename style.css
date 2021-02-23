@@ -1,11 +1,22 @@
 body {
     background-color: rgb(253, 251, 251);
-}
+}    
 header {
     position: fixed;
-    top: 0px;
-    display: block;    
+    top: 0px;    
+}
+header h1{
+    background-color: salmon;
+    margin: auto;
+    padding-left: 15px;
+}
+aside {
+    width: 30%;
+    float: right;
+    padding-top: 40px;
+    border: solid;
 }
 #minha_foto {
     width: 300px;
+    padding-top: 40px;
 }

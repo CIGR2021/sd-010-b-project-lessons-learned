@@ -12,3 +12,10 @@ body {
   background-color: rgb(165, 131, 197);
 }
 
+#minha_foto{
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+   
+}

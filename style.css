@@ -1,7 +1,21 @@
-header {
-    position: fixed;
+*{
+  margin: 0; padding: 0;
 }
 
+#cabecalho {
+top: 0px;
+position: fixed;
+
+
+
+}
+
+#titulo {
+  
+
+}
+
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color:  rgb(253, 251, 251);
 }

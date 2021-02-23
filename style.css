@@ -1,5 +1,7 @@
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
   background-color: rgb(253, 251, 251);
   margin: 0;
 }
@@ -30,8 +32,8 @@ a {
   text-decoration: none;
   color: blue;
 }
-a:hover{
-  color:black;
+a :hover {
+  color: black;
   opacity: 0.4;
 }
 
@@ -45,6 +47,14 @@ section {
 
 .lado-direito {
   display: inline-block;
+}
+
+article {
+  line-height: 23px;
+}
+
+aside {
+  line-height: 23px;
 }
 
 h3 {

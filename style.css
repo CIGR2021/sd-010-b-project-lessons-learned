@@ -77,7 +77,8 @@ body {
 
 #licoes{
   text-align: center;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 50px 0; 
+  
 }
 
 #licoes h2, h3 {
@@ -85,8 +86,27 @@ body {
 }
 
 .tabela-licoes{
-  margin: 25px auto;
+  margin: 25px auto;  
+  border: 1px solid #034d3b;    
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
 }
+
+.tabela-licoes td{
+  padding: 5px 35px;
+  
+}
+
+.tabela-licoes h3 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #16856b;  
+}
+
+
+.tabela-licoes ul, ol{
+  text-align: left;  
+} 
+
 
 
 

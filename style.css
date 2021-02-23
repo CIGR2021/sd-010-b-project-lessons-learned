@@ -17,3 +17,17 @@ body {
     border-radius: 10%;
     width: 250px;
 }
+
+.learning-left {
+    margin-left: 60px;
+    float: left;
+    max-width: 35%;
+}
+
+learning-right {
+    margin-right: 60px;
+    float: right;
+    max-width: 35%;
+}
+
+

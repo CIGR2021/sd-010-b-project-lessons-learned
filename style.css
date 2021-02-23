@@ -2,38 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
-/*
-COLORS:
-
-white: #FFFFFF
-light-gray: #A7A7A7
-gray: #E8E9EB
-DARK-gray: #606060
-accent: #03AFC2
-DARK-blue: #223843
-
-*/
 
 @keyframes moveInLeft {
   0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  80% {
+  opacity: 0;
+  transform: translateX(-100px);
   }
   100% {
-    opacity: 1;
-    transform: translate(0);
+  opacity: 1;
+  transform: translate(0);
   }
 }
 
 @keyframes moveInRight {
   0% {
-    opacity: 0;
-    transform: translateX(100px);
+  opacity: 0;
+  transform: translateX(100px);
   }
-  80% {
-  }
+
   100% {
     opacity: 1;
     transform: translate(0);
@@ -42,42 +28,42 @@ DARK-blue: #223843
 
 @keyframes moveInBottom {
   0% {
-    opacity: 0;
-    transform: translateY(100px);
+  opacity: 0;
+  transform: translateY(100px);
   }
   80% {
   }
   100% {
-    opacity: 1;
-    transform: translate(0);
+  opacity: 1;
+  transform: translate(0);
   }
 }
 
 @keyframes opacity {
   0% {
-    opacity: 0;
+  opacity: 0;
   }
   100% {
-    opacity: 1;
+  opacity: 1;
   }
 }
 
 @keyframes rota {
   0% {
-    transform: rotate(0deg);
+  transform: rotate(0deg);
   }
   100% {
-    transform: translateX(-22px) rotateY(180deg);
+  transform: translateX(-22px) rotateY(180deg);
   }
 }
 
-.fab {
+  .fab {
   font-size: 2.1rem;
   color: #b13f3f;
   margin: 30px 30px 30px;
 }
 
-.far {
+  .far {
   color: white;
   font-size: 1.5rem;
   position: absolute;
@@ -86,29 +72,26 @@ DARK-blue: #223843
   animation-duration: 3s;
 }
 
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+  body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+  #cabecalho {
   position: fixed;
   top: 0px;
   background-color: black;
   width: 100%;
   height: 100px;
   z-index: 2;
-
-  /* clear: both;
-  z-index: 10; */
 }
 
-.navbar {
+  .navbar {
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -118,15 +101,15 @@ body {
   height: 100px;
 }
 
-.nav-list {
+  .nav-list {
   display: flex;
   margin-right: -28px;
 }
-.nav-list li {
+  .nav-list li {
   list-style: none;
 }
 
-.navbar h1 {
+  .navbar h1 {
   color: #b13f3f;
   font-family: "Poppins", "Sans-serif";
   margin: 30px 0 30px 0px;
@@ -135,13 +118,13 @@ body {
   animation-duration: 3s;
 }
 
-.landing {
+  .landing {
   /* background-color: rgb(241, 241, 241); */
   width: 100%;
   background-color: black;
   height: 100vh;
 }
-.landing-content {
+  .landing-content {
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -151,7 +134,7 @@ body {
   align-items: center;
 }
 
-.title {
+  .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,7 +142,7 @@ body {
   line-height: 100px;
 }
 
-.title h1 {
+  .title h1 {
   color: #fdfbfb;
   font-size: 3.7rem;
   font-family: "Poppins";
@@ -171,12 +154,12 @@ body {
   line-height: 130%;
 }
 
-.last-name {
+  .last-name {
   margin-left: 14rem;
   display: inline-block;
 }
 
-h2 {
+  h2 {
   color: #606060;
   font-size: 33px;
   font-family: "Merriweather";
@@ -189,7 +172,7 @@ h2 {
   margin-top: -10px;
 }
 
-#minha_foto {
+  #minha_foto {
   width: 500px;
   border-radius: 50% 0px 100% 0px;
   z-index: 1;
@@ -199,19 +182,19 @@ h2 {
   margin-top: 50px;
 }
 
-.btns {
+  .btns {
   text-align: left;
   margin-top: -15px;
   animation-name: opacity;
   animation-duration: 2s;
 }
 
-#content {
+  #content {
   height: 100vh;
 }
 
-.btn-left,
-.btn-right {
+  .btn-left,
+  .btn-right {
   text-decoration: none;
   color: white;
   border: 1px solid black;
@@ -227,11 +210,11 @@ h2 {
   margin-right: 25px;
 }
 
-.btn-right {
+  .btn-right {
   border: 2px solid #b13f3f;
   background-color: black;
 }
-.btn-right:hover {
+  .btn-right:hover {
   background-color: #b13f3f;
   transition: 0.6s;
 }

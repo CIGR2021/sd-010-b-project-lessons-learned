@@ -11,8 +11,11 @@ h1 {
 
 #cabecalho {
   position: fixed;
-  width: 90vw;
-  margin-left: 5vw;
+  width: 100vw;
   background-color: green;
   top: 0px;
+}
+
+#minha_foto {
+  margin-top: 79.88px;
 }

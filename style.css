@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+header h1{
+    text-align: center;
+    margin:auto;
+}
+header li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}

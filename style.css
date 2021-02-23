@@ -20,7 +20,8 @@ p {
   text-align: justify;
 }
 
-.minha_foto {
+#minha_foto {
   width: 200px;
   margin-left: 40%;
+  padding-top: 30px;
 }

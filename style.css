@@ -41,3 +41,11 @@ body {
 #licoes_aprendidas #licoes_a_aprender {
   font-size: 18px;
 }
+
+#rodape {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(175, 173, 173);
+  padding: 10px 0px 10px 30px;
+}

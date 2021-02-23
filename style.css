@@ -34,3 +34,17 @@ aside{
     color: blue;
     line-height: 200%;
 }
+
+.lado-esquerdo{
+    width: 33%;
+}
+
+.lado-direito{
+    width: 33%;
+    position: relative;
+    left: 650px;
+    bottom: 128px;
+    margin-bottom: 0px;
+    
+}
+

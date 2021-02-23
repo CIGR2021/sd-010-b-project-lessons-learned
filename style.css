@@ -2,7 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
 }
 #cabecalho{
-    
+    position: fixed;
+    top: 0pt;
     background-color: rgb(69, 170, 2);
     padding: 40px;
 }

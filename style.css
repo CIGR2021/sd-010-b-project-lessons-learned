@@ -1,21 +1,36 @@
 body {
     background-color: rgb(253,251,251);
-};
+}
 
 #cabecalho {
+    background-color: seagreen;
+    z-index: 2;
+    width: 100%;
     position: fixed;
-};
+    top: 0;
+}
 
 #titulo {
     text-align: center;
-};
+}
+
+.main {
+    margin-top: 90px;
+}
 
 .about-learning-left {
     text-align: justify;
-    margin-left: 200px;
-};
+}
 
 .about-me-right {
     text-align: justify;
     float: right;
-};
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+}
+
+#rodape {
+
+}

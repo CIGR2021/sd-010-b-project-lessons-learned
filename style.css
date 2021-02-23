@@ -33,3 +33,28 @@ body{
     position: absolute;
     
 }
+
+#licoes_aprendidas{
+    color: black;
+    top:65%;
+    left: 20%;
+    position: absolute;
+    font-size: 17px;
+}
+
+h3{
+    color: #204a6b;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+    border: #D3D3D3;
+    border-style: groove;
+}
+
+li:hover{
+    border-width: 1px;
+    background-color: #204a6b;
+    color: #E3805A;
+}
+
+

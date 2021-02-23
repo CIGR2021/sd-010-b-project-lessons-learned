@@ -24,10 +24,22 @@ header#cabecalho {
     padding: 15px;
     padding-bottom: 0px;
 }
+
 p {
     padding-left: 15px;
     margin-top: 0px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: darkgreen;
+    color: lightcyan;
+}
+
  #licoes {
      padding-left: 20px;
 }

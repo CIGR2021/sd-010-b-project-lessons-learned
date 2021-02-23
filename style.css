@@ -44,6 +44,11 @@ body {
   margin: 200px  2%  50px;
 }
 
+.espaco-branco{
+  width: 100vw;
+  height: 200px;
+}
+
 #minha_foto {
   width: 200px;
   display: block;
@@ -68,6 +73,19 @@ body {
 .me a:hover{
   background-color: #034d3b;
   padding: 9px 16px;  
+}
+
+#licoes{
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+#licoes h2, h3 {
+  color: #034d3b;  
+}
+
+.tabela-licoes{
+  margin: 25px auto;
 }
 
 

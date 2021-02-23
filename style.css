@@ -37,3 +37,12 @@ article p{
     margin-left: 350px;
     
 }
+
+aside{
+    position: absolute;
+    margin-top: -260px;
+}
+
+aside p{
+    max-width: 300px;
+}

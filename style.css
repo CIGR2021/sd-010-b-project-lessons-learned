@@ -10,10 +10,9 @@ body{
 
 }
 
-
-
 #minha_foto{
     width: 250px;
+    padding-top:90px;
 }
 
 #licoes_a_aprender {
@@ -23,4 +22,10 @@ body{
 
 #licoes_aprendidas{
     display: inline-block;
+}
+
+#aside_aprendizado{
+    display: inline-block;
+    float: right;
+    width: 30%;
 }

@@ -5,17 +5,17 @@
 
 body {
     background-color: rgb(253,251,251);
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
 h1 {
     font-size: 30px;
-    color: #fff;
+    color: #ffffff;
 }
 
 #cabecalho {
-    text-align:center;
+    text-align: center;
     background-color: rgb(11, 148, 23);
 }
 
@@ -25,7 +25,7 @@ h1 {
     display: inline;
     text-transform: uppercase;
 }
-img  {
+img {
     width: 150px;
     height: 200px;
 }

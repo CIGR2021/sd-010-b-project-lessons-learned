@@ -1,8 +1,157 @@
 body {
-  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-header {
+h2 {
+  font-size: 2em;
+}
+
+#cabecalho {
+  background-color: #DBFCFF;
+  font-family: monospace;
   position: fixed;
   top: 0px;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.cabecalho__navegacao ul{
+  list-style: none;
+  text-align: center;
+}
+
+.cabecalho__navegacao ul li {
+  display: inline;
+  padding: 0 5em;
+}
+
+.cabecalho__navegacao ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+.photo {
+  background-color: #7F96FF ;
+  padding: 6em 2em 4em 2em;
+}
+
+.photo h2 {
+  text-align: center;
+}
+
+#minha_foto {
+  border-radius: 15px;
+  height: 400px;
+  margin-right: 2em ;
+}
+
+.table {
+  display: inline-block;
+  margin: 0 6em 3em;
+}
+
+table, th, td {
+  background-color: #A6CFD5; 
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: .5em;
+  text-align: center;
+  height: 50px;
+}
+
+span {
+  font-weight: bold;
+}
+
+caption {
+  padding-bottom: .5em;
+  text-align: left;
+}
+
+.lists {
+  background-color: #E56399 ;
+  padding: 4em 2em 4em 2em;
+  text-align: center;
+  color: white;
+}
+
+.lists h2 {
+    text-align: center;
+    margin: 0 0 .75em;
+}
+
+.list {
+  display: inline-block;
+  padding: 0 8em;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.list h3 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  font-size: 1.2em;
+  line-height: 1.5;
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+
+}
+.learning {
+  background-color: #320E3B;
+  color: white;
+  padding: 2em 2em 4em 2em;
+}
+
+.learning h2 {
+  text-align: center;
+  padding-bottom: .75em;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 60%;
+  line-height: 2;
+  margin: 0 1em;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 30%;
+  line-height: 1.5;
+  padding-left: 2em;
+  vertical-align: top;
+  margin-top: 3em;
+  border-left: 1px solid black;
+}
+
+#rodape {
+  background-color: #A6CFD5;
+  text-align: center;
+  padding: 1em 0;
+}
+
+#rodape a {
+  background-color: aliceblue;
+  border: 1px solid black;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: .2em;
+}
+
+#rodape p{
+  margin: 0 0 .5em 0;
 }

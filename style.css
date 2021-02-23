@@ -1,5 +1,4 @@
 * {
-    padding: 0px;
     margin: 0px;
 }
 
@@ -25,4 +24,33 @@ header{
     text-align: left;
     padding-left: 30px;
     padding-bottom: 20px;
+}
+
+#minha_foto{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: auto;
+    height: 150px;
+}
+#licoes_aprendidas{
+    padding-top: 20px;
+
+}
+
+#licoes_a_aprender{ 
+    padding-top: 20px;
+    margin-left: -250px;
+
+}
+
+.lists{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.list-title{
+    padding-top: 50px;
+    padding-left: 30px;
 }

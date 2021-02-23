@@ -15,7 +15,8 @@ body {
 }
 
 #minha_foto {
-    width: 300px;
+    width: 250px;
+    padding-top: 60px;
 }
 
 aside {
@@ -25,3 +26,24 @@ aside {
     font-style: italic;
     background-color: lightgray;
   }
+
+#navegacao a {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#navegacao a:link {
+    color: white;
+}
+
+#navegacao a:visited {
+    color: yellow;
+}
+
+#navegacao a:hover {
+    color: red;
+}
+

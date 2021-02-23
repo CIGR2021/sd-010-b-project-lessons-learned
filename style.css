@@ -28,8 +28,8 @@ body{
     width: 200px; 
     height: 200px;
     margin: auto;
-    top:20%;
-    left: 40%;
+    top:150px;
+    left: 500px;
     position: absolute;
     
 }
@@ -38,6 +38,15 @@ body{
     color: black;
     top:65%;
     left: 20%;
+    position: absolute;
+    font-size: 17px;
+    display: inline-block;
+}
+
+#licoes_a_aprender{
+    color: black;
+    top:65%;
+    left: 55%;
     position: absolute;
     font-size: 17px;
 }

@@ -17,6 +17,7 @@ body {
     font-size: 16px;
     font-style: italic;
     font-weight: 700;
+    letter-spacing: 2px;
     color: rgb(126, 81, 81);
 }
 #licoes_a_aprender {
@@ -24,6 +25,7 @@ body {
     font-size: 16px;
     font-style: italic;
     font-weight: 700;
+    letter-spacing: 2px;
     color: rgb(150, 94, 94);
 }
 article {
@@ -31,6 +33,7 @@ article {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    letter-spacing: 1px;
     color: brown;
     text-align: justify;
     width: 700px;
@@ -42,6 +45,7 @@ section {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    letter-spacing: 1px;
     color: brown;
     width: 540px;
     text-align: justify;
@@ -53,6 +57,7 @@ footer {
     font-size: 17px;
     font-style: italic;
     font-weight: 900;
+    letter-spacing: 2px;
     color: black;
 }
 a:hover {

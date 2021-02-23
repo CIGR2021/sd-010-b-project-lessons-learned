@@ -25,7 +25,7 @@ img {
 ul {
   display: inline-block;
   color: rgb(23, 66, 50);
-}
+}articl
 
 ol {
   display: inline-block;
@@ -45,7 +45,8 @@ p {
 }
 
 .lado-direito {
-  display: inline-block;
+  float: left;
+  height: 300px;
 }
 
 .lado-esquerdo {

@@ -39,3 +39,12 @@ p {
 #licoes_a_aprender {
     padding-left: 60px;
 }
+
+#rodape {
+    background-color: lightgray;
+    height: 50px;
+    margin: 0;
+}
+#rodape p{
+    padding-top: 15px;
+}

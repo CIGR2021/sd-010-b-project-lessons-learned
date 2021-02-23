@@ -59,7 +59,7 @@ body {
 .lista {
   padding: 1em;
   display: inline-block;
-  width: 275px;
+  width: 350px;
 }
 
 #sobre {
@@ -68,11 +68,24 @@ body {
 }
 
 #sobre_aluno , #sobre_aprendizado {
-  width: calc(60% - 1em);
+  width: 48%;
   display: inline-block;
   margin: 0 1%;
   line-height: 1.5em;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+#tabela {
+  clear: both;
+}
+
 
 #rodape {
   position: relative;

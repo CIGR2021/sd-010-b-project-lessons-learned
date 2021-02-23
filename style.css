@@ -115,14 +115,14 @@ body {
   line-height: 1.8;
 }
 
-article{
+.lado-esquerdo{
   float: left;
   width: 45%;
   text-align: justify;
   padding: 0 20px;
 }
 
-.resumo-aside{
+.lado-direito{
   float: right;
   width: 45%;
   text-align: justify;

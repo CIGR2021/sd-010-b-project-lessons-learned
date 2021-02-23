@@ -5,6 +5,14 @@ body {
 header {
     top: 0px;
     position: fixed;
+    margin: 0;
+    margin-left: -9px;
+    padding: auto;
+    border: 5px;
+    border-color: green;
+    border-style: solid;
+    background-color: greenyellow;
+    
 }
 
 #minha_foto {
@@ -12,5 +20,5 @@ header {
 }
 
 nav {
-    padding-top: 70px;
+    padding-top: 100px;
 }

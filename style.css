@@ -1,7 +1,17 @@
 body {
-  background-color: rgb(253, 251, 251);}
+  background-color: rgb(253, 251, 251);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-#cabecalho {
+#cabecalho, .navbar {
   position: fixed;
   margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color:red;
+}
+
+#minha_foto {
+  margin-top: 60px;
 }

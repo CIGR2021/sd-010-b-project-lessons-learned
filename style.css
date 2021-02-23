@@ -33,3 +33,9 @@ h1 {
 p {
   line-height: 2;
 }
+
+.lado-direito, .lado-esquerdo {
+	display: inline-block;
+	margin: 10px;
+	width: 40%;
+}

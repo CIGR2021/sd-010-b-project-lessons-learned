@@ -14,6 +14,11 @@ body {
     background-color: rgb(82, 82, 236);
 }
 
+.navigation {
+    
+}
+
+
 #titulo {
     text-align: center;
     margin: 0;
@@ -32,21 +37,19 @@ body {
 }
 
 .section-learn {
-    display: inline-block;
+    display: flex;
     justify-content: space-around;
     text-align: justify;
 }
 
-.container-learn {
-    justify-content: space-around;
+#licoes_aprendidas {
+    border: grey solid;
+    padding: 50px;
 }
 
-
-.licoes_aprendidas {
+#licoes_a_aprender {
     border: grey solid;
     padding: 40px;
 }
-
-
 
 

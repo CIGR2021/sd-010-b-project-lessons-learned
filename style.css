@@ -63,3 +63,7 @@ body {
     position: inline-block;
     
 }
+
+#licoes_a_aprender {
+    position: block;
+}

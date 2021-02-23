@@ -1,4 +1,5 @@
 body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -8,11 +9,20 @@ body {
   left: 0;
   width: 100%;
   text-align: center;
-  background-color: royalblue;
+  background-color: rgb(9, 204, 97);
 }
 
 #titulo {
   letter-spacing: 1px;
+}
+
+#titulo_trybe {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo_trybe:hover {
+  color: azure;
 }
 
 #menu ul li {
@@ -21,7 +31,19 @@ body {
   letter-spacing: 1px;
 }
 
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu ul li a:hover{
+  border-bottom: 1px solid azure;
+  padding: 5px;
+}
+
 #minha_foto {
-  width: 400px;
+  width: 200px;
+  height: 200px;
   margin-top: 100px;
+  border-radius: 50%;
 }

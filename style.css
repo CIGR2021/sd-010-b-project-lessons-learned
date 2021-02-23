@@ -10,7 +10,7 @@ body {
     top: 0px;
     width: 1366px;
     background-color: #307957;
-    z-index: 100;
+    z-index: 2;
 }
 
 #titulo {
@@ -21,6 +21,8 @@ body {
 nav {
     text-align: center;
     background-color: #52b788;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black; 
 }
 
 nav a {

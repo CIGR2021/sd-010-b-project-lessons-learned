@@ -4,9 +4,7 @@ html, body {
 
 body {
   background-color: rgb(253, 251, 251);
-  padding: 0px;
-  margin: 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times, serif;
   height: 100%;
   width: 100%;
 }
@@ -17,7 +15,6 @@ body {
   top: 0px;
   background-color: green;
   width: 100%;
-  padding: 0px;
   border: 1px solid;
   box-sizing: border-box;
   text-align: center;
@@ -49,19 +46,17 @@ a:hover {
   width: 30%;
   text-align: center;
   margin: 20px;
-  left: 0px;
   display: inline-block;
   top: 120px;
   position: relative;
 }
 
 #tabela {
-	display: inline-block;
 	position: relative;
 	float: right;
-	margin-right: 200px;    
-	border: 3px solid;	
-	font-style: italic;    
+	margin-right: 200px;
+	border: 3px solid;
+	font-style: italic;
 }
 
 #tabela th {
@@ -84,7 +79,7 @@ a:hover {
 	display: inline-block;
 	position: relative;
   margin-top: 10px;
-  top: 50px; 
+  top: 50px;
 }
 
 #licoes_aprendidas {
@@ -104,7 +99,6 @@ a:hover {
 #artigo {
   text-align: justify;
   float: left;
-	display: inline-block;
 	width: 49%;
 	border-right: 2px solid green;
 	padding-right: 15px;
@@ -114,7 +108,6 @@ a:hover {
   width: 49%;
 	text-align: justify;
   float: right;
-	display: inline-block;
 }
 
 #texto h3, p {

@@ -8,27 +8,27 @@ p {
   margin: 3%;
 }
 
-.nav ul{
+.nav ul {
   list-style: none;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
   font-size: 20px;
 }
 
-.nav a{
+.nav a {
   color: aliceblue;
   text-decoration: none;
   padding: 5px;
 }
 
-.nav a:hover{
+.nav a:hover {
   background-color: aliceblue;
   color: rgb(50, 167, 145);
 }
 
-.link{
+.link {
   display: block;
   margin: 0 0 3% 10%;
 }
@@ -59,7 +59,7 @@ p {
   margin: 2%;
 }
 
-#table table, th, td{
+#table table , th , td{
   border: 1px solid;
   padding: 5px;
 }
@@ -83,6 +83,6 @@ p {
 #rodape {
   text-align: center;
   margin-top: 10%;
-  background-color: #989898;
+  background-color: rgb(98, 98, 98);
   padding: 1%;
 }

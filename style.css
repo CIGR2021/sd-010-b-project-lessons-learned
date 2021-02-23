@@ -32,6 +32,7 @@ a {
   text-decoration: none;
   color: blue;
 }
+
 a:hover {
   color: black;
   opacity: 0.4;
@@ -63,13 +64,15 @@ aside {
   width: 49%;
   height: auto;
 }
+
 table {
   border-width: 2px;
   border-style: dotted;
-  border-color: #f00;
+  border-color: red;
 }
+
 th {
-  border-bottom-style:solid;
+  border-bottom-style: solid;
 }
 
 h3 {

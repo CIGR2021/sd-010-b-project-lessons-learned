@@ -11,3 +11,9 @@ body{
 #minha_foto{
     width: 250px;
 }
+
+.lista-aprendidos-e-aprender{
+    display: inline-block;
+    right:20px
+    ;
+}

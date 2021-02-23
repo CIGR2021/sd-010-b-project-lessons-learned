@@ -20,17 +20,35 @@ body {
     text-align: center;
 }
 
+#links {
+    text-align: center;    
+}
+
+#links ul li{
+    display: inline-block;
+    margin-left: 70px;    
+}
+
+a{
+    text-decoration: none;
+    color: navy;        
+}
+
+a:hover{
+    font-weight: bold;
+}
+
 #minha_foto {
     border-radius: 20%;
 }
 
 #foto {
-    width: 20%;
+    width: 30%;
     text-align: center;
     margin: 20px;
     left: 0px;
     display: block;
-    top: 80px;
+    top: 120px;
     position: relative;
 }
 
@@ -43,7 +61,7 @@ body {
 #licoes {
     position: relative;
     margin-top: 10px;
-    top: 70px;
+    top: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 

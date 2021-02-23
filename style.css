@@ -7,8 +7,6 @@ body {
 	top: 0px;
 }
 
-table, th, td{
-	border: 1px solid black;
-	border-collapse: collapse;
+.licoes-aprendidas li{
 	list-style-type: none;
 }

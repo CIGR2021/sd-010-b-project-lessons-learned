@@ -1,26 +1,38 @@
-* {
-    padding: 0 ;
-    margin: 0 ;
-}
+
 body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
     top: 0px;
     position: fixed;
-    height: 150px;
-    width: 100%;
     background-color: blue;
-    display: inline-block;
+    width: 100%;
 }
 #titulo {
-
+ text-align: center;
+ margin-top:15px;
 }
 ol , ul {
     margin: 5%;
     display:inline-block;
 }
 .conteudo {
-    display
-:inline-block;
+    width: 70%;
+    display : inline-block;
+    height: 90%;
+    margin: 15px 40px;
+}
+aside {
+    width: 70%;
+    display : inline-block;
+    height: 90%;
+    margin: 15px 40px;
+}
+main {
+    margin-top: 150px;
+   
+
+}
+.distancia {
+    margin-left: 250px;
 }

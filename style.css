@@ -55,12 +55,19 @@ body {
 }
 
 #artigo1 {
-    position:inline-block;
-    
+    display:inline-block;
+    width: 40%;
+    text-align: justify;
 }
 
 #secao1 {
-    position: inline-block;
+    display: inline-block;
+    width:20%;
+    text-align: justify;
+    position: relative;
+    top: -90px;
+    right: -300px;
+    
     
 }
 

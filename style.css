@@ -10,9 +10,15 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;  
+  padding: 50px 2%;
+  background-color: #036b52;
+  width: 100vw;
+  text-align: center;
 }
 
-
+main{
+  margin: 250px  2%  50px;
+}
 
 #minha_foto {
   width: 200px;

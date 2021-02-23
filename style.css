@@ -3,7 +3,6 @@ body{
 }
 
 #cabecalho{
-    background-color:red;
     position:fixed;
     top: 0px;
 }
@@ -13,3 +12,10 @@ body{
     width:300px;
 }
 
+table, th, td{
+    border: 1px solid black;
+}
+
+td{
+    text-align:center;
+}

@@ -1,50 +1,49 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    position:fixed;
+#cabecalho {
+    position: fixed;
     top: 0px;
 }
 
-#minha_foto{
+#minha_foto {
     margin-top: 90px;
-    width:300px;
+    width: 300px;
 }
 
-#calendar{
+#calendar {
 margin: 10px;
 padding: 4px;
 }
 
-table, th, td{
+table, th, td {
     border: 1px solid black;
 }
 
-td{
-    text-align:center;
+td {
+    text-align: center;
 }
 
-footer{
-    font-size:smaller;
+footer {
+    font-size: smaller;
 }
 
-aside{
+aside {
     font-family: monospace;
     color: blue;
     line-height: 200%;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
     width: 33%;
 }
 
-.lado-direito{
+.lado-direito {
     width: 33%;
     position: relative;
     left: 650px;
     bottom: 128px;
     margin-bottom: 0px;
-    
 }
 

@@ -42,8 +42,9 @@ table, th {
   display: inline-block;
   width: 40%;
   vertical-align: top;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 50px;
+  line-height: 25px;
 }
 
 #rodape {

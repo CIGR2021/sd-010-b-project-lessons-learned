@@ -1,3 +1,17 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+header {
+    background-color: darkgreen;
+    text-align: center;
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    width: 1040px;
+    height: 150px;
+    color: blanchedalmond;
+}
+.titulo h1 { 
+    
+}

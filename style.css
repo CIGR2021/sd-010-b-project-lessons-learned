@@ -18,7 +18,7 @@ body {
 #titulo {
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     color: rgb(228, 227, 227);
 }
 
@@ -27,12 +27,14 @@ body {
 }
 
 #minha_foto {
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     border-radius: 25% 0 25% 0;
 }
 
 .section-learn {
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     text-align: justify;
@@ -49,12 +51,25 @@ body {
 }
 
 .section-artigo {
+    margin-top: 60px;
     display: flex;
     justify-content: space-around;
-    text-align: justify;
+    padding: 100px;
+    background-color: rgb(165, 204, 248);
+    border-bottom: 10px solid #000;
 }
 
-.text-artigo {
+.artigo {
+    background-color: white;
+    max-width: 400px;
     border: grey solid;
     padding: 40px;
+}
+
+.texto-do-lado {
+    background-color: white;
+    border: grey solid;
+    padding: 40px;
+    max-width: 200px;
+    max-height: 400px;
 }

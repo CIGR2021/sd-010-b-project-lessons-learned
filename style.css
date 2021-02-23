@@ -3,15 +3,19 @@ body {
 }
 
 header {
-    background-color: darkgreen;
+    background-color: rgb(211, 211, 211);
     text-align: center;
     top: 0px;
     position: fixed;
     left: 0px;
     width: 1040px;
     height: 150px;
-    color: blanchedalmond;
+    color: rgb(105, 105, 105);
 }
-.titulo h1 { 
-    
+
+img {
+    width: 200px;
+    position: fixed;
+    top: 160px;
+    border-radius: 100%;
 }

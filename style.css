@@ -17,6 +17,9 @@ body{
   font-size: 40px;
  
 }
+main{
+  padding: 0 15px;
+}
 
 #minha_foto{
   display: inline-block;
@@ -28,9 +31,11 @@ body{
 table{
   margin: auto;
   font-size: 20px;
+  border: solid;
 }
 table td{
   padding: 50px;
+  border: solid;
 }
 .lista-menu{
   position: absolute;

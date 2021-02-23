@@ -22,3 +22,14 @@ body{
     text-align: center;
     margin-top: 25px;
 }
+
+#minha_foto{
+    border-radius: 100px; 
+    width: 200px; 
+    height: 200px;
+    margin: auto;
+    top:20%;
+    left: 40%;
+    position: absolute;
+    
+}

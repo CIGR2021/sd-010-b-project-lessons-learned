@@ -1,12 +1,50 @@
 * {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  text-align: center;
+  align-content: center;
+  border: 1px solid black;
+  margin: 0px auto 0px auto;
+  padding: 0px auto 0px auto;
+}
+
+#titulo {
+  text-align: center;
+  margin: 0px auto 0px auto;
+  padding: 0px auto 0px auto;
 }
 
 .menu {
   display: inline;
+}
+
+#minha_foto {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0px auto 0px auto;
+  padding: 0px auto 0px auto;
+}
+
+a,li,th,td {
+  font-size: 14px;
+}
+
+article {
+  text-align: justify;
+}
+
+aside {
+  text-align: justify;
+}
+
+#rodape {
+  font-size: 12px;
+  text-align: center;
 }

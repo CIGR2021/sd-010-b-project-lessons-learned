@@ -11,6 +11,7 @@ body {
     height: 150px;
     width: 100%;
     background-color: blue;
+    display: inline-block;
 }
 #titulo {
 
@@ -18,4 +19,8 @@ body {
 ol , ul {
     margin: 5%;
     display:inline-block;
+}
+.conteudo {
+    display
+:inline-block;
 }

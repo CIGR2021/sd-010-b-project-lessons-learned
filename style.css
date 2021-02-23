@@ -28,3 +28,12 @@ body {
 #licoes_a_aprender {
     line-height: 28px;
 }
+
+#rodape {
+    background-color: gray;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

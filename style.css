@@ -25,6 +25,13 @@ footer {
 
 }
 
-aside {
-  float: right;
+div {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 15px;
+  border: 2px solid gold;
 }

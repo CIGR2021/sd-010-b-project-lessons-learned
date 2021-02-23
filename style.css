@@ -9,6 +9,7 @@ body {
 
 #minha_foto{
   width: 190px;
+  margin-top: 90px;
 }
 
 .lado-esquerdo{
@@ -21,6 +22,7 @@ body {
 
 #rodape p{
 margin-bottom: 0px;
+font-weight: bold;
 }
 
 .text-content{
@@ -29,10 +31,22 @@ margin-bottom: 0px;
   display: inline-block;
 }
 
+.text-content p {
+  margin-top: 0px;
+  font-family: monospace;
+}
+
 .aside-bar{
   border: 1px solid red;
   width: 600px;
-  height: 140px;
+  height: 115px;
   float: right;
-  margin-right: 100px;
+  margin-right: 50px;
+  font-family: monospace;
+}
+
+li {
+  color: rgb(223, 71, 71);
+  margin-bottom: 5px;
+  font-size: 14px;
 }

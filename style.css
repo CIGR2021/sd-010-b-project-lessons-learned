@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#titulo , #cabeçalho {
+#cabeçalho , #titulo {
   color: aliceblue;
   font-size: 180px;
   text-align: center;

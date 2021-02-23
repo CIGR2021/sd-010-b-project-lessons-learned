@@ -34,5 +34,13 @@ section, article, aside {
 table, th, td {
     border: 1px solid gray;
     padding: 5px;
-  }
-  
+}
+.lado-direito {
+   
+    display: inline;
+    float: right;
+    width: 50%;
+}
+.lado-esquerdo {
+    width: 50%;
+}

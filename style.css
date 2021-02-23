@@ -5,7 +5,6 @@ body {
     position: fixed;
     top: 0px;
     background-color: red;
-    display: block;
     width: 100%;
     left: 0px;
 }
@@ -13,7 +12,7 @@ body {
     max-width: 150px;
     border-radius: 50%;
 }
-#lessons_learned {
-    display: block;
-    top: 250px;
+section, article, aside {
+    margin: 15px;
+    padding: 15px;
 }

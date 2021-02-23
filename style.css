@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Cairo', sans-serif;
+    color: rgb(27, 23, 23);
+    line-height: 25px;
+
 }
 #cabecalho {
     position: fixed;
@@ -23,7 +27,11 @@ section, article, aside {
     padding-top: 300px;
     padding-left: 15%;
 }
+.navigation a {
+    text-decoration: none;
+}
 table, th, td {
     border: 1px solid gray;
     padding: 5px;
   }
+  

@@ -1,13 +1,25 @@
 *{
-    margin-top: 0;
-    padding: 0;
+    margin-top: 0px;
+    padding: 0px;
 }
 body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
+    background-color: aquamarine;
+    display: inline-block;
     position: fixed;
+    top: 0px;
+    text-align: center;
+
+ 
 }
 #minha_foto{
     width: 20%;    
+}
+.links{
+    list-style: none;
+}
+h1{
+    margin-left: auto;
 }

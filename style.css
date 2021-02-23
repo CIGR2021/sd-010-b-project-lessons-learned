@@ -12,11 +12,12 @@ body {
   height: 150px;
 }
 
-#cabecalho h1 {
+#titulo{
   text-align: center;
   color: white;
   font-size: 60px;
   line-height: 60px;
+  font-family: monospace, sans-serif;
 }
 
 main {
@@ -32,13 +33,13 @@ main {
   text-align: left;
   padding: 5px 20px;
 }
-.container-left {
+.lado-esquerdo {
   width: 61%;
   text-align: center;
   border-right: 1px solid;
 }
 
-.container-right {
+.lado-direito {
   width: 30%;
 }
 img {

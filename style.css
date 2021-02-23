@@ -1,6 +1,7 @@
 body {
 
     margin:  0;
+    background-color: rgb(253, 251, 251);
 }
 
 .header {
@@ -25,7 +26,6 @@ body {
 .body-style {
 
     display: block;
-    background-color: rgb(253, 251, 251);
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 30%;
@@ -95,16 +95,4 @@ footer {
     background-color: rgb(214, 214, 214);
     text-align: center;
     padding-top: 40px;
-}
-
-ol {
-
-    display: block;
-   
-}
-
-ul {
-
-    display: block;
-    float: center;
 }

@@ -8,11 +8,30 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
-  background-color: green;
   width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
 }
 
 #cabecalho h1 {
   text-align: center;
 }
 
+.menu {
+  margin-top: 100px;
+}
+
+.menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: black;
+}

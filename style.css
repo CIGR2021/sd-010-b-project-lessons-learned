@@ -64,3 +64,13 @@ a:hover {
 .listas div {
     display: inline-block;
 }
+
+.meu-aprendizado h3 {
+    text-align: center;
+}
+
+.paragraf1 p {
+    text-align: left;
+    margin: 5px;
+    width: 450px;
+}

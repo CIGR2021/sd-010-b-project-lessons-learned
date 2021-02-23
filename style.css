@@ -1,18 +1,54 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0px;
+    font-size: 16px;
+    color: rgb(12, 15, 15);
+    line-height: 20px;
+    font-family: sans-serif;
 }
+
+h1 {
+    text-align: center;
+}
+
+a {
+    margin: 10px;
+}
+
 
 header {
     position: fixed;
     top: 0px;
-    /* margin-top: 0px; */
+    
+    background-color: cyan;
+    width: 100%;
 }
 
 img {
     width: 250px;
+    border-radius: 10%;
 }
 #perfil {
     padding-top: 120px;
+    margin: 10px;
+}
+#nome {
+    display: block;
+}
+
+#licoes {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+    float: left;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+    float: right;
 }
 
 #artigos {
@@ -39,9 +75,9 @@ img {
     border: solid black;
 }
 
-footer {
+#rodape {
     display: block;
     position: absolute;
-    padding: 30px;
-    margin: 20px 20px;
+    padding-bottom: 10px;
+    margin: 20px;
 }

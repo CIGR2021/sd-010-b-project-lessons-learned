@@ -1,6 +1,6 @@
 body {
   background-color: rgb( 253, 251, 251);
-  font-family: fantasy
+  font-family: fantasy;
 }
 
 header {
@@ -32,9 +32,11 @@ section h2 {
   margin-left: 40px;
 }
 
+.lado-esquerdo h3, .lado-direito h3{
+  padding-right: 25px;
+}
 .lado-esquerdo , .lado-direito {
   border: 1px solid black;
-  display: inline-block;
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 20px;
@@ -44,10 +46,13 @@ section h2 {
   padding: 20px;
   text-align: justify;
   max-width: 50%;
+  display: inline-flex;
+  margin: 20px;
 }
 
 .lado-direito {
-  padding: 40px;
+  padding: 20px;
   text-align: justify;
   max-width: 30%;
+  display: inline-flex;
 }

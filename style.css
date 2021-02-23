@@ -11,3 +11,12 @@
     width: 150px;
     margin-top: 80px;
 }
+
+article, aside {
+    width: 500px;
+    display: inline-table;
+}
+
+aside {
+    margin-left: 20%;
+}

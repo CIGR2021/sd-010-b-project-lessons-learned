@@ -18,11 +18,11 @@ body{
 
 }
 
-#titulo{
+#titulo, h2{
     color: #204a6b;
     font-weight: 900;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 12px;
 }
 
 #minha_foto{
@@ -117,6 +117,6 @@ aside{
 }
 
 nav{
-    bottom: 16px;
+    bottom: 40px;
     position: relative;
 }

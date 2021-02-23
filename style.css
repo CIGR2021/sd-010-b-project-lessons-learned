@@ -2,6 +2,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+nav {
+  margin-top: 100px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -37,4 +41,8 @@ p {
   display: inline-block;
   margin: 10px;
   width: 40%;
+}
+
+.lado-direito {
+  vertical-align: top;
 }

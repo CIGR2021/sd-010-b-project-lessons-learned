@@ -9,20 +9,23 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
     display: block;
     top: 0px;
     background-color: rgb(82, 82, 236);
+    width: 100%;
 }
 
 
 #titulo {
     text-align: center;
     margin: 0;
-    padding: 30px;
+    padding: 10px;
     color: rgb(228, 227, 227);
 }
 
 .container_img {
+    margin-top: 50px;
     text-align: center;
 }
 

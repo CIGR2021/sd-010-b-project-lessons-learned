@@ -5,6 +5,11 @@
 
 #cabecalho {
 
-    position: absolute;
+    position: fixed;
     top: 0px;
+}
+
+#minha_foto {
+
+    width: 300px;
 }

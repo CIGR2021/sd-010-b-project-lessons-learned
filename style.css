@@ -2,3 +2,9 @@
 
     background-color: rgb(251, 251, 253);
 }
+
+#cabecalho {
+
+    position: absolute;
+    top: 0px;
+}

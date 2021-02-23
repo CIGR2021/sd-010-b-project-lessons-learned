@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Arial Narrow Bold', sans-serif;
+  font-family:'Arial Narrow Bold',sans-serif;
   font-size: 1.2em;
 }
 
@@ -61,19 +61,21 @@ table {
 
 .section_list {
   background-color: rgba(208, 247, 208, 0.973);
-  width: 70%;
+  width: 50%;
   text-align: center;
-  margin: auto;
   margin-bottom: 30px;
+  margin-left: 30px;
+  display: inline-block;
 }
 
 .article_list {
+  font-size: 0.7em;
   display: inline-block;
   margin: 15px;
   line-height: 2;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   text-align: left;
 }
 
@@ -81,7 +83,7 @@ table {
   background: rgb(185, 183, 183);
 }
 
-.background_row,th,td {
+.background_row , th , td {
   text-align: left;
   padding: 2px;
 }
@@ -90,22 +92,20 @@ table {
   background-color: rgba(208, 247, 208, 0.973);
   width: 40%;
   text-align: center;
-  display: inline-block;
   padding: 15px;
+  margin-bottom: 30px;
 }
 
 .section_article {
   background-color: rgba(208, 247, 208, 0.973);
-  width: 70%;
+  width: 40%;
   text-align: center;
+  margin-left: 30px;
+  display: inline-block;
 }
 
 #rodape {
   background-color: rgba(208, 247, 208, 0.973);
   padding: 20px;
   text-align: right;
-}
-
-.clear_both {
-  clear: both;
 }

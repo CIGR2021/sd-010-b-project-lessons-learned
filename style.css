@@ -19,8 +19,47 @@ body{
     
 }
 
+img{
+    width: 400px;
+    margin-left: 30%;
+    
+}
+
 .listas{
     display: block;
+    
+}
+.aprendidas{
+    float: left;
+    margin-left:30%;
+    
+}
+.a-aprender{
+    float: right;
+    margin-right: 30%;
+
+}
+
+.experiencia{
+    clear: both;
+}
+main{
+    max-width: 70%;
+    float: left;
+}
+
+.side-bar{
+    float: right;
+    max-width: 20%;
+    background-color: #0d1b2a;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+     
+}
+footer{
+    clear: both;
+   
 }
 
 a {
@@ -28,3 +67,4 @@ a {
     color: #58a6ff;
     font-weight: 400;
     font-weight: 700;
+

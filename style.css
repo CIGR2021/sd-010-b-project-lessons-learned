@@ -1,63 +1,76 @@
 * {
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
+
 .whole {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
+
 #cabecalho {
-    position: fixed;
-    top: 0;
-    padding: 0 50px;
-    background-color: #44B7CB;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0 50px;
+  background-color: #44b7Cb;
+  width: 100%;
 }
+
 #titulo {
-    font-size: 48px;
-    color: #fff;
-    text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
 }
+
 nav ul {
-    text-align: right;
+  text-align: right;
 }
+
 nav ul li {
-    display: inline;
-    margin-left: 15px;
+  display: inline;
+  margin-left: 15px;
 }
+
 .foto-perfil {
-    margin-top: 160px;
-    background-image: url(img/foto-perfil-bg.png);
-    background-size: cover;
-    background-position: center;
-    background-color: #408080;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  margin-top: 160px;
+  background-image: url("img/foto-perfil-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #408080;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
+
 #minha_foto {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
+
 table {
-    margin: 10px 0;
-    border: 1px solid #408080;
+  margin: 10px 0;
+  border: 1px solid #408080;
 }
+
 p {
-    line-height: 20px;
+  line-height: 20px;
 }
+
 .lado-esquerdo {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
+
 .lado-direito {
-    float: right;
-    width: 50%;
+  float: right;
+  width: 50%;
 }
+
 footer {
-    clear: both;
-    text-align: center;
+  clear: both;
+  text-align: center;
 }

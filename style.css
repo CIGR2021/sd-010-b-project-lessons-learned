@@ -1,15 +1,19 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     top: 0px;
 }
-img{
+img {
     width: 300px;
     border-radius: 8px;
     margin: 10px;
 }
-ul li{
+ul li {
     list-style-type: square;
+}
+
+footer {
+    margin: 10px;
 }

@@ -3,11 +3,6 @@
   top: 0px;
 }
 
-
-#cabecalho {
-  
-}
-
 #titulo {
   background-color: seagreen;
   text-align: center;
@@ -33,13 +28,12 @@ p {
   border: solid 1px;
   text-align: justify;
   padding: 10px;
-    
 }
+
 article {
   display: inline-block;
-  
 }
+
 aside {
   display: inline-block ;
-  
 }

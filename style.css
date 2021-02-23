@@ -133,6 +133,17 @@ article{
   clear: both;
 }
 
+#rodape{
+  background-color: #034d3b;
+  padding: 25px;
+  color: rgb(253, 251, 251);
+  text-align: center;
+}
+
+#rodape p{
+  font-size: 0.8em;
+  font-weight: 300;
+}
 
 
 

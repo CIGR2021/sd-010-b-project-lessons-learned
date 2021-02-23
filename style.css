@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(240, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -9,7 +10,6 @@ body {
     color:rgb(253, 251, 251);
     width: 100%;
     text-align: center;
-
     }
 
 #titulo {
@@ -48,6 +48,20 @@ body {
 #minha_foto {
 margin-top: 150px;
 width: 250px;
+border-radius: 50%;
+}
+
+.aprendizagem {
+display: inline-block;
+
+}
+
+.lado-esquerdo {
+display: inline-block;
+}
+
+.lado-direito {
+display: inline-block;
 }
 
 #licoes_aprendidas {
@@ -73,11 +87,26 @@ width: 250px;
 }
 
 #rodape {
-    
-
+    background-color: rgb(240, 233, 233);
+    padding: 28px;
+    color: rgb(20, 18, 18);
+    font-size: 15px;
 }
 
-.redes_sociais {
-    
+.icones-sociais ul {
+    display: inline-block;
+    height: inherit;
+    float: left;
+    width: 75%;
+    margin: 0;
+    line-height: 60px;
 }
 
+.icones-sociais li {
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 7px;
+    width: 40px;
+    height: inherit;
+}

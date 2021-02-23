@@ -6,19 +6,24 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
+    background-color: seagreen;
+    text-align: center;
+    margin-left: 300px;
 }
 
 #minha_foto {
     width: 300px;
+    top: 0;
+    display: flex;
 }
 
 footer {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: -10%;
     color: darkgreen;
-    margin: 50px 0px 0px 0px;
-    padding: 0px;
+    margin: 50px 0 0 0;
+    padding: 0;
     border: solid cyan;
 }
 
@@ -38,6 +43,6 @@ footer {
 }
 
 #titulo {
-    font-family:Arial, Helvetica, sans-serif;
-    color:darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
 }

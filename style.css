@@ -35,3 +35,16 @@ nav ul li{
     list-style-type: none;
 
 }
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+.tabela{
+
+    margin-bottom: 15px;
+}
+
+

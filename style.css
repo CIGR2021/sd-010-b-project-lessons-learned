@@ -9,6 +9,11 @@ header {
   display: inline-block;
 }
 
+p {
+  line-height: 1.04em;
+
+}
+
 nav, #titulo {
   vertical-align: center;
   display: inline-block;
@@ -28,6 +33,10 @@ nav, #titulo {
 
 #minha_foto {
   margin-top: 79.88px;
+}
+
+.lado_direito h3 {
+  font-size: 1.5em;
 }
 
 .lado_esquerdo, .lado_direito {

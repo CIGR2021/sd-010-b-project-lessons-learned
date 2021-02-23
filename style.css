@@ -9,4 +9,15 @@ body {
 
 #minha_foto {
     width: 300px;
+    float: right;
 }
+
+article {
+    position: relative;
+    width: 50%;
+    top: 60px;
+    margin: 80px 10px;
+    text-align: center;
+}
+
+

@@ -5,6 +5,9 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+h1 h2{
+    top:10px;
+}
 #cabecalho{
     width: 100vw;
     position: fixed;
@@ -14,7 +17,7 @@ body{
 }
 .presentation{
     margin-top: 105px;
-    padding: 10%;
+    padding: 10px;
     text-align: center;
 }
 .presentation a{
@@ -30,4 +33,24 @@ body{
     width: 150px;
     border-radius: 50%;
     margin:auto;
+}
+.lessons{
+    text-align: center;
+    margin: 10px;
+}
+#licoes_aprendidas{
+    display: inline-block;
+}
+#licoes_a_aprender{
+    display: inline-block;
+}
+.bio{
+    display: inline-block;
+    padding: 5%;
+    max-width: 800px;
+}
+.exp{
+    display: inline-block;
+    max-width: 366px;
+    padding: 5%;
 }

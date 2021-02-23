@@ -1,9 +1,11 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-nav {
+#cabecalho {
     position: fixed;
     top: 0px;
+    padding: 15px;
+    border: 1px solid black;
 }
 #minha_foto {
     border: 2px solid rgb(224, 28, 28);

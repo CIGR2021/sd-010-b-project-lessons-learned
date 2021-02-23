@@ -1,6 +1,8 @@
 :root {
   --header-box-color: #282828;
   --header-title-color: #d9d9d9;
+  --main-bg-color: #272a35;
+  --header-vs-main-height: 75px;
 }
 
 body {
@@ -15,8 +17,24 @@ body {
   background-color: var(--header-box-color);
   width: 100%;
   text-align: center;
+  top: 0px;
+  height: var(--header-vs-main-height);
 }
 
 #titulo {
   color: var(--header-title-color);
+}
+
+main {
+  margin-top: var(--header-vs-main-height);
+  background-color: var(--main-bg-color);
+}
+
+main figure {
+  text-align: center;
+}
+
+#minha_foto {
+  width: 250px;
+  border-radius: 40px 20px 40px 20px;
 }

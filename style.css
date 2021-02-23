@@ -6,10 +6,10 @@ header {
   background-color: tomato;
   width: 100%;
   position: fixed;
-  top: 0px;  
+  top: 0px;
 }
 
-header h1 {  
+header h1 {
   margin: auto;
   padding-left: 15px;
 }

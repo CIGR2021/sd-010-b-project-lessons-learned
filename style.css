@@ -11,6 +11,9 @@
   position: fixed;
   margin-top: 0;
 }
+#cabecalho {
+  margin-top: 0;
+}
 
 img {
   margin-top: 90px;

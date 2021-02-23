@@ -6,7 +6,7 @@ body{
     color:#212529;
 }
 #cabecalho{
-    margin-top: 0px;
+    top: 0px;
     background-color: #0d1b2a;
     color: #fff;
     padding: 10px;
@@ -22,7 +22,6 @@ body{
 img{
     width: 400px;
     margin-left: 30%;
-    
 }
 
 .listas{
@@ -40,25 +39,25 @@ img{
 
 }
 
-.experiencia{
-    clear: both;
-}
-main{
-    max-width: 70%;
+.lado-esquerdo{
+    max-width: 40%;
     float: left;
+    margin-left: 5%;
+  
+    
+}    
+
+.lado-direito{
+    float: right;
+    max-width: 40%;
+    margin-right: 5%;
+       
 }
 
-.side-bar{
-    float: right;
-    max-width: 20%;
-    background-color: #0d1b2a;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-     
-}
+
 footer{
     clear: both;
+    margin-top: 100px;
    
 }
 
@@ -68,3 +67,7 @@ a {
     font-weight: 400;
     font-weight: 700;
 
+    /* background-color: #0d1b2a;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff; */

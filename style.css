@@ -7,7 +7,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: rgb(160, 255, 191);
   display: inline;
   width: 100%;

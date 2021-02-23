@@ -1,5 +1,6 @@
 body {
   background-color: rgb( 253, 251, 251);
+  font-family: fantasy
 }
 
 header {
@@ -8,6 +9,7 @@ header {
   background-color: seagreen;
   width: 100%;
   text-align: center;
+  color: aliceblue;
 }
 
 nav {
@@ -19,7 +21,7 @@ img {
   margin-top: 100px;
 }
 
-section ol,ul {
+section ol , ul {
   display: inline-block;
   text-align: justify;
   margin-top: auto;
@@ -30,10 +32,12 @@ section h2 {
   margin-left: 40px;
 }
 
-.lado-esquerdo,.lado-direito {
+.lado-esquerdo , .lado-direito {
   border: 1px solid black;
   display: inline-block;
   margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .lado-esquerdo {

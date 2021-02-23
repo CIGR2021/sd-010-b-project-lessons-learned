@@ -15,16 +15,22 @@ body {
 #licoes_aprendidas {
     font-family: monospace;
     font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
     color: rgb(126, 81, 81);
 }
 #licoes_a_aprender {
     font-family: monospace;
     font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
     color: rgb(150, 94, 94);
 }
 article {
     font-family: fantasy;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
     color: brown;
     text-align: justify;
     width: 700px;
@@ -34,6 +40,8 @@ article {
 section {
     font-family: fantasy;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
     color: brown;
     width: 540px;
     text-align: justify;
@@ -42,6 +50,9 @@ section {
 }
 footer {
     font-family: cursive;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 900;
     color: black;
 }
 a:hover {

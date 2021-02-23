@@ -78,6 +78,16 @@ section h2 {
     width: 28%;
 }
 
+table, td, th {
+    border: solid 1px black;
+}
+
+table {
+    position: relative;
+    left: 561.5px;
+    bottom: 200px;
+}
+
 #rodape {
     position: fixed;
     bottom: 0;

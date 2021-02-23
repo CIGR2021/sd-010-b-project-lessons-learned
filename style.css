@@ -2,11 +2,36 @@ body{
     background-color: rgb(253,251,251);
 }
 
+nav{
+    margin-left: 100px;
+    margin-top: 64px;
+}
+
+aside {
+        margin-top: 10%;
+        width: 20%;
+        padding-left: .5rem;
+        margin-left: .5rem;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        color: #29627e;
+    }
+    
+
+aside > p {
+        margin: .5rem;
+    }
+    
+
+
 #cabecalho{
     position: fixed;
     top: 0px;
+    background-color:rgb(200,251,251);
 }
 
 #minha_foto{
-    
+    margin-left: 10px;
+    margin-top: 30px;
 }

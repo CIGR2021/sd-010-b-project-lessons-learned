@@ -6,7 +6,7 @@ header {
   background-color: tomato;
   width: 100%;
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 header h1 {
@@ -19,10 +19,12 @@ aside {
   float: right;
   padding-top: 40px;
 }
+
 nav {
   padding-top: 30px;
 }
-nav li{
+
+nav li {
   display: inline;
   font-size: 30px;
   background-color: slategrey;

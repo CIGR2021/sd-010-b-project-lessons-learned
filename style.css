@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 header {
-    margin: 0px;
+    margin-top: 0px;
     padding: 15px;
     border: 2px solid rgb(189, 19, 19);
 }
@@ -20,10 +20,16 @@ header {
 article {
     font-family: fantasy;
     color: brown;
+    text-align: justify;
+    width: 700px;
+    display: inline-block;
 }
 aside {
     font-family: fantasy;
     color: brown;
+    width: 500px;
+    text-align: justify;
+    float: right;
 }
 footer {
     font-family: cursive;

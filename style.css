@@ -1,17 +1,17 @@
-*{
+* {
   margin:0;
   font-family: 'Roboto';
 }
 
-body{
+body{ 
   background-color: rgb(253, 251, 251);
 }
 
-h1 h2{
+h1 h2 {
   top:10px;
 }
 
-#cabecalho{
+#cabecalho {
   width: 100vw;
   position: fixed;
   background-color:chocolate;
@@ -19,28 +19,28 @@ h1 h2{
   padding: 15px;
 }
 
-#cabecalho li{
+#cabecalho li {
   display: inline-block;
   margin: 10px 30px 0 0;    
 }
 
-#cabecalho li a{
+#cabecalho li a {
   text-decoration: none;
   color: black;
   font-weight: 500;
 }
 
-#titulo{
+#titulo {
   color:blanchedalmond;
 }
 
-.presentation{
+.presentation {
   margin-top: 105px;
   padding: 10px;
   text-align: center;
 }
 
-.presentation a{
+.presentation a {
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -48,49 +48,49 @@ h1 h2{
   margin: 15px;
 }
 
-#minha_foto{
+#minha_foto {
   display: block;
   width: 150px;
   border-radius: 50%;
   margin:auto;
 }
 
-table{
+table {
   margin: 50px auto;
   border-style: solid;
   border-width: 1px;
 }
 
-th{
+th {
   padding: 0 10px;
   background-color: rgba(148, 135, 135, 0.645);
 }
 
-.lessons{
+.lessons {
   text-align: center;
   margin: 10px;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   display: inline-block;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   display: inline-block;
 }
 
-.lado-esquerdo{
-  display: inline-block;
-  width: 500px;
-  margin: 10px;
-}
-
-.lado-direito{
+.lado-esquerdo {
   display: inline-block;
   width: 500px;
   margin: 10px;
 }
 
-#rodape{
+.lado-direito {
+  display: inline-block;
+  width: 500px;
+  margin: 10px;
+}
+
+#rodape {
   display: block;
 }

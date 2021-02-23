@@ -1,8 +1,95 @@
+:root {
+  --orange: #c21c0e;
+  --red: #9e1221;
+  --white: #fdfdfd;
+  --gray: #999;
+  --dark-gray: #4c4c4c;
+  --black: #0b0b0b;
+  --background: rgb(253, 251, 251);
+}
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: var(--background);
+  color: var(--black);
+  margin: 0;
+  font-family: Montserrat, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  z-index: 2;
+  box-shadow: 0 25px 50px var(--white);
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(var(--orange) 90%, var(--white));
+  color: var(--white);
+}
+
+#cabecalho nav {
+  margin-bottom: 1em;
+}
+
+#cabecalho a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 2em;
+}
+
+#principal {
+  position: relative;
+  top: 130px;
+  margin: 1em;
+}
+
+#perfil {
+  text-align: center;
+  width: calc(30% - 1em);
+  display: inline-block;
+}
+
+#perfil img {
+  width: 360px;
+  border-radius: 20%;
+  box-shadow: 3px 3px 10px black;
+}
+
+#perfil a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#listas {
+  display: inline-block;
+  width: calc(70% - 1em);
+  vertical-align: top;
+}
+
+.lista {
+  padding: 1em;
+  display: inline-block;
+  width: 275px;
+}
+
+#sobre {
+  margin: 0 auto;
+
+}
+
+#sobre_aluno,
+#sobre_aprendizado {
+  width: calc(60% - 1em);
+  display: inline-block;
+  margin: 0 1%;
+}
+
+#rodape {
+  position: relative;
+  top: 130px;
+  text-align: center;
+  box-shadow: 0 25px 50px var(--white);
+  width: 100%;
+  padding: 1em;
+  background-image: linear-gradient(var(--white), var(--orange) 10%);
+  color: var(--white);
 }

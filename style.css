@@ -4,9 +4,10 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    background-color: red;
+    background-color:gray;
     width: 100%;
     left: 0px;
+    height: fit-content;
 }
 #minha_foto {
     max-width: 150px;
@@ -17,7 +18,12 @@ section, article, aside {
     padding: 15px;
 }
 .navigation li {
-    display: inline;
+    display: inline-block;
     padding: 30px;
-    
+    padding-top: 300px;
+    padding-left: 15%;
 }
+table, th, td {
+    border: 1px solid gray;
+    padding: 5px;
+  }

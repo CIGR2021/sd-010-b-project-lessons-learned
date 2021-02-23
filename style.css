@@ -51,7 +51,7 @@ article {
     font-size: 13px;    
 }
 
-a {
+.menu {
     display:inline-block;
     position: absolute;
     top: 299px;
@@ -69,4 +69,9 @@ aside {
     left: 498px;
     top: 200px;
     width: 150px;
+}
+
+
+    
+}
 }

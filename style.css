@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1.5;
+  color: black;
 }
 
 #cabecalho {
@@ -58,6 +60,7 @@ body {
 }
 #licoes_aprendidas li {
   margin: 10px;
+  line-height: 1;
 }
 #rodape {
   display: inline-block;
@@ -65,16 +68,16 @@ body {
   width: 100%;
   text-align: center;
 }
-#lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 40%;
 }
-#lado-direito {
+.lado-direito {
   display: inline-block;
   margin-left: 30px;
   width: 40%;
 }
-#lado-esquerdo p {
+.lado-esquerdo p {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
@@ -83,7 +86,7 @@ body {
   font-weight: 600;
   font-size: 20px;
 }
-#lado-direito p {
+.lado-direito p {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;

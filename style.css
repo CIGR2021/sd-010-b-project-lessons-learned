@@ -2,8 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.header {
+header {
   background-color: red;
-  top: 0pt;
-  position: absolute;
+  top: 0px;
 }

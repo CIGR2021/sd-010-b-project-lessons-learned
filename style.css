@@ -3,6 +3,9 @@ body {
 }
 
 #cabecalho {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
     position: fixed;
     top: 0px;
     border: solid 5px;
@@ -11,7 +14,7 @@ body {
 #minha_foto {
     display: block;
     height: 300px; 
-    margin-top: 100px;   
+    margin-top: 112px;   
 }
 
 a {
@@ -36,4 +39,6 @@ table {
     border: solid 5px;
 }
 
-
+article {
+    line-height: 20px;
+}

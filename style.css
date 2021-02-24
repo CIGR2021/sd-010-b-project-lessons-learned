@@ -68,7 +68,7 @@ main {
 #imagem_perfil {
   display: inline-block;
   text-align: center;
-  width: 20%;
+  width: 310px;
   margin: 30px 20px;
 }
 
@@ -100,8 +100,10 @@ main {
   display: inline-block;
   margin-right: 10px;
 }
+
 article {
   padding: 10px 50px;
+  display: flow-root;
 }
 
 .lado-esquerdo {
@@ -114,6 +116,19 @@ article {
   width: 200px;
 }
 
-#tabela_instrutores {
-  clear: both;
+#tabela_instrutores{
+  width: 550px;
+  margin: 40px auto;
+  font-size: 2em;
+}
+
+tbody tr td{
+  padding: 5px 15px;
+}
+
+#rodape {
+  background-color: rgb(2, 62, 138);
+  color: white;
+  text-align: center;
+  padding: 20px;
 }

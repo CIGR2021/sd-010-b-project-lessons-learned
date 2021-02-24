@@ -41,7 +41,7 @@ h2 {
   width: 40%;
   font-size: 14px;
   display: inline-block;
-  padding:15px
+  padding: 15px;
 }
 
 #rodape {
@@ -71,7 +71,6 @@ table {
   margin: auto;
   margin-bottom: 50px;
   margin-top: 50px;
-  
 }
 
 .lado {
@@ -81,7 +80,7 @@ table {
   margin-left: 3%;
 }
 
-td,th {
+td , th {
   padding: 15px;
   border: 2px solid black;
 }

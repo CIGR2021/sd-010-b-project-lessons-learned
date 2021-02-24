@@ -12,6 +12,8 @@ header{
     color: white;
     margin: 0px;
     padding: 0px;
+    position: fixed;
+    width: 100%;
 }
 
 #titulo{
@@ -39,7 +41,7 @@ header{
 
 #licoes_a_aprender{ 
     padding-top: 20px;
-    margin-left: -250px;
+    margin-left: -520px;
 
 }
 
@@ -51,10 +53,36 @@ header{
 }
 
 .list-title{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 30px;
 }
+
 a{
    padding-left: 20px;
    font-size: 15px;
+}
+
+.foto-e-link{
+    padding-top: 100px;
+}
+
+.lado-esquerdo{
+    float: right;
+    width: 500px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.lado-direito{
+    width: 800px;
+    margin-top: 20px;
+    float: left;
+    padding-left: 20px;
+}
+#rodape{
+    clear:both;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #b4afaf63;
 }

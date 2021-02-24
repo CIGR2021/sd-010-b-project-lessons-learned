@@ -42,13 +42,13 @@ body {
   color: #cccccc;
 }
 
-.left-side {
+.lado-esquerdo {
   width: 60%;
   margin: 15px;
   float: left;
 }
 
-.right-side {
+.lado-direito {
   text-align: justify;
   float: right;
   width: 30%;

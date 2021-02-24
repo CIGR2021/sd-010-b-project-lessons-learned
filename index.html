@@ -6,24 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lições aprendidas</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas - Trybe!</h1>
-        <nav>
-            <a href="#">Página inicial</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-        </nav>
     </header>
+
     <section id="tela_esquerda">
-        <figure>
-            <img id="minha_foto" src="imagem/rsz_11614110063561.jpg" alt="minha foto">
-        </figure>
-        <h2 id="sobre">Sobre mim</h2>
+        <img id="minha_foto" src="imagem/rsz_11614110063561.jpg" alt="minha foto">
         <table class="lado-esquerdo">
+            <h3>Sobre mim</h3>
             <tr>
                 <th>Nome</th>
                 <td>Arlen Freitas</td>
@@ -37,54 +31,56 @@
                 <td>Montes Claros</td>
             </tr>
         </table>
-    </section>
-    <section>
         <aside id="historia">
-            <h2>Como conheci a Trybe</h2>
-            <p>
-                Conheci a <strong>Trybe</strong> através de um amigo, quando estava a procura de um curso para fazer e descobri uma paixão por programação, corri no site para fazer a matricula e o processo seletivo, passei e estou aqui, foi a melhor decisão da minha vida!
-            </p>
-        </aside>  
-    </section>    
-    <section>
-        <article id="lado_direito">
-            <h3>Minha jornada na Trybe</h3>
-            <p>
-                Minha jornada na <strong>Trybe</strong>, tem sido uma montanha russa de aprendizados, a cada dia me surpreendo mais com os conteudos ensinados, a didática, e a preocupação que os professores e facilitadores tem com os alunos e alunas.</p>
-                <p>Estou aprendendo bastante coisa sobre programação, e até o momento percebo que foi a melhor escolha da minha vida. A <strong>Trybe</strong> me ensinou uma profisão quando ninguém ao menos tentou.
-                </p>
-        </article>
+            <h3>Como conheci a Trybe</h3>
+            <p class="lado-esquerdo">
+            Conheci a <strong>Trybe</strong> através de um amigo, quando estava a procura de um curso para fazer e descobri uma paixão por programação, corri no site para fazer a matricula e o processo seletivo, passei e estou aqui, foi a melhor decisão da minha vida!</p>
+        </aside>
     </section>
-    <div class="aprendizado">
-        <ol id="licoes_aprendidas">
-            <h3>Lições aprendidas</h3>
-            <li>Unix</li>
-            <li>Shell</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Internet</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>HTML Semântico</li>
-            <li>Inspect</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <h3>Lições a aprender</h3>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node</li>
-            <li>Express.js</li>
-            <li>SQL</li>
-            <li>NoSQL</li>
-            <li>ORM</li>
-            <li>Phyton</li>
-            <li>Ciência da computação</li>
-            <li>Algorítmos e estrutura de dados</li>
-        </ul>
-    </div>
-    <footer id="rodape">Copyright &copy; 2021 Arlen Freitas. All Rights Reserved.
-
+    <main>
+        <article class="lado-direito">
+            <h2>Minha jornada na Trybe</h2>
+            <p>
+            Minha jornada na <strong>Trybe</strong>, tem sido uma montanha russa de aprendizados, a cada dia me surpreendo mais com os conteudos ensinados, a didática, e a preocupação que os professores e facilitadores tem com os alunos e alunas.</p>
+            <p>Estou aprendendo bastante coisa sobre programação, e até o momento percebo que foi a melhor escolha da minha vida. A <strong>Trybe</strong> me ensinou uma profisão quando ninguém ao menos tentou.
+            </p>
+        </article>
+        <div id="learning">
+            <ol id="licoes_aprendidas">
+                <h3>Lições aprendidas</h3>
+                <li>Unix</li>
+                <li>Shell</li>
+                <li>Bash</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Internet</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>HTML Semântico</li>
+                <li>Inspect</li>
+            </ol>
+            <ul id="licoes_a_aprender">
+                <h3>Lições a aprender</h3>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node</li>
+                <li>Express.js</li>
+                <li>SQL</li>
+                <li>NoSQL</li>
+                <li>ORM</li>
+                <li>Phyton</li>
+                <li>Ciência da computação</li>
+                <li>Algorítmos e estrutura de dados</li>
+            </ul>
+        </div>
+        <aside class="lado-direito">
+        </aside>
+    </main>
+    <footer id="rodape">
+        <p>
+            <nav><span>Conheça mais sobre mim <a id="about" href="https://www.linkedin.com/in/arlenfreitas/" target="_blank">clicando aqui</a>!</span></nav>
+            Copyright &copy; 2021 Arlen Freitas. All Rights Reserved.
+        </p>
     </footer>
 </body>
 </html>

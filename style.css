@@ -1,12 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin-left: 20px;
+  margin-left: 10px;
   color: rgb(16, 56, 16);
+	line-height: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(19, 138, 19);
+	color: rgb(253, 251, 251);
 }
 
 #minha_foto {
@@ -15,20 +25,35 @@ body {
   border-radius: 50%;
 }
 
+#portfolio {
+	margin: 45px;
+}
+
 .licoes {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 20px;
   border: 1px solid black;
   padding: 10px;
+	font-size: 14px;
 }
 
 #principal {
   text-align: justify;
   border: 1px solid black;
+	font-size: 14px;
 }
 
 .lado-esquerdo, .lado-direito {
   border: 1px solid black;
   width: 500px;
   padding: 10px;
+}
+
+#links {
+	font-size: 15px;
+}
+
+#rodape {
+	text-align: right;
+	font-size: 13px;
 }

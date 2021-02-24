@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
@@ -16,13 +16,13 @@ body {
   position: fixed;
   top: 0;
   padding: 0 50px;
-  background-color: #44b7Cb;
+  background-color: rgb(68, 183, 203);
   width: 100%;
 }
 
 #titulo {
   font-size: 48px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -37,10 +37,10 @@ nav ul li {
 
 .foto-perfil {
   margin-top: 160px;
-  background-image: url("img/foto-perfil-bg.png");
+  background-image: url('img/foto-perfil-bg.png');
   background-size: cover;
   background-position: center;
-  background-color: #408080;
+  background-color: rgb(64, 128, 128);
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -53,7 +53,7 @@ nav ul li {
 
 table {
   margin: 10px 0;
-  border: 1px solid #408080;
+  border: 1px solid rgb(64, 128, 128));
 }
 
 p {

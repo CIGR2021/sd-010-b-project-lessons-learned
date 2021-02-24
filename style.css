@@ -46,3 +46,9 @@ nav {
   left: 550px;
   top: 1490px;
 }
+
+#rodape {
+  position: absolute;
+  font-size: 45px;
+  top: 2490px;
+}

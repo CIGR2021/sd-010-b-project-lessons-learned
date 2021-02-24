@@ -6,7 +6,7 @@
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0.1px;
   text-align: center;
   align-content: center;
   border: 1px solid black;
@@ -26,14 +26,14 @@
   padding: 0.1px auto;
 }
 
-a,
-li,
-th,
+a , 
+li , 
+th , 
 td {
   font-size: 14px;
 }
 
-table,
+table , 
 th {
   border: 1px solid black;
 }

@@ -7,17 +7,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-  margin: 100px;
-  padding: 100px;
-  border: 100px;
-}
-
-.img {
-  width: 250px;
-  border-radius: 30%;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -27,10 +16,15 @@ main {
   text-align: center;
 }
 
-table , th , td {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+main {
+  margin: 100px;
+  padding: 100px;
+  border: 100px;
+}
+
+.img {
+  width: 250px;
+  border-radius: 30%;
 }
 
 .lado-esquerdo {
@@ -48,6 +42,12 @@ article , aside {
   margin-right: 10px;
   line-height: 20px;
   font-size: 20px;
+}
+
+table , th , td {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 
 footer {

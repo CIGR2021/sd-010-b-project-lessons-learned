@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: Ubuntu,'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #cabecalho {
@@ -47,6 +48,7 @@ main {
 #licoes_aprendidas,
 #licoes_a_aprender {
   display: inline-block;
+  font-size: 15px;
 }
 
 #rodape{
@@ -66,5 +68,6 @@ main {
  #apredizado{
     width: 1000px;
     margin: auto;
-    line-height: 20px;
+    line-height: 25px;
+
 }

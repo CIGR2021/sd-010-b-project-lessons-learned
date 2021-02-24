@@ -3,13 +3,14 @@ body{
 }
 img {
   width: 300px;
-  border-radius: 8px;
+  border-radius: 8px;  
   margin: 10px;
   display: block;
 }
 
 #cabecalho{
-  background-color: blue;
+  background-color: rgb(27, 163, 0);
+  color: rgb(231, 236, 239);
   z-index: 2 ;
   width:100% ;
   position: fixed;
@@ -20,7 +21,6 @@ h1{
 padding:5px;
 border:green solid 2px;
 font: size 3em;
-color:blue
 font-family:monospace;
 }
 
@@ -43,6 +43,16 @@ main{
   
 }
 
+
+
+#rodape {
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  background-color: rgb(27, 163, 0);
+  color: rgb(231, 236, 239);
+  font-size: 1.5em;
+}
 
 
 

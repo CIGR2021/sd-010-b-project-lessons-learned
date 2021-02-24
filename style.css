@@ -20,7 +20,7 @@
 }
 
 .navegation ul li {
-  list-style-type: none;  
+  list-style-type: none;
 }
 
 main {
@@ -76,7 +76,12 @@ body {
   text-align: left;
 }
 
-.article {
+.lado-esquerdo {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.lado-direito {
   max-width: 40%;
   display: inline-block;
   margin: 100px;

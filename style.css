@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-left: 20px;
+  color: rgb(16, 56, 16);
 }
 
 #cabecalho {
@@ -15,19 +16,19 @@ body {
 }
 
 .licoes {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 #principal {
-    text-align: justify;
-    border: 1px solid black;
+  text-align: justify;
+  border: 1px solid black;
 }
 
 .lado-esquerdo, .lado-direito {
-    border: 1px solid black;
-    width: 500px;
-    padding: 10px;
+  border: 1px solid black;
+  width: 500px;
+  padding: 10px;
 }

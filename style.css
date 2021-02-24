@@ -23,13 +23,21 @@ body {
   margin-top: 40px;
 }
 
-.about-learning-left {
+.lado-esquerdo {
+  display: inline-block;
+  width:440px;
   text-align: justify;
 }
 
-.about-learning-right {
+.lado-direito {
+  display: inline-block;
+  width:430px;
+  padding : 16px;
   text-align: justify;
-  float: right;
+}
+
+.artigo_barra {
+  display:flex;
 }
 
 #licoes_aprendidas,
@@ -39,6 +47,7 @@ body {
 
 
 #minha_foto {
+  padding: auto;
   width: 206px;
   height: 246px;
   margin-top: 116px;

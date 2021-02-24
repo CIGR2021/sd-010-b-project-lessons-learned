@@ -17,7 +17,7 @@ body {
 #cabecalho {
 		position: fixed;
 		top: 0;
-		color:white; 
+		color:white;  
 		font-family: Sulphur Point, sans-serif;
 		background-color: rgb(48, 197, 255);
 		width: 100%;
@@ -48,7 +48,7 @@ img {
 
 .lado-esquerdo , .lado-direito {
 	display: inline-block;
-	width: 45%;	
+	width: 45%; 	
 	vertical-align: top;
 	justify-content: center;
 	margin: 0 auto;
@@ -58,11 +58,13 @@ img {
 	border: 1px solid black;
 	padding: 10px;
 	height: 165px;
+  line-height: 20px;
+  font-size: 15px;
 }
 
 .lado-direito {
-	position: relative;
-	left: 120px;
+	position: initial;
+  margin-left: 104px;
 }
 
 table , th , td {
@@ -71,4 +73,26 @@ table , th , td {
 
 table {
 	border-collapse: collapse;
+}
+
+.lista1{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.lista1 ol{
+  list-style-type: none;
+}
+
+.lista2{
+  display: inline-block;
+}
+
+.lista2 ul{
+  list-style-type: none;
+}
+
+.lista{
+  margin: 5% 10%;
+  border: 1px solid black;
 }

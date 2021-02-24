@@ -7,24 +7,44 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+nav {
+  display: block;
+}
+
 
 #cabecalho {
   position: fixed;
   top: 0;  
-  color: #f4f9f9;
+  color: #045762;
   width: 100%;
   background-color: #16c79a;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
+}
+
+#area-menu {
+ padding-top: 30px;
 }
 
 #minha_foto {  
   width: 200px;
-  margin-top: 150px;
+  margin-top: 160px;
   display: block;
 } 
 
 #rodape {
   border: 5px solid black;
+}
+
+#area-menu a:link, #area-menu a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 14px;
+}
+
+#area-menu a:hover {
+  color: #045762;
+  background: #fff;
+  text-decoration: solid;
 }
 

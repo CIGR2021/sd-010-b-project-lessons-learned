@@ -14,7 +14,7 @@ h2 {
   font-size  : 20px;
   color      : tomato;
   line-height: 30px;
-  font-family: 'Franklin Gothic Medium';
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -44,10 +44,10 @@ td {
 }
 
 aside {
-  width: 10%;
-  text-align: justify;
+  width       : 10%;
+  text-align  : justify;
   margin-right: 2%;
-  position: relative;
-  right: 0;
-  display: inline-block;
+  position    : relative;
+  right       : 0;
+  display     : inline-block;
 }

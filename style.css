@@ -1,5 +1,5 @@
-* { 
-    font-family: sans-serif;   
+* {
+    font-family: sans-serif;
 }
 body {
     background-color: rgb(253, 251, 251);
@@ -17,7 +17,7 @@ header {
 .main {
     margin-top: 40px;
 }
-nav { 
+nav {
     position: absolute;
 }
 img {
@@ -42,8 +42,8 @@ img {
 }
 .lado-direito {
     display: inline-block;
-    width: 400px;    
+    width: 400px;
 }
-footer { 
+footer {
     font-size: small;
 }

@@ -7,7 +7,7 @@ body {
 
 #cabecalho {
   background-image: linear-gradient(rgb(139, 140, 137) 90%, rgb(231, 236, 239));
-  box-shadow: 0 25px 50px rgb(231, 236, 239);;
+  box-shadow: 0 25px 50px rgb(231, 236, 239);
   color: rgb(231, 236, 239);
   position: fixed;
   text-align: center;
@@ -64,7 +64,7 @@ body {
 #sobre_aluno , #sobre_aprendizado {
   display: inline-block;
   line-height: 1.5em;
-  margin: 0 .8em;
+  margin: 0 0.8em;
   width: 48%;
 }
 
@@ -78,7 +78,7 @@ body {
 
 #tabela {
   clear: both;
-  margin: 0 .8em;
+  margin: 0 0.8em;
 }
 
 #rodape {
@@ -86,7 +86,7 @@ body {
   bottom: -1.8em;
   box-shadow: 0 25px 50px rgb(231, 236, 239);
   color: rgb(231, 236, 239);
-  padding: .5em 0;
+  padding: 0.5em 0;
   position: relative;
   text-align: center;
   width: 100%;

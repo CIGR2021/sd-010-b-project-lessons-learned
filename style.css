@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 #cabecalho {
@@ -15,6 +16,10 @@ body {
 
 #cabecalho h1 {
   text-align: center;
+}
+
+strong {
+  color: green;
 }
 
 .menu {
@@ -34,4 +39,5 @@ body {
   text-decoration: none;
   margin: 0 10px;
   color: black;
+  text-transform: uppercase;
 }

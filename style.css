@@ -12,7 +12,6 @@ body {
   width: 80%;
   text-align: center;
   padding-bottom: 20px;
-  z-index: 2;
 }
 
 h1 {
@@ -42,6 +41,7 @@ h2 {
   width: 40%;
   font-size: 14px;
   display: inline-block;
+  padding:15px
 }
 
 #rodape {
@@ -51,9 +51,10 @@ h2 {
 
 .lado-direito {
   border: solid black 1px;
-  width: 38%;
+  width: 40%;
   display: inline-block;
-  margin-left: 94px;
+  margin-left: 10%;
+  padding:15px;
 }
 
 .linktrybe {
@@ -63,17 +64,28 @@ h2 {
 
 li {
   text-align: justify;
-  margin-left: 200px;
+  margin-left: 45%;
 }
 
 table {
   margin: auto;
   margin-bottom: 50px;
   margin-top: 50px;
+  
 }
 
 .lado {
   width: 40%;
   font-size: 14px;
   display: inline-block;
+  margin-left: 3%;
+}
+
+td,th {
+  padding: 15px;
+  border: 2px solid black;
+}
+
+a{
+  text-decoration: none;
 }

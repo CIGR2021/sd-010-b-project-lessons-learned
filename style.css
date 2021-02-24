@@ -6,3 +6,8 @@ header {
   background-color: red;
   top: 0px;
 }
+
+img {
+  height: 444px;
+  width: 444px;
+}

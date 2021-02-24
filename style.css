@@ -13,10 +13,28 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgba (230, 87, 77, 0.7);
 }
 
 table , th , td {
   border-style: solid;
   border-color: black;
   border-width: 1px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+}
+
+article , aside {
+  margin-left: 80px;
+  margin-right: 10px;
+  line-height: 20px;
+  font-size: 20px;
 }

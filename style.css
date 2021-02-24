@@ -15,6 +15,7 @@ main {
 
 #cabecalho {
   background-color: rgb(4, 104, 4);
+  position: fixed;
   top: 0;
   border: solid 1px  rgb(252, 238, 238);
   border-radius: 1px;

@@ -43,12 +43,17 @@ article {
     line-height: 20px;
 }
 
-.lado-direito {
+.lado-esquerdo {
     display: inline-block;
+    width: 300px;
+    text-align: left;
     
 }
 
-.lado-esquerdo {
+
+.lado-direito {
     display: inline-block;
+    text-align: right; 
 }
+
 

@@ -26,15 +26,15 @@
   padding: 0.1px auto;
 }
 
-a ,
-li ,
-th ,
-td {
+a 
+, li
+, th
+, td {
   font-size: 14px;
 }
 
-table ,
-th {
+table 
+, th {
   border: 1px solid black;
 }
 

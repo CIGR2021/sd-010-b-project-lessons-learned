@@ -2,14 +2,11 @@ body {
   background-color: rgb(253, 251, 251);
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif, Arial;
   border: solid 3px rgb(240, 102, 44);
 }
 
-h1,
-img,
-li,
-a {
+h1 , img , li , a {
   margin: 0;
   border: 0;
   padding: 0;
@@ -19,17 +16,18 @@ p {
   line-height: 1.04em;
 }
 
+.list_container div , .lado-esquerdo , .lado-direito {
+  background: radial-gradient(circle, rgba(244, 103, 45, 1) 0%, rgba(
+    247, 155, 75, 1) 100%);
+}
+
 #cabecalho {
   display: flex;
   flex-direction: row;
   position: fixed;
+  background: linear-gradient(90deg, rgba(240, 102, 44, 1) 0%, rgba(
+    246, 155, 75, 1) 100%);
   width: 100vw;
-  background: rgb(240, 102, 44);
-  background: linear-gradient(
-    90deg,
-    rgba(240, 102, 44, 1) 0%,
-    rgba(246, 155, 75, 1) 100%
-  );
   top: 0;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +38,11 @@ p {
   margin-right: 15px;
   padding: 0.5%;
   border-radius: 50%;
+  transition: 0.4s;
+}
+
+#minha_foto:hover {
+  transform: translate(-60px, 20px) scale(1.5);
 }
 
 main {
@@ -56,14 +59,14 @@ nav ul {
 .nav-item {
   margin: 0 15px;
   padding: 10px;
-  background-color: #cb4727;
+  background-color: rgb(203, 71, 39);
   border-radius: 40px;
   cursor: pointer;
   transition: 0.5s;
 }
 
 .nav-item:hover {
-  background-color: #7d1800;
+  background-color: rgb(125, 24, 0);
 }
 
 .nav-item a {
@@ -91,13 +94,7 @@ section h1 {
 }
 
 .list_container div {
-  background: rgb(244, 134, 38);
-  background: radial-gradient(
-    circle,
-    rgba(244, 134, 38, 1) 0%,
-    rgba(240, 102, 44, 1) 100%
-  );
-  padding: 20px 50px 50px 50px;
+  padding: 20px 50px 50px;
   border-radius: 15%;
   color: white;
   width: 20%;
@@ -118,7 +115,7 @@ section h1 {
 .list_title a {
   text-decoration: none;
   color: whitesmoke;
-  background-color: #cb4727;
+  background-color: rgb(203, 71, 39);
   border-radius: 40px;
   cursor: pointer;
   transition: 0.5s;
@@ -126,27 +123,20 @@ section h1 {
 }
 
 .list_title a:hover {
-  background-color: #7d1800;
+  background-color: rgb(125, 24, 0);
 }
 
 .lado-direito h3 {
   font-size: 1.5em;
 }
 
-.lado-esquerdo,
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   width: 40%;
   display: inline-block;
   margin: 30px;
-  padding: 0 30px 30px 30px;
+  padding: 0 30px 30px;
   text-align: center;
   vertical-align: top;
-  background: rgb(244, 134, 38);
-  background: radial-gradient(
-    circle,
-    rgba(244, 134, 38, 1) 0%,
-    rgba(240, 102, 44, 1) 100%
-  );
   color: whitesmoke;
   border-radius: 5%;
   box-shadow: 10px 10px 25px grey;
@@ -164,22 +154,23 @@ section h1 {
 }
 
 caption {
-  padding: 20px 20px 10px 20px;
+  padding: 20px 20px 10px;
   background: rgb(240, 102, 44);
   font-size: 1.1em;
   font-weight: 600;
   border-radius: 30px 30px 0 0;
 }
+
 table {
   margin: auto;
-  padding: 0 100px 40px 100px;
+  padding: 0 100px 40px;
   margin-bottom: 40px;
   background: rgb(240, 102, 44);
   text-align: center;
   border-radius: 0 0 30px 30px;
 }
 
-tr td:nth-child(1) {
+tr td:nth-child( 1 ) {
   font-weight: 500;
 }
 

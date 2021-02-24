@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -8,12 +9,19 @@ body {
   padding: 0;
 }
 
+.caixa {
+  border: solid 1px rgb(3, 4, 94);
+  background-color: rgb(0, 150, 199);
+  color: white;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: rgb(2, 62, 138);
   text-align: center;
+  color: white;
 }
 
 #navegacao {
@@ -42,7 +50,7 @@ body {
   background-color: rgb(0, 119, 182);
   color: white;
   text-decoration: none;
-  padding: 6.3px 20px;
+  padding: 6.1px 20px;
 }
 
 #imagem_perfil span a {
@@ -58,8 +66,6 @@ main {
 }
 
 #imagem_perfil {
-  border: solid 1px rgb(3, 4, 94);
-  background-color: rgb(0, 150, 199);
   display: inline-block;
   text-align: center;
   width: 20%;
@@ -74,4 +80,23 @@ main {
 #imagem_perfil span {
   display: block;
   margin: 10px 0;
+}
+
+#licoes {
+  display: inline-block;
+  margin: 30px;
+  line-height:25px;
+}
+
+#licoes h1{
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-right: 10px;
 }

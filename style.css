@@ -23,7 +23,7 @@ body {
 }
 
 strong {
-  color: #206b53;
+  color: rgb(32, 107, 83);
 }
 
 .menu ul {
@@ -45,7 +45,7 @@ strong {
 }
 
 .menu ul li a:hover {
-  background-color: #206b53;
+  background-color: rgb(32, 107, 83);
   color: white;
 }
 
@@ -63,6 +63,6 @@ strong {
 
 .minha-foto p {
   line-height: 5px;
-  color: #206b53;
+  color: rgb(32, 107, 83);
   font-weight: 900;
 }

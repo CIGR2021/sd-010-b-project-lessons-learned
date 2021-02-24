@@ -7,3 +7,21 @@ img {
     border-radius: 50%;
     padding-top: 60px;
 }
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: seagreen;
+    opacity: 30%;
+}
+body {
+    background-color: rgb(253,251,251);
+    width: 150px;
+    border-radius: 50%;
+    padding-top: 60px;
+}
+footer {
+    font-size: 10px;
+    background-color: rgb(185, 192, 201);
+}

@@ -1,14 +1,20 @@
 * {
     background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: rgb(236, 245, 219);
+    height: 50px;
+    min-width: 100%;
 }
 
 #titulo {
-    
+    margin-left: 400px;
+    background-color: rgb(236, 245, 219);
 }
 
 #minha_foto {
@@ -17,27 +23,47 @@
 }
 
 #licoes_aprendidas {
-
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 60px;
 }
 
 #licoes_a_aprender {
-
+    margin-left: 60px;
+    display: inline-block;
 }
 
 #link_externo{
+    margin-left: 3%;
+    margin-top: 20px;
+    display: block;
 
 }
 
 #tabela {
-    
+   border: 3px solid black; 
+   padding: 10px;
+   width: 600px;
+}
+
+td:hover {
+    background-color: rgb(247, 112, 112);
+}
+
+th, td {
+    line-height: 30px;
+    text-align: center;
 }
 
 section p {
-
+    font-size: 15px;
+    color: teal;
+    font-family: fantasy;
+    line-height: 20px;
 }
 
 aside {
-    
+
 }
 
 #rodape {

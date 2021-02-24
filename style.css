@@ -3,9 +3,18 @@
       background-color:  rgb(253, 251, 251);
 }
 
+  li {
+
+    font-family: monospace;
+    color: seagreen;
+
+  }
+
   #cabecalho {
       position: fixed;
       top: 0px;
+      padding: auto;
+            
     
 }
   #minha_foto{
@@ -13,17 +22,21 @@
 
   }
     
-  #licoes_aprendidas, #licoes_a_aprender  {
+  #licoes_aprendidas, #licoes_a_aprender {
       display: inline-block;
       margin-top: 5%;
       margin-left: 20%;
       margin-bottom: 2%;
+      border: 10px;
+
+
 }
 
   .lado-esquerdo, .lado-direito{
       text-align: justify;
       display: inline-block;
       margin-bottom: 5%;
+      
 }
 
   .lado-esquerdo{

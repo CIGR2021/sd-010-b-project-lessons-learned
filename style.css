@@ -43,10 +43,15 @@ main{
   display: inline-block;
   margin-top: 100px;
   border-radius: 100%;
+  margin-left: 90px;
+
+}
+
+.nome{
 
 }
 .section-table{
-  padding: 100px 0 0200px;
+  padding: 100px  200px;
 }
 
 table{
@@ -55,9 +60,13 @@ table{
   border: solid;
 }
 table td{
-  padding: 50px;
+  padding: 15px 50px 50px 50px;
   border: solid;
 
+}
+table h3{
+  text-align: center;
+  padding: 25px;
 }
 .section-textos h2{
   text-align: center;

@@ -77,6 +77,7 @@ a:hover {
     border-color: black;
     border-width: 2px;
     width: max-content;
+    margin-left: 100px;
 
 }
 
@@ -84,4 +85,25 @@ a:hover {
     text-align: left;
     margin: 5px;
     width: 450px;
+}
+
+.paragraf2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    width: max-content;
+    margin-left: 200px;
+}
+
+.paragraf2 p {
+    text-align: left;
+    margin: 5px;
+    width: 400px;
+}
+
+.meu-aprendizado div{
+    display: inline-block;
+    text-align: center;
 }

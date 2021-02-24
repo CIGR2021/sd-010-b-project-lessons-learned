@@ -14,18 +14,18 @@ body {
   text-align: center;
 }
 
-#minha-foto {
+#minha_foto {
   display: block;
   width: 150px;
   margin-top: 175px;
   padding-bottom: 25px;
 }
 
-#licoes-aprendidas {
+#licoes_aprendidas {
   line-height: 25px;
 }
 
-#licoes-a-aprender{
+#licoes_a_aprender {
   line-height: 25px;
 }
 

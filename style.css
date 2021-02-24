@@ -1,9 +1,11 @@
 * {
   margin: 0;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', serif;
 }
 
-body { background-color: rgb(253, 251, 251); } 
+body {
+  background-color: rgb(253, 251, 251);
+}
 
 h1 h2 {
   top: 10px;
@@ -42,8 +44,6 @@ h1 h2 {
   padding: 10px;
   text-align: center;
 }
-
-
 
 #minha_foto {
   display: block;
@@ -90,7 +90,7 @@ th {
 
 #rodape {
   display: block;
-  font-size: small ;
+  font-size: small;
   text-align: center;
   padding: 10px;
   background-color: burlywood;

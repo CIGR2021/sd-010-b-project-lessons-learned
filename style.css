@@ -26,6 +26,10 @@ article , section {
   text-align: justify;
   display   : inline-block;
   margin    : 1%;
+  font-size  : 15px;
+  color      : rgb(106, 167, 49);
+  line-height: 17px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 div {

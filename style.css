@@ -14,18 +14,18 @@ body {
 	height: 190px;
 	background-color: green;
 	font-family: Times New Roman, Times, serif;
-}
+  }
 
 h1 {
   text-align: center;
   margin-top: 20px;
   font-size: 42px;
   color: white;
-}
+  }
 
 nav {
   margin-top: 50px;
-}
+  }
 
 nav a {
   display: block;
@@ -35,8 +35,7 @@ nav a {
   font-weight: 600;
   color: white;
   margin-left: 40px;
-
-}
+  }
 
 figure {
 	margin-top: 210px;
@@ -92,6 +91,17 @@ h3 , p {
 
 p {
   text-align: justify;
+  }
+
+table {
+  margin: 10px;
+	width: auto;
+  }
+
+table, th, td {
+  width: max-content;
+  border: 1px solid black;
+  border-collapse: collapse;
   }
 
 footer {

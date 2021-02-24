@@ -32,7 +32,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: navy;
+	color: whitesmoke;
 }
 
 a:hover {
@@ -99,7 +99,7 @@ a:hover {
 	padding-top: 20px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
 	text-align: justify;
 	float: left;
 	width: 49%;
@@ -107,7 +107,7 @@ a:hover {
 	padding-right: 10px;
 }
 
-#lado-direito {
+.lado-direito {
 	width: 49%;
 	text-align: justify;
 	margin-right: 5px;

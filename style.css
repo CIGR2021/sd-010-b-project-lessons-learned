@@ -66,3 +66,13 @@ h1 {
   height: 150px;
 
 }
+#minha_foto {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 10px;
+}
+
+#licoes_a_aprender {
+  display: block;
+} 

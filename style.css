@@ -8,24 +8,31 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(40, 91, 95);
-  width: 80%;
 }
 
 #titulo {
   text-align: center;
 }
 
-#minha_foto {
+#minha-foto {
   display: block;
   width: 150px;
   margin-top: 175px;
   padding-bottom: 25px;
 }
 
+#licoes-aprendidas {
+  line-height: 25px;
+}
+
+#licoes-a-aprender{
+  line-height: 25px;
+}
+
 #rodape {
   background-color: rgb(40, 91, 95);
   height: 50px;
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
@@ -48,7 +55,7 @@ body {
 .lado-esquerdo {
   display: inline-block;
   width: 400px;
-  margin: 20px; 
+  margin: 20px;
 }
 
 .lado-direito {

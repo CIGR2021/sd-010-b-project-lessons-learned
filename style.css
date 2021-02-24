@@ -35,6 +35,10 @@ body{
   text-decoration: underline;
 
 }
+a:visited{
+  color: black;
+
+}
 main{
   padding: 0 15px;
 }

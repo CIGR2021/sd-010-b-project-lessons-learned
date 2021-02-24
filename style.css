@@ -11,11 +11,10 @@
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   line-height: 40px;
   position: fixed;
   background-color: seagreen;
-  
 }
 
 img {
@@ -25,7 +24,7 @@ img {
 ul {
   display: inline-block;
   color: rgb(23, 66, 50);
-}articl
+}
 
 ol {
   display: inline-block;

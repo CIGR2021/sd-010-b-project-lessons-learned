@@ -11,9 +11,9 @@ body {
 }
 
 h2 {
-  font-size  : 20px;
-  color      : tomato;
-  line-height: 30px;
+  font-size  : 19px;
+  color      : rgb(139, 74, 63);
+  line-height: 29px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -26,10 +26,6 @@ article , section {
   text-align: justify;
   display   : inline-block;
   margin    : 1%;
-  font-size  : 20px;
-  color      : tomato;
-  line-height: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div {

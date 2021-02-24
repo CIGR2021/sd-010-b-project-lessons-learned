@@ -13,6 +13,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: green;
 }
 
 a {

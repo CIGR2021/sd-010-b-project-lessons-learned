@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     margin-right: 35%;
 }
 
-#licoes_aprendidas #licoes_a_aprender {
+#licoes_aprendidas {
     display: inline;
     padding: 10px;
     margin: 10px;

@@ -11,7 +11,9 @@ body {
 }
 
 .links {
-  display: inline;
+  padding-top: 60px;
+  padding-bottom: 15px;
+padding-left: 25px;
 }
 #cabecalho {
   top: 0px;

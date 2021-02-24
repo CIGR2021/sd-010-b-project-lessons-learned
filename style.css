@@ -18,7 +18,8 @@ body {
 #minha_foto {
   display: block;
   width: 150px;
-  margin-top: 150px;
+  margin-top: 175px;
+  padding-bottom: 25px
 }
 
 #rodape {
@@ -64,4 +65,7 @@ body {
 #menu-principal a {
   text-decoration: none;
   color: white;
+}
+table tr td {
+  border: solid 1px;
 }

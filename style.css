@@ -11,23 +11,24 @@ line-height: 10px;
 font-size: 1.2em;
 }
 
+nav {
+  margin-top: 100px;
+}
+
 #licoes_aprendidas {
     margin-top: 75px;
-    margin: 10px;
-    padding: 10px;
-    border: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
 }
 
 #licoes_a_aprender {
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
   border: 20px;
 }
 
-.lado-esquerdo {
-  display: inline-block;
-}
-
-.lado-direito {
-  display: inline-block;
+.lado-esquerdo, .lado-direito {
+  width: 400px;
+  float: left;
 }

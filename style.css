@@ -35,15 +35,13 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#lessons {
-  margin-left: 50px;
-}
-
 #licoes_aprendidas {
   color: black;
   font-family: monospace;
-  margin-left: 10px;
   display: inline-block;
+  font-size: 15px;
+  font-weight: 530;
+  line-height: 20px;
 }
 
 #licoes_a_aprender {
@@ -52,8 +50,16 @@ body {
   font-family: monospace;
   list-style: square;
   display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .lists {
   display: inline-block;
+  margin-left: 30px;
+}
+
+.lists h2 {
+  text-align: left;
 }

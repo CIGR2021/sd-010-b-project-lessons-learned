@@ -22,7 +22,7 @@
 }
   #licoes_aprendidas, #licoes_a_aprender  {
       display: inline-block;
-      margin: 2em 15em;
+      margin-left: 20%;
 }
 
   .lado-esquerdo, .lado-direito{
@@ -41,8 +41,8 @@
       margin-bottom: 10;
 }
 
-#rodape {
-    text-align: center;
-    font-size: 10px;
+  #rodape {
+      text-align: center;
+      font-size: 10px;
 
 }

@@ -18,14 +18,14 @@ body {
     width: 250px;
 }
 
-.learning-left {
+.lado-esquerdo {
     margin-left: 60px;
     float: left;
     max-width: 35%;
     
 }
 
-learning-right {
+lado-direito {
     margin-right: 60px;
     float: right;
     max-width: 35%;

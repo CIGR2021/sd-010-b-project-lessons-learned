@@ -2,6 +2,15 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+header {
+    margin-bottom: 200px;
+}
+
+img {
+    /* A imagem ocupa metade da largura da página */
+    width: 50%;
+}
+
 .top-bar {
     position: fixed;
     top: 0px;

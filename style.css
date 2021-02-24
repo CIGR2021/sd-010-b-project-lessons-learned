@@ -10,15 +10,15 @@ body {
   line-height: 1.5;
 }
 
+a {
+  color: rgb(255, 67, 67);
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: green;
-}
-
-a {
-  color: red;
+  background-color: rgb(7, 108, 141);
 }
 
 .name {
@@ -32,4 +32,19 @@ a {
 article , aside {
   margin: 20px;
   border: 20px;
+}
+
+.divisao_centro {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+
+}
+
+.lado-direito {
+  width: 50%;
+  float: right;
 }

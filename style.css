@@ -34,3 +34,8 @@ body {
 #display {
     display: inline-block;
 }
+
+#rodape {
+    background-color: rgb(136, 136, 231);
+    font-weight: bold;
+}

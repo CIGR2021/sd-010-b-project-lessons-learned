@@ -21,8 +21,7 @@ img {
   padding-top: 5%;
 }
 
-article,
-section {
+article , section {
   width     : 40%;
   text-align: justify;
   display   : inline-block;

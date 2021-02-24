@@ -67,7 +67,7 @@ strong {
   font-weight: 900;
 }
 
-.artigo {
+.lado-esquerdo {
   float: left;
   width: 400px;
   text-align: center;
@@ -76,7 +76,7 @@ strong {
   box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
 }
 
-.aside {
+.lado-direito {
   float: right;
   width: 400px;
   text-align: center;
@@ -85,8 +85,7 @@ strong {
   box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
 }
 
-table {
+table{
   clear: both;
   padding-top: 100px;
-  margin: 0 auto;
 }

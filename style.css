@@ -49,15 +49,14 @@ aside p {
 
 #rodape {
   text-align: center;
+  background-color: green;
 }
 
 nav ul li {
   list-style-type: none;
 }
 
-table , 
-th , 
-td {
+table , th , td {
   border: 1px solid black;
   border-collapse: collapse;
 }

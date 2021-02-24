@@ -35,7 +35,9 @@
   .lado-esquerdo, .lado-direito{
       text-align: justify;
       display: inline-block;
-      margin-bottom: 5%;
+      margin-bottom: 6%;
+      line-height: 15pt;
+
       
 }
 

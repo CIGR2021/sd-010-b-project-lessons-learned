@@ -3,12 +3,20 @@
       background-color:  rgb(253, 251, 251);
 }
 
+  p {
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 1em;
+      display: inline-block;
+
+}
+
   #cabecacalho {
-    position: fixed;
-    top: 0px;
+      position: fixed;
+      margin-top: 0px;
 }
 
   #titulo {
+      margin-top: 0px;
       text-align:  center;
     
 }
@@ -17,3 +25,24 @@
       margin: 2em 15em;
 }
 
+  .lado-esquerdo, .lado-direito{
+      text-align: justify;
+      display: inline-block;
+}
+
+  .lado-esquerdo{
+      width: 40%;
+  }
+
+  .lado-direito{
+      
+      margin-left: 12%;
+      width: 35%;
+      margin-bottom: 10;
+}
+
+#rodape {
+    text-align: center;
+    font-size: 10px;
+
+}

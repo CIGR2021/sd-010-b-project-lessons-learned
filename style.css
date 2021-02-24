@@ -6,7 +6,7 @@ body {
   line-height: 25px;  
 }
 
-table td, .aside-lado-direito .lado-direito{
+table td {
   display: inline-block;
 }
 

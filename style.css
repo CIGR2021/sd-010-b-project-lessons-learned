@@ -6,3 +6,9 @@ body {
   position: fixed;
   top: 0;
 }
+
+table , th , td {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}

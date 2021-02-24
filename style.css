@@ -56,6 +56,7 @@ img {
 
 .lado-direito p , .lado-esquerdo p {
 	border: 1px solid black;
+  border-radius: 3px;
 	padding: 10px;
 	height: 165px;
   line-height: 20px;
@@ -67,32 +68,49 @@ img {
   margin-left: 104px;
 }
 
-table , th , td {
-	border: 1px solid black;
-}
-
-table {
-	border-collapse: collapse;
-}
-
 .lista1{
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-right: 430px;
 }
 
 .lista1 ol{
-  list-style-type: none;
+  list-style-type: "- ";
 }
 
 .lista2{
   display: inline-block;
+
 }
 
 .lista2 ul{
-  list-style-type: none;
+  list-style-type: "- ";
 }
 
 .lista{
   margin: 5% 10%;
+  padding: 15px 10px;
   border: 1px solid black;
+  border-radius: 3px;
+}
+
+table , th , td {
+	border: 1px solid black;
+  text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+  margin: auto;
+  width: 50%;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+#rodape{
+  background-color:rgb(67,70,75);
+  padding: 20px;
+  text-align: center;
+  margin-top: 2%;
 }

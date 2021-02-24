@@ -1,77 +1,75 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: monospace;
-    letter-spacing: 1px;
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  letter-spacing: 1px;
 }
 
-h1{
-    text-align: center;
-    color: black;
-    background-color: white;
-    line-height: 30px
+h1 {
+  text-align: center;
+  color: black;
+  background-color: white;
+  line-height: 30px;
 }
 
-a{
-    color: orangered;
-    font-weight: bold;
+a {
+  color: orangered;
+  font-weight: bold;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin: auto;
-    width: 100%;
-    border: 2px solid orangered;
-    text-align: center;
-    font-size: 20px;
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+  border: 2px solid orangered;
+  text-align: center;
+  font-size: 20px;
 }
 
-#topo{
-    margin: 90px 0 0 0;
-    background-color: orangered;
-    display: flex;
-    padding: 10px;
+#topo {
+  margin: 90px 0 0 0;
+  background-color: orangered;
+  display: flex;
+  padding: 10px;
 }
 
-#minha_foto{
-    width: 140px;
-    border-radius: 32% 0 20% 0;
-    border: solid 5px black;
+#minha_foto {
+  width: 140px;
+  border-radius: 32% 0 20% 0;
+  border: solid 5px black;
 }
 
-#artigo{
-    padding: 30px;
-    color: white;
-    font-weight: bold;
+#artigo {
+  padding: 30px;
+  color: white;
+  font-weight: bold;
 }
 
-#corpo{
-    display: flex;
-    
+#corpo {
+  display: flex;
 }
 
-#tabela{
-    color: orangered;
-    font-weight: bold;
-    margin: 30px;
+#tabela {
+  color: orangered;
+  font-weight: bold;
+  margin: 30px;
 }
 
-
-#rodape{
-    padding: 30px;
-    margin: auto;
-
+#rodape {
+  padding: 30px;
+  margin: auto;
 }
 
-#aconteceu{
-    padding: 30px;
-    color: white;
-    font-weight: bold;
+#aconteceu {
+  padding: 30px;
+  color: white;
+  font-weight: bold;
 }
 
-.lado-esquerdo, .lado-direito {
-    color:black
+.lado-esquerdo,
+.lado-direito {
+  color: black;
 }

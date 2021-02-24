@@ -1,57 +1,93 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    margin-top: 15px;
-    position: fixed;
-    background-size: cover;
-    background-color: seagreen;
-    height: 110px;
-    width: 100%;
-    
-        
-}
+#cabecalho {
+  margin-top: 15px;
+  position: fixed;
+  background-size: cover;
+  background-color: seagreen;
+  height: 110px;
+  width: 100%;
+  border-radius: 3%;
 
-
-#titulo{
-
-    
-}
-
-a{
-    color: salmon;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    border: ridge;
-    border-radius: 30%;
-}
-#minha_foto{
-    width: 300px;
-    height: auto;
-    position: static;
-    margin-top: 200px;
-    border-radius: 50%;
-    }
-#foto_position{
-   
-}
-#licoes_aprendidas{
-display: inline-block;
-
-}
-#licoes_a_aprender{
-    display: inline-block;
 
 }
 
-#rodape{
+
+#titulo {
+  margin: 20px;
+  text-align: center;
+
 
 }
 
-article{
-    margin-left: 30px;
-    width: 400px;
-    overflow: scroll;
-   
+a {
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: ridge;
+  border-radius: 30%;
+  padding: 6px;
+  margin: 6px;
+}
+
+#minha_foto {
+  width: 200px;
+  height: auto;
+  position: static;
+  margin-top: 200px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+
+#foto_position {}
+
+#licoes_aprendidas {
+  text-align: justify;
+  border: groove;
+  border-color: skyblue;
+  display: inline-block;
+  color: yellowgreen;
+  border-width: medium;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  border: groove;
+
+}
+
+#licoes_a_aprender {
+    border: groove;
+  border-color: skyblue;
+  display: inline-block;
+  color: tomato;
+  border-width: medium;
+  padding: 30px;
+  margin: 10px;
+  border-color: skyblue;
+
+}
+
+#rodape {}
+
+article {
+  margin-left: 30px;
+  width: 250px;
+  height: 100px;
+  overflow: scroll;
+
+}
+
+aside {
+  position: static;
+  display: inline-block;
+  margin-left: 30px;
+  width: 250px;
+  height: 100px;
+  border-style: ridge;
+  border-color: springgreen;
+  margin: 20px;
+  padding: 30px;
+
 }

@@ -25,19 +25,19 @@ body {
 
 .lado-esquerdo {
   display: inline-block;
-  width:440px;
+  width: 440px;
   text-align: justify;
 }
 
 .lado-direito {
   display: inline-block;
-  width:430px;
-  padding : 16px;
+  width: 430px;
+  padding: 16px;
   text-align: justify;
 }
 
-.artigo_barra {
-  display:flex;
+.artigo_display {
+  display: flex;
 }
 
 #licoes_aprendidas,
@@ -45,11 +45,9 @@ body {
   display: inline-block;
 }
 
-
 #minha_foto {
   padding: auto;
   width: 206px;
   height: 246px;
-  margin-top: 116px;
+  margin-top: 88px;
 }
-

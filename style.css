@@ -11,6 +11,8 @@ body {
   background-color: rgb(108, 202, 108);
   width: 80%;
   text-align: center;
+  padding-bottom: 20px;
+  z-index: 2;
 }
 
 h1 {
@@ -25,9 +27,11 @@ p {
 
 #minha_foto {
   width: 200px;
-  margin-left: 40%;
+  margin: auto;
   padding-top: 30px;
   display: block;
+  margin-bottom: 50px;
+  border-radius: 50%;
 }
 
 h2 {
@@ -47,7 +51,25 @@ h2 {
 
 .lado-direito {
   border: solid black 1px;
-  width: 40%;
+  width: 38%;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 94px;
+  position: absolute;
+  top: 850px;
+}
+
+.linktrybe {
+  display: block;
+  margin-top: 60px;
+}
+
+li {
+  text-align: justify;
+  margin-left: 200px;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }

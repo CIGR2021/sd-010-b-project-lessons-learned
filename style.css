@@ -48,3 +48,30 @@ body {
 #navegacao ul a:hover {
   background-color: rgb(14, 151, 224);
 }
+
+main {
+  margin-top: 120px;
+}
+
+#imagem_perfil {
+  border: solid 1px #03045e;
+  background-color: rgb(0, 150, 199);
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  margin: 30px 20px;
+}
+
+#minha_foto {
+  margin-top: 5px;
+  width: 95%;
+}
+
+#imagem_perfil span {
+  display: block;
+  margin: 10px 0;
+}
+
+#imagem_perfil span a {
+  color: rgb(202, 240, 248);
+}

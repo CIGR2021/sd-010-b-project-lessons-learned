@@ -9,6 +9,24 @@ main {
     margin-right: auto;
 }
 
+nav {
+    color: white;
+    background-color: brown;
+    margin: auto;
+    padding-bottom: 15px;
+    box-shadow: 0px 2px 3px #666;
+}
+
+#nav_bar {
+    width: 900px;
+    margin: auto;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    font-weight: 900;
+}
 #cabecalho {
     position: fixed;
     top: 0;
@@ -17,13 +35,13 @@ main {
 }
 
 #titulo {
-text-align: center;
-color: brown;
+    text-align: center;
+    color: brown;
 }
 
 #minha_foto {
     display: block;
-    margin: 100px auto 20px;
+    margin: 150px auto 20px;
     border-radius: 50%;
 
 }
@@ -73,11 +91,9 @@ color: brown;
     background-color: brown;
     height: 35px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 1px;
+    padding-bottom: 15px;
     margin: 0;
-}
-
-#rodape a {
     color: white;
-}
 
+}

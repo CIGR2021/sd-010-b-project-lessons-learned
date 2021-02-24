@@ -30,16 +30,10 @@ a {
     margin-top: 100px;
 }
 
-.container {
-    display: inline-block;
-} 
-
-.lado-direito{
-    display: inline-block;
-}
-
-.lado-esquerdo {
-    display: inline-block;
+table {
+    margin: auto;
+    padding: 30px;
+    border: solid 5px;
 }
 
 

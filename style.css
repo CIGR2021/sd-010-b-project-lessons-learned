@@ -42,7 +42,21 @@ main{
   display:inline-block;
   
 }
+#sobre_aluno , #sobre_aprendizado {
+  width: 48%;
+  display: inline-block;
+  margin: 0 1%;
+  line-height: 1.5em;
+}
+.lado-direito {
+  float: right;
 
+}
+
+#sobre {
+  margin: 0 auto;
+  display: block;
+}
 
 
 #rodape {

@@ -10,7 +10,7 @@ h2 {
 }
 
 #cabecalho {
-  background-color: rgb(219,252,255);
+  background-color: rgb(219, 252, 255);
   font-family: monospace;
   position: fixed;
   top: 0;
@@ -58,7 +58,7 @@ h2 {
   margin: 0 6em 3em;
 }
 
-table, th, td {
+table ,th ,td {
   background-color: rgb(166, 207, 213);
   border: 1px solid black;
   border-radius: 10px;
@@ -73,7 +73,7 @@ caption {
 }
 
 span {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .lists {
@@ -102,7 +102,7 @@ span {
   text-decoration: underline;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas ,#licoes_a_aprender {
   font-size: 1.2em;
   line-height: 1.5;
   list-style: none;
@@ -110,7 +110,7 @@ span {
 }
 
 .learning {
-  background-color: rgb(50,14,59);
+  background-color: rgb(50, 14, 59);
   color: white;
   padding: 4em 2em;
 }
@@ -140,7 +140,7 @@ span {
 }
 
 #rodape {
-  background-color: rgb(166,207,213);
+  background-color: rgb(166, 207, 213);
   padding: 1em 0;
   text-align: center;
 }

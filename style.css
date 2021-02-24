@@ -63,8 +63,7 @@ main figure img {
   border: thin solid;
 }
 
-.table-section , 
-.content {
+.table-section , .content {
   background-color: var(--box-color);
   margin: 25px 100px;
 }
@@ -80,8 +79,7 @@ main figure img {
   color: var(--top-bottom-text-color);
 }
 
-.table-section tbody th , 
-.table-section tbody td {
+.table-section tbody th , .table-section tbody td {
   text-align: start;
   border: 1px solid rgb(153, 153, 153);
   padding: 0 15px;
@@ -104,8 +102,7 @@ main figure img {
   vertical-align: top;
 }
 
-.lado-esquerdo , 
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   background-color: var(--box-color);
   display: inline-block;
   width: 40%;
@@ -114,8 +111,7 @@ main figure img {
   vertical-align: middle;
 }
 
-article p , 
-aside p {
+article p , aside p {
   margin: 0;
 }
 

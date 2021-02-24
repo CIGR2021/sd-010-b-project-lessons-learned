@@ -1,91 +1,91 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    text-align: center;
-    top: 0;
-    background-image: linear-gradient(rgb(58, 121, 238) , rgb(73, 111, 182));
-    width: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  background-image: linear-gradient(rgb(58, 121, 238) , rgb(73, 111, 182));
+  width: 100%;
 }
 
 #titulo {
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 #main {
-    margin: 100px 15px;
-    margin-top: 100px;
+  margin: 100px 15px;
+  margin-top: 100px;
 }
 
 h2 {
-    color: rgb(22, 30, 99);
+  color: rgb(22, 30, 99);
 }
 
 h3 {
-    margin: 0;
-    padding: 10px;
+  margin: 0;
+  padding: 10px;
 }
 
 #minha_foto {
-    height: 300px;
-    border-radius: 10%;
+  height: 300px;
+  border-radius: 10%;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    margin-right: 80px;
+  display: inline-block;
+  margin-right: 80px;
 }
 
 .lado-direito {
-    display: inline-block;
+  display: inline-block;
 }
 
 section {
-    height: auto;
-    margin: 20px;
+  height: auto;
+  margin: 20px;
 }
 
 article {
-    line-height: 22px;
-    display: inline-block;
-    width: 48%;
+  line-height: 22px;
+  display: inline-block;
+  width: 48%;
 }
 
 aside {
-    display: inline-block;
-    width: 50%;
-    height: auto;
-    vertical-align: top;
-    line-height: 22px;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  vertical-align: top;
+  line-height: 22px;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color:rgb(14, 14, 37);
-    letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color:rgb(14, 14, 37);
+  letter-spacing: 2px;
 }
 
 table {
-    border-width: 3px;
-    border-style: double;
-    border-color: #009ed3;
+  border-width: 3px;
+  border-style: double;
+  border-color: rgb(12, 161, 211);
 }
 
 th {
-    border-bottom-style: solid;
+  border-bottom-style: solid;
 }
 
 #rodape {
-    width: 100%;
-    bottom: 0;
-    height: auto;
-    text-align: center;
-    border: 0px solid;
-    background-color: #009ed3;
-    bottom: 0;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  text-align: center;
+  border: 0px solid;
+  background-color: rgb(12, 161, 211);
+  bottom: 0;
 }

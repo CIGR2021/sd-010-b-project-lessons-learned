@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 
 #titulo {
   font-size: 48px;
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
 }
 
@@ -53,7 +53,7 @@ nav ul li {
 
 table {
   margin: 10px 0;
-  border: 1px solid rgb(64, 128, 128));
+  border: 1px solid rgb(64, 128, 128);
 }
 
 p {

@@ -29,25 +29,27 @@
 }
 section h2{
     text-align:center;
-    padding:10px;
+    padding:15px;
+    color: rgb(16, 31, 54);
 }
  #licoes_aprendidas li{
     font-family:fantasy;
-    background-color:rgb(88, 150, 150);
+    background-color:rgb(28, 176, 202);
     font-style:italic;
-    max-width:200px;
+    min-width:200px;
     padding:5px;
-    margin-left:30px;
+    margin-left: 300px;
 }
 #licoes_aprendidas, #licoes_a_aprender{
     display: inline-block;
 }
  #licoes_a_aprender li {
     font-family:fantasy;
-    background-color:rgb(5, 59, 59);
+    background-color:rgb(55, 112, 112);
     font-style:italic;
-    max-width:200px;
+    min-width:200px;
     padding:5px;
+    margin-left: 50px;
 }
 .lado-esquerdo { 
     float:left;

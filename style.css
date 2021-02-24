@@ -6,12 +6,20 @@ body {
 #cabecalho {
   top: 0px;
   position: fixed;
+  z-index: 2;
   left: 0px;
   right: 0px;
   text-align: center;
   color: #fff;
   background-color: rgb(200, 174, 224);
 }
+
+nav{
+  position: absolute;
+  z-index: 1;
+  line-height: 30px;
+}
+
 
 #minha_foto {
   width: 200px;
@@ -54,10 +62,9 @@ main {
     padding-left: 20px;
 }
 
-/*#tragetoria,
-#apredizado{
+ #tragetoria,
+ #apredizado{
     width: 1000px;
     margin: auto;
     line-height: 20px;
 }
-*/

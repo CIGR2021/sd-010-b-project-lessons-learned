@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-left: 20px;
 }
 
 #cabecalho {
@@ -10,8 +11,23 @@ body {
 #minha_foto {
   margin-top: 70px;
   width: 180px;
+  border-radius: 50%;
 }
 
 .licoes {
     margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#principal {
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.lado-esquerdo, .lado-direito {
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
 }

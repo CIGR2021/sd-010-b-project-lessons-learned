@@ -3,17 +3,38 @@ body{
 }
 
 #cabecalho{
-    background-color: royalblue;
+    margin-top: 15px;
     position: fixed;
-    top: 0px;
+    background-size: cover;
+    background-color: seagreen;
+    height: 110px;
+    width: 100%;
     
+        
+}
+
+
+#titulo{
+
+    
+}
+
+a{
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: ridge;
+    border-radius: 30%;
 }
 #minha_foto{
     width: 300px;
     height: auto;
+    position: static;
+    margin-top: 200px;
+    border-radius: 50%;
     }
 #foto_position{
-    top: 300px;
+   
 }
 #licoes_aprendidas{
 display: inline-block;
@@ -27,7 +48,10 @@ display: inline-block;
 #rodape{
 
 }
-article{
-    overflow: 300px;
-}
 
+article{
+    margin-left: 30px;
+    width: 400px;
+    overflow: scroll;
+   
+}

@@ -12,6 +12,7 @@ body {
   display: inline;
   width: 100%;
   text-align: center;
+  padding: 40px 10px 10px 10px;
 }
 
 #cabecalho ul li {
@@ -20,7 +21,7 @@ body {
 }
 
 #main {
-  margin-top: 20px;
+  margin: 50px;
   margin-bottom: 200px;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 #rodape a:hover {
-  color: #cccccc;
+  color: rgb(160, 255, 191);
 }
 
 .lado-esquerdo {

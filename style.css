@@ -34,9 +34,7 @@ body {
 nav {
   font-size: 100px;
   position: absolute;
-  display: block;
   color: red;
-  border: 5px blueviolet;
   padding: 50px;
 }
 
@@ -64,7 +62,7 @@ aside {
 article {
   position: absolute;
   font-size: 40px;
-  display: block;
+  display: inline-block;
   top: 480px;
   left: 520px;
   line-height: 1;

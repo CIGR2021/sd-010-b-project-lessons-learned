@@ -1,4 +1,6 @@
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: rgb(253, 251, 251);
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 19px;
@@ -6,28 +8,44 @@ body {
 }
 
 #cabecalho {
-    margin: auto;
+    height: 150px;
     position: fixed;
     top: 0px;
+    color: #fff;
+    background-color: #0B3B0B;
+    width: 100%;
 }
 
 #titulo {
-    color: #fff;
-    background-color: #0B3B0B;
+    text-align: center;
+}
+
+#artigo {
+    padding: 15px;
+    text-align: justify;
     border: 1px solid black;
-    padding: 10px 30px;
+    max-width: 50%;
+}
+
+#passagem_aprendizado {
+    border: 1px solid black;
+    max-width: 30%;
 }
 
 #minha_foto {
     display: block;
-    width: 300px;
+    width: 200px;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 160px;
     padding-bottom: 20px;
 }
 
-#licoes_aprendidas {
+#link_externo {
+    text-align: center;
+}
 
+#licoes_aprendidas {
+    
 }
 
 #licoes_a_aprender {

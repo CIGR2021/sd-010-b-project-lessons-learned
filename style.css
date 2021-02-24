@@ -8,11 +8,11 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #3c3b6e;
+  background-color: hsl(241, 30%, 33%);
   height: 150px;
 }
 
-#titulo{
+#titulo {
   text-align: center;
   color: white;
   font-size: 60px;
@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  background-color: #b22234;
+  background-color: hsl(353, 68%, 42%);
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -33,6 +33,7 @@ main {
   text-align: left;
   padding: 5px 20px;
 }
+
 .lado-esquerdo {
   width: 61%;
   text-align: center;
@@ -42,6 +43,7 @@ main {
 .lado-direito {
   width: 30%;
 }
+
 img {
   border-radius: 5px;
   width: 250px;

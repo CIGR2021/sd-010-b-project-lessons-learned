@@ -39,3 +39,8 @@ body {
     background-color: rgb(136, 136, 231);
     font-weight: bold;
 }
+
+#links-alternatives {
+    text-decoration: none;
+    list-style: none;
+}

@@ -51,12 +51,13 @@ strong {
 
 .minha-foto {
   max-width: 150px;
-  margin-left: 50px;
-  margin-top: 100px;
+  margin-left: 30px;
   text-align: center;
+  margin: 0 auto;
 }
 
-.minha-foto img {
+#minha_foto {
+  margin-top: 100px;
   border-radius: 100%;
   width: 120px;
 }
@@ -65,4 +66,28 @@ strong {
   line-height: 5px;
   color: rgb(32, 107, 83);
   font-weight: 900;
+}
+
+.artigo {
+  float: left;
+  width: 400px;
+  text-align: center;
+  margin-left: 200px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
+}
+
+.aside {
+  float: right;
+  width: 400px;
+  text-align: center;
+  margin-right: 200px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
+}
+
+table {
+  clear: both;
+  padding-top: 100px;
+  margin: 0 auto;
 }

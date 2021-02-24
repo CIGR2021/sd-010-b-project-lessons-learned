@@ -1,18 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background: rgb(253, 251, 251);
 }
 
+main {
+    margin-top: 158px;
+}
+
 #cabecalho {
+    position: fixed;
     top: 0px;
+    width: 100%;
+    background-color: #FA5882;
+}
+
+#cabecalho h1 {
+    text-align: center;
+    color: #454545;
 }
 
 .menu-container {
     display: flex;
     justify-content: space-between;
+    padding: 40px;
 }
 
 .menu-container li {
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
+    margin: 0px 10px;
     color: #454545;
-}   
+}  
+
+.menu-container ul {
+    margin: 0px auto;
+}
+
+#minha_foto {
+    width: 245px;
+    padding: 45px 45px 10px 45px;
+    border-radius: 40% 0 40% 0;
+    margin: 0px auto;
+    display: block;
+}
+
+#about-pic {
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+}
+

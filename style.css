@@ -5,6 +5,14 @@ background-color: rgb(253, 251, 251);
 #cabecalho {
 top: 0;
 position: fixed;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: red;
+line-height: 10px;
+font-size: 1.2em;
+}
+
+#nav {
+  margin-top: 100px;
 }
 
 #licoes_aprendidas {

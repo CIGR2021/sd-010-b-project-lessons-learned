@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    margin-top: 0px;
     padding: 15px;
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
@@ -35,21 +35,22 @@ body {
     margin-right: 150px;
 }
 
-table{
+table {
     border: 1px solid black;
     border-spacing: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
     display: inline-block;
     margin-left: 500px;
     margin-bottom: 20px;
 }
 
-table td{
+table td {
     border: 1px solid black;
     padding: 10px;
     margin: auto;
     color: black;
 }
+
 article {
     display: inline-block;
 }

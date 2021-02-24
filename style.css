@@ -40,15 +40,19 @@ nav ul li:hover{
   font-size: 1.1em;
 }
 .lado-direito{
-  margin-top: 13%;
+  top: 100px;
+  position: relative;
   float: left;
-  width: 45%;
+  width: 35%;
+  margin-top: 3%;
+  margin-left: 1%;
 }
 .lado-esquerdo{
-  margin-top: 13%;
-  margin-left: 5%;
+  top: 100px;
   float: right;
-  width: auto;
+  position: relative;
+  width: 40%;
+  margin-top: 3%;
 }
 #minha_foto{
   position: relative;
@@ -59,28 +63,26 @@ nav ul li:hover{
   border-radius: 30px 30px 30px 30px;
   box-shadow: 2px 2px 4px 2px rgba(7, 105, 20, 0.3);
 }
-#licoes_aprendidas #licoes_a_aprender{
-  margin: auto;
-}
-section ol, section ul{
+.licoes{
+  clear: both;
+  position: relative;
   top: 100px;
-  margin: auto;
+  margin: 4%;
+  width: auto;
+}
+#licoes_aprendidas, #licoes_a_aprender{
+  float: left;
+  position: relative;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  padding-left: 10%;
+  margin-left: 3%;
   font-family: monospace;
-  padding-left: 12%;
-  padding-bottom: 5%;
-  padding-top: 3%;
   border: 1px solid rgb(226, 223, 218);
 }
 section ol li, section ul li{
   margin-top: 2%;
-}
-table tr td{
-  padding: 1%;
-  text-align: justify;
-  line-height: 22px;
-}
-aside{
-  width: 45%;
 }
 article p, aside p{
   margin: auto;
@@ -91,8 +93,7 @@ article p, aside p{
 #rodape{
   clear: both;
   position: relative;
-  bottom: 0px;
-  vertical-align: bottom;
+  bottom: -100px;
   text-align: center;
   color: azure;
   padding: .5%;

@@ -7,3 +7,6 @@ body {
     text-align:  center;
     
 }
+ol, ul  {
+      display: inline-block;
+}

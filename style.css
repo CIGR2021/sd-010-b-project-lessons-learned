@@ -1,91 +1,91 @@
 body{
-    background-color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
 }
 
 #cabecalho{
-    position: fixed;
-    top: 0px;
-    padding: 15px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px black;
+position: fixed;
+top: 0px;
+padding: 15px;
+border: 1px solid black;
+box-shadow: 2px 2px 2px black;
 }
 
 #minha_foto{
-    border: 2px solid rgb(70, 62, 62);
-    margin-top: 100px;
+border: 2px solid rgb(70, 62, 62);
+margin-top: 100px;
 }
 
 #licoes_aprendidas{
-    font-family: monospace;
-    font-size: 16px;
-    font-style: italic;
-    line-height: 30px;
-    color: rgb(126, 81, 81);
-    display: inline-block;
-    margin-left: 150px;
+font-family: monospace;
+font-size: 16px;
+font-style: italic;
+line-height: 30px;
+color: rgb(126, 81, 81);
+display: inline-block;
+margin-left: 150px;
 }
 
 #licoes_a_aprender{
-    font-family: monospace;
-    font-size: 16px;
-    font-style: italic;
-    line-height: 30px;
-    color: rgb(150, 94, 94);
-    float: right;
-    margin-right: 150px;
+font-family: monospace;
+font-size: 16px;
+font-style: italic;
+line-height: 30px;
+color: rgb(150, 94, 94);
+float: right;
+margin-right: 150px;
 }
 
 table{
-    border: 1px solid black;
-    border-spacing: 0px;
-    font-family: Impact;
-    display: inline-block;
-    margin-left: 500px;
-    margin-bottom: 20px;
+border: 1px solid black;
+border-spacing: 0px;
+font-family: Impact;
+display: inline-block;
+margin-left: 500px;
+margin-bottom: 20px;
 }
 
 table td{
-    border: 1px solid black;
-    padding: 10px;
-    margin: auto;
-    color: black;
+border: 1px solid black;
+padding: 10px;
+margin: auto;
+color: black;
 }
 
 article{
-    display: inline-block;
+display: inline-block;
 }
 
 .lado-direito{
-    font-family: fantasy;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 30px;
-    color: brown;
-    text-align: justify;
-    width: 700px;
-    margin-bottom: 10px;
+font-family: fantasy;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+color: brown;
+text-align: justify;
+width: 700px;
+margin-bottom: 10px;
 }
 
 .lado-esquerdo{
-    font-family: fantasy;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 30px;
-    color: brown;
-    width: 540px;
-    text-align: justify;
-    float: right;
-    margin-bottom: 10px;
+font-family: fantasy;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+color: brown;
+width: 540px;
+text-align: justify;
+float: right;
+margin-bottom: 10px;
 }
 
 footer{
-    font-family: cursive;
-    font-size: 17px;
-    font-style: italic;
-    line-height: 30px;
-    color: black;
+font-family: cursive;
+font-size: 17px;
+font-style: italic;
+line-height: 30px;
+color: black;
 }
 
 a:hover{
-    background-color: rgb(3, 199, 45);
+background-color: rgb(3, 199, 45);
 }

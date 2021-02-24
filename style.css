@@ -2,13 +2,13 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: rgb(253, 251, 251);
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-size: 19px;
     line-height: 28px;
 }
 
 nav {
-    background-color: #088A08;
+    background-color: #088a08;
     position: fixed;
     margin-top: 150px;
     padding: 10px;
@@ -35,7 +35,7 @@ th, td {
 }
 
 .botao {
-    color: #fff;
+    color: white;
     margin-left: 30px;
     padding: 5px 15px;
     background-color: black;
@@ -43,7 +43,7 @@ th, td {
 }
 
 .botao-foto {
-    color: #fff;
+    color: white;
     padding: 5px 15px;
     background-color: black;
     border-radius: 30px;
@@ -68,8 +68,8 @@ th, td {
     height: 150px;
     position: fixed;
     top: 0px;
-    color: #fff;
-    background-color: #0B3B0B;
+    color: white;
+    background-color: #0b3b0b;
     width: 100%;
 }
 
@@ -116,7 +116,7 @@ th, td {
 
 #rodape {
     text-align: center;
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     margin-top: 60px;
     height: 40px;
 }

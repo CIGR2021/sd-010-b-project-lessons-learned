@@ -13,7 +13,7 @@ body {
 
 #titulo {
   color: whitesmoke;
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -46,8 +46,7 @@ h3 {
 
 .lado-direito {
   display: inline-block;
-  width: 20%;
-  margin-top: 90px;
+  width: 15%;
   line-height: 25px;
   margin-left: 95px;
   font-size: 18px;
@@ -66,14 +65,6 @@ article {
   width: 48%;
 }
 
-aside {
-  display: inline-block;
-  width: 50%;
-  height: auto;
-  vertical-align: top;
-  line-height: 22px;
-}
-
 table {
   border-width: 3px;
   border-style: double;
@@ -89,7 +80,5 @@ th {
   bottom: 0;
   height: auto;
   text-align: center;
-  border: 0px solid;
   background-color: rgb(12, 161, 211);
-  bottom: 0;
 }

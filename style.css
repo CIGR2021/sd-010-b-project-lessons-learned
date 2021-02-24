@@ -6,7 +6,7 @@
 
 #cabecalho {
   position: fixed;
-  top: 0.1px;
+  top: 0px;
   text-align: center;
   align-content: center;
   border: 1px solid black;

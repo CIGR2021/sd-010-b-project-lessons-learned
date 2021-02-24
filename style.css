@@ -39,14 +39,12 @@ aside p {
 #licoes_aprendidas {
   width: 20%;
   display: inline-block;
- 
   margin-bottom: 15px;
 }
 
-#licoes_a_aprender  {
+#licoes_a_aprender {
   width: 20%;
   display: inline-block;
-  
 }
 
 #rodape {
@@ -91,8 +89,8 @@ table, th, td {
 
 .lado-direito h2 {
   text-align: center;
-  
 }
+
 .lado-esquerdo h2 {
   text-align: center;
 }

@@ -4,7 +4,6 @@ body {
 
 #cabecalho {
   top: 0px;
-  margin-top: 0px
   position: fixed;
   background-size: cover;
   background-color: seagreen;

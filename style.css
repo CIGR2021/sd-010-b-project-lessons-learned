@@ -25,7 +25,7 @@ main {
 #cabecalho h1 {
   color: aliceblue;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Calibri, sans-serif;
 }
 
 img {
@@ -45,13 +45,13 @@ img {
 }
 
 ol {
-    background-color: rgb(170, 142, 106);
-    font-size: 20px;
-    padding: 5px;
-    width: 45%;
-    text-align: center;
-    display: inline-block;
-    margin-top: 0;
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  padding: 5px;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0;
 }
 
 ol li {
@@ -65,13 +65,13 @@ ol li {
 }
 
 ul {
-    background-color: rgb(170, 142, 106);
-    font-size: 20px;
-    padding: 5px;
-    width: 45%;
-    text-align: center;
-    display: inline-block;
-    margin-top: 0;
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  padding: 5px;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0;
 }
 
 ul li {

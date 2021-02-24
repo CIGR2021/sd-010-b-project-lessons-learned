@@ -44,6 +44,10 @@ body {
     text-align: center;
 }
 
+#tabela {
+    clear: both;
+}
+
 #licoes_aprendidas {
     
 }
@@ -54,4 +58,18 @@ body {
 
 #rodape {
     text-align: center;
+    background-color: #E6E6E6;
+}
+
+#rodape p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
 }

@@ -24,3 +24,12 @@ a {
 .name {
   padding-top: 60px;
 }
+
+#licoes_aprendidas , #licoes_a_aprender {
+  margin-left: 50px;
+}
+
+article , aside {
+  margin: 20px;
+  border: 20px;
+}

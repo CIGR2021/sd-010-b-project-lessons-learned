@@ -27,28 +27,39 @@ h2{
     margin-top: 40px;
 }
 article{
-    margin-bottom: 30px;
-    margin-top: 40px;
+    
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     display: inline-block;
     width: 40%;
-    margin-left: 30px;
+    margin-left: 20px;
+    vertical-align: top;
 }
 aside{
-    margin-bottom: 30px;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
-    line-height: 27px;
+    line-height: 24px;
     display: inline-block;
     width: 40%;
     margin-left: 60px;
+   vertical-align: top;
     
     
 }
 ol{
     color: cornflowerblue;
+    display: inline-block;
 }
 ul{
     color: rgb(172, 65, 86);
+    display: inline-block;
+}
+div{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+footer{
+    margin-left: 20px;
 }

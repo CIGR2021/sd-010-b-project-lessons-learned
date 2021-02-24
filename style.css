@@ -12,7 +12,9 @@ body {
   text-align: center;
 }
 
-#titulo {}
+#titulo {
+  color:rgb(rgb(85, 85, 85), rgb(247, 247, 247), rgb(240, 240, 240));
+}
 
 #menu ul {
   padding: 0px;
@@ -53,15 +55,32 @@ body {
 
 .aprendizagem {
   display: inline-block;
+  width: 100%;
 
+}
+
+.main {
+  width: 100%;
+}
+
+.left {
+  display: inline-block;
+  width: 30%;
+}
+
+.right {
+  display: inline-block;
+  width: 30%;
 }
 
 .lado-esquerdo {
   display: inline-block;
+  width: 30%;
 }
 
-.lado-direito {
+.direito {
   display: inline-block;
+  background-color: black;
 }
 
 #licoes_aprendidas {}
@@ -69,8 +88,6 @@ body {
 #licoes_a_aprender {}
 
 #article {}
-
-#aside {}
 
 #batman {
   width: 150px;

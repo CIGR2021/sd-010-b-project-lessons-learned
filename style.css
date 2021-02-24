@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    /* Margem para espaço entre o elemento com position fixed e a próxima tag */
+    /* Margem para dar espaço entre o elemento com position fixed e a próxima tag */
     margin-bottom: 200px;
 }
 
@@ -12,7 +12,16 @@ img {
     width: 50%;
 }
 
+p {
+    padding: 0px 180px 0px 20px;
+}
+
 .top-bar {
     position: fixed;
     top: 0px;
+}
+
+.copyrights {
+    text-align: end;
+    font-size: 0.8rem;
 }

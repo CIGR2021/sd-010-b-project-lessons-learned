@@ -44,13 +44,13 @@ section h2{
 .lado-esquerdo { 
     float: left;
     padding-top: 20px;
-    max-width: 40%;
+    max-width: 500px;
     padding-top: 5px;
     border-style: dotted ;
     background-color: rgb(71, 145, 255);
     border-color: rgb(250, 255, 255) ;
     margin: 30px 40px;
-
+    text-align: justify;
 }
 .lado-esquerdo h3{
     background-color: cornflowerblue;
@@ -67,9 +67,25 @@ section h2{
     background-color: rgb(101, 175, 180);
     border-style: dotted;
     border-color: cornsilk;
-    margin: 30px 40px
+    margin: 30px 40px;
+    text-align: justify;
 }
-footer{
+.lado-direito h3{
+    background-color: rgb(92, 189, 189);
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+footer {
     clear: both;
     padding: 10px;
+    background: rgb(15, 60, 61);
+    padding: 20px;
+    margin: 30px;
+}
+footer a{
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(15, 60, 61);
 }

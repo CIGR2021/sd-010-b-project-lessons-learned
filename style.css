@@ -1,3 +1,4 @@
+
 body{
 background-color: rgb(253, 251, 251);
 }
@@ -38,7 +39,7 @@ margin-right: 150px;
 table{
 border: 1px solid black;
 border-spacing: 0px;
-font-family: Impact;
+font-family: Courier, monospace;
 display: inline-block;
 margin-left: 500px;
 margin-bottom: 20px;

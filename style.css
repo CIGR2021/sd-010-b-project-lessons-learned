@@ -49,13 +49,29 @@ ul {
 
 article {
 	display: inline-block;
-	margin: 10px,10px,10px,10px;
+	margin: 10px;
+	width: 385px;
+	height: 180px;
 	border-style: dotted;
 	border-width: thin;
 }
-	article h3, p {
-		margin: 10px;
-	}
+
+aside {
+	display: inline-block;
+	margin: 10px;
+	width: 385px;
+	height: 100%;
+	border-style: dotted;
+	border-width: thin;
+}
+
+h3, p {
+	margin: 10px;
+}
+
+p {
+	text-align: justify;
+}
 
 footer {
 	margin-left: 20px;

@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: Ubuntu,'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #cabecalho {
@@ -15,7 +15,7 @@ body {
   background-color: rgb(200, 174, 224);
 }
 
-nav{
+nav {
   position: absolute;
   z-index: 1;
   line-height: 30px;
@@ -33,9 +33,9 @@ nav{
   margin-bottom: 100px;
 }
 
-#link{
-    display: block;
-    color: black;
+#link {
+  display: block;
+  color: black;
 }
 
 main {
@@ -51,23 +51,23 @@ main {
   font-size: 15px;
 }
 
-#rodape{
-    display: block;
-    height: 40px;
-    background: linear-gradient(white,rgb(165, 131, 197) );
-    box-shadow: 5px 5px 10px #888;
-    color:rgb(61, 58, 58);
+#rodape {
+  display: block;
+  height: 40px;
+  background: linear-gradient(white, rgb(165, 131, 197));
+  box-shadow: 5px 5px 10px #888;
+  color: rgb(61, 58, 58);
 }
 
-#rodape h4{
-    line-height: 40px;
-    padding-left: 20px;
+#rodape h4 {
+  line-height: 40px;
+  padding-left: 20px;
 }
 
- #tragetoria,
- #apredizado{
-    width: 1000px;
-    margin: auto;
-    line-height: 25px;
+#tragetoria,
+#apredizado {
+  width: 1000px;
+  margin: auto;
+  line-height: 25px;
 
 }

@@ -3,6 +3,8 @@ body {
   font-size: 20px;
   text-align: justify;
   line-height: 40px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {

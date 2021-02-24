@@ -71,3 +71,9 @@ table {
   margin-bottom: 50px;
   margin-top: 50px;
 }
+
+.lado {
+  width: 40%;
+  font-size: 14px;
+  display: inline-block;
+}

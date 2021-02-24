@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
     position: fixed;
     top: 0px;
@@ -8,10 +9,12 @@ body {
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
 }
+
 #minha_foto {
     border: 2px solid rgb(70, 62, 62);
     margin-top: 100px;
 }
+
 #licoes_aprendidas {
     font-family: monospace;
     font-size: 16px;
@@ -21,6 +24,7 @@ body {
     display: inline-block;
     margin-left: 150px;
 }
+
 #licoes_a_aprender {
     font-family: monospace;
     font-size: 16px;
@@ -30,6 +34,7 @@ body {
     float: right;
     margin-right: 150px;
 }
+
 table{
     border: 1px solid black;
     border-spacing: 0px;
@@ -38,6 +43,7 @@ table{
     margin-left: 500px;
     margin-bottom: 20px;
 }
+
 table td{
     border: 1px solid black;
     padding: 10px;
@@ -47,6 +53,7 @@ table td{
 article {
     display: inline-block;
 }
+
 .lado-direito {
     font-family: fantasy;
     font-size: 18px;
@@ -57,6 +64,7 @@ article {
     width: 700px;
     margin-bottom: 10px;
 }
+
 .lado-esquerdo {
     font-family: fantasy;
     font-size: 18px;
@@ -68,6 +76,7 @@ article {
     float: right;
     margin-bottom: 10px;
 }
+
 footer {
     font-family: cursive;
     font-size: 17px;
@@ -75,6 +84,7 @@ footer {
     line-height: 30px;
     color: black;
 }
+
 a:hover {
-    background-color: brown;
+    background-color: rgb(3, 199, 45);
 }

@@ -1,121 +1,121 @@
 body {
-	margin: 0;
-	background-color: rgb(253, 251, 251);
+  margin: 0;
+  background-color: rgb(253, 251, 251);
 }
 
 .header {
-	display: block;
-	position: fixed;
-	background-image: linear-gradient(#000000, rgb(253, 251, 251));
-	width: 100%;
-	max-height: 36%;
-	top: 0;
+  display: block;
+  position: fixed;
+  background-image: linear-gradient(black, rgb(253, 251, 251));
+  width: 100%;
+  max-height: 36%;
+  top: 0;
 }
 
 .header h1 {
-	color: #ffffff;
-	font-weight: 100;
-	font-size: 3.3em;
-	text-transform: uppercase;
-	text-align: center;
-	padding-top: 4%;
-	padding-bottom: 6%;
-	text-shadow: 2px 0px 8px black;
+  color: white;
+  font-weight: 100;
+  font-size: 3.3em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 6%;
+  text-shadow: 2px 0 8px black;
 }
 
 .meus-links {
-	display: block;
-	text-align: center;
-	font-size: 17px;
-	text-shadow: 2px 0px 8px rgb(0, 0, 0);
-	padding-top: 2%;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  text-shadow: 2px 0 8px black;
+  padding-top: 2%;
 }
 
 .meus-links a {
-	color: #ffffff;
-	text-decoration: none;
-	text-transform: uppercase;
-	margin: 40px;
-	padding: 8px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 40px;
+  padding: 8px;
 }
 
 .meus-links a:hover {
-	border: 1px solid #ffffff;
+  border: 1px solid white;
 }
 
 .body-style {
-	display: block;
-	margin-left: 6%;
-	margin-right: 6%;
-	margin-top: 30%;
+  display: block;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 30%;
 }
 
 .lado-esquerdo {
-	display: inline-block;
-	max-width: 70%;
-	margin-left: 10px;
+  display: inline-block;
+  max-width: 70%;
+  margin-left: 10px;
 }
 
 article h2 {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 500;
-	margin-top: 40px;
-	margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 article p {
-	margin-left: 8%;
-	margin-right: 8%;
-	margin-bottom: 5%;
-	font-family: Times, serif;
-	text-align: center;
-	font-size: 18px;
-	line-height: 1.5;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  font-family: Times, serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .image-container {
-	display: inline-block;
+  display: inline-block;
 }
 
 .lado-direito {
-	display: inline-block;
-	float: right;
-	max-width: 23%;
-	border: 2px solid black;
-	text-align: center;
-	padding: 4px;
+  display: inline;
+  float: right;
+  max-width: 23%;
+  border: 2px solid black;
+  text-align: center;
+  padding: 4px;
 }
 
 aside p {
-	text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
-	width: 90%;
-	padding: 5px;
+  width: 90%;
+  padding: 5px;
 }
 
 main {
-	max-height: 80%;
+  max-height: 80%;
 }
 
 footer {
-	color: white;
-	text-shadow: 2px 0px 8px black;
-	bottom: 0;
-	height: 50px;
-	width: 100%;
-	background-image: linear-gradient(rgb(255, 255, 255), #000000);
-	text-align: center;
-	padding-top: 40px;
+  color: white;
+  text-shadow: 2px 0 8px black;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(white, black);
+  text-align: center;
+  padding-top: 40px;
 }
 
 footer a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 footer a:hover {
-	border: 1px solid #ffffff;
+  border: 1px solid white;
 }

@@ -19,12 +19,13 @@ body {
 
 article p {
   line-height: 30px;
-  color: blue;
-  font-size: 20px;
+  color: black;
+  font-size: 15px;
 }
 
 aside p {
   line-height: 30px;
+  font-size: 15px;
 }
 
 #minha_foto {
@@ -36,21 +37,27 @@ aside p {
 }
 
 #licoes_aprendidas {
+  width: 20%;
+  display: inline-block;
+ 
+  margin-bottom: 15px;
 }
 
 #licoes_a_aprender  {
+  width: 20%;
+  display: inline-block;
+  
 }
 
 #rodape {
+  text-align: center;
 }
 
 nav ul li {
   list-style-type: none;
 }
 
-table,
-th,
-td {
+table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -61,20 +68,31 @@ td {
 
 .lado-esquerdo {
   border: 1px solid black;
-  width: 40%;
+  width: 45%;
   display: inline-block;
 }
 
 .lado-direito {
   display: inline-block;
   border: 1px solid black;
-  width: 40%;
-  height: 446px;
+  width: 45%;
+  height: 263px;
   margin-left: 5px;
   vertical-align: top;
 }
 
 .lado-direito p {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 10%;
+}
+.lado-esquerdo p {
+  text-align: center;
+}
+
+.lado-direito h2 {
+  text-align: center;
+  
+}
+.lado-esquerdo h2 {
+  text-align: center;
 }

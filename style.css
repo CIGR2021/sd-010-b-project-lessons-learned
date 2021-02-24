@@ -3,16 +3,17 @@ body {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-
 h1 {
     font-size: 30px;
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
 }
 
 #cabecalho {
     text-align: center;
-    background-color: rgb(11, 148, 23);    
+    background-color: rgb(11, 148, 23);
+    position: fixed;
+    top: 0px;
 }
 
 #botao {
@@ -26,6 +27,10 @@ img {
     height: 10%;
 }
 
+a {
+    display: block;
+}
+
 .lista {
     float: left;
 }
@@ -37,7 +42,6 @@ table {
     border-radius: 0px 0px 3px;
     box-shadow: 0px 2px 5px #000;
     font-size: 13px;
-    margin-bottom: 30px;
 }
 
 table caption {

@@ -40,7 +40,7 @@ section h2{
     padding:5px;
     margin-left: 300px;
 }
-#licoes_aprendidas, #licoes_a_aprender{
+#licoes_aprendidas, #licoes_a_aprender {
     display: inline-block;
 }
  #licoes_a_aprender li {
@@ -50,6 +50,15 @@ section h2{
     min-width:200px;
     padding:5px;
     margin-left: 50px;
+}
+table{
+    margin-left: 30%;
+}
+.table td{
+    border-style:solid;
+    border-color:rgb(55, 109, 109);
+    background-color:rgba(9, 78, 78, 0.699);    
+    padding:10px;   
 }
 .lado-esquerdo { 
     float:left;

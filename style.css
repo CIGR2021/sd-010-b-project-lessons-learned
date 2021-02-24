@@ -6,8 +6,9 @@
 
 #cabecalho {
     top: 0px;
-    width: 100%;
+    width: 99%;
     text-align: center;
+    position: fixed;
 }
 
 nav {
@@ -22,6 +23,10 @@ nav a {
     color: black;
     background-color: #38bfa7;
     margin: auto 16px;
+}
+
+section, img {
+    margin-top: 80px;
 }
 
 #minha_foto {

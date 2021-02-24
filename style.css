@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    /* Margem para espaço entre o elemento com position fixed e a próxima tag */
     margin-bottom: 200px;
 }
 

@@ -6,6 +6,7 @@ body {
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 1;
   background-color: rgb(2, 16, 77);
   padding: 100px 800px 200px;
   text-align: center;
@@ -33,6 +34,21 @@ img {
   left: 50px;
   top: 50px;
   border-style: double;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   border-color: black;
+}
+
+.article-style {
+  position: absolute;
+  top: 500px;
+  margin-left: 50px;
+  background-color: rgb(11, 11, 218);
+  border-radius: 25px;
+  border-style: double;
+  border-color: black;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 35px;
 }

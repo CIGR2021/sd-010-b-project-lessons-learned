@@ -27,3 +27,6 @@ table, th, td{
     border: 1px solid gray;
     padding: 2px;
 }
+#minha_experiencia, #artigo{
+    display: inline-block;
+}

@@ -17,3 +17,12 @@ header{
     text-align: center;
     border-bottom: #2db822 solid;
 }
+
+.foto-perfil{
+    margin: 100px 10px;
+    position: relative;
+}
+#minha_foto{
+    width: 200px;
+    height: 250px;
+}

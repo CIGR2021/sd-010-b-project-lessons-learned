@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -21,6 +22,10 @@ footer {
 h2 {
   padding-top: 20px;
   padding-bottom: 15px;
+}
+
+a {
+  padding: 15px 10px;
 }
 
 #cabecalho {
@@ -46,6 +51,11 @@ h2 {
 }
 
 #aprendizado {
+  text-align: center;
+  padding: 15px 150px;
+}
+
+#aprendizado_resumo {
   text-align: center;
   padding: 15px 150px;
 }

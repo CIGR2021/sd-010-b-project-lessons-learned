@@ -39,9 +39,8 @@ img {
 }
 
 .article-style {
-  position: absolute;
-  top: 500px;
   margin-left: 50px;
+  margin-bottom: 50px;
   background-color: rgb(11, 11, 218);
   border-radius: 25px;
   border-style: double;
@@ -51,4 +50,9 @@ img {
   font-size: 20px;
   font-style: italic;
   line-height: 35px;
+}
+
+.section-style {
+  position: absolute;
+  top: 580px;
 }

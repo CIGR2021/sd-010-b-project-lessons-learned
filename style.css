@@ -58,7 +58,7 @@ h2 {
   margin: 0 6em 3em;
 }
 
-table ,th ,td {
+table , th , td {
   background-color: rgb(166, 207, 213);
   border: 1px solid black;
   border-radius: 10px;
@@ -77,7 +77,7 @@ span {
 }
 
 .lists {
-  background-color: rgb(255,99,153);
+  background-color: rgb(255, 99, 153);
   color: white;
   padding: 4em 2em;
   text-align: center;
@@ -102,7 +102,7 @@ span {
   text-decoration: underline;
 }
 
-#licoes_aprendidas ,#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   font-size: 1.2em;
   line-height: 1.5;
   list-style: none;

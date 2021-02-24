@@ -10,10 +10,10 @@ h2 {
 }
 
 #cabecalho {
-  background-color: #DBFCFF;
+  background-color: rgb(219,252,255);
   font-family: monospace;
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
 
@@ -21,7 +21,7 @@ h2 {
   text-align: center;
 }
 
-.cabecalho__navegacao ul{
+.cabecalho__navegacao ul {
   list-style: none;
   text-align: center;
 }
@@ -38,18 +38,19 @@ h2 {
 }
 
 .photo {
-  background-color: #7F96FF ;
-  padding: 6em 2em 4em 2em;
+  background-color: rgb(127, 150, 255);
+  margin-top: 96.7px;
+  padding: 3em 2em 4em;
 }
 
 .photo h2 {
   text-align: center;
+  margin-top: 0;
 }
 
 #minha_foto {
   border-radius: 15px;
   height: 400px;
-  margin-right: 2em ;
 }
 
 .table {
@@ -58,39 +59,39 @@ h2 {
 }
 
 table, th, td {
-  background-color: #A6CFD5; 
+  background-color: rgb(166, 207, 213);
   border: 1px solid black;
   border-radius: 10px;
-  padding: .5em;
-  text-align: center;
   height: 50px;
+  padding: 0.5em;
+  text-align: center;
+}
+
+caption {
+  padding-bottom: 0.5em;
+  text-align: left;
 }
 
 span {
   font-weight: bold;
 }
 
-caption {
-  padding-bottom: .5em;
-  text-align: left;
-}
-
 .lists {
-  background-color: #E56399 ;
+  background-color: rgb(255,99,153);
   color: white;
-  padding: 4em 2em 4em 2em;
+  padding: 4em 2em;
   text-align: center;
 }
 
 .lists h2 {
   text-align: center;
-  margin: 0 0 .75em;
+  margin: 0 0 26.56px;
 }
 
 .list {
-  display: inline-block;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
+  display: inline-block;
   padding: 0 8em;
 }
 
@@ -105,25 +106,25 @@ caption {
   font-size: 1.2em;
   line-height: 1.5;
   list-style: none;
-  padding: 0px;
-  text-align: center;
+  padding: 0;
 }
 
 .learning {
-  background-color: #320E3B;
+  background-color: rgb(50,14,59);
   color: white;
-  padding: 2em 2em 4em 2em;
+  padding: 4em 2em;
 }
 
 .learning h2 {
-  padding-bottom: .75em;
+  margin-top: 0;
+  padding-bottom: 0.75em;
   text-align: center;
 }
 
 .lado-esquerdo {
   display: inline-block;
   font-size: 1.2em;
-  line-height: 2;
+  line-height: 1.8;
   margin: 0 1em;
   width: 60%;
 }
@@ -132,14 +133,14 @@ caption {
   border-left: 1px solid black;
   display: inline-block;
   line-height: 1.5;
-  margin-top: 3em;
+  margin: 3em 0;
   padding-left: 2em;
   vertical-align: top;
   width: 30%;
 }
 
 #rodape {
-  background-color: #A6CFD5;
+  background-color: rgb(166,207,213);
   padding: 1em 0;
   text-align: center;
 }
@@ -149,10 +150,10 @@ caption {
   border: 1px solid black;
   color: black;
   font-size: 1.2em;
-  padding: .2em;
+  padding: 0.2em;
   text-decoration: none;
 }
 
-#rodape p{
-  margin: 0 0 .5em 0;
+#rodape p {
+  margin: 0 0 0.5em;
 }

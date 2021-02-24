@@ -94,16 +94,16 @@ p {
 }
 
 table {
-    margin: 10px;
-    width: auto;
+  margin: 10px;
+  width: auto;
 }
 
 table , th , td {
-    width: max-content;
-    border: 1px solid black;
-    border-collapse: collapse;
+  width: max-content;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 footer {
-    margin-left: 20px;
+  margin-left: 20px;
 }

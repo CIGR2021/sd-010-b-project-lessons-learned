@@ -109,6 +109,13 @@ strong {
 
 table {
   clear: both;
-  padding-top: 100px;
-  margin: 0 auto;
+  float: right;
+  margin-right: 250px;
+  margin-top: -250px;
+}
+
+table th, td{
+  padding: 10px;
+  border: 1px solid black;
+  width: 150px;
 }

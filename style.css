@@ -1,11 +1,15 @@
-img {
-
+body{
+    background-color: rgb(253, 251, 251);
 }
 
-h2 {
-  text-align: center;
+#cabeçalho {
+      background-color: green;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      color: white;
 }
-
-footer {
-  font-size: 10px;
-  background-color: rgb(185, 192, 201);
+h1 {
+      text-align: center;
+}

@@ -106,3 +106,13 @@ body {
   margin-top: 10%;
   margin-right: 5px;
 }
+
+footer {
+  background-color: lightgrey;
+  padding: 30px;
+  border: solid silver;
+}
+
+table {
+  margin: auto;
+}

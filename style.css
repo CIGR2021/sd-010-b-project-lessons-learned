@@ -8,12 +8,12 @@ body {
 }
 
 nav {
-        background-color: #088a08;
-        position: fixed;
-        margin-top: 150px;
-        padding: 10px;
-        width: 100%;
-        height: 25px;
+  background-color: #088a08;
+  position: fixed;
+  margin-top: 150px;
+  padding: 10px;
+  width: 100%;
+  height: 25px;
 }
 
 a {

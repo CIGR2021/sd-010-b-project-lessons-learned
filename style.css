@@ -30,6 +30,14 @@ p {
     margin-top: 0px;
 }
 
+nav li {
+    list-style-type:none;
+} 
+
+nav a {
+    color: rgb(253, 251, 251);
+}
+
 a {
     text-decoration: none;
     color: black;

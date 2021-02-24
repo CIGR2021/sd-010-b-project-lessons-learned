@@ -7,6 +7,15 @@ body {
     line-height: 28px;
 }
 
+nav {
+    background-color: #088A08;
+    position: fixed;
+    margin-top: 150px;
+    padding: 10px;
+    width: 100%;
+    height: 25px;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -15,17 +24,14 @@ a {
     border-radius: 30px;
 }
 
-th, td {
+a.botao:hover, a.botao-foto:hover {
+    background-color: white;
+    color: black;
     border: 1px solid black;
 }
 
-nav {
-    background-color: #088A08;
-    position: fixed;
-    margin-top: 150px;
-    padding: 10px;
-    width: 100%;
-    height: 25px;
+th, td {
+    border: 1px solid black;
 }
 
 .botao {
@@ -36,9 +42,26 @@ nav {
     border-radius: 30px;
 }
 
-a.botao:hover {
-    background-color: white;
-    color: black;
+.botao-foto {
+    color: #fff;
+    padding: 5px 15px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.lado-esquerdo {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.lado-direito {
+    float: right;
+    margin-right: 50px;
+}
+
+.align {
+    display: inline-block;
 }
 
 #cabecalho {
@@ -55,21 +78,6 @@ a.botao:hover {
     text-align: center;
 }
 
-#artigo {
-    padding: 15px;
-    text-align: justify;
-    border: 1px solid black;
-    width: 50%;
-    margin-top: 80px;
-}
-
-#passagem_aprendizado {
-    padding: 15px;
-    border: 1px solid black;
-    width: 30%;
-    margin-top: 80px;
-}
-
 #minha_foto {
     display: block;
     width: 250px;
@@ -83,8 +91,23 @@ a.botao:hover {
     margin-bottom: 50px;
 }
 
+#artigo {
+    padding: 15px;
+    text-align: justify;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 80px;
+}
+
+#passagem_aprendizado {
+    padding: 15px;
+    text-align: justify;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 80px;
+}
+
 #tabela {
-    clear: both;
     text-align: left;
     width: 70%;
     border: 1px solid black;
@@ -92,7 +115,6 @@ a.botao:hover {
 }
 
 #rodape {
-    clear: both;
     text-align: center;
     background-color: #E6E6E6;
     margin-top: 60px;
@@ -102,19 +124,4 @@ a.botao:hover {
 #rodape p {
     font-size: 15px;
     padding-top: 7px;
-}
-
-.lado-esquerdo {
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-
-.lado-direito {
-    float: right;
-    margin-right: 50px;
-}
-
-.align {
-    display: inline-block;
 }

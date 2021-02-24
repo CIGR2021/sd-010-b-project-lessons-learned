@@ -1,3 +1,6 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -22,12 +25,17 @@ nav {
 img {
     width: 200px;
     border-radius: 100%;
-    margin-top: 200px ;
+    margin-top: 150px ;
     margin-bottom: 0px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
     display: inline-block;
+    font-size: 12px;
+}
+#LinkTrybe {
+    font-size: 12px;
+    margin-left: 15px;
 }
 .lado-esquerdo {
     display: inline-block;

@@ -7,6 +7,7 @@
 
 a {
     text-decoration: none;
+    color:black
 }
 
 /*Estilos Gerais*/
@@ -32,28 +33,61 @@ h1, h2 , h3 {
     top: 0px;
     background: url(imagens/bg-cabecalho.jpg);
     box-shadow: 5px 5px 5px gray;
+    z-index: 1;
+    
     
 
 }
 
-#titulo{
+#titulo {
     color: #fff;
     text-shadow: 2px 2px 2px gray;
     text-align: center;
     text-transform: uppercase;
     padding-top: 10px;
+    
 }
 
-#navegacao ul li {
-    float: right;
+
+#menu ul {
+    position: absolute;
+    top: 0;
+    right: 0;
     margin-right: 30px;
     line-height: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: inline;
-    font-weight: bold;
-    vertical-align: middle;
-    margin: 20px;
+    z-index: 2;
+    list-style: none;
+       
 }
+
+#menu ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 30px;
+    text-shadow: 4px 4px 4px gray;
+    
+
+    
+}
+
+#menu ul li a {
+    color: #fff;
+    border-radius: 100px;
+    padding: 8px 10px;
+    
+        
+}
+
+#nav-list a:hover {
+    background: white;
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+
+
+}
+
 
 #img-perfil {
     text-align: center;

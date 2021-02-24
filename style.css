@@ -1,10 +1,10 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 header {
-    top: 0px;
+    top: 0;
     color: rgb(253, 251, 251);
     background-color: darkgreen;
     position: fixed;

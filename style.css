@@ -1,10 +1,12 @@
 :root {
 
-  --header-box-color: rgb(40, 40, 40);
+  --top-bottom-bg-color: rgb(40, 40, 40);
 
-  --header-title-color: rgb(217, 217, 217);
+  --top-bottom-text-color: rgb(217, 217, 217);
 
-  --main-bg-color: rgb(38, 42, 52);
+  --text-color: rgb(38, 42, 52);
+
+  --box-color: rgb(217, 217, 217);
 
   --header-vs-main-height: 75px;
 }
@@ -14,7 +16,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Courier, monospace;
-  color: var(--header-title-color);
+  color: var(--text-color);
+  line-height: 1.5;
 }
 
 h2 {
@@ -23,7 +26,7 @@ h2 {
 
 #cabecalho {
   position: fixed;
-  background-color: var(--header-box-color);
+  background-color: var(--top-bottom-bg-color);
   width: 100%;
   text-align: center;
   top: 0;
@@ -32,7 +35,7 @@ h2 {
 }
 
 #titulo {
-  color: var(--header-title-color);
+  color: var(--top-bottom-text-color);
 }
 
 hr {
@@ -44,11 +47,12 @@ main {
 }
 
 main div {
-  height: 550px;
+  height: auto;
+  text-align: center;
 }
 
 main figure {
-  background-color: var(--main-bg-color);
+  background-color: var(--box-color);
   margin: 0;
   padding: 30px;
   text-align: center;
@@ -59,13 +63,33 @@ main figure img {
   border: thin solid;
 }
 
+.table-section,
 .content {
-  background-color: var(--main-bg-color);
-  width: 60%;
+  background-color: var(--box-color);
+  margin: 25px 100px;
+}
+
+.table-section table {
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.table-section thead th {
+  border: 1px solid #999;
+  background-color: var(--top-bottom-bg-color);
+  color: var(--top-bottom-text-color);
+}
+
+.table-section tbody th,
+.table-section tbody td {
+  text-align: start;
+  border: 1px solid #999;
+  padding: 0 15px;
+}
+
+.content {
+  width: auto;
   text-align: center;
-  display: inline-block;
-  height: 100%;
-  margin-left: 50px;
 }
 
 #minha_foto {
@@ -80,43 +104,23 @@ main figure img {
   vertical-align: top;
 }
 
-aside {
-  display: inline-flex;
-  width: 25%;
-  background-color: var(--main-bg-color);
-  text-align: center;
-  height: 100%;
-  margin-left: 90px;
-  vertical-align: top;
-}
-
-aside p {
-  padding: 0 40px;
-  text-align: start;
-}
-
-aside h2 {
-  padding: 0 40px;
-}
-
-aside div {
-  height: auto;
-  margin-top: auto;
-}
-
-article {
-  margin: 0 auto;
-  width: 80%;
+.lado-esquerdo,
+.lado-direito {
+  background-color: var(--box-color);
+  display: inline-block;
+  width: 40%;
   padding: 20px;
   text-align: start;
+  vertical-align: middle;
 }
 
-article p {
+article p,
+aside p {
   margin: 0;
 }
 
 #rodape {
-  background-color: var(--header-box-color);
+  background-color: var(--top-bottom-bg-color);
   text-align: center;
   height: 100px;
 }
@@ -126,6 +130,7 @@ article p {
   margin: 0;
   font-size: 1.3em;
   vertical-align: middle;
+  color: var(--top-bottom-text-color);
 }
 
 .footer-info {
@@ -140,9 +145,9 @@ article p {
 
 .img-foot-section {
   position: relative;
-  margin: 0 20px;
+  margin-left: auto;
   bottom: 75px;
-  left: 40%;
+  width: 150px;
 }
 
 .img-foot-section img {

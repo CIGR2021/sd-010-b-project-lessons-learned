@@ -31,9 +31,15 @@ a {
 }
 
 .container {
-    width: 400px;
-    display: flex;
-    gap: 80px;
+    display: inline-block;
+} 
+
+.lado-direito{
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    display: inline-block;
 }
 
 

@@ -19,6 +19,15 @@ th, td {
     border: 1px solid black;
 }
 
+nav {
+    background-color: #088A08;
+    position: fixed;
+    margin-top: 150px;
+    padding: 10px;
+    width: 100%;
+    height: 25px;
+}
+
 .botao {
     color: #fff;
     margin-left: 30px;
@@ -50,20 +59,22 @@ a.botao:hover {
     padding: 15px;
     text-align: justify;
     border: 1px solid black;
-    max-width: 50%;
+    width: 50%;
+    margin-top: 80px;
 }
 
 #passagem_aprendizado {
     padding: 15px;
     border: 1px solid black;
-    max-width: 30%;
+    width: 30%;
+    margin-top: 80px;
 }
 
 #minha_foto {
     display: block;
     width: 250px;
     margin: auto;
-    padding-top: 160px;
+    padding-top: 230px;
     padding-bottom: 20px;
 }
 
@@ -78,14 +89,6 @@ a.botao:hover {
     width: 70%;
     border: 1px solid black;
     margin:auto;
-}
-
-#licoes_aprendidas {
-    
-}
-
-#licoes_a_aprender {
-    margin-bottom: 80px;
 }
 
 #rodape {
@@ -112,12 +115,6 @@ a.botao:hover {
     margin-right: 50px;
 }
 
-.align-left {
+.align {
     display: inline-block;
-    margin-left: 25%;
-}
-
-.align-right {
-    display: inline-block;
-    margin-left: 10%;
 }

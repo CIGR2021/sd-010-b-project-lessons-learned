@@ -24,6 +24,11 @@ body {
   margin-bottom: 100px;
 }
 
+#link{
+    display: block;
+    color: black;
+}
+
 main {
   width: 1000px;
   margin: auto;

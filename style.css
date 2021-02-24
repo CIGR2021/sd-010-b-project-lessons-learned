@@ -59,10 +59,15 @@ img {
 
 footer {
   color: white;
-  background-color:rgba(31, 17, 17, 0.562);
+  background-color: rgba(31, 17, 17, 0.562);
   font-size: 20px;
   position: absolute;
-  top: 2000px;
+  top: 2200px;
   left: 0px;
   padding: 30px 800px;
+}
+
+#section-learnings {
+  position: absolute;
+  top: 1800px;
 }

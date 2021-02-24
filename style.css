@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
   line-height: 1.5;
   color: rgb(0, 0, 14);
   font-size: 15px;
@@ -40,8 +40,7 @@ body {
   display: flex;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
 }
 

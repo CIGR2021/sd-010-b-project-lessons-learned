@@ -99,6 +99,15 @@ table {
   margin: 50px 30px;
 }
 
+.section_table {
+  background-color: rgba(208, 247, 208, 0.973);
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+  margin: 30px;
+  margin-top: 0;
+}
+
 .section_article {
   background-color: rgba(208, 247, 208, 0.973);
   width: 45%;

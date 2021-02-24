@@ -26,3 +26,20 @@ figure {
 	border-radius: 10px;
 	width: 250px;
 }
+section {
+	margin: 30px;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+ol {
+	margin: 35px;
+	display: inline-block;
+}
+
+ul {
+	margin: 35px;
+	display: inline-block;
+}

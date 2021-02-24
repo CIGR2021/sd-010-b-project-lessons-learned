@@ -42,3 +42,13 @@ table {
 article {
     line-height: 20px;
 }
+
+.lado-direito {
+    display: inline-block;
+    
+}
+
+.lado-esquerdo {
+    display: inline-block;
+}
+

@@ -1,112 +1,102 @@
 body {
-    background-color: rgb(240, 233, 233);
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    background-color: #2F4F4F;
-    color:rgb(253, 251, 251);
-    width: 100%;
-    text-align: center;
-    }
-
-#titulo {
-    
+  position: fixed;
+  top: 0px;
+  background-color: #2f4f4f;
+  color: rgb(253, 251, 251);
+  width: 100%;
+  text-align: center;
 }
+
+#titulo {}
 
 #menu ul {
-    padding:0px;
-    margin:0px;
-    background-color:#EDEDED;
-    list-style:none;
-    margin-top: 71px;
-    position:fixed;
-    width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ededed;
+  list-style: none;
+  margin-top: 71px;
+  position: fixed;
+  width: 100%;
 }
 
-#menu ul li { display: inline; }
+#menu ul li {
+  display: inline;
+}
 
 #menu ul li a {
-    padding: 2px 10px;
-    display: inline-block;
-    background-color:#EDEDED;
-    color: rgb(20, 18, 18);
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
-    font-size: 20px; 
-    margin-left: 50px;   
+  padding: 2px 10px;
+  display: inline-block;
+  background-color: #ededed;
+  color: rgb(20, 18, 18);
+  text-decoration: none;
+  border-bottom: 3px solid #ededed;
+  font-size: 20px;
+  margin-left: 50px;
 }
 
 
 #navegation ul li {
-    text-align: center;
-    margin-left: 0 auto;
+  text-align: center;
+  margin-left: 0 auto;
 }
 
 #minha_foto {
-margin-top: 150px;
-width: 250px;
-border-radius: 50%;
+  margin-top: 150px;
+  width: 250px;
+  border-radius: 50%;
 }
 
 .aprendizagem {
-display: inline-block;
+  display: inline-block;
 
 }
 
 .lado-esquerdo {
-display: inline-block;
+  display: inline-block;
 }
 
 .lado-direito {
-display: inline-block;
+  display: inline-block;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas {}
 
-}
+#licoes_a_aprender {}
 
-#licoes_a_aprender {
+#article {}
 
-
-}
-
-#article {
-
-}
-
-#aside {
-
-
-}
+#aside {}
 
 #batman {
-    width: 150px;
+  width: 150px;
 }
 
 #rodape {
-    background-color: rgb(240, 233, 233);
-    padding: 28px;
-    color: rgb(20, 18, 18);
-    font-size: 15px;
+  background-color: rgb(240, 233, 233);
+  padding: 28px;
+  color: rgb(20, 18, 18);
+  font-size: 15px;
 }
 
 .icones-sociais ul {
-    display: inline-block;
-    height: inherit;
-    float: left;
-    width: 75%;
-    margin: 0;
-    line-height: 60px;
+  display: inline-block;
+  height: inherit;
+  float: left;
+  width: 75%;
+  margin: 0;
+  line-height: 60px;
 }
 
 .icones-sociais li {
-    display: inline-block;
-    float: left;
-    margin-left: 50px;
-    margin-top: 7px;
-    width: 40px;
-    height: inherit;
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+  margin-top: 7px;
+  width: 40px;
+  height: inherit;
 }

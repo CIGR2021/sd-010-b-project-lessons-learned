@@ -12,3 +12,13 @@ body{
 .baixar{
     padding-top: 60px;
 }
+
+#licoes_aprendidas{
+    margin: auto;
+    padding: auto;
+    border: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    line-height: 20px;
+    font-size: medium;
+}

@@ -4,7 +4,8 @@ body {
 
 header {
   background-color: red;
-  top: 0px;
+  top
+  position: fixed;
 }
 
 img {

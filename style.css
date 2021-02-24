@@ -100,3 +100,21 @@ main {
   display: inline-block;
   margin-right: 10px;
 }
+article {
+  padding: 10px 50px;
+ 
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 400px;
+}
+
+.lado-direito {
+ float: right;
+  width: 200px;
+}
+
+#tabela_instrutores {
+  clear: both;
+}

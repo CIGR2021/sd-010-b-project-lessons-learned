@@ -26,3 +26,21 @@ h2{
     margin-left:60px;
     margin-top: 40px;
 }
+article{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+aside{
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+}
+ol{
+    color: cornflowerblue;
+}
+ul{
+    color: rgb(172, 65, 86);
+}

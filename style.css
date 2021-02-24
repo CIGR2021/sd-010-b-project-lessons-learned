@@ -39,24 +39,20 @@ body {
 }
 
 #secao-principal {
-  border:solid 2px black;
-  border-radius: 25px 25px 25px 25px;
+  border: solid 2px black;
+  border-radius: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .lado-esquerdo {
   display: inline-block;
-  margin-top: 0px;
-  padding-top: 0px;
   width: 400px;
   margin: 20px; 
 }
 
 .lado-direito {
   display: inline-block;
-  margin-top: 0px;
-  padding-top: 0px;
   width: 400px;
   margin: 20px;
 }

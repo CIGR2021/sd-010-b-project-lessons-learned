@@ -26,7 +26,7 @@ body {
 }
 
 #portfolio {
-	margin: 45px;
+	margin: 35px;
 }
 
 .licoes {
@@ -37,16 +37,28 @@ body {
 	font-size: 14px;
 }
 
-#principal {
-  text-align: justify;
-  border: 1px solid black;
-	font-size: 14px;
-}
-
 .lado-esquerdo, .lado-direito {
   border: 1px solid black;
   width: 500px;
   padding: 10px;
+}
+
+#principal{
+	border: 1px solid black;
+}
+
+.lado-esquerdo {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.lado-direito {
+	float: right;
+}
+
+h2 {
+	font-size: 20px;
+	margin-top: 300px;
 }
 
 #links {
@@ -54,6 +66,6 @@ body {
 }
 
 #rodape {
-	text-align: right;
+	text-align: center;
 	font-size: 13px;
 }

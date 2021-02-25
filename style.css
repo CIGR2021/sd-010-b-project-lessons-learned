@@ -35,6 +35,14 @@ nav {
   z-index: 1;
 }
 
+article {
+  float: right;
+  position: absolute;
+  left: 350px;
+  top: 465px;
+  width: 300px;
+}
+
 nav ul {
   padding: 0;
 }

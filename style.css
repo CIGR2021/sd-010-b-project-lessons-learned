@@ -23,6 +23,10 @@ aside {
   text-align: justify;
 }
 
+aside p {
+  line-height: 30px;
+}
+
 nav {
   position: absolute;
   font-family: monospace;
@@ -48,6 +52,6 @@ nav li {
   padding-top: 95px;
 }
 
-.lado-esquerdo {
+.lado-esquerdo, .lado-direito {
   text-align: justify;
 }

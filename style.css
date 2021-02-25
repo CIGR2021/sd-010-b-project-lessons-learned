@@ -20,6 +20,7 @@ aside {
   width: 30%;
   float: right;
   padding-top: 70px;
+  text-align: justify;
 }
 
 nav {
@@ -45,4 +46,8 @@ nav li {
 #minha_foto {
   width: 300px;
   padding-top: 95px;
+}
+
+.lado-esquerdo {
+  text-align: justify;
 }

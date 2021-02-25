@@ -59,6 +59,7 @@ nav ul li {
 #minha_foto {
   position: relative;
   float: right;
+  z-index: 1;
   top: 100px;
   margin: 3%;
   width: 230px;
@@ -69,7 +70,6 @@ nav ul li {
 .licoes {
   clear: both;
   position: relative;
-  top: 100px;
   margin: 4%;
   width: auto;
 }
@@ -97,7 +97,7 @@ article p , aside p {
   margin: auto;
   padding: 2%;
   text-align: justify;
-  line-height: 22px;
+  line-height: 1.5;
 }
 
 #rodape {

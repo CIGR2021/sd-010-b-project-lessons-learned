@@ -33,6 +33,7 @@ a {
 }
 .lista {
     float: left;
+    font-size: 18px;
 }
 
 ul {
@@ -91,9 +92,14 @@ article {
     width: 30%;
     display:inline-block;
     margin: 50px;
-    justify-content: center;
 }
 
 p {
     letter-spacing: 1px;
+}
+
+footer {
+    text-align: right;
+    background-color: rgba(0, 255, 0, 0.2);
+    padding: 20px;
 }

@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: red;
+  background-color: blue;
   top: auto;
 }
 
@@ -15,11 +15,15 @@ img {
 article {
   background-color: lightsalmon;
   font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  padding: auto;
+  border: auto;
 }
 
 aside {
   float: right;
-  margin: auto;
-  padding: inherit;
   background-color: yellow;
+  margin: auto;
+  padding: auto;
+  border: auto;
 }

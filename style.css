@@ -16,16 +16,20 @@ body {
 
 #cabecalho {
 		position: fixed;
-		top: 0;
-		color:white;  
+		top: 0; 
+		color: white; 
 		font-family: Sulphur Point, sans-serif;
-		background-color: rgb(48, 197, 255);
+		background-color: rgb(48, 197, 255); 
 		width: 100%;
 		padding: 0 0 0 10%;
 }
 
+.lista2 ul {
+	list-style-type: '- ';
+}
+
 #cabecalho nav ul {
-	padding: 0 0 10px 0;
+	padding: 0 0 10px;
 }
 
 #cabecalho nav ul li {
@@ -43,12 +47,12 @@ img {
 }
 
 .article-div {
-	margin: 0 10%;
+	margin: 0 10%; 
 }
 
 .lado-esquerdo , .lado-direito {
 	display: inline-block;
-	width: 45%; 	
+	width: 45%; 
 	vertical-align: top;
 	justify-content: center;
 	margin: 0 auto;
@@ -68,26 +72,22 @@ img {
   margin-left: 104px;
 }
 
-.lista1{
+.lista1 {
   display: inline-block;
   margin-left: 50px;
   margin-right: 430px;
 }
 
-.lista1 ol{
-  list-style-type: "- ";
+.lista1 ol {
+  list-style-type: '- ';
 }
 
-.lista2{
+.lista2 {
   display: inline-block;
 
 }
 
-.lista2 ul{
-  list-style-type: "- ";
-}
-
-.lista{
+.lista {
   margin: 5% 10%;
   padding: 15px 10px;
   border: 1px solid black;
@@ -108,8 +108,8 @@ table {
   text-decoration: none;
   color: white;
 }
-#rodape{
-  background-color:rgb(67,70,75);
+#rodape {
+  background-color: rgb(67, 70, 75);
   padding: 20px;
   text-align: center;
   margin-top: 2%;

@@ -38,25 +38,35 @@ header {
 }
 
 .listas {
-  display: inline-block;
   max-width: 250px;
-  margin: 10px;
-  padding: 5px;
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+  padding-top: 2px;
+  padding-right: 1px;
+  padding-bottom: 2px;
+  padding-left: 5px;
   border: 10px;
   border-style: solid;
   border-color: darkgreen;
-  vertical-align: top;
+}
+
+ol h2{
+        text-align: left;
 }
 
 #lado-esquerdo {
   display: inline-block;
   max-width: 250px;
+  vertical-align: top;
 }
 
 #lado-direito {
   display: inline-block;
   font-size: 15px;
   max-width: 250px;
+  vertical-align: top;
 }
 
 footer {

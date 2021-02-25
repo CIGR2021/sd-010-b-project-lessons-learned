@@ -16,7 +16,7 @@ nav {
 
 #cabecalho {
   position: fixed;
-  top: 0;  
+  top: 0;
   color: #045762;
   width: 100%;
   background-color: #16c79a;
@@ -28,13 +28,15 @@ nav {
  padding-top: 30px;
 }
 
-#minha_foto {  
+#minha_foto {
   width: 200px;
   margin-top: 160px;
   display: block;
-} 
+  border-radius: 45%;
+  box-shadow: inset 0 0 1em #16c79a, 0 0 1em #045762;
+}
 
-#area-menu a:link, #area-menu a:visited {
+#area-menu a:link , #area-menu a:visited {
   text-decoration: none;
   color: #fff;
   padding: 8px 14px;
@@ -52,6 +54,8 @@ nav {
   margin: 15px 0 0 25px;
   line-height: 1.5;
   text-align: justify;
+  padding: 5px 15px;
+  border: 1px solid black;
 }
 
 .lado-direito {
@@ -60,11 +64,13 @@ nav {
   margin: 15px 0 0 35px;
   line-height: 1.5;
   text-align: justify;
+  padding: 5px 15px;
+  border: 1px solid black;
 }
 
 #rodape {
   clear: both;
-  padding: 20px 0 30px 0;
+  padding: 20px 0 30px;
   text-align: center;
   margin-top: 20px;
   background-color: #f4f9f9;

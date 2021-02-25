@@ -20,8 +20,11 @@ h3 {
   color: blanchedalmond;
 }
 
-#menu-principal-item {
+.menu-principal {
   list-style: none;
+}
+
+.menu-principal li {
   display: inline-block;
   margin: 20px;
 }

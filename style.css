@@ -46,22 +46,20 @@ img:hover {
   text-transform: uppercase;
 }
 
-ul {
-  background: rgb(218, 167, 248);
-  height: 300px;
-  width: 40%;
-  position: absolute;
-  top: 205px;
-  right: 40%;
-}
-
 ol {
   background: rgb(218, 167, 248);
   height: 300px;
   width: 40%;
   position: relative;
-  top: 5px;
   left: 5px;
+}
+
+ol h2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: Tahoma, sans-serif;
+  padding: 5px;
+  margin-top: 15px;
 }
 
 ol li {
@@ -73,8 +71,19 @@ ol li {
   padding: 1px;
 }
 
-#licoes_a_aprender .lista-ul {
-  right: 0;
+ul {
+  background: rgb(167, 179, 248);
+  height: 300px;
+  width: 40%;
+  position: absolute;
+  top: 219px;
+  right: 2%;
+}
+
+ul h2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: Tahoma, sans-serif;
 }
 
 ul li {

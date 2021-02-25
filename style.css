@@ -7,6 +7,8 @@ body {
   position: fixed;
   top: 0;
   background-color: green;
+  margin: 30px 50px;
+  width: 600px;
 }
 
 #titulo {
@@ -19,6 +21,7 @@ body {
   top: 100px;
   width: 120px;
   border-radius: 50%;
+  padding: 30px 30px;
 }
 
 #licoes_aprendidas {
@@ -42,6 +45,7 @@ body {
   width: 300px;
   top: 550px;
   line-height: 25px;
+  font-size: 15px;
 }
 
 .lado-direito {
@@ -50,6 +54,7 @@ body {
   top: 550px;
   left: 400px;
   line-height: 25px;
+  font-size: 15px;
 }
 
 #tabela {
@@ -73,4 +78,14 @@ td {
   border: 1px;
   border-style: solid;
   border-color: black;
+}
+
+#link {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  border-style: dotted;
+  border-color: red;
+  border-width: 3px;
+  padding: 4px 10px;
 }

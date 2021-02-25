@@ -78,6 +78,14 @@ body {
     right: -300px;   
 }
 
+#table {
+    display:inline-block;
+    text-align:center;
+    position:relative;
+    top: -120px;
+}
+
 #licoes_a_aprender {
     position: block;
 }
+

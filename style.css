@@ -40,3 +40,10 @@ body {
     position: absolute;
     bottom: 10px;
 }
+
+#link {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+    font-size: 15px;
+}

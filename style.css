@@ -57,23 +57,25 @@ body {
     top: 450px
 }
 
-#artigo1 {
+.lado-esquerdo {
     display:inline-block;
     width: 40%;
     text-align: justify;
 }
 
-.lado-esquerdo {
+.lado-direito {
     display:inline-block;
-    width: 20%;
+    width: 40%;
     text-align: justify;
 }
 
-.lado-direito {
+#aside1 {
     display: inline-block;
     width:20%;
     text-align: justify;
     position: relative;
+    top: -50px;
+    right: -300px;   
 }
 
 #licoes_a_aprender {

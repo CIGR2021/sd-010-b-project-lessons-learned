@@ -54,24 +54,25 @@ nav ul li a:hover {
 #minha_foto {
     width: 200px;
     margin-top: 100px;
+    margin-left: 18%;
     
 }
 
 #licoes_aprendidas {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
 #licoes_a_aprender {
-    margin-left: 60px;
+    margin-left: 10%;
     display: inline-block;
 }
 
 #link_externo {
     margin-left: 3%;
-    margin-top: 20px;
-    display: block;
-
+    display: inline-block;
+    margin-bottom: 50px;
+    vertical-align: 400%;
 }
 
 #tabela {
@@ -79,6 +80,9 @@ border: 3px solid black;
 padding: 10px;
 width: 600px;
 margin-bottom: 40px;
+display: inline-block;
+margin-left: 15%;
+margin-top: 40px;
 }
 
 td:hover {

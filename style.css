@@ -22,3 +22,10 @@ body{
     line-height: 20px;
     font-size: medium;
 }
+
+.ao_lado{
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}

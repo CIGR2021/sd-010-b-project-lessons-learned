@@ -1,55 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Source Sans Pro, sans-serif;
+		background-color: rgb(253, 251, 251);
+		font-family: Source Sans Pro, sans-serif;
 }
 
 #cabecalho a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    font-family: 'Sulphur Point', sans-serif;
-    color:white;
-    font-family: Sulphur Point, sans-serif;
-    background-color: rgb(20, 158, 32);
-    width: 100%;
-    padding: 0px 0px 0px 10%;
+		position: fixed;
+		top: 0;
+		color:white; 
+		color:white;  
+		font-family: Sulphur Point, sans-serif;
+		background-color: rgb(18, 131, 55);
+		width: 100%;
+		padding: 0 0 0 10%;
 }
 
 #cabecalho nav ul {
-    padding: 0px 0px 10px 0;
+	padding: 0 0 10px 0;
 }
 
 #cabecalho nav ul li {
-    list-style-type: none;
-    display: inline;
-    margin: 0px 100px 0px 0px;
+	list-style-type: none;
+	display: inline;
+	margin: 0 100px 0 0;
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: 8% auto 5% auto;
-    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 6% auto;
+	border-radius: 50%;
+}
+.article-div {
+	margin: 0 10%;
+}
+
+.lado-esquerdo , .lado-direito {
+	display: inline-block;
+	width: 45%;	
+	width: 45%; 	
+	vertical-align: top;
+	justify-content: center;
+	margin: 0 auto;
+}
+.lado-direito p , .lado-esquerdo p {
+	border: 1px solid black;
+	padding: 10px;
+	height: 165px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.lado-direito {
+	position: relative;
+	left: 120px;
+	position: initial;
+  margin-left: 104px;
 }
 
 table , th , td {
-    border: 1px solid black;
+	border: 1px solid black;
 }
 table {
-    border-collapse: collapse;
+	border-collapse: collapse;
 }
-.lado-esquerdo , .lado-direito {
-    width: 40%;
-    display: inline-block;
+
+.lista1{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.lista1 ol{
+  list-style-type: none;
+}
+
+.lista2{
+  display: inline-block;
+}
+
+.lista2 ul{
+  list-style-type: none;
+}
+
+.lista{
+  margin: 5% 10%;
+  border: 1px solid black;
 }

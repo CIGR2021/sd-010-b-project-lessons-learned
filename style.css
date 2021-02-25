@@ -4,7 +4,7 @@ body {
 
 header {
   background-color: red;
-  top: initial;
+  top: 0px;
 }
 
 img {

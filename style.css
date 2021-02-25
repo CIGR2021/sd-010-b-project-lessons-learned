@@ -1,36 +1,36 @@
 body {
-    background-color: rgb(  253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    background-color: midnightblue;
-    top: 0px;
-    width: 100%;
+  position: fixed;
+  background-color: midnightblue;
+  top: 0;
+  width: 100%;
 }
 
 #minha_foto {
-    width: 160px;
+  width: 160px;
 }
 
 #primeira_lista {
-    margin-top: 300px;
+  margin-top: 300px;
 }
 
 #segunda_lista {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .article {
-    display: inline-block;
-    width: 300px;
+  display: inline-block;
+  width: 300px;
 }
 
 #rodape {
-    text-align: center;
+  text-align: center;
 }
 
-.sidebar{
-    display: inline-block;
-    width: 200px;
+.sidebar {
+  display: inline-block;
+  width: 200px;
 }

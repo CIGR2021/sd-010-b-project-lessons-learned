@@ -9,7 +9,7 @@ body {
 
 #cabecalho {
   position: absolute;
-  top: 0px;
+  top: auto;
   background-color: red;
 }
 

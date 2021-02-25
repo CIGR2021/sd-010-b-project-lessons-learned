@@ -38,7 +38,14 @@ a {
   margin-top: 200px;
   margin-left: 35px;
   width: 250px;
+  height: 220px;
   border-radius: 5px;
+}
+
+.nome a {
+  font-weight: normal;
+  font-size: 15px;
+  color: rgb(6, 6, 138);
 }
 
 #licoes_aprendidas {
@@ -47,4 +54,21 @@ a {
 
 #licoes_a_aprender {
   display: inline-block;
+}
+
+
+article {
+  display: inline-block;
+  width: 40%;
+  border: 1px dashed;
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 7.5%;
+}
+
+aside {
+  width: 40%;
+  display: inline-block;
+  border: 1px dashed;
+  text-align: justify;
 }

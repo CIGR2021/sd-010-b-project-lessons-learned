@@ -36,7 +36,6 @@ body {
   position: absolute;
   top: 1100px;
 }
-
 /* 
 #link {
     position: absolute;
@@ -44,7 +43,6 @@ body {
     left: 25px;
     font-size: 15px;
 } */
-
 .lado-esquerdo {
   position: absolute;
   width: 300px;
@@ -63,11 +61,10 @@ body {
 #tabela {
   position: absolute;
   top: 950px;
-
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
+table, th, td {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
 }

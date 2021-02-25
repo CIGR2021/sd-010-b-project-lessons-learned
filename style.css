@@ -1,36 +1,10 @@
-body{
-    color: rgb(253, 251, 251);
-} 
-body{
-    color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
 }
-nav{
-    top: 0px;
-}
-body{
-    color: rgb(253, 251, 251);
-  color: rgb(253, 251, 251);
-}
-nav{
-    top: 0px;
-  margin-top: 0px;
-}
-#minha_foto{
-  width: 200px;
-} 
-body{
-  color: rgb(253, 251, 251);
-body {
-  background-color: rgb(253, 251, 251);
-}
-nav{
 
 nav {
   margin-top: 0px;
+#cabecalho {
+  top: 0;
 }
-#minha_foto{
 
-#minha_foto{
-  width: 200px;
-} 
-}
+#minha_foto {

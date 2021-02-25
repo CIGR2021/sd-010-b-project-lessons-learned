@@ -73,27 +73,22 @@
 
 	.lado-esquerdo {
 	  float: left;
-	  padding-top: 20px;
-	  max-width: 500px;
-	  padding-top: 5px;
+	  max-width: 500px;	  
 	  border-style: dotted;
-	  background-color: rgb(71, 145, 255);
-	  border-color: rgb(250, 255, 255);
+	  background-color: rgb(100, 161, 197);
+	  border-color: rgb(255, 255, 255);
 	  margin: 30px 40px;
 	  text-align: justify;
 	}
 
 	.lado-esquerdo h3 {
-	  background-color: cornflowerblue;
+	  background-color: rgb(62, 131, 143);
 	  padding: 5px;
 	  text-align: center;
 	  font-style: oblique;
 	}
-
 	.lado-direito {
 	  float: right;
-	  padding-top: 5px;
-	  padding-top: 20px;
 	  max-width: 500px;
 	  min-height: 125px;
 	  background-color: rgb(101, 175, 180);

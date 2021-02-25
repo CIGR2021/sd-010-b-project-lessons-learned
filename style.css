@@ -92,3 +92,19 @@ ul li {
   font-size: 14px;
   font-family: sans-serif, Arial;
 }
+article{
+  background-color: rgb(167, 210, 248);
+  width: 48%;
+  display: inline-block;
+  height: 200px;
+  padding: 5px;
+}
+section{
+  background-color: antiquewhite;
+  width: 48%;
+  display: inline-block;
+  margin-left: 5px;
+  align-items: top;
+  height: 200px;
+  padding: 5px;
+}

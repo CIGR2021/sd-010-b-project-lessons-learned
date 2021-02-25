@@ -38,7 +38,7 @@ section h2 {
   margin-left: 40px;
 }
 
-section h3{
+section h3 {
   margin-left: -40px;
 }
 
@@ -46,8 +46,7 @@ section h3{
   padding-right: 25px;
 }
 
-.lado-esquerdo , .lado-direito {
-  
+.lado-esquerdo , .lado-direito {  
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 20px;
@@ -60,7 +59,6 @@ section h3{
   display: inline-flex;
   margin: 20px;
   border-radius: 5%;
-  
 }
 
 .lado-direito {
@@ -68,17 +66,16 @@ section h3{
   text-align: justify;
   max-width: 30%;
   display: inline-flex;
-  background-color: #dde5b6;
-  border-radius:5%;
+  background-color: rgb(100, 211, 148);
+  border-radius: 5%;
 }
 
 table , tr , td {
   border-top: 3px solid seagreen;
-  
   margin-bottom: 20px;
   padding-right: 100%;
 }
 
-footer{
+footer {
   text-align: center;
 }

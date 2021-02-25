@@ -8,8 +8,8 @@ header {
   padding-bottom: 20px;
   position: fixed;
   width: 100%;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   text-align: center;
   font-size: 30px;
 }
@@ -32,8 +32,6 @@ h2 {
 }
 
 article {
-
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   display: inline-block;
@@ -43,8 +41,7 @@ article {
 }
 
 aside {
-
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium, 'Arial Narrow", Arial, sans-serif;
   font-size: 17px;
   line-height: 24px;
   display: inline-block;

@@ -4,10 +4,22 @@ body {
 
 header {
   background-color: red;
-  top: 0px;
+  top: auto;
 }
 
 img {
   height: 444px;
   width: 444px;
+}
+
+article {
+  background-color: lightsalmon;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+aside {
+  float: right;
+  margin: auto;
+  padding: inherit;
+  background-color: yellow;
 }

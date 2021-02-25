@@ -1,5 +1,5 @@
 body {
-    background-color: rgb( 253, 251, 251);
+    background-color: rgb(  253, 251, 251);
 }
 
 #cabecalho {
@@ -30,4 +30,12 @@ body {
     text-align: center;
 }
 
+.asidebar{
+display: inline-block;
+width: 200px;
+
+
 }
+
+}
+

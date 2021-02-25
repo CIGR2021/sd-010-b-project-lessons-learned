@@ -10,6 +10,13 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: rgb(134, 122, 206);
+  width: 100%;
+}
+
+#minha_foto {
+  margin-top: 100px;
+  width: 30%;
 }
 
 #article-aside {

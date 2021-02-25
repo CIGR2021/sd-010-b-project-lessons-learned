@@ -43,7 +43,7 @@ main {
   margin: auto;
 }
 
-#licoes_aprendidas,#licoes_a_aprender {
+#licoes_aprendidas, #licoes_a_aprender {
   display: inline-block;
   font-size: 15px;
 }
@@ -61,9 +61,29 @@ main {
   padding-left: 20px;
 }
 
-#tragetoria,#apredizado {
+#tragetoria, #apredizado {
   width: 1000px;
   margin: auto;
   line-height: 25px;
 
+}
+
+#tragetoria, #apredizado{
+  width: 500px;
+  height: 300px;
+  border: 3px solid rgb(165, 131, 197);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 40px;
+  
+}
+
+#tragetoria{
+  margin-left: 100px;
+}
+
+#apredizado{
+  vertical-align: bottom;
+  margin-left: 40px;
 }

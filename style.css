@@ -89,6 +89,10 @@ td:hover {
     background-color: rgb(247, 112, 112);
 }
 
+th {
+    background-color: rgb(231, 238, 245);
+}
+
 th, td {
     line-height: 30px;
     text-align: center;

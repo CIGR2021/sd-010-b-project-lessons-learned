@@ -23,9 +23,18 @@ body{
     font-size: medium;
 }
 
-.ao_lado{
+
+
+.lado_esquerdo{
     width: 30%;
+    margin: 10px;
     text-align: center;
+    display: inline-block;
+}
+
+.lado_direito{
+    width: 30%;
     margin: 10px;
     display: inline-block;
+
 }

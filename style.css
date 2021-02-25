@@ -63,7 +63,9 @@ body {
   top: 950px;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px;
   border-style: solid;
   border-color: black;

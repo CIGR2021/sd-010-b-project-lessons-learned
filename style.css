@@ -47,16 +47,16 @@ img:hover {
 }
 
 ul {
-  background: #c590f5;
+  background: rgb(218, 167, 248);
   height: 300px;
   width: 40%;
   position: absolute;
   top: 205px;
-  right: 40%px;
+  right: 40%;
 }
 
 ol {
-  background: #af8542;
+  background: rgb(218, 167, 248);
   height: 300px;
   width: 40%;
   position: relative;

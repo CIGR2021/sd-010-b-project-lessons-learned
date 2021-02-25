@@ -17,7 +17,7 @@ li {
   border-radius: 30%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   margin-top: 5%;
   margin-left: 20%;
@@ -25,7 +25,7 @@ li {
   border: 10px;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   text-align: justify;
   display: inline-block;
   margin-bottom: 6%;

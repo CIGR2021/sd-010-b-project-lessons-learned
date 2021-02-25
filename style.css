@@ -8,19 +8,24 @@ header {
     color: rgb(253, 251, 251);
     background-color: darkgreen;
     position: fixed;
+    font-size: 23px;
     letter-spacing: 5px;
-    margin-right: 35%;
 }
 
-#licoes_aprendidas {
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-}
-
-img {
-    margin-top: 170px;
+#minha_foto {
     width: 100px;
+    float: left;
+    margin-top: 250px;
+
 }
 
-/n
+article{
+    font-size: 15px;
+}
+.listas {
+    display: inline;
+    float: right;
+    padding: 100px;
+    margin-top: 200px;
+    margin-left: 1;px
+}

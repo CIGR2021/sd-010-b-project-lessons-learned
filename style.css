@@ -1,26 +1,31 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb( 253, 251, 251);
 }
+
 #cabecalho {
     position: fixed;
-    top: 0px;
     background-color: midnightblue;
+    top: 0px;
     width: 100%;
 }
 
 #minha_foto {
-width: 160px;
+    width: 160px;
 }
+
 #primeira_lista {
     margin-top: 300px;
 }
+
 #segunda_lista {
     margin-top: 10px;
 }
+
 #rodape {
     text-align: center;
 }
-.article{
+
+.article {
     display: inline-block;
     width: 300px;
 }

@@ -40,10 +40,23 @@ body {
     position: absolute;
     bottom: 10px;
 }
-
+/* 
 #link {
     position: absolute;
     top: 270px;
     left: 25px;
     font-size: 15px;
+} */
+
+#main-article {
+    position: absolute;
+    width: 300px;
+    top: 550px
+}
+
+#small-article {
+    position: absolute;
+    width: 300px;
+    top: 550px;
+    left: 400px;
 }

@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(253,251,251);
-    font-family: 'Lato', sans-serif;
+    background-color:rgb(253,251,251);
+    font-family:'Lato',sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 h1 {
-    font-size: 30px;
+    font-size:30px;
     color: #fff;
-    font-weight: 700;
+    font-weight:700;
 }
 
 #cabecalho {
@@ -36,7 +36,7 @@ a {
 }
 
 table {
-    background-color: #ffffff;
+    background-color: #fff;
     width: 100%;
     border-spacing: 0;
     border-radius: 0px 0px 3px;
@@ -45,13 +45,13 @@ table {
 }
 
 table caption {
-    background-color: #ffffff;
+    background-color: #fff;
     text-align: left;
     padding: 30px;
     font-weight: 300;
     font-size: 20px;
     border-radius: 0px 0px 3px 3px;
-    box-shadow: 0px -1px 3px #666666;
+    box-shadow: 0px -1px 3px #666;
 }
 
 table thead th {

@@ -40,10 +40,11 @@ main {
     margin: 0px auto;
 }
 
-.about h2 {
+.headings {
     text-align: center;
     color: #454545;
     padding-top: 45px;
+    padding-bottom: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -71,10 +72,6 @@ main {
     list-style: none;
 }
 
-.lists h4 {
-    color: #454545;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 #licoes_a_aprender li {
     list-style: none;
@@ -84,17 +81,30 @@ main {
     padding: 45px;
 }
 
-.learning h1, h5 {
-    text-align: center;
-    padding: 10px;
-    color: #454545;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .learning-p {
     width: 50%;
     margin: 0px auto;
     padding: 0px 5px 20px 5px;
     text-align: center;
     text-decoration: italic;
+}
+
+.passage {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.passage-text-container {
+    width: 60%;
+    text-align: center;
+    padding: 45px;
+}
+
+.passage-aside li {
+    list-style: none;
+    padding: 10px;
+}
+
+.passage-aside a {
+    text-decoration: none;
 }

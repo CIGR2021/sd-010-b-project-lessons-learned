@@ -39,5 +39,18 @@ body {
   padding: 10px;
   border: 5px solid gray;
   margin: 0;
-  width: 10%;
+}
+
+.tb_fonte1 {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  color: royalblue;
+}
+
+.tb_fonte {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: midnightblue;
+  line-height: normal;
+  column-gap: 40px;
 }

@@ -68,7 +68,7 @@ ol li {
   margin: 5px;
   margin-left: 20px;
   font-size: 14px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: sans-serif, Arial;
 }
 
 #licoes_a_aprender .lista-ul {
@@ -90,5 +90,5 @@ ul li {
   margin: 5px;
   margin-left: 20px;
   font-size: 14px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: sans-serif, Arial;
 }

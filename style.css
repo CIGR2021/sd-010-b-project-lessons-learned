@@ -25,14 +25,13 @@ body{
 
 
 
-.lado_esquerdo{
+.lado-direito{
     width: 30%;
     margin: 10px;
-    text-align: center;
     display: inline-block;
 }
 
-.lado_direito{
+.lado-esquerdo{
     width: 30%;
     margin: 10px;
     display: inline-block;

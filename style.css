@@ -10,52 +10,52 @@ body {
 }
 
 #cabecalho a {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #cabecalho {
-position: fixed;
-top: 0;
-color: white;
-font-family: Sulphur Point, sans-serif;
-background-color: rgb(48, 197, 255);
-width: 100%;
-padding: 0 0 0 10%;
+  position: fixed;
+  top: 0;
+  color: white;
+  font-family: Sulphur Point, sans-serif;
+  background-color: rgb(48, 197, 255);
+  width: 100%;
+  padding: 0 0 0 10%;
 }
 
 .lista2 ul {
-list-style-type: '- ';
+  list-style-type: '- ';
 }
 
 #cabecalho nav ul {
-padding: 0 0 10px;
+  padding: 0 0 10px;
 }
 
 #cabecalho nav ul li {
-list-style-type: none;
-display: inline;
-margin: 0 100px 0 0;
+  list-style-type: none;
+  display: inline;
+  margin: 0 100px 0 0;
 }
 
 img {
-width: 200px;
-height: 200px;
-display: block;
-margin: 6% auto;
-border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 6% auto;
+  border-radius: 50%;
 }
 
 .article-div {
-margin: 0 10%;
+  margin: 0 10%;
 }
 
 .lado-esquerdo , .lado-direito {
-display: inline-block;
-width: 45%;
-vertical-align: top;
-justify-content: center;
-margin: 0 auto;
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .lado-direito p , .lado-esquerdo p {

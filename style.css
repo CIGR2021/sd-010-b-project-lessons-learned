@@ -2,14 +2,12 @@ body {
     background-color:rgb(253,251,251);
     font-family:'Lato',sans-serif;
     -webkit-font-smoothing: antialiased;
-    letter-spacing: 1px;
 }
 h1 {
     font-size:30px;
     color: #fff;
     font-weight:700;
 }
-
 #cabecalho {
     text-align: center;
     background-color: rgb(11, 148, 23);
@@ -33,11 +31,9 @@ img {
 a {
     display: block;
 }
-
 .lista {
     float: left;
 }
-
 table {
     background-color: #fff;
     width: 100%;
@@ -46,7 +42,6 @@ table {
     box-shadow: 0px 2px 5px #000;
     font-size: 13px;
 }
-
 table caption {
     background-color: #fff;
     text-align: left;
@@ -56,35 +51,36 @@ table caption {
     border-radius: 0px 0px 3px 3px;
     box-shadow: 0px -1px 3px #666;
 }
-
 table thead th {
     text-align: left;
     font-size: 14px;
     font-weight:300;
 }
-
 table td, th {
     border-bottom: 1px solid rgba(0, 255, 0, 0.2);
     padding: 20px 0px 20px 0px;
 }
-
 tfoot {
     text-align: right;
     font-size: 12px;
     opacity: 50%;
 }
-
 tfoot td {
     padding-right: 20px;
 }
-
 tfoot td span {
     margin-right: 10px;
     margin-left: 30px;
 }
-
+tfoot td img {
+    margin-left: 25px;
+    height: 0.8%;
+    width: 0.8%;
+}
 select {
     border: none;
     border-right-color: transparent;
 }
-
+p {
+    letter-spacing: 1px;
+}

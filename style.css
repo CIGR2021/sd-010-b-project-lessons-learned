@@ -17,6 +17,12 @@ nav {
   margin-top: 80px;
 }
 
+nav a {
+  text-decoration: none;
+  color: green;
+  font-weight: 700;
+}
+
 img {
   margin-top: 100px;
 }
@@ -32,12 +38,16 @@ section h2 {
   margin-left: 40px;
 }
 
+section h3{
+  margin-left: -40px;
+}
+
 .lado-esquerdo h3 , .lado-direito h3 {
   padding-right: 25px;
 }
 
 .lado-esquerdo , .lado-direito {
-  border: 1px solid black;
+  
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 20px;
@@ -49,6 +59,8 @@ section h2 {
   max-width: 50%;
   display: inline-flex;
   margin: 20px;
+  border-radius: 5%;
+  
 }
 
 .lado-direito {
@@ -56,11 +68,17 @@ section h2 {
   text-align: justify;
   max-width: 30%;
   display: inline-flex;
+  background-color: #dde5b6;
+  border-radius:5%;
 }
 
 table , tr , td {
-  border: 1px solid black;
-  margin-left: 20px;
+  border-top: 3px solid seagreen;
+  
   margin-bottom: 20px;
-  padding: 5px;
+  padding-right: 100%;
+}
+
+footer{
+  text-align: center;
 }

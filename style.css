@@ -76,13 +76,13 @@ nav ul li a:hover {
 }
 
 #tabela {
-border: 3px solid black; 
-padding: 10px;
-width: 600px;
-margin-bottom: 40px;
-display: inline-block;
-margin-left: 15%;
-margin-top: 40px;
+    border: 3px solid black; 
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 40px;
 }
 
 td:hover {
@@ -92,14 +92,9 @@ td:hover {
 th, td {
     line-height: 30px;
     text-align: center;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-
-
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
 .lado-esquerdo {
     font-size: 15px;

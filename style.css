@@ -40,9 +40,8 @@ header {
 .listas {
   display: inline-block;
   max-width: 250px;
-  vertical-align: text-top;
-  margin: 10px 10px 10px 10px;
-  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  padding: 5px;
   border: 10px;
   border-style: solid;
   border-color: darkgreen;
@@ -63,4 +62,4 @@ header {
 footer {
   text-align: center;
 }
- 
+

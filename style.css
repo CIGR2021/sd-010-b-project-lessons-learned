@@ -102,3 +102,10 @@ aside {
     left: 530px;
     
 }
+table {
+    position: absolute;
+    top: 130px;
+    color: firebrick;
+    width: 220px;
+    left: 340px;
+}

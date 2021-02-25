@@ -14,6 +14,9 @@ body {
 }
 
 #minha_foto {
-  width: 1000px
-  
+  width: 1000px;
+}
+
+#licoes_aprendidas {
+  color: magenta;
 }

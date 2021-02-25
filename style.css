@@ -61,6 +61,7 @@ body {
 
 .main {
   width: 100%;
+  border: solid 1px black;
 }
 
 .left {
@@ -74,13 +75,16 @@ body {
 }
 
 .lado-esquerdo {
+  border: solid 1px black;
   display: inline-block;
   width: 30%;
 }
 
 .lado-direito {
   display: inline-block;
-  background-color: black;
+  border: solid 1px black;
+  width: 69%;
+  vertical-align: top;
 }
 
 #licoes_aprendidas {}

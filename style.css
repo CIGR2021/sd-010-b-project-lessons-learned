@@ -2,6 +2,7 @@ body {
     background-color:rgb(253,251,251);
     font-family:'Lato',sans-serif;
     -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
 }
 h1 {
     font-size:30px;
@@ -87,6 +88,3 @@ select {
     border-right-color: transparent;
 }
 
-p {
-    letter-spacing: 3px;
-}

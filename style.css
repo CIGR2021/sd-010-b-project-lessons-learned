@@ -62,7 +62,7 @@ main {
 }
 
 .lists {
-    padding: 40px;
+    padding: 60px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -72,9 +72,29 @@ main {
 }
 
 .lists h4 {
+    color: #454545;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #licoes_a_aprender li {
     list-style: none;
+}
+
+.learning {
+    padding: 45px;
+}
+
+.learning h1, h5 {
+    text-align: center;
+    padding: 10px;
+    color: #454545;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.learning-p {
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px 5px 20px 5px;
+    text-align: center;
+    text-decoration: italic;
 }

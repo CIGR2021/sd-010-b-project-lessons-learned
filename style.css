@@ -55,7 +55,8 @@ img {
 
 .lado-esquerdo , .lado-direito {
 	display: inline-block;
-	width: 45%; 
+	width: 45%;
+	
 	vertical-align: top;
 	justify-content: center;
 	margin: 0 auto;

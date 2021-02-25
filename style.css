@@ -90,3 +90,7 @@ select {
     border: none;
     border-right-color: transparent;
 }
+
+p {
+    letter-spacing: 1px;
+}

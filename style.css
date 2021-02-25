@@ -42,3 +42,17 @@ main {
   width: 900px;
   margin: 0 auto;
 }
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 300px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 200px;
+}
+
+#rodape {
+  padding-top: 40px;
+}

@@ -54,7 +54,7 @@ body {
 article {
     position: absolute;
     left: 500px;
-    top: 280px;
+    top: 327px;
     width: 420px;
     font-size: 13px;
     padding: 0%;
@@ -74,7 +74,7 @@ article {
 
 #sessao2 {
     position: absolute;
-    top: 420px;
+    top: 440px;
     left: 500px;
     width: 300px;
     font-size: 13px;
@@ -87,7 +87,7 @@ article {
 aside {
     position: absolute;
     left: 498px;
-    top: 80px;
+    top: 40px;
     width: 150px;
     
 }

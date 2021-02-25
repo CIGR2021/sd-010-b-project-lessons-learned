@@ -8,11 +8,18 @@ body {
   font-size: 20px;
   color: brown;
 }
-
+#titulo {
+    text-align: center;
+    color: white;
+}   
 #minha_foto {
   width: 200px;
 }
-
+#artigos {
+    border-style: dashed;
+    border-width: 1px;
+    margin: 10px;
+}
 #licoes_aprendidas{
   font-family: 'Times New Roman', Times, serif;
   padding: 20px;

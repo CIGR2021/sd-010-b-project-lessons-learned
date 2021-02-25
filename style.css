@@ -28,6 +28,7 @@ main {
   text-align: center;
   font-size: 24px;
   font-family: Calibri, sans-serif;
+  padding: 1px;
 }
 
 img {
@@ -68,6 +69,7 @@ ol li {
   margin-left: 20px;
   font-size: 14px;
   font-family: sans-serif, Arial;
+  padding: 1px;
 }
 
 #licoes_a_aprender .lista-ul {
@@ -90,6 +92,7 @@ ul li {
   margin-left: 20px;
   font-size: 14px;
   font-family: sans-serif, Arial;
+  padding: 1px;
 }
 
 article {
@@ -104,11 +107,13 @@ article {
 article h3 {
   font-size: 16px;
   font-family: sans-serif, Arial;
+  padding: 1px;
 }
 
 article p {
   font-size: 14px;
   font-family: sans-serif, Arial;
+  padding: 1px;
 }
 
 aside {
@@ -123,9 +128,11 @@ aside {
 aside h3 {
   font-size: 16px;
   font-family: sans-serif, Arial;
+  padding: 1px;
 }
 
 aside p {
   font-size: 14px;
   font-family: sans-serif, Arial;
+  padding: 1px;
 }

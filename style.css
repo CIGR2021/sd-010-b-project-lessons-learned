@@ -97,9 +97,10 @@ ul li {
 
 article {
   display: inline-block;
+  position: relative;
   background-color: rgb(167, 210, 248);
-  left: 0;
-  width: 48%;
+  left: 5px;
+  width: 45%;
   height: 200px;
   padding: 5px;
 }
@@ -118,9 +119,10 @@ article p {
 
 aside {
   display: inline-block;
+  position: absolute;
   background-color: antiquewhite;
   width: 48%;
-  right: 0;
+  right: 02%;
   height: 200px;
   padding: 5px;
 }

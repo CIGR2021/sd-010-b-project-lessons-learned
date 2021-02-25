@@ -17,14 +17,10 @@ body {
 #cabecalho {
 		position: fixed;
 		top: 0;
-
 		color: white;
-
 		font-family: Sulphur Point, sans-serif;
 		background-color: rgb(48, 197, 255);
- 
-		width: 100%;
-
+ 		width: 100%;
 		padding: 0 0 0 10%;
 }
 
@@ -57,7 +53,6 @@ img {
 .lado-esquerdo , .lado-direito {
 	display: inline-block;
 	width: 45%;
-
 	vertical-align: top;
 	justify-content: center;
 	margin: 0 auto;

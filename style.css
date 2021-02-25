@@ -114,8 +114,7 @@ table {
   margin-top: -220px;
 }
 
-table th,
-td {
+table th , td {
   padding: 10px;
   border: 1px solid black;
   width: 150px;
@@ -131,7 +130,7 @@ td {
 
 #rodape a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
   text-transform: uppercase;
 }
 

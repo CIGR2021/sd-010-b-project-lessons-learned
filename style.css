@@ -115,4 +115,8 @@ footer {
 
 table {
   margin: auto;
+  text-align: center;
+}
+table h4 {
+    text-align: center;
 }

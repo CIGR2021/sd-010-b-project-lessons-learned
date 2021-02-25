@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(253, 251, 251);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
@@ -10,7 +10,7 @@ body {
 }
 
 #titulo {
-  color: #fff;
+  color: white;
   font-weight: 700;
 }
 

@@ -35,6 +35,10 @@ body {
     border-radius: 5%;
 }
 
+#foto {
+    display:inline-block;
+}
+
 #licoes_aprendidas {
     list-style:decimal;
     display: block;

@@ -39,21 +39,11 @@ header {
 
 .listas {
   max-width: 250px;
-  margin-top: 5px;
-  margin-right: 8px;
-  margin-bottom: 2px;
-  margin-left: 1px;
-  padding-top: 2px;
-  padding-right: 1px;
-  padding-bottom: 2px;
-  padding-left: 5px;
+  margin: 5px 8px 2px 1px;
+  padding: 2px 1px 2px 5px;
   border: 10px;
   border-style: solid;
   border-color: darkgreen;
-}
-
-ol h2{
-        text-align: left;
 }
 
 #lado-esquerdo {

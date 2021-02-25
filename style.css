@@ -34,6 +34,11 @@ a {
 .lista {
     float: left;
 }
+
+ul {
+    margin-left: 10px;
+}
+
 table {
     background-color: #fff;
     width: 100%;
@@ -73,14 +78,22 @@ tfoot td span {
     margin-left: 30px;
 }
 tfoot td img {
-    margin-left: 25px;
-    height: 0.8%;
-    width: 0.8%;
+    
+    height: auto;
+    width: auto;
 }
 select {
     border: none;
     border-right-color: transparent;
 }
+
+article {
+    width: 30%;
+    display:inline-block;
+    margin: 50px;
+    justify-content: center;
+}
+
 p {
     letter-spacing: 1px;
 }

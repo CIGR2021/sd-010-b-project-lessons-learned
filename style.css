@@ -16,10 +16,13 @@ body {
 
 #cabecalho {
 		position: fixed;
-		top: 0; 
-		color: white; 
+		top: 0;
+
+		color: white;
+
 		font-family: Sulphur Point, sans-serif;
-		background-color: rgb(48, 197, 255); 
+		background-color: rgb(48, 197, 255);
+ 
 		width: 100%;
 		padding: 0 0 0 10%;
 }

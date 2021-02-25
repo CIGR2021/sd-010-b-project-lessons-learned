@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: green;
 }
 

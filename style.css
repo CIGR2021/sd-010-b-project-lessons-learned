@@ -8,7 +8,6 @@ body {
 }
 
 #cabecalho {
-  position: absolute;
   top: auto;
   background-color: red;
 }

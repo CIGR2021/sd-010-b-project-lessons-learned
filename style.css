@@ -1,6 +1,6 @@
 body {
   max-width: 1366px;
-  line-height: 768px;
+  line-height: 100vm;
   background-color: rgb(253, 251, 251);
   border: solid 1px  rgb(252, 238, 238);
 }

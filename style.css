@@ -4,6 +4,8 @@
 
 body{
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
+    line-height: 22px;
 }
 
 header{
@@ -42,6 +44,7 @@ header{
 #licoes_a_aprender{ 
     padding-top: 20px;
     margin-left: -520px;
+    border: 10px;
 
 }
 
@@ -86,3 +89,26 @@ a{
     padding-left: 20px;
     background-color: #b4afaf63;
 }
+#customers {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }

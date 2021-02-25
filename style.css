@@ -2,9 +2,10 @@
     margin: 0;
     max-width: 1366px;
     max-height: 768px;
+    line-height: 30px;
     }
 
-    p, li, h3 {font-family: 'Playfair Display', cursive ; font-size: 20px}
+p, li, h3 {font-family: 'Playfair Display', cursive ; font-size: 20px}
 
 body {
     background-color: rgb(253, 251, 251);
@@ -62,15 +63,17 @@ body {
     text-align: justify;
 }
 
-#secao1 {
+.lado-esquerdo {
+    display:inline-block;
+    width: 20%;
+    text-align: justify;
+}
+
+.lado-direito {
     display: inline-block;
     width:20%;
     text-align: justify;
     position: relative;
-    top: -50px;
-    right: -300px;
-    
-    
 }
 
 #licoes_a_aprender {

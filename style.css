@@ -1,49 +1,48 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: royalblue;
-    width: 100%;
-    left: 0;
+  position: fixed;
+  top: 0px;
+  background-color: royalblue;
+  width: 100%;
+  left: 0px;
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
-    width: 250px;
-    padding-top: 60px;
+  width: 250px;
+  padding-top: 60px;
 }
 
 aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: italic;
-    background-color: lightgray;
-  }
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  font-style: italic;
+  background-color: lightgray;
+}
 
 #navegacao a {
-    display: block;
-    font-size: 16px;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
 }
 
 #navegacao a:link {
-    color: white;
+  color: white;
 }
 
 #navegacao a:visited {
-    color: yellow;
+  color: yellow;
 }
 
 #navegacao a:hover {
-    color: red;
+  color: red;
 }
-

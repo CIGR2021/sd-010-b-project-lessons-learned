@@ -63,8 +63,8 @@ body {
   top: 950px;
 }
 
-table,
-th,
+table ,  
+th , 
 td {
   border: 1px;
   border-style: solid;

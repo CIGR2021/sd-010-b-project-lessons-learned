@@ -102,12 +102,12 @@ article {
   padding: 5px;
 }
 
-article h3{
+article h3 {
   font-size: 16px;
   font-family: sans-serif, Arial;
 }
 
-article p{
+article p {
   font-size: 14px;
   font-family: sans-serif, Arial;
 }
@@ -121,12 +121,12 @@ aside {
   padding: 5px;
 }
 
-aside h3{
+aside h3 {
   font-size: 16px;
   font-family: sans-serif, Arial;
 }
 
-aside p{
+aside p {
   font-size: 14px;
   font-family: sans-serif, Arial;
 }

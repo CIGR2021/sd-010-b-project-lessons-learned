@@ -46,13 +46,13 @@ header {
   border-color: darkgreen;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   max-width: 250px;
   vertical-align: top;
 }
 
-#lado-direito {
+.lado-direito {
   display: inline-block;
   font-size: 15px;
   max-width: 250px;

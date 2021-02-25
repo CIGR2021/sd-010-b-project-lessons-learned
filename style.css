@@ -101,10 +101,10 @@ article p , aside p {
 }
 
 #rodape {
-clear: both;
-text-align: center;
-color: azure;
-padding: 0.5%;
-background-color: darkolivegreen;
-font-size: 0.65em;
-}
+  clear: both;
+  text-align: center;
+  color: azure;
+  padding: 0.5%;
+  background-color: darkolivegreen;
+  font-size: 0.65em;
+  }

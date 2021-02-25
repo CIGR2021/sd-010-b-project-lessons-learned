@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,400&family=Six+Caps&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,200&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 @keyframes moveInLeft {
@@ -32,7 +35,7 @@
 @keyframes moveInBottom {
 
   0% {
-    opacity: 0;    
+    opacity: 0;
     transform: translateY(100px);
   }
 
@@ -120,7 +123,7 @@ header {
 .navbar h1 {
   color: rgb(177, 63, 63);
   font-family: Poppins, sans-serif;
-  margin: 30px 0 30px 0;
+  margin: 30px 0;
   font-size: 1.5rem;
   animation-name: opacity;
   animation-duration: 3s;
@@ -197,24 +200,21 @@ img {
   animation-duration: 2s;
 }
 
-.content {
-  height: 100vh;
-}
-
-.btn-left ,.btn-right {
+.btn-left , .btn-right {
   text-decoration: none;
   color: white;
   border: 1px solid black;
   margin: 10px 20px 0 0;
   border-radius: 5rem;
   text-align: center;
-  background-color: #b13f3f;
+  background-color: rgb(177, 63, 63);
   padding: 5px 25px;
   font-family: Poppins, sans-serif;
   letter-spacing: 1px;
   font-size: 1.1rem;
   margin-top: 30px;
   margin-right: 25px;
+
 }
 
 .btn-right {
@@ -225,4 +225,24 @@ img {
 .btn-right:hover {
   background-color: rgb(177, 63, 63);
   transition: 0.6s;
+}
+
+.content {
+  height: 30rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lista-esquerda , .lista-direita {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 30px;
+}
+
+.lista-esquerda li , .lista-direita {
+  margin-top: -4px;
+  margin-bottom: 5px;
 }

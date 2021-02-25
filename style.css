@@ -4,15 +4,16 @@
 } */
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    margin-top: 0px;
-    background-color: green;
+  position: fixed;
+  top: 0px;
+  background-color: green;
 }
 
 #titulo {
-    color: #fff;
-    font-weight: 700;
+  color: #fff;
+  font-weight: 700;
 }

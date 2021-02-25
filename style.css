@@ -111,11 +111,31 @@ table {
   clear: both;
   float: right;
   margin-right: 250px;
-  margin-top: -250px;
+  margin-top: -220px;
 }
 
-table th , td {
+table th,
+td {
   padding: 10px;
   border: 1px solid black;
   width: 150px;
+}
+
+#rodape {
+  text-align: center;
+  margin-top: 150px;
+  padding-top: 80px;
+  height: 80px;
+  background-color: rgb(32, 107, 83);
+}
+
+#rodape a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+#rodape a:hover {
+  text-decoration: underline;
+  color: aliceblue;
 }

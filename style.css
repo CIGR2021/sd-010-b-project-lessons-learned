@@ -35,6 +35,8 @@ section h2 {
   text-align: center;
   padding: 15px;
   color: rgb(16, 31, 54);
+  line-height: 40px;
+  font-style: oblique;
 }
 
 #licoes_aprendidas li {

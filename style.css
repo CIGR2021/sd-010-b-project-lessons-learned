@@ -13,6 +13,7 @@ body {
   background-color: red;
 }
 
-.img {
-  position: left;
+#minha_foto {
+  width: 1000px
+  
 }

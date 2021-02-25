@@ -4,45 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha página</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo">Minha página</h1>
-    </header>
-    <img id="minha_foto" src="images/minha_foto.jpg" alt="Minha foto." width="200px">
-    <br><br>
-    <ol id="licoes_aprendidas">Lições aprendidas
-        <br><br>
-        <li>Unix</li>
-        <li>Terminal</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Internet</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Seletores e posicionamento</li>
-        <li>HTML Semântico</li>
-        <li>Soft Skills</li>
-    </ol>
-    <br>
-    <ul id="licoes_a_aprender">Lições a aprender
-        <br><br>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Metodologias Ágeis</li>
-        <li>Redux</li>
-        <li>SQL</li>
-        <li>MongoDB</li>
-        <li>NodeJS</li>
-        <li>Arquitetura de Comp. e Redes</li>
-        <li>Python</li>
-        <li>+ Soft Skills</li>
-    </ul>
-    <footer id="rodape">
-        <p>Projeto inicial do curso de Desenvolvimento Web da Trybe. Turma 10 - Tribo B</p>
-        <p>Todos os direitos reservados, Paulo Henrique Lima.</p>
-    </footer>
+    <main>
+        <header id="cabecalho">
+            <img id="minha_foto" src="images/minha_foto.jpg" alt="Minha foto.">
+            <h1 id="titulo">Minha página</h1>
+            <nav>
+                <span class="menu">Home</span>
+                <span class="menu">Sobre</span>
+                <span class="menu">Curso</span>
+                <span class="menu">Contato</span>
+            </nav>
+        </header>
+        <table style="width: 800px;">
+            <tr>
+                <td style="width: 50%;"><article class="lado-esquerdo"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis tellus vitae neque viverra tincidunt. Proin gravida posuere pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut vitae enim non arcu interdum mollis. Nullam ac tellus facilisis, condimentum nisl vitae, malesuada erat. Curabitur varius bibendum quam, sed rhoncus ipsum iaculis non. Proin fermentum euismod nulla non fermentum. Morbi nec quam congue lectus posuere bibendum nec quis lorem. In hac habitasse platea dictumst. Nullam luctus.</p></article></td>
+                <td><aside class="lado-direito"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis quis arcu blandit scelerisque. Vestibulum quis elit id quam mattis auctor. Sed eu tellus.</p></aside></td>
+            </tr>
+            <tr>
+                <td style="width: 50%;">
+                    <ol id="licoes_aprendidas">Lições aprendidas
+                        <br><br>
+                        <li>Unix</li>
+                        <li>Terminal</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Internet</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Seletores e posicionamento</li>
+                        <li>HTML Semântico</li>
+                        <li>Soft Skills</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul id="licoes_a_aprender">Lições a aprender
+                        <br><br>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Metodologias Ágeis</li>
+                        <li>Redux</li>
+                        <li>SQL</li>
+                        <li>MongoDB</li>
+                        <li>NodeJS</li>
+                        <li>Arquitetura de Comp. e Redes</li>
+                        <li>Python</li>
+                        <li>+ Soft Skills</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <footer id="rodape">
+            <p>Projeto inicial do curso de Desenvolvimento Web da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Turma 10 - Tribo B</p>
+            <p>Todos os direitos reservados, Paulo Henrique Lima.</p>
+        </footer>
+    </main>
 </body>
 </html>

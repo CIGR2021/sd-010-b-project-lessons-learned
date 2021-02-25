@@ -1,25 +1,60 @@
-* {
-    margin: 0;
-    border: 0;
-}
-
 body {
     background-color: rgb(253, 251, 251);
+
+}
+
+main {
+    width: 1366px;
+    background-color: lightgray;
 }
 
 #cabecalho {
     background-color: rosybrown;
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 100px;
+    width: 1366px;
+    height: 170px;
+}
+
+#titulo {
+    padding: 10px;
+}
+
+.menu {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
 }
 
 #minha_foto {
-    margin-top: 100px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}
+
+.lado-esquerdo {
+    margin-top: 150px;
+    width: 380px;
+    height: 300px;
+    padding: 10px;
+    text-align: justify;
+    background-color: khaki;
+}
+
+.lado-direito {
+    margin-top: 150px;
+    width: 380px;
+    height: 300px;
+    padding: 10px;
+    text-align: justify;
+    background-color: khaki;
 }
 
 #rodape {
     background-color: darkcyan;
-    height: 50px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }

@@ -4,6 +4,8 @@
     max-height: 768px;
     }
 
+    p, li, h3 {font-family: 'Playfair Display', cursive ; font-size: 20px}
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
@@ -65,7 +67,7 @@ body {
     width:20%;
     text-align: justify;
     position: relative;
-    top: -90px;
+    top: -50px;
     right: -300px;
     
     

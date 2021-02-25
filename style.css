@@ -5,7 +5,7 @@
 }
 
 #cabecalho {
-    position: fixed;
+position: fixed;
     top: 0;
     background-color: rgb(236, 245, 219);
     height: 60px;
@@ -95,24 +95,29 @@ h2 {
 }
 
 
-section {
-    display: inline-block;
-}
 
-section p {
+
+.lado-esquerdo {
     font-size: 15px;
     color: teal;
     font-family: fantasy;
     line-height: 20px;
-    max-width: 60%;
+    max-width: 55%;
     text-align: justify;
+    display: inline-block;
 }
 
-aside {
+.lado-esquerdo h2 {
+    color: black;
+}
+
+.lado-direito {
     border: 3px solid green;
     max-width: 35%;
     text-align: justify;
     padding: 6px;
+    display: inline-block;
+    margin-left: 50px;
 }
 
 #rodape {

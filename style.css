@@ -1,147 +1,146 @@
-	* {
-	  background-color: rgb(253, 251, 251);
-	  margin: 0;
-	}
+* {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
 
-	#cabecalho {
-	  position: fixed;
-	  top: 0px;
-	}
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
 
-	#titulo {
-	  position: fixed;
-	  background-color: rgb(55, 140, 236);
-	  top: 0px;
-	  padding: 20px 500px;
-	  margin: 15px;
-	  color: white;
-	}
+#titulo {
+  position: fixed;
+  background-color: rgb(55, 140, 236);
+  top: 0;
+  padding: 20px 500px;
+  margin: 15px;
+  color: white;
+}
 
-	.link a {
-	  display: inline-block;
-	  padding: 10px 20px;
-	  margin-top: 130px;
-	  color: teal;
-	}
+.link a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 130px;
+  color: teal;
+}
 
-	#minha_foto {
-	  margin-top: 200px;
-	  width: 150px;
-	  border-radius: 20px;
-	  margin-left: 35%;
-	}
+#minha_foto {
+  margin-top: 200px;
+  width: 150px;
+  border-radius: 20px;
+  margin-left: 35%;
+}
 
-	section h2 {
-	  text-align: center;
-	  padding: 15px;
-	  color: rgb(16, 31, 54);
-	}
+section h2 {
+  text-align: center;
+  padding: 15px;
+  color: rgb(16, 31, 54);
+}
 
-	#licoes_aprendidas li {
-	  font-family: fantasy;
-	  background-color: rgb(28, 176, 202);
-	  font-style: italic;
-	  min-width: 200px;
-	  padding: 5px;
-	  margin-left: 300px;
-	}
+#licoes_aprendidas li {
+  font-family: fantasy;
+  background-color: rgb(28, 176, 202);
+  font-style: italic;
+  min-width: 200px;
+  padding: 5px;
+  margin-left: 300px;
+}
 
-	#licoes_aprendidas,
-	#licoes_a_aprender {
-	  display: inline-block;
-	}
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
+}
 
-	#licoes_a_aprender li {
-	  font-family: fantasy;
-	  background-color: rgb(55, 112, 112);
-	  font-style: italic;
-	  min-width: 200px;
-	  padding: 5px;
-	  margin-left: 50px;
-	}
+#licoes_a_aprender li {
+  font-family: fantasy;
+  background-color: rgb(55, 112, 112);
+  font-style: italic;
+  min-width: 200px;
+  padding: 5px;
+  margin-left: 50px;
+}
 
-	table {
-	  margin-left: 28%;
-	}
+table {
+  margin-left: 28%;
+}
 
-	.table td {
-	  border-style: solid;
-	  border-color: rgb(55, 109, 109);
-	  background-color: rgba(9, 78, 78, 0.699);
-	  padding: 10px;
-	}
+.table td {
+  border-style: solid;
+  border-color: rgb(55, 109, 109);
+  background-color: rgba(9, 78, 78, 0.699);
+  padding: 10px;
+}
 
-	.lado-esquerdo {
-	  float: left;
-	  max-width: 500px;	  
-	  border-style: dotted;
-	  background-color: rgb(100, 161, 197);
-	  border-color: rgb(255, 255, 255);
-	  margin: 30px 40px;
-	  text-align: justify;
-	}
+.lado-esquerdo {
+  float: left;
+  max-width: 500px;
+  border-style: dotted;
+  background-color: rgb(100, 161, 197);
+  border-color: white;
+  margin: 30px 40px;
+  text-align: justify;
+}
 
-	.lado-esquerdo h3 {
-	  background-color: rgb(62, 131, 143);
-	  padding: 5px;
-	  text-align: center;
-	  font-style: oblique;
-	}
-	.lado-direito {
-	  float: right;
-	  max-width: 500px;
-	  min-height: 125px;
-	  background-color: rgb(101, 175, 180);
-	  border-style: dotted;
-	  border-color: cornsilk;
-	  margin: 30px 40px;
-	  text-align: justify;
-	}
+.lado-esquerdo h3 {
+  background-color: rgb(62, 131, 143);
+  padding: 5px;
+  text-align: center;
+  font-style: oblique;
+}
 
-	.lado-direito h3 {
-	  background-color: rgb(92, 189, 189);
-	  text-align: center;
-	  font-style: oblique;
-	  padding: 5px;
-	}
+.lado-direito {
+  float: right;
+  max-width: 500px;
+  min-height: 125px;
+  background-color: rgb(101, 175, 180);
+  border-style: dotted;
+  border-color: cornsilk;
+  margin: 30px 40px;
+  text-align: justify;
+}
 
-	.link-footer {
-	  clear: both;
-	  padding: 10px;
-	  background: rgb(15, 60, 61);
-	  padding: 20px;
-	  margin: 30px;
-	}
+.lado-direito h3 {
+  background-color: rgb(92, 189, 189);
+  text-align: center;
+  font-style: oblique;
+  padding: 5px;
+}
 
-	.link-footer a {
-	  text-decoration: none;
-	  font-size: 20px;
-	  color: white;
-	  background-color: rgb(15, 60, 61);
-	}
+.link-footer {
+  clear: both;
+  background: rgb(15, 60, 61);
+  padding: 20px;
+  margin: 30px;
+}
 
-	.table-left {
-	  width: 100px;
-	  float: left;
-	  margin-left: 30%;
-	  border-radius: 3px 30px;
-	  margin-top: 20px;
-	}
+.link-footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(15, 60, 61);
+}
 
-	.table-right {
-	  width: 100px;
-	  height: 100px;
-	  float: right;
-	  margin-right: 30%;
-	  border-radius: 3px 30px;
-	  margin-top: 20px;
-	}
+.table-left {
+  width: 100px;
+  float: left;
+  margin-left: 30%;
+  border-radius: 3px 30px;
+  margin-top: 20px;
+}
 
-	#rodape {
-	  padding-top: 15%;
-	  background-color: rgb(175, 182, 197);
-	  text-align: center;
-	  font-style: oblique;
-	  font: size 18px;
+.table-right {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 30%;
+  border-radius: 3px 30px;
+  margin-top: 20px;
+}
 
-	}
+#rodape {
+  padding-top: 15%;
+  background-color: rgb(175, 182, 197);
+  text-align: center;
+  font-style: oblique;
+  font-size: 18px;
+}

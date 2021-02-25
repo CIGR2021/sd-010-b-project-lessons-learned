@@ -17,7 +17,17 @@ body {
   padding: 10px;
   border: solid 1px black;
   font-family: Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 0.5em;
   color: rgb(158, 55, 55);
   line-height: 1.7em;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
 }

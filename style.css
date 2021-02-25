@@ -94,21 +94,19 @@ ul li {
 }
 
 article {
+  display: inline-block;
   background-color: rgb(167, 210, 248);
   left: 0;
   width: 48%;
-  display: inline-block;
   height: 200px;
   padding: 5px;
 }
 
 section {
+  display: inline-block;
   background-color: antiquewhite;
   width: 48%;
   right: 0;
-  display: inline-block;
-  margin-left: 5px;
-  align-items: top;
   height: 200px;
   padding: 5px;
 }

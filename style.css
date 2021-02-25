@@ -5,11 +5,20 @@ body {
 
 header {
     top: 0;
+    margin-right: 10%;
+    padding: 15px;
+    text-align: center;
     color: rgb(253, 251, 251);
     background-color: darkgreen;
     position: fixed;
-    font-size: 23px;
+    font-size: 21px;
     letter-spacing: 5px;
+    line-height: 5px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 1px;
 }
 
 #minha_foto {
@@ -23,9 +32,8 @@ article{
     font-size: 15px;
 }
 .listas {
-    display: inline;
     float: right;
     padding: 100px;
     margin-top: 200px;
-    margin-left: 1;px
+    margin-left: 1px;
 }

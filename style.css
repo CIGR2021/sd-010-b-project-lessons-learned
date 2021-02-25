@@ -5,8 +5,8 @@
 }
 
 body {
-		background-color: rgb(253, 251, 251);
-		font-family: Source Sans Pro, sans-serif;
+	background-color: rgb(253, 251, 251);
+	font-family: Source Sans Pro, sans-serif;
 }
 
 #cabecalho a {
@@ -15,14 +15,14 @@ body {
 }
 
 #cabecalho {
-		position: fixed;
-		top: 0;
-		font-family: 'Sulphur Point', sans-serif;
-		color:white;
-		font-family: Sulphur Point, sans-serif;
-		background-color: rgb(48,197,255);
-		width: 100%;
-		padding: 0px 0px 0px 10%;
+	position: fixed;
+	top: 0;
+	font-family: 'Sulphur Point', sans-serif;
+	color:white;
+	font-family: Sulphur Point, sans-serif;
+	background-color: rgb(48,197,255);
+	width: 100%;
+	padding: 0px 0px 0px 10%;
 }
 
 #cabecalho nav ul {
@@ -44,12 +44,12 @@ img {
 }
 
 table , th , td {
-		border: 1px solid black;
+	border: 1px solid black;
 }
 table {
-		border-collapse: collapse;
+	border-collapse: collapse;
 }
 .lado-esquerdo , .lado-direito {
-		width: 40%;
-		display: inline-block;
+	width: 40%;
+	display: inline-block;
 }

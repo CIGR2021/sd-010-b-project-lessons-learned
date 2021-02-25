@@ -19,6 +19,7 @@ a{
 
 aside {
         line-height: 30px;
+        /* Source: https://www.maujor.com/tutorial/propriedade-css-line-height.php */
         margin-top: 31px;
         width: 40%;
         padding-left: .5rem;
@@ -70,6 +71,7 @@ section{
 }
 
 th{
+    /* Source: https://www.w3schools.com/html/html_tables.asp */
     font-size: 15px;
     padding-top: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,3 +82,4 @@ article{
   text-align: center;
   margin: 100px 200px 100px 200px;
 }
+

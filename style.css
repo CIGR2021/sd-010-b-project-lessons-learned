@@ -21,11 +21,13 @@ body {
     margin-top: 10px;
 }
 
+.article {
+    display: inline-block;
+    width: 300px;
+}
+
 #rodape {
     text-align: center;
 }
 
-.article {
-    display: inline-block;
-    width: 300px;
 }

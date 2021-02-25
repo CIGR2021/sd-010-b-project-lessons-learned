@@ -60,7 +60,7 @@ article {
 
 #sessao2 {
     position: absolute;
-    top: 350px;
+    top: 340px;
     left: 500px;
     width: 300px;
     font-size: 13px;
@@ -71,6 +71,7 @@ aside {
     left: 498px;
     top: 200px;
     width: 150px;
+    
 }
 #lucas {
     position: absolute;

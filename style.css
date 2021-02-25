@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
@@ -33,12 +34,12 @@ body {
 #licoes_a_aprender {
     position: absolute;
     top:300px;
-    left: 150px;
+    left: 200px;
 }
 
 #rodape {
     position: absolute;
-    bottom: 10px;
+    top: 1100px;
 }
 /* 
 #link {
@@ -48,15 +49,27 @@ body {
     font-size: 15px;
 } */
 
-#main-article {
+.lado-esquerdo {
     position: absolute;
     width: 300px;
-    top: 550px
+    top: 550px;
+    line-height: 25px;
 }
 
-#small-article {
+.lado-direito{
     position: absolute;
     width: 300px;
     top: 550px;
     left: 400px;
+    line-height: 25px;
+}
+
+#tabela{
+    position:absolute ;
+    top: 950px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
 }

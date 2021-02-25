@@ -78,11 +78,7 @@ tfoot td span {
     margin-right: 10px;
     margin-left: 30px;
 }
-tfoot td img {
-    
-    height: auto;
-    width: auto;
-}
+
 select {
     border: none;
     border-right-color: transparent;
@@ -91,6 +87,11 @@ select {
 article {
     width: 30%;
     display:inline-block;
+    margin: 50px;
+}
+
+.meu_aprendizado {
+    width: 30%;
     margin: 50px;
 }
 

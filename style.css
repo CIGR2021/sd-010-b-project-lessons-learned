@@ -32,10 +32,6 @@ nav {
   display: block;
 } 
 
-#rodape {
-  border: 5px solid black;
-}
-
 #area-menu a:link, #area-menu a:visited {
   text-decoration: none;
   color: #fff;
@@ -46,5 +42,26 @@ nav {
   color: #045762;
   background: #fff;
   text-decoration: solid;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 300px;
+  margin: 15px 0 0 25px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.lado-direito {
+  float: left;
+  width: 300px;
+  margin: 15px 0 0 35px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#rodape {
+  clear: both;
+  border: 1px solid black;
 }
 

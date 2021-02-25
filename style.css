@@ -102,6 +102,16 @@ article {
   padding: 5px;
 }
 
+article h3{
+  font-size: 16px;
+  font-family: sans-serif, Arial;
+}
+
+article p{
+  font-size: 14px;
+  font-family: sans-serif, Arial;
+}
+
 aside {
   display: inline-block;
   background-color: antiquewhite;
@@ -109,4 +119,14 @@ aside {
   right: 0;
   height: 200px;
   padding: 5px;
+}
+
+aside h3{
+  font-size: 16px;
+  font-family: sans-serif, Arial;
+}
+
+aside p{
+  font-size: 14px;
+  font-family: sans-serif, Arial;
 }

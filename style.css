@@ -55,6 +55,7 @@ img {
 .section-style {
   position: absolute;
   top: 580px;
+  ;
 }
 
 footer {
@@ -62,7 +63,7 @@ footer {
   background-color: rgba(31, 17, 17, 0.562);
   font-size: 20px;
   position: absolute;
-  top: 2200px;
+  top: 2500px;
   left: 0px;
   padding: 30px 800px;
 }
@@ -70,4 +71,10 @@ footer {
 #section-learnings {
   position: absolute;
   top: 1800px;
+}
+
+aside {
+  position: absolute;
+  top: 2100px;
+  margin-top: 50px;
 }

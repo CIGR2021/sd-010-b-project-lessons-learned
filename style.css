@@ -196,6 +196,35 @@ h4 {
     
 }
 
+#link {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 2;
+   
+}
+
+#link a{
+    color:teal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(57, 5, 160, 0.493);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+    
+
+}
+
+#link a:hover {
+    background: rgb(4, 99, 4);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px ;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+
+}
+
 /*Estilos - Quem Sou e Rodapé*/
 
 

@@ -10,11 +10,16 @@ body {
 }
 
 #titulo {
-    background-color: rgb(37, 180, 8);
+    background-color: rgba(5, 216, 5, 0.568);
 }
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
+}
 
+#minha_foto {
+    width: 200px;
+    position: absolute;
+    top: 95px;
 }

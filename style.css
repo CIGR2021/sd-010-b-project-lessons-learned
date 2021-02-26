@@ -6,12 +6,13 @@ body * {
 body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   background-color: rgb(253, 251, 251);
+  line-height: 25px;
   font-size: 20px;
 }
 
 /* HEADER */
 #cabecalho {
-  top: 0px;
+  top: 0;
   width: 1325px;
   margin: 10px;
   background-color: rgb(23, 141, 33);

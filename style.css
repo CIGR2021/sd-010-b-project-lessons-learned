@@ -12,13 +12,19 @@ a {
 
 /*Estilos Gerais*/
 
-*{
+    main {
     background: rgb(253, 251, 251);
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
    
 
-    }
-h1, h2 , h3 {
+
+h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
 }
 
 
@@ -27,12 +33,12 @@ h1, h2 , h3 {
 
 
 #cabecalho{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 100%;
     height: 80px;
     position: fixed;
     top: 0px;
-    background: url(imagens/bg-cabecalho.jpg);
+    background: rgba(7, 7, 94, 0.797);
     box-shadow: 5px 5px 5px gray;
     z-index: 1;
    
@@ -107,9 +113,6 @@ h1, h2 , h3 {
     
 }
 
-#rodape {
-    clear: both;
-}
 
 
 
@@ -118,16 +121,112 @@ h1, h2 , h3 {
 .lado-esquerdo {
     position: absolute;
     left: 0px;
-    top: 50px;
-    padding-left: 10px;
+    top: 88px;
+    padding: 10px;
     width: 200px;
-    
+    background: rgba(255, 127, 80, 0.529);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: justify;
 
+    
 }
 
 .lado-direito {
     position: absolute;
     right: 0px;
-    top: 50px;
+    top: 88px;
+    padding: 10px;
     width: 200px;
+    background: rgba(255, 127, 80, 0.529);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: justify;
 }
+
+/*Estilos - Conteudo*/
+
+#licoes_aprendidas {
+    position: absolute;
+    right:400px;
+    top: 430px;
+    padding: 30px;
+    width: 150px;
+    background: rgba(80, 185, 255, 0.493);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: justify;
+    
+}
+
+#titulo-aprendidas {
+    position: absolute;
+    right:400px;
+    top: 385px;
+    padding: 10px 27px 10px;
+    background: rgba(57, 5, 160, 0.493);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    
+    
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    left:400px;
+    top: 430px;
+    padding: 30px;
+    width: 150px;
+    background: rgba(80, 185, 255, 0.493);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: justify;
+    
+}
+
+#titulo-a-aprender {
+    position: absolute;
+    left:400px;
+    top: 385px;
+    padding: 10px 25px 10px;
+    background: rgba(57, 5, 160, 0.493);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    
+    
+}
+
+/*Estilos - Quem Sou e Rodapé*/
+
+
+#quem-sou {
+    position: absolute;
+    top: 800px;
+    left: 450px;
+    padding: 20px 15px;
+    background: rgba(57, 5, 160, 0.493);
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+#quem-sou table {
+    color: white;
+    
+}
+
+#quem-sou h3 {
+    position: absolute;
+    top: 5px;
+    width: 412px;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#rodape {
+    position: absolute;
+    top: 950px;
+    left: 430px;
+}
+

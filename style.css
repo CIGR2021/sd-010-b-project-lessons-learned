@@ -65,7 +65,13 @@ main {
 }
 
 table {
+    padding-top: 60px;
     margin: 0px auto;
+}
+
+table td {
+    width: 85px;
+    padding: 10px;
 }
 
 .lists {

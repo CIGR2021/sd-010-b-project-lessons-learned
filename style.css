@@ -64,6 +64,10 @@ main {
     line-height: normal;
 }
 
+table {
+    margin: 0px auto;
+}
+
 .lists {
     padding: 60px;
     display: flex;
@@ -98,9 +102,13 @@ main {
 }
 
 .passage-text-container {
-    width: 60%;
+    width: 50%;
     text-align: center;
     padding: 45px;
+}
+
+.passage-aside {
+    padding-top: 30px;
 }
 
 .passage-aside li {

@@ -56,14 +56,12 @@ a {
   display: inline-block;
 }
 
-
 article {
   display: inline-block;
-  width: 40%;
+  width: 50%;
   border: 1px dashed;
   text-align: justify;
-  margin-right: 5%;
-  margin-left: 7.5%;
+  margin-right: 4%;
 }
 
 aside {

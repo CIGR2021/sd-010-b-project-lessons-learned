@@ -1,13 +1,12 @@
 body {
-  max-width: 1366px;
+  max-width: auto;
   line-height: 100vm;
   background-color: rgb(253, 251, 251);
-  border: solid 1px  rgb(252, 238, 238);
 }
 
 main {
-  max-width: 1366px;
-  border: solid 1px  rgb(252, 238, 238);
+  max-width: auto;
+  min-height: auto;
   padding: 5px;
   margin: 0;
 }
@@ -17,7 +16,6 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
-  border: solid 1px  rgb(252, 238, 238);
   border-radius: 1px;
   height: 100px;
   margin-bottom: 15px;
@@ -26,25 +24,37 @@ main {
 #cabecalho h1 {
   color: aliceblue;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-family: Calibri, sans-serif;
   padding: 1px;
+}
+
+#nome {
+  margin: 20px 0 0 5px;
+}
+
+#nome p{
+  display: inline-block;
+  margin-left: 5px;
+  color: rgb(125, 178, 224);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
   position: relative;
   max-width: 120px;
-  margin-top: 1%;
-  margin-left: 2%;
+  margin: 0;
 }
 
 img:hover {
-  margin-left: 85%;
+  margin-left: 25%;
 }
 
 .lista-ol {
+  display: block;
   min-width: 100%;
-  height: 210px;
+  height: 230px;
   text-transform: uppercase;
   border-bottom: 1px solid rgb(223, 238, 238);
 }
@@ -77,7 +87,7 @@ ul {
   height: 200px;
   width: 40%;
   position: absolute;
-  top: 153px;
+  top: 175px;
   right: 2%;
 }
 
@@ -97,9 +107,8 @@ ul li {
 }
 
 nav {
-  background-color: rgb(231, 247, 246);
-  margin: 5px;
-  padding: 5px;
+  margin-top: 10px;
+  padding: 2px;
 }
 
 nav a {
@@ -117,59 +126,82 @@ nav a:hover {
 }
 
 .lado-esquerdo {
+  margin-top: 30px;
   float: left;
+  background-color:  rgb(231, 247, 246);
+  height: 125px;
 }
 
 article {
   position: relative;
   background-color: rgb(253, 249, 247);
-  left: 5px;
   width: 45%;
   height: 100px;
   padding: 5px;
 }
 
-article h3 {
-  font-size: 13px;
+article h2 {
+  text-align: center;
+  font-size: 15px;
   font-family: sans-serif, Arial;
-  padding: 1px;
 }
 
 article p {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 400;
   font-family: sans-serif, Arial;
 }
 
 .lado-direito {
+  margin-top: 30px;
   float: right;
+  background-color:  rgb(231, 247, 246);
+  height: 125px;
 }
 
 aside {
   position: absolute;
   background-color: rgb(253, 249, 247);
   width: 48%;
-  right: 2%;
+  right: 1%;
   height: 100px;
   padding: 5px;
 }
 
-aside h3 {
-  font-size: 13px;
+aside h2 {
+  text-align: center;
+  font-size: 15px;
   font-family: sans-serif, Arial;
-  padding: 1px;
 }
 
 aside p {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 400;
   font-family: sans-serif, Arial;
 }
 
-table label {
-  display: inline;
-  width: auto;
-  background-color: blueviolet;
-  position: fixed;
+table {
+  margin-top: 15%;
+  width: 100%;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
+footer {
+  background-color: rgb(4, 20, 66);
+  width: 97.7%;
+  height: 60px;
+  position: absolute;
+  bottom: 19%;
+  align-items: center;
+}
+
+footer p{
+  font-size: 12px;
+  color: aliceblue;
+  text-align: right;
+  margin-right: 20px;
+  align-self: center;
+  margin-top: 21px;
+}

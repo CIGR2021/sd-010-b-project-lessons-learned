@@ -17,6 +17,15 @@ article {
   padding: auto;
   border: auto;
   float: left;
+  color: rgb(253, 251, 251);
+}
+
+ol {
+  color: rgb(253, 251, 251);
+}
+
+ul {
+  color: rgb(253, 251, 251);
 }
 
 aside {
@@ -24,4 +33,5 @@ aside {
   margin: auto;
   padding: auto;
   border: auto;
+  color: rgb(253, 251, 251);
 }

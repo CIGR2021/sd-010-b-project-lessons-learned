@@ -74,7 +74,7 @@ strong {
   box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
 }
 
-.listas li {
+.listas ul li {
   color: rgb(68, 68, 68);
   font-weight: 900;
 }
@@ -113,7 +113,7 @@ strong {
   box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.2);
 }
 
-.lado-esquerdo h2,
+.lado-esquerdo h2 ,
 .lado-direito h2 {
   color: rgb(32, 107, 83);
 }
@@ -125,7 +125,7 @@ table {
   margin-top: -220px;
 }
 
-table th,
+table th ,
 td {
   padding: 10px;
   border: 1px solid silver;

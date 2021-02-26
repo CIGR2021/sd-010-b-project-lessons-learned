@@ -60,6 +60,8 @@ main {
     padding: 10px 0px 20px 0px;
     text-align: center;
     margin: 0px auto;
+    font-size: 1em;
+    line-height: normal;
 }
 
 .lists {
@@ -107,4 +109,10 @@ main {
 
 .passage-aside a {
     text-decoration: none;
+}
+
+footer {
+    background: #F6CED8;
+    padding: 30px;
+    text-align: center;
 }

@@ -44,6 +44,12 @@ h3 {
   left: 275px;
 }
 
+#passagem {
+  position:absolute;
+  top: 550px;
+  left: 275px;
+}
+
 #minha_foto {
   border-radius: 50%;
   width: 250px;

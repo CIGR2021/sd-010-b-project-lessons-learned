@@ -20,7 +20,7 @@ main {
 
 #cabecalho h1 {
   text-align: center;
-  color: #454545;
+  color: #6d6c6c;
 }
 
 .menu-container {
@@ -33,7 +33,7 @@ main {
   display: inline-block;
   padding: 10px;
   margin: 0px 10px;
-  color: #454545;
+  color: #6d6c6c;
 }
 
 .menu-container ul {
@@ -42,10 +42,10 @@ main {
 
 .headings {
   text-align: center;
-  color: #454545;
+  color: #6d6c6c;
   padding-top: 45px;
   padding-bottom: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Lucida;
 }
 
 #minha_foto {
@@ -135,7 +135,7 @@ table td {
 }
 
 footer {
-  background: #F6CED8;
+  background: #f6ced8;
   padding: 30px;
   text-align: center;
 }

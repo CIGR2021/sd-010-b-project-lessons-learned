@@ -67,6 +67,14 @@ ol li {
   margin-right: 5vh;
 }
 
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
 ul li {
   list-style-type: disc;
 }

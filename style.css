@@ -3,14 +3,17 @@
   padding: 0;
   border: 0;
 }
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: Source Sans Pro, sans-serif;
 }
+
 #cabecalho a {
   text-decoration: none;
   color: white;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -20,17 +23,21 @@ body {
   width: 100%;
   padding: 0 0 0 10%;
 }
+
 .lista2 ul {
   list-style-type: '- ';
 }
+
 #cabecalho nav ul {
   padding: 0 0 10px;
 }
+
 #cabecalho nav ul li {
   list-style-type: none;
   display: inline;
   margin: 0 100px 0 0;
 }
+
 img {
   width: 200px;
   height: 200px;
@@ -38,9 +45,11 @@ img {
   margin: 6% auto;
   border-radius: 50%;
 }
+
 .article-div {
   margin: 0 10%;
 }
+
 .lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 45%;

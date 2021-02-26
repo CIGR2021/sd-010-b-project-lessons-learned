@@ -4,6 +4,7 @@ body {
 
 #cabecalho {
     position: fixed;
+    left: 0px;
     top: 0px;
     background-color: rgb(37, 223, 213);
     width: 100%;
@@ -31,9 +32,14 @@ body {
     margin-left: 50px;
 }
 
+#licoes {
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: -5px;
+}
+
 #licoes_aprendidas {
     display: inline-block;
-    margin-top: 20px
 }
 
 #licoes_a_aprender {
@@ -67,10 +73,12 @@ body {
     width: 30%;
     border: dashed 2px rgb(37, 223, 213);
     padding: 10px;
+    line-height: 14px;
 }
 
 #rodape {
     margin-top: 30px;
+    left: 0px;
     bottom: 0;
     width: 100%;
     height: 15px;

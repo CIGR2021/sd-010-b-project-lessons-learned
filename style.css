@@ -49,11 +49,11 @@ a {
 }
 
 /* SECTION */
-#licoes_aprendidas {
+.lado-esquerdo {
   display: inline-block;
 }
 
-#licoes_a_aprender {
+.lado-direito {
   display: inline-block;
 }
 

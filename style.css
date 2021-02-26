@@ -9,6 +9,7 @@ body {
   color: rgb(253, 251, 251);
   width: 100%;
   text-align: center;
+  top: 0px;
 }
 
 #titulo {
@@ -107,4 +108,3 @@ body {
   text-align: right;
   margin-bottom: 10px;
 }
-

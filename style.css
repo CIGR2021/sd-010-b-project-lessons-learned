@@ -4,7 +4,7 @@ body {
 }
 
 #cabecalho {
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
   border-radius: 10px;
   color: white;
   position: fixed;
@@ -37,7 +37,7 @@ body {
 
 #licoes_aprendidas {
   position: absolute;
-  background-color: #1fb25a;
+  background-color: rgb(31, 178, 90);
   border-radius: 10px;
   color: white;
   top: 90px;
@@ -49,7 +49,7 @@ body {
 
 #licoes_a_aprender {
   position: absolute;
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
   border-radius: 10px;
   color: white;
   top: 90px;
@@ -60,7 +60,7 @@ body {
 }
 
 #rodape {
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
   border-radius: 10px;
   color: white;
   position: fixed;

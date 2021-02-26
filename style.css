@@ -4,7 +4,7 @@ body * {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   background-color: rgb(253, 251, 251);
   line-height: 25px;
   font-size: 20px;
@@ -88,9 +88,20 @@ article {
   margin-right: 4%;
 }
 
+/* ASIDE */
 aside {
   width: 40%;
   display: inline-block;
   border: 1px dashed;
   text-align: justify;
+}
+
+/* FOOTER */
+#rodape {
+  font-size: 15px;
+}
+
+#rodape a {
+  color: black;
+  margin-left: 0vh;
 }

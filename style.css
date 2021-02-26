@@ -4,7 +4,7 @@ body {
 
 header {
   background-color: blue;
-  top: auto;
+  top: 0;
 }
 
 img {
@@ -17,6 +17,7 @@ article {
   margin: auto;
   padding: auto;
   border: auto;
+  float: left;
 }
 
 aside {

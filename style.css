@@ -1,98 +1,98 @@
 * {
-    margin: 0;
-    max-width: 1366px;
-    max-height: 768px;
-    line-height: 30px;
-    }
+  margin: 0;
+  max-width: 1366px;
+  max-height: 768px;
+  line-height: 30px;
+}
 
 p, li, h3 {
-    font-family: 'Playfair Display', cursive; font-size: 20px;
+  font-family: 'Playfair Display', cursive; font-size: 20px;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
-    padding: 1px;
-    border: 1px;
+  background-color: rgb(253, 251, 251);
+  margin: 0px;
+  padding: 1px;
+  border: 1px;
 }
 
 #cabecalho {
-    width: 1366px;
-    height: 100px;
-    border: 0px;
-    background-color:rgb(6, 151, 54);
-    top: 0px;
-    position: fixed;
+  width: 1366px;
+  height: 100px;
+  border: 0px;
+  background-color:rgb(6, 151, 54);
+  top: 0px;
+  position: fixed;
 }
 
 #titulo {
-    color:rgb(253, 251, 251);
-    position:block;
-    margin-top: 30px;
+  color:rgb(253, 251, 251);
+  position:block;
+  margin-top: 30px;
 }
 
 #minha_foto {
-    position: block;
-    top: 120px;
-    border: 5px solid  rgb(6, 151, 54);
-    border-radius: 5%;
+  position: block;
+  top: 120px;
+  border: 5px solid  rgb(6, 151, 54);
+  border-radius: 5%;
 }
 
 #foto {
-    display:inline-block;
+  display:inline-block;
 }
 
 #licoes_aprendidas {
-    list-style: decimal;
-    display: block;
-    position: block;
-    top: 185px;
-    left: 200px;
+  list-style: decimal;
+  display: block;
+  position: block;
+  top: 185px;
+  left: 200px;
 }
 
 #rodape {
-    width: 1366px;
-    height:100px;
-    border: 0px;
-    top: 600px;
-    background-color:rgb(6, 151, 54);
-    position: block;
+  width: 1366px;
+  height:100px;
+  border: 0px;
+  top: 600px;
+  background-color:rgb(6, 151, 54);
+  position: block;
 }
 
 #nav {
-    position: block;
-    top: 450px;
+  position: block;
+  top: 450px;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    width: 40%;
-    text-align: justify;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
 }
 
 .lado-direito {
-    display: inline-block;
-    width: 40%;
-    text-align: justify;
-    margin-left: 100px;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin-left: 100px;
 }
 
 #aside1 {
-    display: inline-block;
-    width: 20%;
-    text-align: justify;
-    position: relative;
-    top: -50px;
-    right: -300px;   
+  display: inline-block;
+  width: 20%;
+  text-align: justify;
+  position: relative;
+  top: -50px;
+  right: -300px;   
 }
 
 #table {
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    top: -120px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -120px;
 }
 
 #licoes_a_aprender {
-    position: block;
-}
+  position: block;
+}git add

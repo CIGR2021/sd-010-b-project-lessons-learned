@@ -18,12 +18,14 @@ body {
 #titulo {
   margin: 20px;
   text-align: center;
+  color: aliceblue;
+  font-size: x-large;
 
 
 }
 
 a {
-  color:black;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   border: ridge;
@@ -58,7 +60,7 @@ a {
 }
 
 #licoes_a_aprender {
-    border: groove;
+  border: groove;
   border-color: skyblue;
   display: inline-block;
   color: tomato;

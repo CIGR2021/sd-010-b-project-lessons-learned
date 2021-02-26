@@ -85,13 +85,8 @@ body {
   border: solid 1px black;
   width: 69%;
   vertical-align: top;
-}
-
-#licoes_aprendidas {}
-
-#licoes_a_aprender {}
-
-#article {}
+  height: auto;
+  }
 
 #batman {
   width: 150px;
@@ -107,7 +102,6 @@ body {
 .icones-sociais ul {
   display: inline-block;
   height: inherit;
-  float: left;
   width: 75%;
   margin: 0;
   line-height: 60px;
@@ -115,7 +109,6 @@ body {
 
 .icones-sociais li {
   display: inline-block;
-  float: left;
   margin-left: 50px;
   margin-top: 7px;
   width: 40px;
@@ -124,5 +117,5 @@ body {
 
 .table {
   text-align: right;
-  margin: 20px;
+  margin-bottom: 10px;
 }

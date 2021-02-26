@@ -51,8 +51,8 @@ img {
     margin: 0 10%;
 }
 
-.lado-direito,
-.lado-esquerdo {
+.lado-esquerdo,
+.lado-direito {
     display: inline-block;
     width: 45%;
     vertical-align: top;
@@ -97,8 +97,8 @@ img {
 }
 
 table,
-td,
-th {
+th,
+td {
     border: 1px solid black;
     text-align: center;
 }

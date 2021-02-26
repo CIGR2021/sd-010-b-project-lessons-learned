@@ -5,7 +5,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  background-color:darkslategray;
+  background-color: darkslategray;
   color: rgb(253, 251, 251);
   width: 100%;
   text-align: center;
@@ -90,7 +90,7 @@ body {
   width: 69%;
   vertical-align: top;
   height: auto;
-  }
+}
 
 #batman {
   width: 150px;

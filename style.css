@@ -10,7 +10,7 @@ body {
   color: rgb(253, 251, 251);
   width: 100%;
   text-align: center;
-  top: 0px;
+  top: 0; 
 }
 
 #titulo {
@@ -95,16 +95,16 @@ body {
 }
 
 #article {
-text-align: justify;
-margin-left: 20px;
-margin-right: 20px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #aside {
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
-  }
+}
 
 #batman {
   width: 150px;

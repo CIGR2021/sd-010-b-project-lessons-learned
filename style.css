@@ -1,146 +1,146 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background: rgb(253, 251, 251);
+  background: rgb(253, 251, 251);
 }
 
 main {
-    margin-top: 158px;
+  margin-top: 158px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: #F6CED8;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #F6CED8;
 }
 
 #cabecalho h1 {
-    text-align: center;
-    color: #454545;
+  text-align: center;
+  color: #454545;
 }
 
 .menu-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
 }
 
 .menu-container li {
-    display: inline-block;
-    padding: 10px;
-    margin: 0px 10px;
-    color: #454545;
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 10px;
+  color: #454545;
 }  
 
 .menu-container ul {
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
 .headings {
-    text-align: center;
-    color: #454545;
-    padding-top: 45px;
-    padding-bottom: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #454545;
+  padding-top: 45px;
+  padding-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #minha_foto {
-    width: 245px;
-    padding: 15px 45px 10px 45px;
-    border-radius: 40% 0 40% 0;
-    margin: 0px auto;
-    display: block;
+  width: 245px;
+  padding: 15px 45px 10px 45px;
+  border-radius: 40% 0 40% 0;
+  margin: 0px auto;
+  display: block;
 }
 
 #about-pic {
-    padding: 10px 0px 20px 0px;
-    text-align: center;
-    margin: 0px auto;
-    font-size: 1em;
-    line-height: normal;
+  padding: 10px 0px 20px 0px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 1em;
+  line-height: normal;
 }
 
 table {
-    padding: 30px 0px 100px 0px;
-    margin: 0px auto;
+  padding: 30px 0px 100px 0px;
+  margin: 0px auto;
 }
 
 .table h3{
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 table td {
-    width: 85px;
-    padding: 10px;
+  width: 85px;
+  padding: 10px;
 }
 
 .lists {
-    padding: 60px;
-    display: flex;
-    justify-content: space-evenly;
+  padding: 60px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #licoes_aprendidas li {
-    list-style: none;
+  list-style: none;
 }
 
 
 #licoes_a_aprender li {
-    list-style: none;
+  list-style: none;
 }
 
 .learning {
-    padding: 45px;
+  padding: 45px;
 }
 
 .learning-p {
-    width: 50%;
-    margin: 0px auto;
-    padding: 0px 5px 20px 5px;
-    text-align: center;
-    text-decoration: italic;
+  width: 50%;
+  margin: 0px auto;
+  padding: 0px 5px 20px 5px;
+  text-align: center;
+  text-decoration: italic;
 }
 
 .passage {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
 }
 
 .passage-text-container {
-    width: 50%;
-    text-align: center;
-    padding: 45px;
+  width: 50%;
+  text-align: center;
+  padding: 45px;
 }
 
 .passage-aside {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .passage-aside li {
-    list-style: none;
-    padding: 10px;
+  list-style: none;
+  padding: 10px;
 }
 
 .passage-aside a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .passage-text-container h1 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 footer {
-    background: #F6CED8;
-    padding: 30px;
-    text-align: center;
+  background: #F6CED8;
+  padding: 30px;
+  text-align: center;
 }
 
 .lado-container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }

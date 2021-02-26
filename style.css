@@ -39,8 +39,6 @@ img {
 }
 
 .article-style {
-  margin-left: 50px;
-  margin-bottom: 50px;
   background-color: rgb(11, 11, 218);
   border-radius: 25px;
   border-style: double;
@@ -72,8 +70,15 @@ footer {
   top: 1800px;
 }
 
-aside {
+.aside-box {
   position: absolute;
   top: 2100px;
   margin-top: 50px;
+  right: 50px;
+  width: 350px;
+}
+
+.article-box {
+  margin-left: 50px;
+  margin-bottom: 50px;
 }

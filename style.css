@@ -65,8 +65,12 @@ main {
 }
 
 table {
-    padding-top: 60px;
+    padding: 30px 0px 100px 0px;
     margin: 0px auto;
+}
+
+.table h3{
+    padding-top: 80px;
 }
 
 table td {

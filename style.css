@@ -13,7 +13,6 @@ img {
 }
 
 article {
-  background-color: lightsalmon;
   margin: auto;
   padding: auto;
   border: auto;
@@ -22,7 +21,6 @@ article {
 
 aside {
   float: right;
-  background-color: yellow;
   margin: auto;
   padding: auto;
   border: auto;

@@ -9,13 +9,12 @@ a {
     text-decoration: none;
     color:black
 }
-background: rgb(253, 251, 251);
+
 
 /*Estilos Gerais*/
 
-* main{
+body{
     background: rgb(253, 251, 251);
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
@@ -161,6 +160,7 @@ h4 {
 }
 
 #titulo-aprendidas {
+    font-size: 1.25em;
     position: absolute;
     right:400px;
     top: 385px;
@@ -186,6 +186,7 @@ h4 {
 }
 
 #titulo-a-aprender {
+    font-size: 1.25em;
     position: absolute;
     left:400px;
     top: 385px;
@@ -255,8 +256,9 @@ h4 {
 
 
 #rodape {
+    font-size: 0.80em;
     position: absolute;
     top: 950px;
-    left: 430px;
+    left: 400px;
 }
 

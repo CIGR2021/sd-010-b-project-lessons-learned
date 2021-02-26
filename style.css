@@ -3,6 +3,12 @@ body {
 
 }
 
+table , tr , td {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 main {
     width: 1366px;
     background-color: lightgray;
@@ -35,7 +41,7 @@ main {
 }
 
 .lado-esquerdo {
-    margin-top: 150px;
+    margin-top: 170px;
     width: 380px;
     height: 300px;
     padding: 10px;
@@ -44,7 +50,7 @@ main {
 }
 
 .lado-direito {
-    margin-top: 150px;
+    margin-top: 170px;
     width: 380px;
     height: 300px;
     padding: 10px;

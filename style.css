@@ -15,7 +15,7 @@ main {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: #F6CED8;
+  background-color: #f6ced8;
 }
 
 #cabecalho h1 {
@@ -34,7 +34,7 @@ main {
   padding: 10px;
   margin: 0px 10px;
   color: #454545;
-}  
+}
 
 .menu-container ul {
   margin: 0px auto;
@@ -69,7 +69,7 @@ table {
   margin: 0px auto;
 }
 
-.table h3{
+.table h3 {
   padding-top: 80px;
 }
 

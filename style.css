@@ -20,3 +20,8 @@ body {
 #licoes_aprendidas {
   color: magenta;
 }
+
+#rodape{
+  bottom: 0;
+  background-color: red;
+}

@@ -11,13 +11,14 @@ body {
 
 /* HEADER */
 #cabecalho {
+  top: 0px;
   width: 1325px;
   margin: 10px;
   background-color: rgb(23, 141, 33);
   position: fixed;
 }
 
-h1 {
+#titulo {
   color: rgb(253, 251, 251);
   text-align: center;
 }
@@ -46,6 +47,7 @@ a {
   color: rgb(6, 6, 138);
 }
 
+/* SECTION */
 #licoes_aprendidas {
   display: inline-block;
 }
@@ -54,6 +56,21 @@ a {
   display: inline-block;
 }
 
+.lessons-in-list h2 {
+  margin-left: 6vh;
+  margin-top: 10vh;
+}
+
+ol li {
+  margin-left: 15vh;
+  margin-right: 5vh;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+/* ARTICLE */
 article {
   display: inline-block;
   width: 50%;

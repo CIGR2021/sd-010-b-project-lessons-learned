@@ -32,24 +32,30 @@ h3 {
   text-decoration: underline;
 }
 
+#link {
+  position: absolute;
+  top: 605px;
+  left:45px
+}
+
 #minha_foto {
   width: 250px;
   position: absolute;
-  top: 90px;
+  top: 350px;
   alt: "Aluno da Trybe - Felipe Carvalho";
+  border-left: 10px;
+  border-color: rgb(8, 160, 109);
 }
 
 #licoes_aprendidas {
   position: absolute;
-  top: 350px;
-
+  top: 60px;
 }
 
 #licoes_a_aprender {
   left: 500px;
   position: absolute;
-  top: 350px;
-
+  top: 60px;
 }
 
 li:hover {
@@ -64,5 +70,4 @@ li:hover {
   left: 0%;
   right: 0%;
   top: 1000px;
-
 }

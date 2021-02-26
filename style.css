@@ -143,7 +143,6 @@ article p {
 
 .lado-direito {
   float: right;
-  color: aliceblue;
 }
 
 aside {
@@ -173,3 +172,4 @@ table, label {
   background-color: blueviolet;
   position: fixed;
 }
+

@@ -166,7 +166,7 @@ aside p {
   font-family: sans-serif, Arial;
 }
 
-table, label{
+table, label {
   display: inline;
   width: auto;
   background-color: blueviolet;

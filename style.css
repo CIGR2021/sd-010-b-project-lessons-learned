@@ -44,7 +44,7 @@ body {
     text-align: center;
 }
 
-#artigo {
+.lado-esquerdo {
     font-size: 16px;
     height: auto;
     float: inline-start;
@@ -57,7 +57,7 @@ body {
     margin-bottom: 10px;
 }
 
-#aprendizado {
+.lado-direito {
     display: inline-block;
     float: inline-start;
     font-size: 14px;

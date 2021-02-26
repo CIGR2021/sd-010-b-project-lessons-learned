@@ -10,7 +10,7 @@ body {
   color: rgb(253, 251, 251);
   width: 100%;
   text-align: center;
-  top: 0; 
+  top: 0;
 }
 
 #titulo {
@@ -62,7 +62,6 @@ body {
 .aprendizagem {
   display: inline-block;
   width: 100%;
-
 }
 
 .main {
@@ -100,7 +99,7 @@ body {
   margin-right: 20px;
 }
 
-#aside {
+#experience {
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;

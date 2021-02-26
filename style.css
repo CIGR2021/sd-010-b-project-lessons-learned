@@ -3,10 +3,10 @@ body {
 }
 
 header {
-  top: 0px;
+  top: 0;
   position: fixed;
 }
-
+  
 img {
   height: 444px;
   width: 444px;

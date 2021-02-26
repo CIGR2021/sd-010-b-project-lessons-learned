@@ -44,7 +44,6 @@ a {
 }
 
 .nome a {
-  font-weight: normal;
   color: rgb(6, 6, 138);
 }
 
@@ -103,5 +102,5 @@ aside {
 
 #rodape a {
   color: black;
-  margin-left: 0vh;
+  margin-left: 0.1vh;
 }

@@ -96,6 +96,7 @@ main {
     justify-content: space-evenly;
     padding: 40px;
 }
+
 .passage-text-container {
     width: 60%;
     text-align: center;
@@ -111,8 +112,17 @@ main {
     text-decoration: none;
 }
 
+.passage-text-container h1 {
+    padding-top: 20px;
+}
+
 footer {
     background: #F6CED8;
     padding: 30px;
     text-align: center;
+}
+
+.lado-container {
+    display: flex;
+    justify-content: space-evenly;
 }

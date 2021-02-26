@@ -74,7 +74,7 @@ nav ul li {
   width: auto;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+#licoes_aprendidas, #licoes_a_aprender {
   float: left;
   position: relative;
   padding: 1% 1% 1.5% 10%;
@@ -83,7 +83,7 @@ nav ul li {
   border: 1px solid rgb(226, 223, 218);
 }
 
-section ol li , section ul li {
+section ol li, section ul li {
   margin-top: 2%;
 }
 
@@ -93,7 +93,7 @@ nav ul li:hover {
   font-size: 1.1em;
 }
 
-article p , aside p {
+article p, aside p {
   margin: auto;
   padding: 2%;
   text-align: justify;
@@ -108,4 +108,3 @@ article p , aside p {
   background-color: darkolivegreen;
   font-size: 0.65em;
 }
-

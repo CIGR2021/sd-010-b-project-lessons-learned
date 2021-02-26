@@ -53,6 +53,7 @@ img {
 .section-style {
   position: absolute;
   top: 580px;
+  display: inline-flex;
 }
 
 footer {
@@ -60,25 +61,29 @@ footer {
   background-color: rgba(31, 17, 17, 0.562);
   font-size: 20px;
   position: absolute;
-  top: 2500px;
+  top: 1800px;
   left: 0px;
+  margin-top: 180px;
   padding: 30px 800px;
 }
 
 .section-learnings {
   position: absolute;
-  top: 1800px;
+  top: 1500px;
+  width: 550px;
+  left: 287px;
 }
 
 .aside-box {
   position: absolute;
-  top: 2100px;
+  top: 1400px;
   margin-top: 50px;
   right: 50px;
-  width: 350px;
+  width: 550px;
 }
 
 .article-box {
-  margin-left: 50px;
+  margin-left: 300px;
   margin-bottom: 50px;
+  margin-right: 250px;
 }

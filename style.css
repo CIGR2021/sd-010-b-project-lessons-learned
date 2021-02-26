@@ -16,7 +16,18 @@ p {
     padding: 0px 180px 0px 20px;
 }
 
+.nav-header > li {
+    display: inline-block;
+    padding: auto;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
 .top-bar {
+    display: inline-block;
     position: fixed;
     top: 0px;
 }

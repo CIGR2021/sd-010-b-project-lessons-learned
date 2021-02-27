@@ -144,3 +144,17 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+
+#rodape {
+  display: flex;
+  justify-content: space-around;
+}
+
+#rodape img {
+  width: 7%;
+  padding: 0px 20px;
+}
+
+#rodape p {
+  margin-left: 30px;
+}

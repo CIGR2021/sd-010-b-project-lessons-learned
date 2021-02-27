@@ -138,7 +138,7 @@ table {
   border-collapse: separate;
 }
 
-#table-title {
+.table-title {
   font-weight: 600;
   color: rgb(13, 27, 42);
 }

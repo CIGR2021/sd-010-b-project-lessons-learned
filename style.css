@@ -17,6 +17,7 @@ h1 {
 h1, h2, h3 {
   margin: 0;
   padding-left: 10px;
+  font-size: 22.5px;
 }
 
 #cabecalho {
@@ -81,10 +82,13 @@ table {
 
 th, td {
   border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
 }
 
 #projects {
   margin-left: 100px;
+  color: royalblue;
 }
 
 #container-sides {

@@ -22,8 +22,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  margin-top: 120px;
+  width: 300px;
+  margin-top: 50px;
   border: solid 1px rgb(13, 27, 42);
 }
 
@@ -116,4 +116,29 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
+}
+
+.formacao {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-spacing: 5px;
+  border: 1px solid rgb(13, 27, 42);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.formacao p {
+  font-weight: 600;
+  color: rgb(13, 27, 42);
+}
+
+table {
+  border-collapse: separate;
+}
+
+#table-title {
+  font-weight: 600;
+  color: rgb(13, 27, 42);
 }

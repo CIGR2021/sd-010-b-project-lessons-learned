@@ -13,7 +13,6 @@ body {
 
 header {
   background-color: rgb(224, 142, 7);
-  text-align: center;
   top: 0;
   position: fixed;
   left: 0;
@@ -24,16 +23,22 @@ header {
 }
 
 #titulo {
+  text-align: center;
   font-family: 'Caveat', cursive;
-  font-size: 50px;
+  font-size: 60px;
+  margin-bottom: 10px;
+
 }
 
 .main {
   margin-top: 40px;
 }
 
-nav {
-  position: absolute;
+#nav a{
+  display: inline;
+  margin-left: 2px;
+  letter-spacing: 4px;
+  text-decoration: none;
 }
 
 img {
@@ -41,17 +46,25 @@ img {
   border-radius: 100%;
   margin-top: 150px;
   margin-bottom: 0;
+  border-width: 10%;
+  border-radius: 100%;
+  border-color: black;
+  border-style: solid;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   font-size: 12px;
   line-height: 2;
+  margin-bottom: 25px;
 }
 
 #LinkTrybe {
   font-size: 12px;
   margin-left: 15px;
+}
+.artigos {
+  border-style: double;
 }
 
 .lado-esquerdo {

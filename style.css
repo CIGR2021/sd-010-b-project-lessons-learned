@@ -1,24 +1,24 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.58em;
-  color:#212529;
+  color: #212529;
   margin-top: 0px;
 }
 
-#cabecalho{
-  position:fixed;
+#cabecalho {
+  position: fixed;
   top: 0px;
   background-color: #0d1b2a;
   color: #fff;
   padding: 10px;
-  text-align: center;  
-  width: 100%;  
+  text-align: center;
+  width: 100%;
 }
 
-#minha_foto{
-  border-radius: 50%; 
+#minha_foto {
+  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -27,53 +27,53 @@ body{
   border: solid 1px #0d1b2a;
 }
 
-.listas{
-  display: block;  
-  position:static;  
+.listas {
+  display: block;
+  position: static;
 }
 
-.aprendidas{
+.aprendidas {
   float: left;
-  margin-left:30%;    
+  margin-left: 30%;
 }
 
-.a-aprender{
+.a-aprender {
   float: right;
   margin-right: 30%;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   max-width: 40%;
   float: left;
-  margin-left: 5%;   
-}    
-
-.lado-direito{
-  float: right;
-  max-width: 40%;
-  margin-right: 5%;     
+  margin-left: 5%;
 }
 
-.text-content{
-  clear:both;
+.lado-direito {
+  float: right;
+  max-width: 40%;
+  margin-right: 5%;
+}
+
+.text-content {
+  clear: both;
   height: 300px;
   background-color: #0d1b2a;
-  color: #fff;    
+  color: #fff;
   padding: 10px;
   border-radius: 15px;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-footer{
+footer {
   clear: both;
-  margin-top: 100px;  
-  border: solid 1px; 
+  margin-top: 100px;
+  border: solid 1px;
   padding: 10px;
   border-radius: 15px;
 }
 
-#assign{
+#assign {
   text-align: right;
   font-size: 14px;
   color: grey;
@@ -86,12 +86,12 @@ a {
   font-weight: 700;
 }
 
-a:hover{
-  color:#ff6600;
+a:hover {
+  color: #ff6600;
   text-decoration: underline;
 }
 
-.button{
+.button {
   color: #fff;
   background-color: #0d1b2a;
   padding: 10px 15px;
@@ -100,22 +100,21 @@ a:hover{
   margin-top: 10px;
 }
 
-.button:hover{
+.button:hover {
   background-color: #778da9;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
 }
 
-.button:active{
+.button:active {
   background-color: #e0e1dd;
-  color:#ff6600;
+  color: #ff6600;
 }
 
-.navigation{
+.navigation {
   margin-top: 90px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 600px;
 }
-

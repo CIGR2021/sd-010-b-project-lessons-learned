@@ -16,3 +16,11 @@ body {
   width: 25%;
   display: inline-block;
 }
+
+nav {
+  display: block;
+}
+
+td, th{
+  border: 1px solid;
+}

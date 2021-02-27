@@ -11,6 +11,7 @@ body {
 }
 #cabecalho h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 #cabecalho ul {
     text-align: center;
@@ -33,4 +34,7 @@ body {
 .lista {
     display: inline-block;
     margin: 30px;
+}
+a {
+    text-decoration: none;
 }

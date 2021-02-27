@@ -60,9 +60,19 @@ h1, h2, h3 {
   color: red;
 }
 
+table {
+  margin-left: 30px;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+#projects {
+  margin-left: 100px;
+}
+
 #container-sides {
-  /* width: 600px; */
-  /* height: 200px; */
   display: inline-flex;
   padding: 15px
 }
@@ -93,6 +103,11 @@ footer a {
   color: black;
 }
 
+footer p {
+  padding-top: 0;
+}
+
 #my-name {
   font-family: 'Lobster', cursive;
+  font-size: 18px;
 }

@@ -1,10 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: Indie Flower, cursive;
   font-size: 40px;
   margin: 0;
   padding-left: 10px;
@@ -110,6 +110,6 @@ th , td {
 }
 
 #my-name {
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
   font-size: 18px;
 }

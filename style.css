@@ -112,8 +112,13 @@ header {
   background-color:rgb(207, 178, 131);
 
 }
+
 aside {
   margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #foGoTrybe {

@@ -146,7 +146,7 @@ article {
   font-family: sans-serif, Arial;
 }
 
-article .lado-esquerdo p {
+article p {
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif, Arial;
@@ -174,7 +174,7 @@ aside {
   font-family: sans-serif, Arial;
 }
 
-aside .lado-direito p {
+aside p {
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif, Arial;

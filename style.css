@@ -146,7 +146,7 @@ article h2 {
   font-family: sans-serif, Arial;
 }
 
-article p {
+.lado-esquerdo p {
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif, Arial;
@@ -174,7 +174,7 @@ aside h2 {
   font-family: sans-serif, Arial;
 }
 
-aside p {
+.lado-direito p {
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif, Arial;
@@ -197,7 +197,7 @@ footer {
   align-items: center;
 }
 
-footer p {
+#rodape p {
   font-size: 12px;
   color: aliceblue;
   text-align: right;

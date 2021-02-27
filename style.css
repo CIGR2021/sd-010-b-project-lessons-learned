@@ -1,15 +1,14 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 header {
-    background-color: #ff71ce;
-    position: fixed;
-    width: 100%;
-    
-}
-.title {
-    text-align: center;
+  background-color: rgb(255, 133, 206);
+  position: fixed;
+  width: 100%;    
 }
 img {
-    margin: 10px;
+  margin: 10px;
+}
+.title {
+  text-align: center;
 }

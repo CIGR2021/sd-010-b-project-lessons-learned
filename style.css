@@ -130,17 +130,13 @@ nav a:hover {
   float: left;
   background-color: rgb(231, 247, 246);
   height: 125px;
-}
-
-article {
-  position: relative;
-  background-color: rgb(253, 249, 247);
-  width: 45%;
-  height: 100px;
+  position: absolute;
+  width: 48%;
+  right: 1%;
   padding: 5px;
 }
 
-article h2 {
+.lado-esquerdo h2 {
   text-align: center;
   font-size: 15px;
   font-family: sans-serif, Arial;

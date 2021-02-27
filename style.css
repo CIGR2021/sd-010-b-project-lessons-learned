@@ -1,7 +1,5 @@
 * {
   font-family: sans-serif;
-  max-width: 1366;
-  font-family: ;
 }
 
 body {
@@ -55,13 +53,14 @@ header {
   border-style: solid;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+ #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   font-size: 12px;
   line-height: 2;
   margin-bottom: 25px;
   border-style:inset;
   padding: 2%;
+  background-color: #ebe7e7;;
 }
 
 #logo {
@@ -78,14 +77,13 @@ header {
   padding-left: 400px;
   width: 600px;
   margin: 0;
-}
-
+} 
+ 
 .bgName {
   position: relative;
-  left: 500px;
   font-family: 'Caveat', cursive;
   opacity: 0.3;
-}
+} 
 
 #LinkTrybe {
   font-size: 12px;
@@ -96,12 +94,12 @@ header {
 
 .artigos {
   border-style:inset;
+  width: 100%;
   padding: 5%;
-  max-width: auto;
-  margin: 20px;
-  letter-spacing: 2px;
-  border-color:rgb(224, 142, 7);
-  background-color: black;
+  letter-spacing: 1px;
+  border-color:rgb(255, 183, 68);
+  background-color:whitesmoke ;
+  text-indent: 1ch;
 }
 
 .lado-esquerdo , .lado-direito {
@@ -111,13 +109,22 @@ header {
   border-style:ridge;
   text-align: justify;
   padding:10px;
-  background-color:rgb(224, 142, 7);
-  top: 10px;
-  margin-right: 40px;
+  background-color:rgb(207, 178, 131);
+
+}
+aside {
+  margin-left: 50px;
+}
+
+#foGoTrybe {
+  position: relative;
+  width: 175px;
+  float: right;
+  top: 40px;
 }
 
 footer {
   font-size: small;
   background-color:rgb(224, 142, 7);
   color: azure;
-}
+}  

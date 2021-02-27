@@ -146,18 +146,18 @@ article h2 {
   font-family: sans-serif, Arial;
 }
 
-.esquerdo p {
+p {
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif, Arial;
 }
 
-/*.lado-direito {
+.lado-direito {
   margin-top: 30px;
   float: right;
   background-color: rgb(231, 247, 246);
   height: 125px;
-}*/
+}
 
 aside {
   position: absolute;
@@ -171,12 +171,6 @@ aside {
 aside h2 {
   text-align: center;
   font-size: 15px;
-  font-family: sans-serif, Arial;
-}
-
-.lado p {
-  font-size: 12px;
-  font-weight: 400;
   font-family: sans-serif, Arial;
 }
 

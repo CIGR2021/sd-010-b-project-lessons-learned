@@ -147,11 +147,11 @@ footer {
 
 #rodape {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #rodape img {
-  width: 7%;
+  width: 5%;
   padding: 0px 20px;
 }
 

@@ -6,9 +6,11 @@ body {
 h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
+  margin: 0;
+  padding-left: 10px;
 }
 
-h1 , h2 , h3 {
+h2 , h3 {
   margin: 0;
   padding-left: 10px;
   font-size: 22.5px;

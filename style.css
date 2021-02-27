@@ -4,3 +4,11 @@ body {
 #cabecalho {
     background-color: #ff71ce;
 }
+.title {
+    text-align: center;
+}
+.alt {
+    border-style: solid;
+    border-width: 2px;
+    border: black;
+}

@@ -45,7 +45,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
-
+  
 
 ## Habilidades
 

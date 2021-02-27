@@ -6,6 +6,7 @@ header {
   top: 0;
   position: fixed;
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  line-height: normal;
 }
 
 img {
@@ -24,6 +25,7 @@ article {
   letter-spacing: 2px;
   display: inline-block;
   width: 33%;
+  line-height: normal;
 }
 
 section {
@@ -31,6 +33,7 @@ section {
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   font-size: 30px;
   letter-spacing: 2px;
+  line-height: normal;
 }
 
 ol {
@@ -38,6 +41,7 @@ ol {
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   font-size: 30px;
   letter-spacing: 2px;
+  line-height: normal;
 }
 
 ul {
@@ -45,6 +49,7 @@ ul {
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   font-size: 30px;
   letter-spacing: 2px;
+  line-height: normal;
 }
 
 a {
@@ -52,6 +57,7 @@ a {
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   font-size: 30px;
   letter-spacing: 2px;
+  line-height: normal;
 }
 
 aside {
@@ -65,4 +71,5 @@ aside {
   letter-spacing: 2px;
   display: inline-block;
   width: 33%;
+  line-height: normal;
 }

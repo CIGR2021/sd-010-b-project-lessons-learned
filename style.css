@@ -1,123 +1,121 @@
 body{
-    background-color: rgb(253, 251, 251);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.58em;
-    color:#212529;
-    margin-top: 0px;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.58em;
+  color:#212529;
+  margin-top: 0px;
 }
 
 #cabecalho{
-    position:fixed;
-    top: 0px;
-    background-color: #0d1b2a;
-    color: #fff;
-    padding: 10px;
-    text-align: center;  
-    width: 100%;  
+  position:fixed;
+  top: 0px;
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;  
+  width: 100%;  
 }
 
 #minha_foto{
-    border-radius: 50%; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-top: 120px;
-    border: solid 1px #0d1b2a;
+  border-radius: 50%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-top: 120px;
+  border: solid 1px #0d1b2a;
 }
 
 .listas{
-    display: block;  
-    position:static;  
+  display: block;  
+  position:static;  
 }
 
 .aprendidas{
-    float: left;
-    margin-left:30%;    
+  float: left;
+  margin-left:30%;    
 }
 
 .a-aprender{
-    float: right;
-    margin-right: 30%;
+  float: right;
+  margin-right: 30%;
 }
 
 .lado-esquerdo{
-    max-width: 40%;
-    float: left;
-    margin-left: 5%;   
+  max-width: 40%;
+  float: left;
+  margin-left: 5%;   
 }    
 
 .lado-direito{
-    float: right;
-    max-width: 40%;
-    margin-right: 5%;     
+  float: right;
+  max-width: 40%;
+  margin-right: 5%;     
 }
 
 .text-content{
-    clear:both;
-    height: 300px;
-    background-color: #0d1b2a;
-    color: #fff;    
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
+  clear:both;
+  height: 300px;
+  background-color: #0d1b2a;
+  color: #fff;    
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 footer{
-    clear: both;
-    margin-top: 100px;  
-    border: solid 1px; 
-    padding: 10px;
-    border-radius: 15px;
+  clear: both;
+  margin-top: 100px;  
+  border: solid 1px; 
+  padding: 10px;
+  border-radius: 15px;
 }
 
 #assign{
-    text-align: right;
-    font-size: 14px;
-    color: grey;
+  text-align: right;
+  font-size: 14px;
+  color: grey;
 }
 
 a {
-    text-decoration: none;
-    color: #58a6ff;
-    font-weight: 400;
-    font-weight: 700;
+  text-decoration: none;
+  color: #58a6ff;
+  font-weight: 400;
+  font-weight: 700;
 }
 
 a:hover{
-    color:#ff6600;
-    text-decoration: underline;
+  color:#ff6600;
+  text-decoration: underline;
 }
 
 .button{
-    color: #fff;
-    background-color: #0d1b2a;
-    padding: 10px 15px;
-    border-radius: 7px;
-    margin-left: 10px;
-    margin-top: 10px;
+  color: #fff;
+  background-color: #0d1b2a;
+  padding: 10px 15px;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .button:hover{
-    background-color: #778da9;
-    color:#fff;
-    text-decoration: none;
+  background-color: #778da9;
+  color:#fff;
+  text-decoration: none;
 }
 
 .button:active{
-    background-color: #e0e1dd;
-    color:#ff6600;
-    
-    
+  background-color: #e0e1dd;
+  color:#ff6600;
 }
 
 .navigation{
-    margin-top: 90px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
+  margin-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 

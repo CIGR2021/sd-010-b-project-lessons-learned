@@ -133,12 +133,17 @@ nav a:hover {
   position: absolute;
   width: 48%;
   padding: 5px;
-  font-family: sans-serif, Arial;
 }
 
 .lado-esquerdo h2 {
   text-align: center;
   font-size: 15px;
+  font-family: sans-serif, Arial;
+}
+
+.lado-esquerdo p {
+  font-size: 12px;
+  font-family: sans-serif, Arial;
 }
 
 .lado-direito {
@@ -156,6 +161,11 @@ nav a:hover {
 .lado-direito h2 {
   text-align: center;
   font-size: 15px;
+}
+
+.lado-direito p {
+  font-size: 12px;
+  font-family: sans-serif, Arial;
 }
 
 table {

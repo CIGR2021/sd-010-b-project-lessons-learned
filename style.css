@@ -5,6 +5,7 @@ body {
 header {
   top: 0;
   position: fixed;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img {
@@ -18,28 +19,50 @@ article {
   border: auto;
   float: left;
   color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: inline-block;
+  width: 33%;
 }
 
 section {
   color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 ol {
   color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 ul {
   color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 a {
   color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 aside {
   float: right;
+  position: relative;
   margin: auto;
   padding: auto;
   border: auto;
   color: rgb(253, 251, 251);
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: inline-block;
+  width: 33%;
 }

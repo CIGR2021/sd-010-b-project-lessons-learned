@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 40px;
 }
 
@@ -114,6 +108,6 @@ th , td {
 }
 
 #my-name {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   font-size: 18px;
 }

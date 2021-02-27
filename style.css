@@ -15,7 +15,6 @@ h1 {
     top: 0px;
     width: 100%;
 }
-
 #botao {
     font-size: 12px;
     list-style-type: none;
@@ -27,7 +26,6 @@ img {
     height: 10%;
     padding-top: 120px;
 }
-
 a {
     display: block;
 }
@@ -35,12 +33,10 @@ a {
     float: left;
     font-size: 18px;
 }
-
 ul {
     margin-left: 10px;
     color: #666;
 }
-
 table {
     background-color: #fff;
     width: 100%;
@@ -79,27 +75,22 @@ tfoot td span {
     margin-right: 10px;
     margin-left: 30px;
 }
-
 select {
     border: none;
     border-right-color: transparent;
 }
-
 article {
     width: 30%;
     display:inline-block;
-    margin: 50px;
+    margin: 10px;
 }
-
 .meu_aprendizado {
     width: 30%;
     margin: 50px;
 }
-
 p {
     letter-spacing: 1px;
 }
-
 footer {
     text-align: right;
     background-color: rgba(0, 255, 0, 0.2);

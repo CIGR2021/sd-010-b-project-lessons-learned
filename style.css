@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  max-width: 1366;
 }
 
 body {
@@ -64,20 +65,27 @@ img {
   margin-left: 15px;
 }
 .artigos {
-  border-style: double;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  width: 400px;
+  border-style:inset;
   padding: 5%;
+  max-width: auto;
+  margin: 20px;
+  letter-spacing: 2px;
+  border-color:rgb(224, 142, 7);
+  background-color: black;
 }
 
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 400px;
+  width: 350px;
+  border-style:ridge;
+  text-align: justify;
+  padding:10px;
+  background-color:rgb(224, 142, 7);
 }
+
 
 footer {
   font-size: small;
+  background-color:rgb(224, 142, 7);
+  color: azure;
 }

@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
 }
 
 h1, h2, h3 {
   margin: 0;
   padding-left: 10px;
-}
-
-p {
-  text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 #cabecalho {
@@ -64,16 +68,31 @@ p {
 }
 
 .lado-esquerdo {
-  background-color: gray;
+  background-color: #dcdcdc;
   margin-left: 30px;
   width: 150%;
+  padding-top: 10px;
 }
 
-/* footer {
+.texts {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title-learned{
+  text-align: center;
+}
+
+footer {
   text-align: center;
   background-color: royalblue;
-  height: 80px;
-  width: 100%;
-  left: 0;
-  top: 0;
-} */
+}
+
+footer a {
+  color: black;
+}
+
+#my-name {
+  font-family: 'Lobster', cursive;
+}

@@ -46,3 +46,18 @@ body {
     background-color: rgb(136, 136, 231);
     font-weight: bold;
 }
+
+#section-aside {
+    display: inline-block;
+}
+
+#my-article {
+    width: 50%;
+    display: inline-block;
+}
+
+#my-aside {
+    width: 20%;
+    display: inline-block;
+    margin-left: 260px;
+}

@@ -3,6 +3,8 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
   text-align: justify;
+  color: rgb(1, 1, 7);
+  line-height: 35px;
 
 }
 
@@ -25,15 +27,19 @@ body {
 
 #licoes_a_aprender {
   display: inline-block;
-  margin-left: 10px;
 }
 
 #licoes_aprendidas {
   display: inline-block;
-  margin-left: 10px;
+
 }
 
-#aside_aprendizado {
+.lado-esquerdo{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.lado-direito {
   display: inline-block;
   float: right;
   margin-right: 10px;

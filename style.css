@@ -112,6 +112,6 @@ a:hover {
   width: 400px;
 }
 
-.textos article, section {
+.textos article , section {
   display: inline-block;
 }

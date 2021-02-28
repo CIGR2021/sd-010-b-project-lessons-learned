@@ -1,38 +1,36 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-    /* Margem para dar espaço entre o elemento com position fixed e a próxima tag */
-    margin-bottom: 200px;
+  margin-bottom: 200px; /* Margem para dar espaço entre o .top-bar e a main */
 }
 
 img {
-    /* A imagem ocupa metade da largura da página */
-    width: 50%;
+  width: 50%; /* A imagem ocupa metade da largura da página */
 }
 
 p {
-    padding: 0px 180px 0px 20px;
+  padding: 1px 180px 1px 20px;
 }
 
 .nav-header > li {
-    display: inline-block;
-    padding: auto;
+  display: inline-block;
+  padding: auto;
 }
 
 aside {
-    float: right;
-    width: 30%;
+  float: right;
+  width: 30%;
 }
 
 .top-bar {
-    display: inline-block;
-    position: fixed;
-    top: 0px;
+  display: inline-block;
+  position: fixed;
+  top: 2px;
 }
 
 .copyrights {
-    text-align: end;
-    font-size: 0.8rem;
+  text-align: end;
+  font-size: 0.8rem;
 }

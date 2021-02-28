@@ -111,7 +111,11 @@ a:hover {
     width: 400px;
 }
 
-.meu-aprendizado div{
+.meu-aprendizado section{
     display: inline-block;
     text-align: center;
+}
+
+.textos {
+  display: inline-block;
 }

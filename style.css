@@ -37,6 +37,7 @@ body {
 
 table {
   border: 1px solid black;
+  border-spacing: 0px;
   font-family: Courier, monospace;
   display: inline-block;
   margin-left: 500px;

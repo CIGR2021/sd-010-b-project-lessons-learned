@@ -115,6 +115,7 @@ main {
 ul, ol {
   margin-bottom: 15%;
 }
+
 .lista-esquerda {
   display: inline-block;
   position: relative;
@@ -136,12 +137,12 @@ table {
 
 table, td, th {
   border: 2px solid black;
-  border-collapse: collapse
+  border-collapse: collapse;
 }
 
 th, td {
   padding: 5px;
-  text-align: left;  
+  text-align: left;
 }
 
 th, td {

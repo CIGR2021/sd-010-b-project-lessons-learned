@@ -53,16 +53,14 @@ nav {
 
 aside {
   position: absolute;
-  font-size: 45px;
-  display: block;
-  top: 1280px;
+  font-size: 40px;
+  top: 900px;
   left: 520px;
 }
 
 article {
   position: absolute;
   font-size: 40px;
-  display: inline-block;
   top: 480px;
   left: 520px;
   line-height: 1;

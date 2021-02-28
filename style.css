@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: cursive;
 }
 header {
   background-color: rgb(255, 133, 206);
@@ -24,10 +25,23 @@ h2 {
   background-color: rgb(176,224,230);
 }
 
-.licoes_a_aprender:hover {
-  color: rgb(75,0,130);
+#licoes_a_aprender:hover {
+  color: rgb(5,255,161);
 }
 
-.article {
+#article {
   margin: 10px;
+  padding: 10%;
+  border: 10px;
+}
+#div00 , #div01  {
+  display: inline-block;
+}
+#minha_foto {
+  height: 350px;
+  width: 350px;
+}
+#table {
+  margin: 10px;
+  border-style: solid;
 }

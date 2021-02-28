@@ -79,7 +79,7 @@ a:hover {
   background-color: lightgray;
 }
 
-.paragraf1 {
+.lado-esquerdo {
   padding-top: 15px;
   padding-bottom: 15px;
   border-style: dotted;
@@ -87,16 +87,16 @@ a:hover {
   border-width: 2px;
   width: max-content;
   margin-left: 100px;
-
 }
 
-.paragraf1 p {
+.lado-esquerdo p {
   text-align: left;
   margin: 5px;
   width: 450px;
 }
 
-.paragraf2 {
+.lado-direito {
+  font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-style: dotted;
@@ -106,17 +106,12 @@ a:hover {
   margin-left: 200px;
 }
 
-.paragraf2 p {
+.lado-direito p {
   text-align: left;
   margin: 5px;
   width: 400px;
 }
 
-.meu-aprendizado section {
-  display: inline-block;
-  text-align: center;
-}
-
-.textos {
+.textos article, section {
   display: inline-block;
 }

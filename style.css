@@ -20,6 +20,7 @@ ul{
   background-color: rgb(20, 148, 20);
   height:144px;    
   width:100%;
+  
 }
 
 nav ul {
@@ -47,7 +48,14 @@ li a:hover{
   
 }
 
+#minha_foto{
+  width: 185px;  
+}
 
+.foto{
+  margin-top: 140px;
+  margin-left: 15px;
+}
 
 
 

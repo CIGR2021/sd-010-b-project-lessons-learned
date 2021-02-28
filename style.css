@@ -8,8 +8,6 @@
 }
 body {
   background-color: rgb(253, 251, 251);
-  max-width: 1366px;
-  
 }
 ul{
   list-style-type:none;
@@ -19,44 +17,35 @@ ul{
   position: fixed;
   top: 0;
   background-color: #2B9E23;
-  height:144px;    
   width:100%;
   font-weight: bolder;
-  
+  border-bottom: 2px solid;
+}
+
+h1{
+  font-style: italic;
+   
 }
 
 nav ul {
-  position: absolute;
   right: 0px;  
-  float:right;  
   top: 0px;
-  text-align: right;
+  text-align: justify;
+  
 }
 
 li a {
   display: inline-block;
   text-decoration: none;
   font-size: 20px;
-  margin: 10px;
-  width: auto;
-  padding: 2px;
-  margin-right:3px;
-  
+  margin: 10px;  
+  padding:2px;
+  margin-right:3px;  
+  float: left; 
 }
 
-li a:hover{
-  
-  background-color: rgb(255, 255, 255);
-  
-}
-
-h4{
-  margin-left: 15px;
-}
-h4 a {
-  text-decoration: none;
-  float: left;
-  
+li a:hover{  
+  background-color: rgb(255, 255, 255);  
 }
 
 #minha_foto{
@@ -65,30 +54,42 @@ h4 a {
 }
 
 .foto{
-  margin-top: 140px;
+  margin-top: 74px;
   margin-left: 15px;
-  display: inline-block;
-  width:100%;
+  display: inline-block;    
 }
 
-.table{
-  margin-top: ;
-  float: left;
+.mylink{
+  position: relative;
+  text-decoration: none;
+  margin: 40px;
   
+   
+}
+.mylink:hover{
+  background-color: rgb(105, 169, 226);
+  padding: 0;
+  
+  
+}
+hr{
+  width: 100%;
+  border: solid 1px;  
+}
+.table{
+    float: left;
   margin: 15px;
-    
+}
+table td{
+  padding: 8px;
+  text-align: center;
+  border-bottom: solid 1px;
 }
 
 
 #licoes_aprendidas{
   margin-top: 10px;
 }
-caption{
-  font-weight: bolder;
-}
 
-table td{
-  padding: 8px;
-  text-align: center;
-  border-bottom: solid 1px;
-}
+
+

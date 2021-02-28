@@ -43,39 +43,63 @@ nav {
   border-radius: 10px;
   top: 86px;
   left: 2px;
-  width: 290px;
-  height: 340px;
+  width: 270px;
+  height: 320px;
+}
+
+#logo_trybe{
+  position: absolute;
+  border-radius: 10px;
+  top: 310px;
+  left: 1085px;
+  width: 260px;
+  height: 223px;
 }
 
 #apresentacao {
   position: absolute;
   border-radius: 10px, 10px, 0, 0;
-  background-color: rgb(31, 178, 90);
+  background-color: rgb(46, 193, 139);
+  color: black;
   font-family: monospace;
-  top: 425px;
+  top: 380px;
   left: 2px;
-  width: 289px;
-  height: 60px;
-  padding-left: 1px;
+  width: 266px;
+  height: 107px;
+  padding-left: 5px;
 }
 
-#aprendizado {
+.lado-esquerdo {
   position: absolute;
   border-radius: 10px;
   background-color: rgb(31, 178, 90);
   color: black;
   font-family: monospace;
   line-height: 1.5;
-  top: 92px;
-  left: 795px;
-  width: 530px;
-  height: 300px;
+  top: 87px;
+  left: 815px;
+  width: 252px;
+  height: 447px;
+  padding-left: 10px;
+}
+
+.lado-direito {
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgb(46, 193, 139);
+  color: black;
+  font-family: monospace;
+  line-height: 1.5;
+  top: 87px;
+  left: 1085px;
+  width: 250px;
+  height: 240px;
   padding-left: 10px;
 }
 
 #links {
   position: absolute;
-  top: 90px;
+  top: 87px;
   left: 2px;
   width: 10px;
   height: 20px;
@@ -89,11 +113,11 @@ nav {
   position: absolute;
   background-color: rgb(31, 178, 90);
   border-radius: 10px;
-  font-size: x-small;
-  top: 75px;
-  left: 300px;
-  width: 170px;
-  height: 290px;
+  font-size: medium;
+  top: 72px;
+  left: 280px;
+  width: 220px;
+  height: 447px;
   list-style-position: inside;
 }
 
@@ -101,22 +125,23 @@ nav {
   position: absolute;
   background-color: rgb(3, 107, 82);
   border-radius: 10px;
-  font-size: x-small;
-  top: 75px;
-  left: 515px;
-  width: 170px;
-  height: 290px;
+  font-size: medium;
+  top: 71px;
+  left: 547px;
+  width: 220px;
+  height: 447px;
   list-style-position: inside;
 }
 
 #tabela {
   position: absolute;
-  background-color: rgb(31, 178, 90);
+  background-color: rgb(46, 193, 139);
   border-radius: 10px;
+  color: black;
   top: 480px;
   left: 2px;
-  width: 290px;
-  height: 50px;
+  width: 271px;
+  height: 55px;
   font-family: monospace;
   list-style-position: inside;
   text-align: left;
@@ -126,11 +151,11 @@ nav {
 #rodape {
   background-color: rgb(3, 107, 82);
   border-radius: 10px;
-  color: white;
+  font-size: x-small;
   position: fixed;
   top: 540px;
   left: 10px;
   right: 10px;
-  height: 25px;
-  text-indent: 900px;
+  height: 35px;
+  text-indent: 1070px;
 }

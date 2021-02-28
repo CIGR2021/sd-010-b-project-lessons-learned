@@ -20,6 +20,7 @@ nav {
   top: 0;
   width: 100%;
 }
+
 .menu {
   display: inline-block;
 }
@@ -28,7 +29,7 @@ nav {
   margin-left: 13em;
 }
 
-#artigos{
+#artigos {
   position: absolute;
   border-radius: 10px;
   top: 90px;
@@ -46,19 +47,19 @@ nav {
   height: 340px;
 }
 
-#apresentacao{
+#apresentacao {
   position: absolute;
-  border-radius: 10px, 10px, 0px, 0px;
+  border-radius: 10px, 10px, 0, 0;
   background-color: rgb(31, 178, 90);
   font-family: monospace;
   top: 425px;
   left: 2px;
   width: 289px;
   height: 60px;
-  padding-left: 1px;  
+  padding-left: 1px;
 }
 
-#aprendizado{
+#aprendizado {
   position: absolute;
   border-radius: 10px;
   background-color: rgb(31, 178, 90);
@@ -79,8 +80,9 @@ nav {
   width: 10px;
   height: 20px;
 }
+
 #licoes {
-  color: white;  
+  color: white;
 }
 
 #licoes_aprendidas {

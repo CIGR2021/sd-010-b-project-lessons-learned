@@ -1,17 +1,33 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-
 header {
   background-color: rgb(255, 133, 206);
   position: fixed;
   width: 100%;
+  top: 0px;
+  text-align: center;
 }
 
 img {
   margin: 10px;
 }
 
+h2 {
+  margin: 10px;
+}
 .title {
   text-align: center;
+}
+
+.footer {
+  background-color: rgb(176,224,230);
+}
+
+.licoes_a_aprender:hover {
+  color: rgb(75,0,130);
+}
+
+.article {
+  margin: 10px;
 }

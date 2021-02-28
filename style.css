@@ -3,6 +3,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.negrito {
+  font-weight: bold;
+}
+
 .header {
   display: block;
   position: fixed;
@@ -18,7 +22,7 @@ body {
   font-size: 3.3em;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 4%;
+  padding-top: 3%;
   padding-bottom: 6%;
   text-shadow: 2px 0 8px black;
 }
@@ -64,12 +68,20 @@ article h2 {
   margin-bottom: 40px;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+  font-weight: 550;
+  height: 50px;
+}
+
 article p {
   margin-left: 8%;
   margin-right: 8%;
-  margin-bottom: 5%;
+  margin-bottom: 25%;
   font-family: Times, serif;
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -79,7 +91,7 @@ article p {
 }
 
 .lado-direito {
-  display: inline;
+  display: inline-block;
   float: right;
   max-width: 23%;
   border: 2px solid black;
@@ -98,6 +110,42 @@ aside p {
 
 main {
   max-height: 80%;
+}
+
+ul, ol {
+  margin-bottom: 15%;
+}
+.lista-esquerda {
+  display: inline-block;
+  position: relative;
+  margin-right: 10%;
+  padding-left: auto;
+}
+
+.lista-direita {
+  display: inline-block;
+  position: absolute;
+  margin-left: 10%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+}
+
+table, td, th {
+  border: 2px solid black;
+  border-collapse: collapse
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;  
+}
+
+th, td {
+  text-align: center;
 }
 
 footer {

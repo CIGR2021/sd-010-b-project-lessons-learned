@@ -24,15 +24,16 @@ body{
 h1{
     font-family: 'Times New Roman', Times, serif;
     margin-left: auto;
+    font-size: 50px;
 }
 .topo{
-    margin-top: 80px;
+    margin-top: 90px;
 }
-.aprendidas{
+.lado-esquerdo{
     display: inline-block;
     width: 40%;
 }
-.aprender{
+.lado-direito{
     display: inline-block;
     width: 40%;
 }
@@ -44,4 +45,7 @@ h1{
 }
 #biografia{
     line-height: 20px;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

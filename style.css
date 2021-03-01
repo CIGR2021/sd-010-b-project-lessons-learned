@@ -65,7 +65,7 @@ ul , ol {
 } */
 
 article , aside {
-  display:inline-block;
+  display: inline-block;
   margin: 10px;
   width: 385px;
   height: 180px;

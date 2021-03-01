@@ -1,9 +1,6 @@
-* {
+body {
   margin: 0;
   padding: 0;
-}
-
-body {
   background-color: rgb(253, 251, 251);
 }
 
@@ -47,10 +44,6 @@ figure {
   width: 250px;
 }
 
-section {
-  margin: 40px;
-}
-
 h2 {
   margin-left: -40px;
   margin-bottom: 30px;
@@ -63,8 +56,16 @@ ul , ol {
   line-height: 25px;
 }
 
+/* .lado-esquerdo {
+  display: -ms-inline-flexbox;
+}
+
+.lado-direito {
+  display: inline-flexbox;
+} */
+
 article , aside {
-  display: inline-block;
+  display:inline-block;
   margin: 10px;
   width: 385px;
   height: 180px;

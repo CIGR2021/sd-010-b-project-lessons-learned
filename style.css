@@ -53,12 +53,12 @@ body {
     display: inline-block;
 }
 
-#my-article {
+.lado-esquerdo {
     width: 50%;
     display: inline-block;
 }
 
-#my-aside {
+.lado-direito {
     width: 20%;
     display: inline-block;
     margin-left: 260px;

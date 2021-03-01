@@ -20,12 +20,17 @@ body {
   margin-top: 120px;
 }
 
-article , aside {
+#licoes_aprendidas, #licoes_a_aprender, aside {
+  width: 300px;
+  display: inline-block;
+} 
+
+.lado-esquerdo, .lado-direito {
   width: 500px;
   display: inline-table;
 }
 
-aside {
+.lado-direito {
   margin-left: 20%;
 }
 
@@ -37,4 +42,10 @@ table {
 td, th {
   border: 1px solid;
   padding: 8px;
+}
+
+footer {
+  text-align: center;
+  width: 30%;
+  margin: auto;
 }

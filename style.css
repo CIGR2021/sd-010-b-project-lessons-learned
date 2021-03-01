@@ -20,7 +20,7 @@ ul {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #2b9e23;
+  background-color: #2ca724;
   width: 100%;
   font-weight: 700;
   border-bottom: 2px solid;
@@ -52,7 +52,7 @@ footer a {
 }
 
 li a:hover {
-  background-color: white;  
+  background-color: white;
 }
 
 #minha_foto {
@@ -127,5 +127,5 @@ table td {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 15px;
-  background-color: #80e027;
+  background-color: #9cf34b;
 }

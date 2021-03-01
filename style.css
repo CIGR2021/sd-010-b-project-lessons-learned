@@ -65,3 +65,7 @@ body {
     display: inline-block;
     margin-left: 260px;
 }
+
+.tabela {
+    border-color: blue;
+}

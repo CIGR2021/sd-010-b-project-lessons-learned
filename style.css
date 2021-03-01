@@ -10,7 +10,7 @@ body {
 
 @font-face {
   font-family: Caveat, cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+  src: url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 }
 
 header {
@@ -71,7 +71,7 @@ header {
   border-style: inset;
   box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2);
   padding: 30px;
-  background-color: #ebe7e7;
+  background-color: gainsboro;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ header {
   border-style: inset;
   width: 89%;
   padding: 5%;
-  letter-spacing: 2.rem;
+  letter-spacing: 2.em;
   border-color: rgb(255, 183, 68);
   background-color: whitesmoke;
   text-indent: 1ch;
@@ -119,7 +119,7 @@ header {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2);  /* usei essa estilização me baseando no projeto de Antenor Zapata */
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2); /*usei essa estilização me baseando no projeto de Antenor Zapata*/
   border-style: ridge;
   text-align: justify;
   padding: 10px;
@@ -154,7 +154,7 @@ a {
   right: 10px;
 }
 
-table, .credits th {
+table , .credits th {
   display: flex;
   color: rgb(219, 161, 0);
   font-size: 12px;
@@ -169,4 +169,4 @@ footer {
   width: 100%;
   text-align: center;
   margin-right: 20px;
-}  
+}

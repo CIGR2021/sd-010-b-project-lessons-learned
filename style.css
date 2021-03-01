@@ -3,9 +3,9 @@
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    padding: 0;
-    margin: 0;
+  background-color: rgb(253, 251, 251);
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
@@ -29,10 +29,6 @@ header {
   font-family: 'Caveat', cursive;
   font-size: 60px;
   margin-bottom: 0;
-}
-span {
-  text-shadow: 0 0 20px rgba(255,255,255,.2);
-  font-size: 7em;
 }
 
 #nav a{
@@ -59,18 +55,29 @@ span {
   border-style: solid;
 }
 
- #licoes_aprendidas , #licoes_a_aprender {
+.licoes {
+  height: 24rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
+  width: 250px;
+  height: 250px;
   font-size: 12px;
   line-height: 2;
   margin-bottom: 25px;
   border-style:inset;
-  padding: 2%;
-  background-color: #ebe7e7;;
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2);
+  padding: 30px;
+  background-color: #ebe7e7;
+  text-align: center;
 }
 
 #logo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,13 +90,13 @@ span {
   padding-left: 400px;
   width: 600px;
   margin: 0;
-} 
- 
+}
+
 .bgName {
   position: relative;
   font-family: 'Caveat', cursive;
   opacity: 0.3;
-} 
+}
 
 #LinkTrybe {
   font-size: 25px;
@@ -99,24 +106,37 @@ span {
 }
 
 .artigos {
+  display: flex;
+  justify-content: space-around;
   border-style:inset;
-  width: 100%;
+  width: 89%;
   padding: 5%;
-  letter-spacing: 1px;
+  letter-spacing: 2.rem;
   border-color:rgb(255, 183, 68);
   background-color:whitesmoke ;
   text-indent: 1ch;
-  margin: 10px;
+  margin: 0;
 }
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 350px;
-  height: 200px;
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2);  /* usei essa estilização me baseando no projeto de Antenor Zapata */
   border-style:ridge;
   text-align: justify;
   padding:10px;
   background-color:rgb(207, 178, 131);
+
+}
+
+.lado-esquerdo {
+  margin-top: 3.5rem;
+  width: 60%;
+  height: 10rem;
+
+}
+
+.lado-direito {
+  width: 20%;
 
 }
 
@@ -129,10 +149,10 @@ a {
 }
 
 #foGoTrybe {
-  position: relative;
-  width: 175px;
-  float: right;
-  top: 40px;
+  position: fixed;
+  width: 50px;
+  top: 560px;
+  right: 10px;
 }
 
 footer {
@@ -140,5 +160,6 @@ footer {
   background-color:rgb(224, 142, 7);
   color: azure;
   width: 100%;
-  text-align: right;
+  text-align: center;
+  margin-right: 20px;
 }  

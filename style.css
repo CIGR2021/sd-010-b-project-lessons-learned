@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: helvetica, arial, sans-serif;
+  font-size: medium;
+  line-height: 20px;
 }
 
 main {
@@ -72,7 +75,7 @@ nav a {
   text-align: justify;
 }
 
-#a_trybe_e_eu {
+.lado_esquerdo {
   display: inline-block;
   width: 65%;
   margin-right: 20px;
@@ -84,7 +87,7 @@ nav a {
   color: rgb(0, 77, 150);
 }
 
-#html_css {
+.lado_direito {
   display: inline-block;
   width: 30%;
   text-align: justify;

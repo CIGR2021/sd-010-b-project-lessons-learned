@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif, Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
   line-height: normal;
-  color:black;
+  color: black;
   list-style-type: none;
   max-width: 1366px;
 }
@@ -14,15 +14,15 @@ body {
 }
 
 ul {
-  list-style-type:none; 
+  list-style-type: none;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: #2b9e23;
-  width:100%; 
-  font-weight: bolder;
+  width: 100%;
+  font-weight: 700;
   border-bottom: 2px solid;
 }
 
@@ -35,15 +35,15 @@ h1 {
 nav ul {
   right: 0;
   top: 0;
-  text-align: justify;  
+  text-align: justify;
 }
 
 li a {
   display: inline-block;
   font-size: 20px;
-  margin: 10px;  
-  padding:2px;
-  margin-right:3px;   
+  margin: 10px;
+  padding: 2px;
+  margin-right: 3px;
   float: left;
 }
 
@@ -52,24 +52,24 @@ footer a {
 }
 
 li a:hover {
-  background-color:white;    
+  background-color: white;  
 }
 
 #minha_foto {
   width: 185px;
-  float: left;  
+  float: left;
 }
 
 .foto {
   margin-top: 74px;
   margin-left: 15px;
-  display: inline-block;    
+  display: inline-block;
 }
 
 .mylink {
   position: relative;
   text-decoration: none;
-  margin: 40px;   
+  margin: 40px;
 }
 
 .mylink:hover {
@@ -79,7 +79,7 @@ li a:hover {
 
 hr {
   width: 100%;
-  border: solid 1px;  
+  border: solid 1px;
 }
 
 main {
@@ -102,7 +102,7 @@ table td {
   margin-left: 15px;
   text-align: justify;
   float: left;
-  text-indent: 50px;   
+  text-indent: 50px;
 }
 
 .lado-direito {
@@ -124,8 +124,8 @@ table td {
 }
 
 #rodape {
-  width: 100%; 
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 15px;
-  background-color: #80e027;  
+  background-color: #80e027;
 }

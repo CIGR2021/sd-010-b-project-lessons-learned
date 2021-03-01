@@ -75,7 +75,7 @@ nav a {
   text-align: justify;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 65%;
   margin-right: 20px;
@@ -87,7 +87,7 @@ nav a {
   color: rgb(0, 77, 150);
 }
 
-.lado_direito {
+.lado-direito {
   display: inline-block;
   width: 30%;
   text-align: justify;

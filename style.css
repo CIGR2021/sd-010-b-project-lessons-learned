@@ -1,49 +1,63 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-    background-color: rgb(253, 251, 251);
-}
-
-header{
-    position: fixed;
-    top: 0px;
-    background-image: linear-gradient(to top, #2ea80c, #2db822, #2ac933, #23da44, #12eb54);
-    width: 100vw;
-    height: 80px;
-    padding: 0px 10px;
-    line-height: 80px;
-    text-align: center;
-    border-bottom: #2db822 solid;
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-.foto-perfil{
-    margin: 100px 10px 10px 10px;
-    position: relative;
-}
-#minha_foto{
-    width: 150px;
-    height: 200px;
-}
-.licoes{
-    margin: 50px 10px;
-    position: relative;
-}
-#licoes_aprendidas{
-    display: inline-block;
-    margin: 30px 40px;
-}
-#licoes_a_aprender{
-    display: inline-block;
-}
-
-#rodape{
-    text-align: center;
-    background-image: linear-gradient(to top, #2ea80c, #2db822, #2ac933, #23da44, #12eb54);
+header {
+  position: fixed;
+  top: 0px;
+  background-image: linear-gradient(
+    to top,
+    #2ea80c,
+    #2db822,
+    #2ac933,
+    #23da44,
+    #12eb54
+  );
+  width: 100vw;
+  height: 80px;
+  padding: 0px 10px;
+  line-height: 80px;
+  text-align: center;
+  border-bottom: #2db822 solid;
 }
 
-#rodape a{
-    text-decoration: none;
-    color: black;
+.foto-perfil {
+  margin: 100px 10px 10px 10px;
+  position: relative;
+}
+#minha_foto {
+  width: 150px;
+  height: 200px;
+}
+.licoes {
+  margin: 50px 10px;
+  position: relative;
+}
+#licoes_aprendidas {
+  display: inline-block;
+  margin: 30px 40px;
+}
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+#rodape {
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #2ea80c,
+    #2db822,
+    #2ac933,
+    #23da44,
+    #12eb54
+  );
+}
+
+#rodape a {
+  text-decoration: none;
+  color: black;
 }

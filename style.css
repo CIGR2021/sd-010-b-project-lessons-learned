@@ -56,13 +56,13 @@ ul , ol {
   line-height: 25px;
 }
 
-/* .lado-esquerdo {
+.lado-esquerdo {
   display: -ms-inline-flexbox;
 }
 
 .lado-direito {
   display: inline-flexbox;
-} */
+}
 
 article , aside {
   display: inline-block;

@@ -1,39 +1,40 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
-  line-height: normal;
-  color: rgb(0, 0, 0);
-  list-style-type: none;
-  max-width: 1366px;     
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: normal;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    max-width: 1366px;     
 }
+
 body {
   background-color: rgb(253, 251, 251);
 }
-ul{
+
+ul {
   list-style-type:none;
 }
 
-
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0;
-  background-color: #2B9E23;
+  background-color: #2b9e23;
   width:100%;
   font-weight: bolder;
   border-bottom: 2px solid;
 }
 
-h1{
+h1 {
   font-style: italic;
   margin-left: 15px;
   text-decoration: underline;  
 }
 
 nav ul {
-  right: 0px;  
-  top: 0px;
+  right: 0;  
+  top: 0;
   text-align: justify;
   
 }
@@ -46,47 +47,56 @@ li a {
   margin-right:3px;  
   float: left; 
 }
-
-li a:hover{  
+footer a {
+  margin-left: 15px;
+}
+li a:hover {  
   background-color:white;  
 }
 
-#minha_foto{
+#minha_foto{ 
   width: 185px;
   float: left;  
 }
 
-.foto{
+.foto {
   margin-top: 74px;
   margin-left: 15px;
   display: inline-block;    
 }
-.mylink{
+
+.mylink {
   position: relative;
   text-decoration: none;
   margin: 40px;   
 }
-.mylink:hover{
+
+.mylink:hover {
   background-color: rgb(105, 169, 226);
   font-style: italic;
 }
-hr{
+
+hr {
   width: 100%;
   border: solid 1px;  
 }
-main{
+
+main {
   height: 430px;
 }
-.table{
-    float: left;
+
+.table {
+  float: left;
   margin: 15px;
 }
-table td{
+
+table td {
   padding: 8px;
   text-align: center;
   border-bottom: solid 1px;
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
   width: 45%;
   margin-left: 15px;
   text-align: justify;
@@ -94,7 +104,8 @@ table td{
   text-indent: 50px;
    
 }
-.lado-direito{
+
+.lado-direito {
   float: right;
   margin-left: 15px;
   margin-right: 15px;
@@ -104,23 +115,16 @@ table td{
   top: 0;  
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   float: left;  
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   float: left;
 }
-#rodape{
+#rodape {
   width: 100%; 
   padding-top: 10px;
   padding-bottom: 15px;
-  background-color: #80E027;  
+  background-color: #80e027;  
 }
-footer a {
-  margin-left: 15px;
-}
-
-
-
-

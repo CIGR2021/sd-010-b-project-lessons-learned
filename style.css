@@ -57,17 +57,13 @@ h2 {
   font-size: 28px;
 }
 
-ol {
+ul , ol {
   margin: 35px;
   display: inline-block;
+  line-height: 25px;
 }
 
-ul {
-  margin: 35px;
-  display: inline-block;
-}
-
-article {
+article , aside {
   display: inline-block;
   margin: 10px;
   width: 385px;
@@ -77,12 +73,7 @@ article {
 }
 
 aside {
-  display: inline-block;
-  margin: 10px;
-  width: 385px;
   height: 100%;
-  border-style: dotted;
-  border-width: thin;
 }
 
 h3 , p {

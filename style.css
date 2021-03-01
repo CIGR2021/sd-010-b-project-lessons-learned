@@ -78,6 +78,7 @@ a {
   background-color: gainsboro;
   text-align: center;
 }
+/* usei essa estilização de 'box-shadow' me baseando no projeto de Antenor Zapata */
 
 #logo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
@@ -123,25 +124,21 @@ a {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2); 
-  /* usei essa estilização me baseando no projeto de Antenor Zapata */
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2);
   border-style: ridge;
   text-align: justify;
   padding: 10px;
   background-color: rgb(207, 178, 131);
-
 }
 
 .lado-esquerdo {
   margin-top: 3.5rem;
   width: 60%;
   height: 10rem;
-
 }
 
 .lado-direito {
   width: 20%;
-
 }
 
 aside {

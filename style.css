@@ -57,11 +57,11 @@ ul , ol {
 }
 
 .lado-esquerdo {
-  display: -ms-inline-flexbox;
+  color: blue;
 }
 
 .lado-direito {
-  display: inline-flexbox;
+  color: chartreuse;
 }
 
 article , aside {

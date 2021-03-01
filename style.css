@@ -12,3 +12,27 @@ body {
 #minha_foto {
   width: 350px;
 }
+
+#lado-direito {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 15px;
+  border: 2px solid rgb(0, 255, 64);
+  line-height: 20px;
+}
+
+#lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 15px;
+  border: 2px solid rgb(0, 255, 64);
+  line-height: 20px;
+}

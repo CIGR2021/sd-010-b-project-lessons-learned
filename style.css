@@ -83,20 +83,20 @@ nav ul li a:hover {
     margin-top: 40px;
 }
 
-td:hover {
-    background-color: rgb(247, 112, 112);
-}
 
 th {
     background-color: rgb(231, 238, 245);
 }
 
-th,
-td {
+th, td {
     line-height: 30px;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+td:hover {
+    background-color: rgb(247, 112, 112);
 }
 
 .lado-esquerdo {

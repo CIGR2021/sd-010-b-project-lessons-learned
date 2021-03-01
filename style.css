@@ -31,6 +31,10 @@ header {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #nav a {
   display: inline;
   margin-left: 2px;
@@ -110,7 +114,7 @@ header {
   border-style: inset;
   width: 89%;
   padding: 5%;
-  letter-spacing: 2.em;
+  letter-spacing: 2px;
   border-color: rgb(255, 183, 68);
   background-color: whitesmoke;
   text-indent: 1ch;
@@ -119,7 +123,7 @@ header {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2); /*usei essa estilização me baseando no projeto de Antenor Zapata*/
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2); /* usei essa estilização me baseando no projeto de Antenor Zapata */
   border-style: ridge;
   text-align: justify;
   padding: 10px;
@@ -141,10 +145,6 @@ header {
 
 aside {
   margin-left: 50px;
-}
-
-a {
-  text-decoration: none;
 }
 
 #foGoTrybe {

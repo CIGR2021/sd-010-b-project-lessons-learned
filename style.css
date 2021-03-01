@@ -75,6 +75,7 @@ article , aside {
 
 aside {
   height: 100%;
+  vertical-align: top;
 }
 
 h3 , p {

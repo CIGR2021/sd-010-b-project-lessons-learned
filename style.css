@@ -88,7 +88,7 @@ th {
     background-color: rgb(231, 238, 245);
 }
 
-th, td {
+th , td {
     line-height: 30px;
     text-align: center;
     padding-left: 15px;

@@ -123,7 +123,8 @@ a {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2); /* usei essa estilização me baseando no projeto de Antenor Zapata */
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.2); 
+  /* usei essa estilização me baseando no projeto de Antenor Zapata */
   border-style: ridge;
   text-align: justify;
   padding: 10px;

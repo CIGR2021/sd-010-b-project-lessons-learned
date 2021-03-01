@@ -37,3 +37,13 @@ header{
 #licoes_a_aprender{
     display: inline-block;
 }
+
+#rodape{
+    text-align: center;
+    background-image: linear-gradient(to top, #2ea80c, #2db822, #2ac933, #23da44, #12eb54);
+}
+
+#rodape a{
+    text-decoration: none;
+    color: black;
+}

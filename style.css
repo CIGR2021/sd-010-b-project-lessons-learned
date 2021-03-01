@@ -12,13 +12,15 @@ body {
   position: fixed;
   top: 0;
   background-color: green;
-  padding: 20px 40px;
+  padding: 20px 0 0;
   width: 100%;
 }
 
 #titulo {
   color: white;
   font-weight: 700;
+  margin-left: 40px;
+  padding-bottom: 10px;
 }
 
 #minha_foto {
@@ -26,18 +28,20 @@ body {
   top: 100px;
   width: 120px;
   border-radius: 22%;
-  padding: 30px;
+  padding: 40px;
+
 }
 
 #licoes_aprendidas {
   position: absolute;
-  top: 300px;
+  top: 330px;
+  margin-left: 70px;
 }
 
 #licoes_a_aprender {
   position: absolute;
-  top: 300px;
-  left: 200px;
+  top: 330px;
+  left: 280px;
 }
 
 #rodape {
@@ -51,6 +55,7 @@ body {
   top: 550px;
   line-height: 25px;
   font-size: 15px;
+  margin-left: 40px;
 }
 
 .lado-direito {
@@ -64,7 +69,8 @@ body {
 
 #tabela {
   position: absolute;
-  top: 950px;
+  top: 910px;
+  margin-left: 40px;
 }
 
 table {
@@ -93,4 +99,26 @@ td {
   border-color: red;
   border-width: 3px;
   padding: 4px 10px;
+}
+
+#navegador {
+  background-color: gray;
+  height: 30px;
+}
+
+#navegador ul{
+  padding-top: 5px ;
+  margin-left: 40px;
+}
+
+#navegador li {
+  margin-right: 40px;
+  list-style-type: none;
+  display: inline;
+  font-size: 14px;
+}
+
+#navegador li a {
+  color: blue;
+  text-decoration: none;
 }

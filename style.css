@@ -3,13 +3,6 @@ body {
     margin: 0px;
 }
 
-#link-external {
-    text-decoration: none;
-    list-style: none;
-    font-weight: bold;
-    color: #fff;
-}
-
 #cabecalho {
     background-color: blue;
     height: 90px;
@@ -30,6 +23,14 @@ body {
     padding-top: 30px;
 }
 
+#foto_margin {
+    margin-left: 20px;
+}
+
+#margin-licoes {
+    margin-left: 20px;
+}
+
 #licoes_aprendidas {
     
 }
@@ -47,17 +48,26 @@ body {
     font-weight: bold;
 }
 
+#text-rodape {
+    margin-left: 20px;
+}
+
 #section-aside {
     display: inline-block;
+    margin-left: 20px;
 }
 
 #my-article {
     width: 50%;
     display: inline-block;
+    border: 1px solid;
+    padding: 0px 20px;
 }
 
 #my-aside {
     width: 20%;
     display: inline-block;
     margin-left: 260px;
+    border: 1px solid;
+    padding: 0px 20px;
 }
